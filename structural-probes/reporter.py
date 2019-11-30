@@ -97,19 +97,16 @@ class WordPairReporter(Reporter):
       split_name the string naming the data split: {train,dev,test}
     """
     lengths_to_spearmanrs = defaultdict(list)
-    for prediction_batch, (data_batch, label_batch, length_batch, observation_batch) in zip(
-        prediction_batches, dataset):
-      for prediction, label, length, (observation, _) in zip(
-          prediction_batch, label_batch,
-          length_batch, observation_batch):
+    for prediction_batch, (data_batch, label_batch, length_batch, observation_batch) in zip(prediction_batches, dataset):
+      for prediction, label, length, (observation, _) in zip(prediction_batch, label_batch, length_batch, observation_batch):
         words = observation.sentence
         length = int(length)
         prediction = prediction[:length,:length]
         label = label[:length,:length].cpu()
         spearmanrs = [spearmanr(pred, gold) for pred, gold in zip(prediction, label)]
         lengths_to_spearmanrs[length].extend([x.correlation for x in spearmanrs])
-    mean_spearman_for_each_length = {length: np.mean(lengths_to_spearmanrs[length]) 
-        for length in lengths_to_spearmanrs}
+
+    mean_spearman_for_each_length = {length: np.mean(lengths_to_spearmanrs[length]) for length in lengths_to_spearmanrs}
 
     with open(os.path.join(self.reporting_root, split_name + '.spearmanr'), 'w') as fout:
       for length in sorted(mean_spearman_for_each_length):
