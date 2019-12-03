@@ -1,0 +1,423 @@
+2019-12-03 10:35:44,107:INFO:	{'vocab_file': '/home/lpmayos/hd/code/UniParse/models/kiperwasser_pytorch/ud/only_words_false/torch100/vocab.pkl', 'model_file': '/home/lpmayos/hd/code/UniParse/models/kiperwasser_pytorch/ud/only_words_false/torch100/model_postagging.model', 'only_words': False, 'upos_dim': 25, 'word_dim': 100, 'hidden_dim': 100}
+2019-12-03 10:35:44,348:INFO:	
+
+
+===================================================================================================
+2019-12-03 10:35:44,348:INFO:	Generating K&G contextual embeddings for /home/lpmayos/hd/code/structural-probes/lpmayos_tests/data/en_ewt-ud-sample/en_ewt-ud-dev.conllu
+2019-12-03 10:35:44,348:INFO:	===================================================================================================
+
+2019-12-03 10:35:44,357:INFO:	_read_conll; read 50 sentences
+2019-12-03 10:35:44,742:INFO:	creating dataset for k 0
+2019-12-03 10:35:44,743:INFO:	creating dataset for k 1
+2019-12-03 10:35:44,744:INFO:	creating dataset for k 2
+2019-12-03 10:35:44,744:INFO:	creating dataset for k 3
+2019-12-03 10:35:44,744:INFO:	creating dataset for k 4
+2019-12-03 10:35:44,744:INFO:	creating dataset for k 5
+2019-12-03 10:35:44,745:INFO:	creating dataset for k 6
+2019-12-03 10:35:44,745:INFO:	creating dataset for k 7
+2019-12-03 10:35:44,745:INFO:	creating dataset for k 8
+2019-12-03 10:35:44,745:INFO:	creating dataset for k 9
+2019-12-03 10:35:44,746:INFO:	creating dataset for k 10
+2019-12-03 10:35:44,746:INFO:	creating dataset for k 11
+2019-12-03 10:35:44,746:INFO:	creating dataset for k 12
+2019-12-03 10:35:44,746:INFO:	creating dataset for k 13
+2019-12-03 10:35:44,747:INFO:	creating dataset for k 14
+2019-12-03 10:35:44,747:INFO:	creating dataset for k 15
+2019-12-03 10:35:44,747:INFO:	creating dataset for k 16
+2019-12-03 10:35:44,747:INFO:	creating dataset for k 17
+2019-12-03 10:35:44,748:INFO:	creating dataset for k 18
+2019-12-03 10:35:44,748:INFO:	creating dataset for k 19
+2019-12-03 10:35:44,748:INFO:	creating dataset for k 20
+2019-12-03 10:35:44,749:INFO:	creating dataset for k 21
+2019-12-03 10:35:44,749:INFO:	creating dataset for k 22
+2019-12-03 10:35:44,749:INFO:	creating dataset for k 23
+2019-12-03 10:35:44,749:INFO:	creating dataset for k 24
+2019-12-03 10:35:44,750:INFO:	creating dataset for k 25
+2019-12-03 10:35:44,750:INFO:	creating dataset for k 26
+2019-12-03 10:35:44,750:INFO:	creating dataset for k 27
+2019-12-03 10:35:44,750:INFO:	creating dataset for k 28
+2019-12-03 10:35:44,751:INFO:	creating dataset for k 29
+2019-12-03 10:35:44,751:INFO:	creating dataset for k 30
+2019-12-03 10:35:44,751:INFO:	creating dataset for k 31
+2019-12-03 10:35:44,751:INFO:	creating dataset for k 32
+2019-12-03 10:35:44,752:INFO:	creating dataset for k 33
+2019-12-03 10:35:44,752:INFO:	creating dataset for k 34
+2019-12-03 10:35:44,752:INFO:	creating dataset for k 35
+2019-12-03 10:35:44,752:INFO:	creating dataset for k 36
+2019-12-03 10:35:44,753:INFO:	creating dataset for k 37
+2019-12-03 10:35:44,753:INFO:	creating dataset for k 38
+2019-12-03 10:35:44,753:INFO:	creating dataset for k 39
+2019-12-03 10:35:44,753:INFO:	creating dataset for k 40
+2019-12-03 10:35:44,754:INFO:	creating dataset for k 41
+2019-12-03 10:35:44,754:INFO:	creating dataset for k 42
+2019-12-03 10:35:44,754:INFO:	creating dataset for k 43
+2019-12-03 10:35:44,754:INFO:	creating dataset for k 44
+2019-12-03 10:35:44,754:INFO:	creating dataset for k 45
+2019-12-03 10:35:44,755:INFO:	creating dataset for k 46
+2019-12-03 10:35:44,755:INFO:	creating dataset for k 47
+2019-12-03 10:35:44,755:INFO:	creating dataset for k 48
+2019-12-03 10:35:44,755:INFO:	creating dataset for k 49
+2019-12-03 10:35:44,756:INFO:	('0', <HDF5 dataset "0": shape (1, 7, 525), type "<f4">)
+2019-12-03 10:35:44,756:INFO:	('1', <HDF5 dataset "1": shape (1, 19, 525), type "<f4">)
+2019-12-03 10:35:44,757:INFO:	('10', <HDF5 dataset "10": shape (1, 21, 525), type "<f4">)
+2019-12-03 10:35:44,757:INFO:	('11', <HDF5 dataset "11": shape (1, 24, 525), type "<f4">)
+2019-12-03 10:35:44,757:INFO:	('12', <HDF5 dataset "12": shape (1, 20, 525), type "<f4">)
+2019-12-03 10:35:44,757:INFO:	('13', <HDF5 dataset "13": shape (1, 29, 525), type "<f4">)
+2019-12-03 10:35:44,757:INFO:	('14', <HDF5 dataset "14": shape (1, 12, 525), type "<f4">)
+2019-12-03 10:35:44,758:INFO:	('15', <HDF5 dataset "15": shape (1, 36, 525), type "<f4">)
+2019-12-03 10:35:44,758:INFO:	('16', <HDF5 dataset "16": shape (1, 30, 525), type "<f4">)
+2019-12-03 10:35:44,758:INFO:	('17', <HDF5 dataset "17": shape (1, 27, 525), type "<f4">)
+2019-12-03 10:35:44,758:INFO:	('18', <HDF5 dataset "18": shape (1, 42, 525), type "<f4">)
+2019-12-03 10:35:44,758:INFO:	('19', <HDF5 dataset "19": shape (1, 55, 525), type "<f4">)
+2019-12-03 10:35:44,758:INFO:	('2', <HDF5 dataset "2": shape (1, 29, 525), type "<f4">)
+2019-12-03 10:35:44,759:INFO:	('20', <HDF5 dataset "20": shape (1, 12, 525), type "<f4">)
+2019-12-03 10:35:44,759:INFO:	('21', <HDF5 dataset "21": shape (1, 19, 525), type "<f4">)
+2019-12-03 10:35:44,759:INFO:	('22', <HDF5 dataset "22": shape (1, 2, 525), type "<f4">)
+2019-12-03 10:35:44,759:INFO:	('23', <HDF5 dataset "23": shape (1, 30, 525), type "<f4">)
+2019-12-03 10:35:44,759:INFO:	('24', <HDF5 dataset "24": shape (1, 37, 525), type "<f4">)
+2019-12-03 10:35:44,760:INFO:	('25', <HDF5 dataset "25": shape (1, 16, 525), type "<f4">)
+2019-12-03 10:35:44,760:INFO:	('26', <HDF5 dataset "26": shape (1, 16, 525), type "<f4">)
+2019-12-03 10:35:44,760:INFO:	('27', <HDF5 dataset "27": shape (1, 35, 525), type "<f4">)
+2019-12-03 10:35:44,760:INFO:	('28', <HDF5 dataset "28": shape (1, 36, 525), type "<f4">)
+2019-12-03 10:35:44,760:INFO:	('29', <HDF5 dataset "29": shape (1, 21, 525), type "<f4">)
+2019-12-03 10:35:44,760:INFO:	('3', <HDF5 dataset "3": shape (1, 1, 525), type "<f4">)
+2019-12-03 10:35:44,761:INFO:	('30', <HDF5 dataset "30": shape (1, 31, 525), type "<f4">)
+2019-12-03 10:35:44,761:INFO:	('31', <HDF5 dataset "31": shape (1, 30, 525), type "<f4">)
+2019-12-03 10:35:44,761:INFO:	('32', <HDF5 dataset "32": shape (1, 17, 525), type "<f4">)
+2019-12-03 10:35:44,761:INFO:	('33', <HDF5 dataset "33": shape (1, 15, 525), type "<f4">)
+2019-12-03 10:35:44,761:INFO:	('34', <HDF5 dataset "34": shape (1, 9, 525), type "<f4">)
+2019-12-03 10:35:44,761:INFO:	('35', <HDF5 dataset "35": shape (1, 35, 525), type "<f4">)
+2019-12-03 10:35:44,762:INFO:	('36', <HDF5 dataset "36": shape (1, 34, 525), type "<f4">)
+2019-12-03 10:35:44,762:INFO:	('37', <HDF5 dataset "37": shape (1, 25, 525), type "<f4">)
+2019-12-03 10:35:44,762:INFO:	('38', <HDF5 dataset "38": shape (1, 33, 525), type "<f4">)
+2019-12-03 10:35:44,763:INFO:	('39', <HDF5 dataset "39": shape (1, 33, 525), type "<f4">)
+2019-12-03 10:35:44,763:INFO:	('4', <HDF5 dataset "4": shape (1, 30, 525), type "<f4">)
+2019-12-03 10:35:44,763:INFO:	('40', <HDF5 dataset "40": shape (1, 55, 525), type "<f4">)
+2019-12-03 10:35:44,763:INFO:	('41', <HDF5 dataset "41": shape (1, 5, 525), type "<f4">)
+2019-12-03 10:35:44,764:INFO:	('42', <HDF5 dataset "42": shape (1, 5, 525), type "<f4">)
+2019-12-03 10:35:44,764:INFO:	('43', <HDF5 dataset "43": shape (1, 10, 525), type "<f4">)
+2019-12-03 10:35:44,764:INFO:	('44', <HDF5 dataset "44": shape (1, 8, 525), type "<f4">)
+2019-12-03 10:35:44,764:INFO:	('45', <HDF5 dataset "45": shape (1, 36, 525), type "<f4">)
+2019-12-03 10:35:44,765:INFO:	('46', <HDF5 dataset "46": shape (1, 32, 525), type "<f4">)
+2019-12-03 10:35:44,765:INFO:	('47', <HDF5 dataset "47": shape (1, 35, 525), type "<f4">)
+2019-12-03 10:35:44,765:INFO:	('48', <HDF5 dataset "48": shape (1, 4, 525), type "<f4">)
+2019-12-03 10:35:44,765:INFO:	('49', <HDF5 dataset "49": shape (1, 16, 525), type "<f4">)
+2019-12-03 10:35:44,765:INFO:	('5', <HDF5 dataset "5": shape (1, 18, 525), type "<f4">)
+2019-12-03 10:35:44,765:INFO:	('6', <HDF5 dataset "6": shape (1, 31, 525), type "<f4">)
+2019-12-03 10:35:44,766:INFO:	('7', <HDF5 dataset "7": shape (1, 16, 525), type "<f4">)
+2019-12-03 10:35:44,766:INFO:	('8', <HDF5 dataset "8": shape (1, 18, 525), type "<f4">)
+2019-12-03 10:35:44,766:INFO:	('9', <HDF5 dataset "9": shape (1, 9, 525), type "<f4">)
+2019-12-03 10:35:44,766:INFO:	
+
+
+===================================================================================================
+2019-12-03 10:35:44,766:INFO:	Generating K&G contextual embeddings for /home/lpmayos/hd/code/structural-probes/lpmayos_tests/data/en_ewt-ud-sample/en_ewt-ud-test.conllu
+2019-12-03 10:35:44,766:INFO:	===================================================================================================
+
+2019-12-03 10:35:44,774:INFO:	_read_conll; read 50 sentences
+2019-12-03 10:35:45,125:INFO:	creating dataset for k 0
+2019-12-03 10:35:45,125:INFO:	creating dataset for k 1
+2019-12-03 10:35:45,126:INFO:	creating dataset for k 2
+2019-12-03 10:35:45,126:INFO:	creating dataset for k 3
+2019-12-03 10:35:45,126:INFO:	creating dataset for k 4
+2019-12-03 10:35:45,126:INFO:	creating dataset for k 5
+2019-12-03 10:35:45,127:INFO:	creating dataset for k 6
+2019-12-03 10:35:45,127:INFO:	creating dataset for k 7
+2019-12-03 10:35:45,127:INFO:	creating dataset for k 8
+2019-12-03 10:35:45,127:INFO:	creating dataset for k 9
+2019-12-03 10:35:45,128:INFO:	creating dataset for k 10
+2019-12-03 10:35:45,128:INFO:	creating dataset for k 11
+2019-12-03 10:35:45,128:INFO:	creating dataset for k 12
+2019-12-03 10:35:45,128:INFO:	creating dataset for k 13
+2019-12-03 10:35:45,129:INFO:	creating dataset for k 14
+2019-12-03 10:35:45,129:INFO:	creating dataset for k 15
+2019-12-03 10:35:45,129:INFO:	creating dataset for k 16
+2019-12-03 10:35:45,130:INFO:	creating dataset for k 17
+2019-12-03 10:35:45,130:INFO:	creating dataset for k 18
+2019-12-03 10:35:45,130:INFO:	creating dataset for k 19
+2019-12-03 10:35:45,130:INFO:	creating dataset for k 20
+2019-12-03 10:35:45,131:INFO:	creating dataset for k 21
+2019-12-03 10:35:45,131:INFO:	creating dataset for k 22
+2019-12-03 10:35:45,131:INFO:	creating dataset for k 23
+2019-12-03 10:35:45,131:INFO:	creating dataset for k 24
+2019-12-03 10:35:45,132:INFO:	creating dataset for k 25
+2019-12-03 10:35:45,132:INFO:	creating dataset for k 26
+2019-12-03 10:35:45,132:INFO:	creating dataset for k 27
+2019-12-03 10:35:45,133:INFO:	creating dataset for k 28
+2019-12-03 10:35:45,133:INFO:	creating dataset for k 29
+2019-12-03 10:35:45,133:INFO:	creating dataset for k 30
+2019-12-03 10:35:45,134:INFO:	creating dataset for k 31
+2019-12-03 10:35:45,134:INFO:	creating dataset for k 32
+2019-12-03 10:35:45,134:INFO:	creating dataset for k 33
+2019-12-03 10:35:45,135:INFO:	creating dataset for k 34
+2019-12-03 10:35:45,135:INFO:	creating dataset for k 35
+2019-12-03 10:35:45,135:INFO:	creating dataset for k 36
+2019-12-03 10:35:45,136:INFO:	creating dataset for k 37
+2019-12-03 10:35:45,136:INFO:	creating dataset for k 38
+2019-12-03 10:35:45,136:INFO:	creating dataset for k 39
+2019-12-03 10:35:45,136:INFO:	creating dataset for k 40
+2019-12-03 10:35:45,137:INFO:	creating dataset for k 41
+2019-12-03 10:35:45,137:INFO:	creating dataset for k 42
+2019-12-03 10:35:45,137:INFO:	creating dataset for k 43
+2019-12-03 10:35:45,137:INFO:	creating dataset for k 44
+2019-12-03 10:35:45,138:INFO:	creating dataset for k 45
+2019-12-03 10:35:45,138:INFO:	creating dataset for k 46
+2019-12-03 10:35:45,138:INFO:	creating dataset for k 47
+2019-12-03 10:35:45,138:INFO:	creating dataset for k 48
+2019-12-03 10:35:45,139:INFO:	creating dataset for k 49
+2019-12-03 10:35:45,140:INFO:	('0', <HDF5 dataset "0": shape (1, 34, 525), type "<f4">)
+2019-12-03 10:35:45,140:INFO:	('1', <HDF5 dataset "1": shape (1, 38, 525), type "<f4">)
+2019-12-03 10:35:45,140:INFO:	('10', <HDF5 dataset "10": shape (1, 19, 525), type "<f4">)
+2019-12-03 10:35:45,140:INFO:	('11', <HDF5 dataset "11": shape (1, 24, 525), type "<f4">)
+2019-12-03 10:35:45,140:INFO:	('12', <HDF5 dataset "12": shape (1, 28, 525), type "<f4">)
+2019-12-03 10:35:45,141:INFO:	('13', <HDF5 dataset "13": shape (1, 17, 525), type "<f4">)
+2019-12-03 10:35:45,141:INFO:	('14', <HDF5 dataset "14": shape (1, 14, 525), type "<f4">)
+2019-12-03 10:35:45,141:INFO:	('15', <HDF5 dataset "15": shape (1, 19, 525), type "<f4">)
+2019-12-03 10:35:45,141:INFO:	('16', <HDF5 dataset "16": shape (1, 19, 525), type "<f4">)
+2019-12-03 10:35:45,141:INFO:	('17', <HDF5 dataset "17": shape (1, 26, 525), type "<f4">)
+2019-12-03 10:35:45,141:INFO:	('18', <HDF5 dataset "18": shape (1, 25, 525), type "<f4">)
+2019-12-03 10:35:45,142:INFO:	('19', <HDF5 dataset "19": shape (1, 23, 525), type "<f4">)
+2019-12-03 10:35:45,142:INFO:	('2', <HDF5 dataset "2": shape (1, 22, 525), type "<f4">)
+2019-12-03 10:35:45,142:INFO:	('20', <HDF5 dataset "20": shape (1, 13, 525), type "<f4">)
+2019-12-03 10:35:45,142:INFO:	('21', <HDF5 dataset "21": shape (1, 20, 525), type "<f4">)
+2019-12-03 10:35:45,142:INFO:	('22', <HDF5 dataset "22": shape (1, 31, 525), type "<f4">)
+2019-12-03 10:35:45,142:INFO:	('23', <HDF5 dataset "23": shape (1, 33, 525), type "<f4">)
+2019-12-03 10:35:45,143:INFO:	('24', <HDF5 dataset "24": shape (1, 16, 525), type "<f4">)
+2019-12-03 10:35:45,143:INFO:	('25', <HDF5 dataset "25": shape (1, 25, 525), type "<f4">)
+2019-12-03 10:35:45,143:INFO:	('26', <HDF5 dataset "26": shape (1, 17, 525), type "<f4">)
+2019-12-03 10:35:45,143:INFO:	('27', <HDF5 dataset "27": shape (1, 34, 525), type "<f4">)
+2019-12-03 10:35:45,143:INFO:	('28', <HDF5 dataset "28": shape (1, 25, 525), type "<f4">)
+2019-12-03 10:35:45,144:INFO:	('29', <HDF5 dataset "29": shape (1, 20, 525), type "<f4">)
+2019-12-03 10:35:45,144:INFO:	('3', <HDF5 dataset "3": shape (1, 20, 525), type "<f4">)
+2019-12-03 10:35:45,144:INFO:	('30', <HDF5 dataset "30": shape (1, 18, 525), type "<f4">)
+2019-12-03 10:35:45,144:INFO:	('31', <HDF5 dataset "31": shape (1, 25, 525), type "<f4">)
+2019-12-03 10:35:45,144:INFO:	('32', <HDF5 dataset "32": shape (1, 13, 525), type "<f4">)
+2019-12-03 10:35:45,144:INFO:	('33', <HDF5 dataset "33": shape (1, 31, 525), type "<f4">)
+2019-12-03 10:35:45,145:INFO:	('34', <HDF5 dataset "34": shape (1, 40, 525), type "<f4">)
+2019-12-03 10:35:45,145:INFO:	('35', <HDF5 dataset "35": shape (1, 21, 525), type "<f4">)
+2019-12-03 10:35:45,145:INFO:	('36', <HDF5 dataset "36": shape (1, 19, 525), type "<f4">)
+2019-12-03 10:35:45,145:INFO:	('37', <HDF5 dataset "37": shape (1, 18, 525), type "<f4">)
+2019-12-03 10:35:45,145:INFO:	('38', <HDF5 dataset "38": shape (1, 21, 525), type "<f4">)
+2019-12-03 10:35:45,146:INFO:	('39', <HDF5 dataset "39": shape (1, 26, 525), type "<f4">)
+2019-12-03 10:35:45,146:INFO:	('4', <HDF5 dataset "4": shape (1, 22, 525), type "<f4">)
+2019-12-03 10:35:45,146:INFO:	('40', <HDF5 dataset "40": shape (1, 14, 525), type "<f4">)
+2019-12-03 10:35:45,146:INFO:	('41', <HDF5 dataset "41": shape (1, 16, 525), type "<f4">)
+2019-12-03 10:35:45,146:INFO:	('42', <HDF5 dataset "42": shape (1, 36, 525), type "<f4">)
+2019-12-03 10:35:45,147:INFO:	('43', <HDF5 dataset "43": shape (1, 24, 525), type "<f4">)
+2019-12-03 10:35:45,147:INFO:	('44', <HDF5 dataset "44": shape (1, 28, 525), type "<f4">)
+2019-12-03 10:35:45,147:INFO:	('45', <HDF5 dataset "45": shape (1, 14, 525), type "<f4">)
+2019-12-03 10:35:45,147:INFO:	('46', <HDF5 dataset "46": shape (1, 19, 525), type "<f4">)
+2019-12-03 10:35:45,147:INFO:	('47', <HDF5 dataset "47": shape (1, 11, 525), type "<f4">)
+2019-12-03 10:35:45,147:INFO:	('48', <HDF5 dataset "48": shape (1, 21, 525), type "<f4">)
+2019-12-03 10:35:45,148:INFO:	('49', <HDF5 dataset "49": shape (1, 23, 525), type "<f4">)
+2019-12-03 10:35:45,148:INFO:	('5', <HDF5 dataset "5": shape (1, 5, 525), type "<f4">)
+2019-12-03 10:35:45,148:INFO:	('6', <HDF5 dataset "6": shape (1, 28, 525), type "<f4">)
+2019-12-03 10:35:45,148:INFO:	('7', <HDF5 dataset "7": shape (1, 36, 525), type "<f4">)
+2019-12-03 10:35:45,148:INFO:	('8', <HDF5 dataset "8": shape (1, 33, 525), type "<f4">)
+2019-12-03 10:35:45,149:INFO:	('9', <HDF5 dataset "9": shape (1, 29, 525), type "<f4">)
+2019-12-03 10:35:45,149:INFO:	
+
+
+===================================================================================================
+2019-12-03 10:35:45,149:INFO:	Generating K&G contextual embeddings for /home/lpmayos/hd/code/structural-probes/lpmayos_tests/data/en_ewt-ud-sample/en_ewt-ud-train.conllu
+2019-12-03 10:35:45,149:INFO:	===================================================================================================
+
+2019-12-03 10:35:45,165:INFO:	_read_conll; read 99 sentences
+2019-12-03 10:35:45,820:INFO:	creating dataset for k 0
+2019-12-03 10:35:45,820:INFO:	creating dataset for k 1
+2019-12-03 10:35:45,820:INFO:	creating dataset for k 2
+2019-12-03 10:35:45,821:INFO:	creating dataset for k 3
+2019-12-03 10:35:45,821:INFO:	creating dataset for k 4
+2019-12-03 10:35:45,821:INFO:	creating dataset for k 5
+2019-12-03 10:35:45,821:INFO:	creating dataset for k 6
+2019-12-03 10:35:45,822:INFO:	creating dataset for k 7
+2019-12-03 10:35:45,822:INFO:	creating dataset for k 8
+2019-12-03 10:35:45,822:INFO:	creating dataset for k 9
+2019-12-03 10:35:45,822:INFO:	creating dataset for k 10
+2019-12-03 10:35:45,823:INFO:	creating dataset for k 11
+2019-12-03 10:35:45,823:INFO:	creating dataset for k 12
+2019-12-03 10:35:45,823:INFO:	creating dataset for k 13
+2019-12-03 10:35:45,823:INFO:	creating dataset for k 14
+2019-12-03 10:35:45,824:INFO:	creating dataset for k 15
+2019-12-03 10:35:45,824:INFO:	creating dataset for k 16
+2019-12-03 10:35:45,824:INFO:	creating dataset for k 17
+2019-12-03 10:35:45,825:INFO:	creating dataset for k 18
+2019-12-03 10:35:45,825:INFO:	creating dataset for k 19
+2019-12-03 10:35:45,825:INFO:	creating dataset for k 20
+2019-12-03 10:35:45,825:INFO:	creating dataset for k 21
+2019-12-03 10:35:45,825:INFO:	creating dataset for k 22
+2019-12-03 10:35:45,826:INFO:	creating dataset for k 23
+2019-12-03 10:35:45,826:INFO:	creating dataset for k 24
+2019-12-03 10:35:45,826:INFO:	creating dataset for k 25
+2019-12-03 10:35:45,827:INFO:	creating dataset for k 26
+2019-12-03 10:35:45,827:INFO:	creating dataset for k 27
+2019-12-03 10:35:45,827:INFO:	creating dataset for k 28
+2019-12-03 10:35:45,827:INFO:	creating dataset for k 29
+2019-12-03 10:35:45,827:INFO:	creating dataset for k 30
+2019-12-03 10:35:45,828:INFO:	creating dataset for k 31
+2019-12-03 10:35:45,828:INFO:	creating dataset for k 32
+2019-12-03 10:35:45,828:INFO:	creating dataset for k 33
+2019-12-03 10:35:45,829:INFO:	creating dataset for k 34
+2019-12-03 10:35:45,829:INFO:	creating dataset for k 35
+2019-12-03 10:35:45,829:INFO:	creating dataset for k 36
+2019-12-03 10:35:45,829:INFO:	creating dataset for k 37
+2019-12-03 10:35:45,830:INFO:	creating dataset for k 38
+2019-12-03 10:35:45,830:INFO:	creating dataset for k 39
+2019-12-03 10:35:45,830:INFO:	creating dataset for k 40
+2019-12-03 10:35:45,830:INFO:	creating dataset for k 41
+2019-12-03 10:35:45,830:INFO:	creating dataset for k 42
+2019-12-03 10:35:45,831:INFO:	creating dataset for k 43
+2019-12-03 10:35:45,831:INFO:	creating dataset for k 44
+2019-12-03 10:35:45,831:INFO:	creating dataset for k 45
+2019-12-03 10:35:45,831:INFO:	creating dataset for k 46
+2019-12-03 10:35:45,832:INFO:	creating dataset for k 47
+2019-12-03 10:35:45,832:INFO:	creating dataset for k 48
+2019-12-03 10:35:45,832:INFO:	creating dataset for k 49
+2019-12-03 10:35:45,833:INFO:	creating dataset for k 50
+2019-12-03 10:35:45,833:INFO:	creating dataset for k 51
+2019-12-03 10:35:45,833:INFO:	creating dataset for k 52
+2019-12-03 10:35:45,833:INFO:	creating dataset for k 53
+2019-12-03 10:35:45,834:INFO:	creating dataset for k 54
+2019-12-03 10:35:45,834:INFO:	creating dataset for k 55
+2019-12-03 10:35:45,834:INFO:	creating dataset for k 56
+2019-12-03 10:35:45,834:INFO:	creating dataset for k 57
+2019-12-03 10:35:45,835:INFO:	creating dataset for k 58
+2019-12-03 10:35:45,835:INFO:	creating dataset for k 59
+2019-12-03 10:35:45,835:INFO:	creating dataset for k 60
+2019-12-03 10:35:45,835:INFO:	creating dataset for k 61
+2019-12-03 10:35:45,836:INFO:	creating dataset for k 62
+2019-12-03 10:35:45,836:INFO:	creating dataset for k 63
+2019-12-03 10:35:45,836:INFO:	creating dataset for k 64
+2019-12-03 10:35:45,836:INFO:	creating dataset for k 65
+2019-12-03 10:35:45,837:INFO:	creating dataset for k 66
+2019-12-03 10:35:45,837:INFO:	creating dataset for k 67
+2019-12-03 10:35:45,837:INFO:	creating dataset for k 68
+2019-12-03 10:35:45,837:INFO:	creating dataset for k 69
+2019-12-03 10:35:45,838:INFO:	creating dataset for k 70
+2019-12-03 10:35:45,838:INFO:	creating dataset for k 71
+2019-12-03 10:35:45,838:INFO:	creating dataset for k 72
+2019-12-03 10:35:45,839:INFO:	creating dataset for k 73
+2019-12-03 10:35:45,839:INFO:	creating dataset for k 74
+2019-12-03 10:35:45,839:INFO:	creating dataset for k 75
+2019-12-03 10:35:45,839:INFO:	creating dataset for k 76
+2019-12-03 10:35:45,840:INFO:	creating dataset for k 77
+2019-12-03 10:35:45,840:INFO:	creating dataset for k 78
+2019-12-03 10:35:45,840:INFO:	creating dataset for k 79
+2019-12-03 10:35:45,840:INFO:	creating dataset for k 80
+2019-12-03 10:35:45,841:INFO:	creating dataset for k 81
+2019-12-03 10:35:45,841:INFO:	creating dataset for k 82
+2019-12-03 10:35:45,841:INFO:	creating dataset for k 83
+2019-12-03 10:35:45,841:INFO:	creating dataset for k 84
+2019-12-03 10:35:45,842:INFO:	creating dataset for k 85
+2019-12-03 10:35:45,842:INFO:	creating dataset for k 86
+2019-12-03 10:35:45,842:INFO:	creating dataset for k 87
+2019-12-03 10:35:45,842:INFO:	creating dataset for k 88
+2019-12-03 10:35:45,842:INFO:	creating dataset for k 89
+2019-12-03 10:35:45,843:INFO:	creating dataset for k 90
+2019-12-03 10:35:45,843:INFO:	creating dataset for k 91
+2019-12-03 10:35:45,843:INFO:	creating dataset for k 92
+2019-12-03 10:35:45,843:INFO:	creating dataset for k 93
+2019-12-03 10:35:45,844:INFO:	creating dataset for k 94
+2019-12-03 10:35:45,844:INFO:	creating dataset for k 95
+2019-12-03 10:35:45,844:INFO:	creating dataset for k 96
+2019-12-03 10:35:45,844:INFO:	creating dataset for k 97
+2019-12-03 10:35:45,845:INFO:	creating dataset for k 98
+2019-12-03 10:35:45,845:INFO:	('0', <HDF5 dataset "0": shape (1, 29, 525), type "<f4">)
+2019-12-03 10:35:45,846:INFO:	('1', <HDF5 dataset "1": shape (1, 18, 525), type "<f4">)
+2019-12-03 10:35:45,846:INFO:	('10', <HDF5 dataset "10": shape (1, 19, 525), type "<f4">)
+2019-12-03 10:35:45,846:INFO:	('11', <HDF5 dataset "11": shape (1, 29, 525), type "<f4">)
+2019-12-03 10:35:45,846:INFO:	('12', <HDF5 dataset "12": shape (1, 19, 525), type "<f4">)
+2019-12-03 10:35:45,846:INFO:	('13', <HDF5 dataset "13": shape (1, 17, 525), type "<f4">)
+2019-12-03 10:35:45,847:INFO:	('14', <HDF5 dataset "14": shape (1, 27, 525), type "<f4">)
+2019-12-03 10:35:45,847:INFO:	('15', <HDF5 dataset "15": shape (1, 26, 525), type "<f4">)
+2019-12-03 10:35:45,847:INFO:	('16', <HDF5 dataset "16": shape (1, 27, 525), type "<f4">)
+2019-12-03 10:35:45,847:INFO:	('17', <HDF5 dataset "17": shape (1, 11, 525), type "<f4">)
+2019-12-03 10:35:45,847:INFO:	('18', <HDF5 dataset "18": shape (1, 20, 525), type "<f4">)
+2019-12-03 10:35:45,847:INFO:	('19', <HDF5 dataset "19": shape (1, 9, 525), type "<f4">)
+2019-12-03 10:35:45,848:INFO:	('2', <HDF5 dataset "2": shape (1, 17, 525), type "<f4">)
+2019-12-03 10:35:45,848:INFO:	('20', <HDF5 dataset "20": shape (1, 15, 525), type "<f4">)
+2019-12-03 10:35:45,848:INFO:	('21', <HDF5 dataset "21": shape (1, 16, 525), type "<f4">)
+2019-12-03 10:35:45,848:INFO:	('22', <HDF5 dataset "22": shape (1, 17, 525), type "<f4">)
+2019-12-03 10:35:45,848:INFO:	('23', <HDF5 dataset "23": shape (1, 40, 525), type "<f4">)
+2019-12-03 10:35:45,849:INFO:	('24', <HDF5 dataset "24": shape (1, 49, 525), type "<f4">)
+2019-12-03 10:35:45,849:INFO:	('25', <HDF5 dataset "25": shape (1, 51, 525), type "<f4">)
+2019-12-03 10:35:45,849:INFO:	('26', <HDF5 dataset "26": shape (1, 13, 525), type "<f4">)
+2019-12-03 10:35:45,849:INFO:	('27', <HDF5 dataset "27": shape (1, 10, 525), type "<f4">)
+2019-12-03 10:35:45,849:INFO:	('28', <HDF5 dataset "28": shape (1, 9, 525), type "<f4">)
+2019-12-03 10:35:45,849:INFO:	('29', <HDF5 dataset "29": shape (1, 30, 525), type "<f4">)
+2019-12-03 10:35:45,850:INFO:	('3', <HDF5 dataset "3": shape (1, 16, 525), type "<f4">)
+2019-12-03 10:35:45,850:INFO:	('30', <HDF5 dataset "30": shape (1, 20, 525), type "<f4">)
+2019-12-03 10:35:45,850:INFO:	('31', <HDF5 dataset "31": shape (1, 26, 525), type "<f4">)
+2019-12-03 10:35:45,850:INFO:	('32', <HDF5 dataset "32": shape (1, 28, 525), type "<f4">)
+2019-12-03 10:35:45,850:INFO:	('33', <HDF5 dataset "33": shape (1, 16, 525), type "<f4">)
+2019-12-03 10:35:45,850:INFO:	('34', <HDF5 dataset "34": shape (1, 13, 525), type "<f4">)
+2019-12-03 10:35:45,851:INFO:	('35', <HDF5 dataset "35": shape (1, 12, 525), type "<f4">)
+2019-12-03 10:35:45,851:INFO:	('36', <HDF5 dataset "36": shape (1, 19, 525), type "<f4">)
+2019-12-03 10:35:45,851:INFO:	('37', <HDF5 dataset "37": shape (1, 26, 525), type "<f4">)
+2019-12-03 10:35:45,851:INFO:	('38', <HDF5 dataset "38": shape (1, 14, 525), type "<f4">)
+2019-12-03 10:35:45,851:INFO:	('39', <HDF5 dataset "39": shape (1, 7, 525), type "<f4">)
+2019-12-03 10:35:45,851:INFO:	('4', <HDF5 dataset "4": shape (1, 36, 525), type "<f4">)
+2019-12-03 10:35:45,852:INFO:	('40', <HDF5 dataset "40": shape (1, 17, 525), type "<f4">)
+2019-12-03 10:35:45,852:INFO:	('41', <HDF5 dataset "41": shape (1, 21, 525), type "<f4">)
+2019-12-03 10:35:45,852:INFO:	('42', <HDF5 dataset "42": shape (1, 13, 525), type "<f4">)
+2019-12-03 10:35:45,852:INFO:	('43', <HDF5 dataset "43": shape (1, 22, 525), type "<f4">)
+2019-12-03 10:35:45,852:INFO:	('44', <HDF5 dataset "44": shape (1, 15, 525), type "<f4">)
+2019-12-03 10:35:45,853:INFO:	('45', <HDF5 dataset "45": shape (1, 46, 525), type "<f4">)
+2019-12-03 10:35:45,853:INFO:	('46', <HDF5 dataset "46": shape (1, 27, 525), type "<f4">)
+2019-12-03 10:35:45,853:INFO:	('47', <HDF5 dataset "47": shape (1, 28, 525), type "<f4">)
+2019-12-03 10:35:45,853:INFO:	('48', <HDF5 dataset "48": shape (1, 60, 525), type "<f4">)
+2019-12-03 10:35:45,853:INFO:	('49', <HDF5 dataset "49": shape (1, 20, 525), type "<f4">)
+2019-12-03 10:35:45,853:INFO:	('5', <HDF5 dataset "5": shape (1, 13, 525), type "<f4">)
+2019-12-03 10:35:45,854:INFO:	('50', <HDF5 dataset "50": shape (1, 34, 525), type "<f4">)
+2019-12-03 10:35:45,854:INFO:	('51', <HDF5 dataset "51": shape (1, 66, 525), type "<f4">)
+2019-12-03 10:35:45,854:INFO:	('52', <HDF5 dataset "52": shape (1, 31, 525), type "<f4">)
+2019-12-03 10:35:45,854:INFO:	('53', <HDF5 dataset "53": shape (1, 67, 525), type "<f4">)
+2019-12-03 10:35:45,854:INFO:	('54', <HDF5 dataset "54": shape (1, 4, 525), type "<f4">)
+2019-12-03 10:35:45,855:INFO:	('55', <HDF5 dataset "55": shape (1, 48, 525), type "<f4">)
+2019-12-03 10:35:45,855:INFO:	('56', <HDF5 dataset "56": shape (1, 19, 525), type "<f4">)
+2019-12-03 10:35:45,855:INFO:	('57', <HDF5 dataset "57": shape (1, 29, 525), type "<f4">)
+2019-12-03 10:35:45,855:INFO:	('58', <HDF5 dataset "58": shape (1, 37, 525), type "<f4">)
+2019-12-03 10:35:45,855:INFO:	('59', <HDF5 dataset "59": shape (1, 42, 525), type "<f4">)
+2019-12-03 10:35:45,855:INFO:	('6', <HDF5 dataset "6": shape (1, 13, 525), type "<f4">)
+2019-12-03 10:35:45,856:INFO:	('60', <HDF5 dataset "60": shape (1, 44, 525), type "<f4">)
+2019-12-03 10:35:45,856:INFO:	('61', <HDF5 dataset "61": shape (1, 11, 525), type "<f4">)
+2019-12-03 10:35:45,856:INFO:	('62', <HDF5 dataset "62": shape (1, 70, 525), type "<f4">)
+2019-12-03 10:35:45,856:INFO:	('63', <HDF5 dataset "63": shape (1, 76, 525), type "<f4">)
+2019-12-03 10:35:45,856:INFO:	('64', <HDF5 dataset "64": shape (1, 23, 525), type "<f4">)
+2019-12-03 10:35:45,856:INFO:	('65', <HDF5 dataset "65": shape (1, 39, 525), type "<f4">)
+2019-12-03 10:35:45,857:INFO:	('66', <HDF5 dataset "66": shape (1, 2, 525), type "<f4">)
+2019-12-03 10:35:45,857:INFO:	('67', <HDF5 dataset "67": shape (1, 11, 525), type "<f4">)
+2019-12-03 10:35:45,857:INFO:	('68', <HDF5 dataset "68": shape (1, 13, 525), type "<f4">)
+2019-12-03 10:35:45,857:INFO:	('69', <HDF5 dataset "69": shape (1, 16, 525), type "<f4">)
+2019-12-03 10:35:45,857:INFO:	('7', <HDF5 dataset "7": shape (1, 16, 525), type "<f4">)
+2019-12-03 10:35:45,858:INFO:	('70', <HDF5 dataset "70": shape (1, 47, 525), type "<f4">)
+2019-12-03 10:35:45,858:INFO:	('71', <HDF5 dataset "71": shape (1, 24, 525), type "<f4">)
+2019-12-03 10:35:45,858:INFO:	('72', <HDF5 dataset "72": shape (1, 42, 525), type "<f4">)
+2019-12-03 10:35:45,858:INFO:	('73', <HDF5 dataset "73": shape (1, 38, 525), type "<f4">)
+2019-12-03 10:35:45,858:INFO:	('74', <HDF5 dataset "74": shape (1, 6, 525), type "<f4">)
+2019-12-03 10:35:45,858:INFO:	('75', <HDF5 dataset "75": shape (1, 50, 525), type "<f4">)
+2019-12-03 10:35:45,859:INFO:	('76', <HDF5 dataset "76": shape (1, 33, 525), type "<f4">)
+2019-12-03 10:35:45,859:INFO:	('77', <HDF5 dataset "77": shape (1, 25, 525), type "<f4">)
+2019-12-03 10:35:45,859:INFO:	('78', <HDF5 dataset "78": shape (1, 5, 525), type "<f4">)
+2019-12-03 10:35:45,859:INFO:	('79', <HDF5 dataset "79": shape (1, 33, 525), type "<f4">)
+2019-12-03 10:35:45,859:INFO:	('8', <HDF5 dataset "8": shape (1, 35, 525), type "<f4">)
+2019-12-03 10:35:45,859:INFO:	('80', <HDF5 dataset "80": shape (1, 32, 525), type "<f4">)
+2019-12-03 10:35:45,860:INFO:	('81', <HDF5 dataset "81": shape (1, 60, 525), type "<f4">)
+2019-12-03 10:35:45,860:INFO:	('82', <HDF5 dataset "82": shape (1, 24, 525), type "<f4">)
+2019-12-03 10:35:45,860:INFO:	('83', <HDF5 dataset "83": shape (1, 9, 525), type "<f4">)
+2019-12-03 10:35:45,860:INFO:	('84', <HDF5 dataset "84": shape (1, 19, 525), type "<f4">)
+2019-12-03 10:35:45,860:INFO:	('85', <HDF5 dataset "85": shape (1, 9, 525), type "<f4">)
+2019-12-03 10:35:45,861:INFO:	('86', <HDF5 dataset "86": shape (1, 12, 525), type "<f4">)
+2019-12-03 10:35:45,861:INFO:	('87', <HDF5 dataset "87": shape (1, 17, 525), type "<f4">)
+2019-12-03 10:35:45,861:INFO:	('88', <HDF5 dataset "88": shape (1, 4, 525), type "<f4">)
+2019-12-03 10:35:45,861:INFO:	('89', <HDF5 dataset "89": shape (1, 1, 525), type "<f4">)
+2019-12-03 10:35:45,861:INFO:	('9', <HDF5 dataset "9": shape (1, 20, 525), type "<f4">)
+2019-12-03 10:35:45,861:INFO:	('90', <HDF5 dataset "90": shape (1, 1, 525), type "<f4">)
+2019-12-03 10:35:45,862:INFO:	('91', <HDF5 dataset "91": shape (1, 1, 525), type "<f4">)
+2019-12-03 10:35:45,862:INFO:	('92', <HDF5 dataset "92": shape (1, 1, 525), type "<f4">)
+2019-12-03 10:35:45,862:INFO:	('93', <HDF5 dataset "93": shape (1, 1, 525), type "<f4">)
+2019-12-03 10:35:45,862:INFO:	('94', <HDF5 dataset "94": shape (1, 1, 525), type "<f4">)
+2019-12-03 10:35:45,862:INFO:	('95', <HDF5 dataset "95": shape (1, 1, 525), type "<f4">)
+2019-12-03 10:35:45,862:INFO:	('96', <HDF5 dataset "96": shape (1, 1, 525), type "<f4">)
+2019-12-03 10:35:45,863:INFO:	('97', <HDF5 dataset "97": shape (1, 1, 525), type "<f4">)
+2019-12-03 10:35:45,863:INFO:	('98', <HDF5 dataset "98": shape (1, 1, 525), type "<f4">)
