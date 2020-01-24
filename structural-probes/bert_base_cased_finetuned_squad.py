@@ -116,6 +116,11 @@ def probe_parse_depthOLD(pad_yaml, probes_path, probes_path_hdf5, ptb_path):
     execute_experiment(yaml_args, train_probe=cli_args.train_probe, report_results=cli_args.report_results)
 
 
+class Namespace:
+    def __init__(self, **kwargs):
+        self.__dict__.update(kwargs)
+
+
 def execute_probe(configuration, probes_path_hdf5, ptb_path, results_dir, config_file):
     if not os.path.exists(results_dir):
         configuration['dataset']['corpus']['root'] = ptb_path
@@ -133,13 +138,13 @@ def execute_probe(configuration, probes_path_hdf5, ptb_path, results_dir, config
                 yaml.dump(configuration, outfile, default_flow_style=False, allow_unicode=True)
         else:
             logging.info(config_file + ' already exists; skipping creation')
-        argp = ArgumentParser()
-        argp.add_argument('--experiment_config', default=config_file)
-        argp.add_argument('--results-dir', default=results_dir)
-        argp.add_argument('--train-probe', default=1, type=int)
-        argp.add_argument('--report-results', default=1, type=int)
-        argp.add_argument('--seed', default=0, type=int)
-        cli_args = argp.parse_args()
+
+        cli_args = Namespace(experiment_config=config_file,
+                             results_dir=results_dir,
+                             train_probe=1,
+                             report_results=1,
+                             seed=0)
+
         yaml_args = yaml.load(open(config_file))
         setup_new_experiment_dir(cli_args, yaml_args, cli_args.results_dir)
         device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
@@ -199,23 +204,19 @@ def eval_squad_and_structural_probing(probe_name, ptb_path, probes_input_paths, 
 
 
 if __name__ == '__main__':
-    logging.basicConfig(level=logging.DEBUG,
-                        format="%(message)s")
 
-    probe_name = 'naacl_19_ptb'
+    logging.basicConfig(level=logging.DEBUG, format="%(message)s")
 
-    ptb_path = '/home/lpmayos/hd/code/datasets/PTB_SD_3_3_0/'
-    probes_input_paths = ['/home/lpmayos/hd/code/datasets/PTB_SD_3_3_0_mini/train.gold.txt',
-                          '/home/lpmayos/hd/code/datasets/PTB_SD_3_3_0_mini/dev.gold.txt',
-                          '/home/lpmayos/hd/code/datasets/PTB_SD_3_3_0_mini/test.gold.txt']  # TODO back to normal dataset, not mini!
+    parser = ArgumentParser()
 
-    parse_distance_yaml = '/home/lpmayos/hd/code/structural-probes/example/config/naacl19/bert-base/ptb-pad-BERTbase7.yaml'
-    parse_depth_yaml = '/home/lpmayos/hd/code/structural-probes/example/config/naacl19/bert-base/ptb-prd-BERTbase7.yaml'
+    parser.add_argument("--probe_name", default=None, type=str, required=True, help="naacl_19_ptb")
+    parser.add_argument("--ptb_path", default=None, type=str, required=True, help="/home/lpmayos/hd/code/datasets/PTB_SD_3_3_0/")
+    parser.add_argument('--probes_input_paths', nargs='+', required=True, help="/home/lpmayos/hd/code/datasets/PTB_SD_3_3_0_mini/train.gold.txt /home/lpmayos/hd/code/datasets/PTB_SD_3_3_0_mini/dev.gold.txt /home/lpmayos/hd/code/datasets/PTB_SD_3_3_0_mini/test.gold.txt")
+    parser.add_argument("--parse_distance_yaml", default=None, type=str, required=True, help="/home/lpmayos/hd/code/structural-probes/example/config/naacl19/bert-base/ptb-pad-BERTbase7.yaml")
+    parser.add_argument("--parse_depth_yaml", default=None, type=str, required=True, help="/home/lpmayos/hd/code/structural-probes/example/config/naacl19/bert-base/ptb-prd-BERTbase7.yaml")
+    parser.add_argument("--models_path", default=None, type=str, required=True, help="/home/lpmayos/hd/code/transformers/lpmayos_experiments/bert_base_cased_finetuned_squad/run1")
+    parser.add_argument('--checkpoints', nargs='+', required=True, help="250 5500 11000 16500 22000")
+    parser.add_argument("--squad_dataset_file", default=None, type=str, required=True, help="/home/lpmayos/hd/code/transformers/examples/tests_samples/SQUAD/dev-v1.1.json")
 
-    models_path = '/home/lpmayos/hd/code/transformers/lpmayos_experiments/bert_base_cased_finetuned_squad/run1'
-    # checkpoints = ['250', '5500', '11000', '16500', '22000']  # TODO restricted to 5 probings per model, to save time and space
-    checkpoints = ['250', '5500', '11000']  # TODO restrict back to 5!!
-
-    squad_dataset_file = '/home/lpmayos/hd/code/transformers/examples/tests_samples/SQUAD/dev-v1.1.json'
-
-    eval_squad_and_structural_probing(probe_name, ptb_path, probes_input_paths, parse_distance_yaml, parse_depth_yaml, models_path, checkpoints, squad_dataset_file)
+    args = parser.parse_args()
+    eval_squad_and_structural_probing(args.probe_name, args.ptb_path, args.probes_input_paths, args.parse_distance_yaml, args.parse_depth_yaml, args.models_path, args.checkpoints, args.squad_dataset_file)
