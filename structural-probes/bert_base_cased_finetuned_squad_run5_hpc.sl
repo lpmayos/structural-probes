@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --job-name="run1"
+#SBATCH --job-name="run5"
 #SBATCH -n 1
 #SBATCH -N 1
 #SBATCH --mem=30Gb
@@ -18,6 +18,6 @@ python bert_base_cased_finetuned_squad.py --probe_name naacl_19_ptb \
                                           --probes_input_paths /homedtic/lperez/datasets/PTB_SD_3_3_0/train.gold.txt /homedtic/lperez/datasets/PTB_SD_3_3_0/dev.gold.txt /homedtic/lperez/datasets/PTB_SD_3_3_0/test.gold.txt \
                                           --parse_distance_yaml /homedtic/lperez/structural-probes/example/config/naacl19/bert-base/ptb-pad-BERTbase7.yaml \
                                           --parse_depth_yaml /homedtic/lperez/structural-probes/example/config/naacl19/bert-base/ptb-prd-BERTbase7.yaml \
-                                          --models_path /homedtic/lperez/transformers/lpmayos_experiments/bert_base_cased_finetuned_squad/run1 \
+                                          --models_path /homedtic/lperez/transformers/lpmayos_experiments/bert_base_cased_finetuned_squad/run5 \
                                           --checkpoints 250 5500 11000 16500 22000 \
                                           --squad_dataset_file /homedtic/lperez/transformers/examples/tests_samples/SQUAD/dev-v1.1.json \
