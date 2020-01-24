@@ -121,34 +121,38 @@ def probe_parse_depthOLD(pad_yaml, probes_path, probes_path_hdf5, ptb_path):
     yaml_args['device'] = device
     execute_experiment(yaml_args, train_probe=cli_args.train_probe, report_results=cli_args.report_results)
 
-def execute_probe(configuration, probes_path_hdf5, ptb_path, results_dir, config_file):
-    configuration['dataset']['corpus']['root'] = ptb_path
-    configuration['dataset']['embeddings']['root'] = probes_path_hdf5
-    configuration['dataset']['embeddings']['train_path'] = 'train.gold.hdf5'
-    configuration['dataset']['embeddings']['dev_path'] = 'dev.gold.hdf5'
-    configuration['dataset']['embeddings']['test_path'] = 'test.gold.hdf5'
-    configuration['dataset']['corpus']['train_path'] = 'train.gold.conll'
-    configuration['dataset']['corpus']['dev_path'] = 'dev.gold.conll'
-    configuration['dataset']['corpus']['test_path'] = 'test.gold.conll'
-    configuration['reporting']['root'] = results_dir
 
-    if not os.path.exists(config_file):
-        with open(config_file, 'w', encoding='utf8') as outfile:
-            yaml.dump(configuration, outfile, default_flow_style=False, allow_unicode=True)
+def execute_probe(configuration, probes_path_hdf5, ptb_path, results_dir, config_file):
+    if not os.path.exists(results_dir):
+        configuration['dataset']['corpus']['root'] = ptb_path
+        configuration['dataset']['embeddings']['root'] = probes_path_hdf5
+        configuration['dataset']['embeddings']['train_path'] = 'train.gold.hdf5'
+        configuration['dataset']['embeddings']['dev_path'] = 'dev.gold.hdf5'
+        configuration['dataset']['embeddings']['test_path'] = 'test.gold.hdf5'
+        configuration['dataset']['corpus']['train_path'] = 'train.gold.conll'
+        configuration['dataset']['corpus']['dev_path'] = 'dev.gold.conll'
+        configuration['dataset']['corpus']['test_path'] = 'test.gold.conll'
+        configuration['reporting']['root'] = results_dir
+
+        if not os.path.exists(config_file):
+            with open(config_file, 'w', encoding='utf8') as outfile:
+                yaml.dump(configuration, outfile, default_flow_style=False, allow_unicode=True)
+        else:
+            logging.info(config_file + ' already exists; skipping creation')
+        argp = ArgumentParser()
+        argp.add_argument('--experiment_config', default=config_file)
+        argp.add_argument('--results-dir', default=results_dir)
+        argp.add_argument('--train-probe', default=1, type=int)
+        argp.add_argument('--report-results', default=1, type=int)
+        argp.add_argument('--seed', default=0, type=int)
+        cli_args = argp.parse_args()
+        yaml_args = yaml.load(open(config_file))
+        setup_new_experiment_dir(cli_args, yaml_args, cli_args.results_dir)
+        device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+        yaml_args['device'] = device
+        execute_experiment(yaml_args, train_probe=cli_args.train_probe, report_results=cli_args.report_results)
     else:
-        logging.info(config_file + ' already exists; skipping creation')
-    argp = ArgumentParser()
-    argp.add_argument('--experiment_config', default=config_file)
-    argp.add_argument('--results-dir', default=results_dir)
-    argp.add_argument('--train-probe', default=1, type=int)
-    argp.add_argument('--report-results', default=1, type=int)
-    argp.add_argument('--seed', default=0, type=int)
-    cli_args = argp.parse_args()
-    yaml_args = yaml.load(open(config_file))
-    setup_new_experiment_dir(cli_args, yaml_args, cli_args.results_dir)
-    device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-    yaml_args['device'] = device
-    execute_experiment(yaml_args, train_probe=cli_args.train_probe, report_results=cli_args.report_results)
+        logging.info('ATTENTION: syntactic probes results folder %s already exists; skipping probing' % results_dir)
 
 
 def eval_squad_and_structural_probing(probe_name, ptb_path, probes_input_paths, parse_distance_yaml, parse_depth_yaml, models_path, checkpoints_list, dataset_file):
@@ -216,7 +220,7 @@ if __name__ == '__main__':
 
     models_path = '/home/lpmayos/hd/code/transformers/lpmayos_experiments/bert_base_cased_finetuned_squad/run1'
     # checkpoints = ['250', '5500', '11000', '16500', '22000']  # TODO restricted to 5 probings per model, to save time and space
-    checkpoints = ['250', '5500']  # TODO restrict back to 5!!
+    checkpoints = ['250', '5500', '11000']  # TODO restrict back to 5!!
 
     squad_dataset_file = '/home/lpmayos/hd/code/transformers/examples/tests_samples/SQUAD/dev-v1.1.json'
 
