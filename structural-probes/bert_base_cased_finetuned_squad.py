@@ -1,11 +1,7 @@
 from __future__ import print_function
 
 from argparse import ArgumentParser
-from collections import Counter
-import string
-import re
 import json
-import sys
 import logging
 import os
 
@@ -16,16 +12,14 @@ import numpy as np
 import yaml
 
 from transformers import (
-    BertConfig,
     BertForQuestionAnswering, # TODO lpmayos I use normal BertModel to generate hdf5 files; maybe for other use cases I need this other model (seems to work loading one into the other)
     BertModel,
     BertTokenizer,
 )
 
 from run_experiment import setup_new_experiment_dir, execute_experiment
-
-# sys.path.append('evaluate_v1_1.py')
 from squad_evaluate_v1_1 import evaluate
+
 
 def evaluate_squad(dataset_file, prediction_file):
 
