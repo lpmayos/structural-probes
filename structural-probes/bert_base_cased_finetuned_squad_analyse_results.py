@@ -53,7 +53,7 @@ def analyse_results(probe_name, models_path, runs_list, checkpoints_list, output
                 logging.info('ATTENTION! Could not process results for %s' % checkpoint_path)
 
     with open(output_file, 'w') as outfile:
-        json.dumps(results, outfile, indent=4, sort_keys=True)
+        json.dump(results, outfile, indent=4, sort_keys=True)
 
 
 if __name__ == '__main__':
