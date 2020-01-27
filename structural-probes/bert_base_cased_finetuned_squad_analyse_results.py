@@ -23,8 +23,8 @@ def analyse_results(probe_name, models_path, runs_list, checkpoints_list, output
 
             checkpoint_results = {'squad_exact_match': None,
                                   'squad_f1': None,
-                                  'parse-depth': None,
-                                  'parse-distance': None}
+                                  'parse-depth': {},
+                                  'parse-distance': {}}
 
             with open(squad_results_path) as file:
                 data = json.load(file)
