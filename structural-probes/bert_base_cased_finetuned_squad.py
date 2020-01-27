@@ -170,7 +170,7 @@ def eval_squad_and_structural_probing(probe_name, ptb_path, probes_input_paths, 
         checkpoint_path = models_path + '/results/checkpoint-' + checkpoint
         squad_results_path = checkpoint_path + '/squad_results.json'
         probes_path = checkpoint_path + '/structural_probes/' + probe_name
-        probes_path_hdf5 = checkpoint_path + '/structural_probes/naacl_19_ptb/hdf5'
+        probes_path_hdf5 = checkpoint_path + '/structural_probes/' + probe_name + '/hdf5'
         if not os.path.exists(probes_path_hdf5):
             os.makedirs(probes_path)
 
