@@ -47,7 +47,7 @@ def analyse_results(probe_name, models_path, runs_list, checkpoints_list, output
                     result = file.readlines()[0]  # i.e. 0.8058858201615192
                     checkpoint_results['parse-distance']['dev.spearmanr-5_50-mean'] = float(result)
 
-                results[run]['checkpoint-' + checkpoint] = checkpoint_results
+                results[run][int(checkpoint)] = checkpoint_results
 
             except FileNotFoundError:
                 logging.info('ATTENTION! Could not process results for %s' % checkpoint_path)
