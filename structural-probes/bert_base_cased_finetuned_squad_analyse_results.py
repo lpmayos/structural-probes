@@ -53,10 +53,12 @@ def analyse_results(probe_name, models_path, runs_list, checkpoints_list, output
                 logging.info('ATTENTION! Could not process results for %s' % checkpoint_path)
 
     with open(output_file, 'w') as outfile:
-        json.dump(results, outfile)
+        json.dumps(results, indent=4, sort_keys=True)
 
 
 if __name__ == '__main__':
+    """ python bert_base_cased_finetuned_squad_analyse_results.py --probe_name naacl_19_ptb --models_path /homedtic/lperez/transformers/lpmayos_experiments/bert_base_cased_finetuned_squad --runs run1 run2 run3 run4 run5 --checkpoints 250 2000 3750 5500 7250 9000 11000 12750 14500 16500 18250 20000 22000 --output_file bert_base_cased_finetuned_squad_results.json
+    """
 
     logging.basicConfig(level=logging.DEBUG, format="%(message)s")
 
