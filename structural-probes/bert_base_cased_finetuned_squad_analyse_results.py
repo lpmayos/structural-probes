@@ -35,17 +35,17 @@ def analyse_results(probe_name, models_path, runs_list, checkpoints_list, output
 
                 with open(probes_path + '/parse-depth/dev.root_acc') as file:
                     result = file.readlines()[0].split()[0]  # i.e. 0.8123529411764706      1381    1700
-                    checkpoint_results['parse-depth']['dev.root_acc'] = result
+                    checkpoint_results['parse-depth']['dev.root_acc'] = float(result)
                 with open(probes_path + '/parse-depth/dev.spearmanr-5_50-mean') as file:
                     result = file.readlines()[0]  # i.e. 0.8552411954331226
-                    checkpoint_results['parse-depth']['dev.spearmanr-5_50-mean'] = result
+                    checkpoint_results['parse-depth']['dev.spearmanr-5_50-mean'] = float(result)
 
                 with open(probes_path + '/parse-distance/dev.uuas') as file:
                     result = file.readlines()[0]  # i.e. 0.7040907201804905
                     checkpoint_results['parse-distance']['dev.uuas'] = result
-                with open(probes_path + '/parse-distance/dev.spearmanr-5_50-mean') as file:
+                with open(probes_path + '/parse-distance/dev.spearmanr-5_50-mean') as float(result):
                     result = file.readlines()[0]  # i.e. 0.8058858201615192
-                    checkpoint_results['parse-distance']['dev.spearmanr-5_50-mean'] = result
+                    checkpoint_results['parse-distance']['dev.spearmanr-5_50-mean'] = float(result)
 
                 results[run]['checkpoint-' + checkpoint] = checkpoint_results
 
