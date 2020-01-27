@@ -14,6 +14,7 @@ def analyse_results(probe_name, models_path, runs_list, checkpoints_list, output
     for run in runs_list:
 
         run_path = models_path + '/' + run
+        results[run] = {}
 
         for checkpoint in checkpoints_list:
 
