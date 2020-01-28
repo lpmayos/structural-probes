@@ -35,10 +35,14 @@ def evaluate_squad(dataset_file, prediction_file):
             return evaluate(dataset, predictions)
 
 
-def convert_raw_to_bert_hdf5(model_path, probes_input_paths, output_folder_path, bert_model='base', do_lower_case=False):
+def convert_raw_to_bert_hdf5(model_path, probes_input_paths, output_folder_path, bert_model='base', model_to_load=None):
     """ Copied from scripts/convert_raw_to_bert.py
     """
-    model = BertModel.from_pretrained(model_path)
+    if not model_to_load:
+        model = BertModel.from_pretrained(model_path)
+    else:
+        logging.info("ATTENTION!! Provided model name to load: %s" % model_to_load)
+        model = BertModel.from_pretrained(model_to_load)
 
     # Load pre-trained model tokenizer (vocabulary)
     # Crucially, do not do basic tokenization; PTB is tokenized. Just do wordpiece tokenization.
@@ -154,7 +158,7 @@ def execute_probe(configuration, probes_path_hdf5, ptb_path, results_dir, config
         logging.info('ATTENTION: syntactic probes results folder %s already exists; skipping probing' % results_dir)
 
 
-def eval_squad_and_structural_probing(probe_name, ptb_path, probes_input_paths, parse_distance_yaml, parse_depth_yaml, models_path, checkpoints_list, dataset_file):
+def eval_squad_and_structural_probing(probe_name, ptb_path, probes_input_paths, parse_distance_yaml, parse_depth_yaml, models_path, checkpoints_list, dataset_file, model_to_load=None):
     """ traverses the given path looking for prediction files and computes the results
     """
 
@@ -190,7 +194,7 @@ def eval_squad_and_structural_probing(probe_name, ptb_path, probes_input_paths, 
 
         # 2.1. Generate hdf5 file with model
 
-        convert_raw_to_bert_hdf5(checkpoint_path, probes_input_paths, probes_path_hdf5)
+        convert_raw_to_bert_hdf5(checkpoint_path, probes_input_paths, probes_path_hdf5, model_to_load)
 
         # 2.2. Execute probes using the generated hdf5 files (copied from structural-probes/run_experiment.py)
 
@@ -217,6 +221,7 @@ if __name__ == '__main__':
     parser.add_argument("--models_path", default=None, type=str, required=True, help="/home/lpmayos/hd/code/transformers/lpmayos_experiments/bert_base_cased_finetuned_squad/run1")
     parser.add_argument('--checkpoints', nargs='+', required=True, help="250 5500 11000 16500 22000")
     parser.add_argument("--squad_dataset_file", default=None, type=str, required=True, help="/home/lpmayos/hd/code/transformers/examples/tests_samples/SQUAD/dev-v1.1.json")
+    parser.add_argument("--model_to_load", default=None, type=str, required=False, help="If provided, we load this model instead of the models in the checkpoints")
 
     args = parser.parse_args()
-    eval_squad_and_structural_probing(args.probe_name, args.ptb_path, args.probes_input_paths, args.parse_distance_yaml, args.parse_depth_yaml, args.models_path, args.checkpoints, args.squad_dataset_file)
+    eval_squad_and_structural_probing(args.probe_name, args.ptb_path, args.probes_input_paths, args.parse_distance_yaml, args.parse_depth_yaml, args.models_path, args.checkpoints, args.squad_dataset_file, args.model_to_load)
