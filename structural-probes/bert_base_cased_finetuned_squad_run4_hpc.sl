@@ -19,5 +19,5 @@ python bert_base_cased_finetuned_squad.py --probe_name naacl_19_ptb \
                                           --parse_distance_yaml /homedtic/lperez/structural-probes/example/config/naacl19/bert-base/ptb-pad-BERTbase7.yaml \
                                           --parse_depth_yaml /homedtic/lperez/structural-probes/example/config/naacl19/bert-base/ptb-prd-BERTbase7.yaml \
                                           --models_path /homedtic/lperez/transformers/lpmayos_experiments/bert_base_cased_finetuned_squad/run4 \
-                                          --checkpoints 250 5500 11000 16500 22000 \
+                                          --checkpoints 2000 3750 7250 9000 12750 14500 18250 20000 \
                                           --squad_dataset_file /homedtic/lperez/transformers/examples/tests_samples/SQUAD/dev-v1.1.json \
