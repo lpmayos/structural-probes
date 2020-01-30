@@ -38,6 +38,8 @@ def evaluate_squad(dataset_file, prediction_file):
 def convert_raw_to_bert_hdf5(model_path, probes_input_paths, output_folder_path, bert_model, model_to_load):
     """ Copied from scripts/convert_raw_to_bert.py
     """
+    hdf5_files_paths = []
+
     if not model_to_load:
         model = BertModel.from_pretrained(model_path)
     else:
@@ -65,6 +67,7 @@ def convert_raw_to_bert_hdf5(model_path, probes_input_paths, output_folder_path,
     for input_path in probes_input_paths:
 
         output_path = output_folder_path + '/' + input_path.split('/')[-1].replace('.txt', '.hdf5')
+        hdf5_files_paths.append(output_path)
         if not os.path.exists(output_path):
             with h5py.File(output_path, 'w') as fout:
 
@@ -88,36 +91,14 @@ def convert_raw_to_bert_hdf5(model_path, probes_input_paths, output_folder_path,
         else:
             logging.info('ATTENTION! hdf5 file %s already existed! skipping hdf5 generation.' % (output_path))
 
+    return hdf5_files_paths
 
-def probe_parse_depthOLD(pad_yaml, probes_path, probes_path_hdf5, ptb_path):
-    pad_yaml['dataset']['corpus']['root'] = ptb_path
-    pad_yaml['dataset']['embeddings']['root'] = probes_path_hdf5
-    pad_yaml['dataset']['embeddings']['train_path'] = 'train.gold.hdf5'
-    pad_yaml['dataset']['embeddings']['dev_path'] = 'dev.gold.hdf5'
-    pad_yaml['dataset']['embeddings']['test_path'] = 'test.gold.hdf5'
-    pad_yaml['dataset']['corpus']['train_path'] = 'train.gold.conll'
-    pad_yaml['dataset']['corpus']['dev_path'] = 'dev.gold.conll'
-    pad_yaml['dataset']['corpus']['test_path'] = 'test.gold.conll'
-    results_dir = probes_path + '/parse-depth'
-    pad_yaml['reporting']['root'] = results_dir
-    config_file = probes_path + '/parse_depth.yaml'
-    if not os.path.exists(config_file):
-        with open(config_file, 'w', encoding='utf8') as outfile:
-            yaml.dump(pad_yaml, outfile, default_flow_style=False, allow_unicode=True)
-    else:
-        logging.info(config_file + ' already exists; skipping creation')
-    argp = ArgumentParser()
-    argp.add_argument('--experiment_config', default=config_file)
-    argp.add_argument('--results-dir', default=results_dir)
-    argp.add_argument('--train-probe', default=1, type=int)
-    argp.add_argument('--report-results', default=1, type=int)
-    argp.add_argument('--seed', default=0, type=int)
-    cli_args = argp.parse_args()
-    yaml_args = yaml.load(open(config_file))
-    setup_new_experiment_dir(cli_args, yaml_args, cli_args.results_dir)
-    device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-    yaml_args['device'] = device
-    execute_experiment(yaml_args, train_probe=cli_args.train_probe, report_results=cli_args.report_results)
+
+def remove_generated_hdf5(hdf5_files_paths):
+    for file in hdf5_files_paths:
+        if os.path.exists(file):
+            os.remove(file)
+            logging.info("Removed file in %s" % file)
 
 
 class Namespace:
@@ -192,19 +173,29 @@ def eval_squad_and_structural_probing(probe_name, ptb_path, probes_input_paths, 
 
         # 2. run probes
 
-        # 2.1. Generate hdf5 file with model
+        parse_depth_results_dir = probes_path + '/parse-depth'
+        parse_distance_results_dir = probes_path + '/parse-distance'
 
-        convert_raw_to_bert_hdf5(checkpoint_path, probes_input_paths, probes_path_hdf5, bert_model, model_to_load)
+        if not os.path.exists(parse_depth_results_dir) or not os.path.exists(parse_distance_results_dir):
 
-        # 2.2. Execute probes using the generated hdf5 files (copied from structural-probes/run_experiment.py)
+            # 2.1. Generate hdf5 file with model
 
-        results_dir = probes_path + '/parse-depth'
-        config_file = probes_path + '/parse_depth.yaml'
-        execute_probe(pad_yaml, probes_path_hdf5, ptb_path, results_dir, config_file)
+            hdf5_files_paths = convert_raw_to_bert_hdf5(checkpoint_path, probes_input_paths, probes_path_hdf5, bert_model, model_to_load)
 
-        results_dir = probes_path + '/parse-distance'
-        config_file = probes_path + '/parse_distance.yaml'
-        execute_probe(prd_yaml, probes_path_hdf5, ptb_path, results_dir, config_file)
+            # 2.2. Execute probes using the generated hdf5 files (copied from structural-probes/run_experiment.py)
+
+            config_file = probes_path + '/parse_depth.yaml'
+            execute_probe(pad_yaml, probes_path_hdf5, ptb_path, parse_depth_results_dir, config_file)
+
+            config_file = probes_path + '/parse_distance.yaml'
+            execute_probe(prd_yaml, probes_path_hdf5, ptb_path, parse_distance_results_dir, config_file)
+
+            # 2.3. Remove generated hdf5 files
+
+            remove_generated_hdf5(hdf5_files_paths)
+
+        else:
+            logging.info('ATTENTION: syntactic probes results folders already exists; skipping probing')
 
 
 if __name__ == '__main__':
