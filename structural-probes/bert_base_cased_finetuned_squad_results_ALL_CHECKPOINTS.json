@@ -132,6 +132,54 @@
             "squad_exact_match": 73.8221381267739,
             "squad_f1": 82.54356241346575
         },
+        "2750": {
+            "parse-depth": {
+                "dev.root_acc": 0.8188235294117647,
+                "dev.spearmanr-5_50-mean": 0.860995117491147
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8089483840238738,
+                "dev.uuas": 0.70492192602268
+            },
+            "squad_exact_match": 72.87606433301798,
+            "squad_f1": 82.02835440520195
+        },
+        "3000": {
+            "parse-depth": {
+                "dev.root_acc": 0.81,
+                "dev.spearmanr-5_50-mean": 0.8538024254446788
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8014178312526963,
+                "dev.uuas": 0.6969957845989432
+            },
+            "squad_exact_match": 74.3519394512772,
+            "squad_f1": 83.12123257901796
+        },
+        "3250": {
+            "parse-depth": {
+                "dev.root_acc": 0.8105882352941176,
+                "dev.spearmanr-5_50-mean": 0.8505688125539601
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8004974057797639,
+                "dev.uuas": 0.6862494804963486
+            },
+            "squad_exact_match": 75.1371807000946,
+            "squad_f1": 83.69961178791404
+        },
+        "3500": {
+            "parse-depth": {
+                "dev.root_acc": 0.8070588235294117,
+                "dev.spearmanr-5_50-mean": 0.8475754852937178
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8027971518079621,
+                "dev.uuas": 0.6939678204595381
+            },
+            "squad_exact_match": 75.56291390728477,
+            "squad_f1": 83.79729271484516
+        },
         "3750": {
             "parse-depth": {
                 "dev.root_acc": 0.8235294117647058,
@@ -143,6 +191,78 @@
             },
             "squad_exact_match": 75.50614947965941,
             "squad_f1": 84.42218898568368
+        },
+        "4000": {
+            "parse-depth": {
+                "dev.root_acc": 0.821764705882353,
+                "dev.spearmanr-5_50-mean": 0.856154345230638
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.806517757411436,
+                "dev.uuas": 0.6998159472778008
+            },
+            "squad_exact_match": 76.58467360454115,
+            "squad_f1": 84.89525110459851
+        },
+        "4250": {
+            "parse-depth": {
+                "dev.root_acc": 0.7964705882352942,
+                "dev.spearmanr-5_50-mean": 0.8526162519646754
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8052855871936175,
+                "dev.uuas": 0.6976785608264561
+            },
+            "squad_exact_match": 76.13055818353831,
+            "squad_f1": 84.77166632018495
+        },
+        "4500": {
+            "parse-depth": {
+                "dev.root_acc": 0.808235294117647,
+                "dev.spearmanr-5_50-mean": 0.8526028791443376
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7973910738084554,
+                "dev.uuas": 0.6948583981475984
+            },
+            "squad_exact_match": 76.28192999053927,
+            "squad_f1": 85.09928110141665
+        },
+        "4750": {
+            "parse-depth": {
+                "dev.root_acc": 0.7994117647058824,
+                "dev.spearmanr-5_50-mean": 0.8506076108371334
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8010177962967139,
+                "dev.uuas": 0.693878762690732
+            },
+            "squad_exact_match": 75.92242194891202,
+            "squad_f1": 84.61972714908154
+        },
+        "5000": {
+            "parse-depth": {
+                "dev.root_acc": 0.8147058823529412,
+                "dev.spearmanr-5_50-mean": 0.8537617602143613
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8018480760689274,
+                "dev.uuas": 0.6951255714540165
+            },
+            "squad_exact_match": 76.19678334910122,
+            "squad_f1": 84.53717934000035
+        },
+        "5250": {
+            "parse-depth": {
+                "dev.root_acc": 0.8005882352941176,
+                "dev.spearmanr-5_50-mean": 0.8491388680789737
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8032601785400213,
+                "dev.uuas": 0.6993706584337707
+            },
+            "squad_exact_match": 77.37937559129612,
+            "squad_f1": 85.57745858309492
         },
         "5500": {
             "parse-depth": {
@@ -156,6 +276,78 @@
             "squad_exact_match": 76.00756859035005,
             "squad_f1": 84.5310109636862
         },
+        "5750": {
+            "parse-depth": {
+                "dev.root_acc": 0.8070588235294117,
+                "dev.spearmanr-5_50-mean": 0.8488077384867891
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7989275159055126,
+                "dev.uuas": 0.6870806863385382
+            },
+            "squad_exact_match": 76.7833491012299,
+            "squad_f1": 85.34533896975228
+        },
+        "6000": {
+            "parse-depth": {
+                "dev.root_acc": 0.8111764705882353,
+                "dev.spearmanr-5_50-mean": 0.8502124067189973
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7979356936838216,
+                "dev.uuas": 0.6798670070652496
+            },
+            "squad_exact_match": 77.51182592242195,
+            "squad_f1": 85.76060342679084
+        },
+        "6250": {
+            "parse-depth": {
+                "dev.root_acc": 0.8141176470588235,
+                "dev.spearmanr-5_50-mean": 0.8520274613011575
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8006053281867136,
+                "dev.uuas": 0.6932553583090898
+            },
+            "squad_exact_match": 77.85241248817408,
+            "squad_f1": 85.75963872299235
+        },
+        "6500": {
+            "parse-depth": {
+                "dev.root_acc": 0.8223529411764706,
+                "dev.spearmanr-5_50-mean": 0.8567973854030221
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8024049740114655,
+                "dev.uuas": 0.6950365136852105
+            },
+            "squad_exact_match": 78.20245979186376,
+            "squad_f1": 85.92408845521877
+        },
+        "6750": {
+            "parse-depth": {
+                "dev.root_acc": 0.8123529411764706,
+                "dev.spearmanr-5_50-mean": 0.8505738484277852
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8042642065870114,
+                "dev.uuas": 0.701211185655762
+            },
+            "squad_exact_match": 77.80510879848629,
+            "squad_f1": 85.7758852060172
+        },
+        "7000": {
+            "parse-depth": {
+                "dev.root_acc": 0.8158823529411765,
+                "dev.spearmanr-5_50-mean": 0.853413694483757
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8024102491739494,
+                "dev.uuas": 0.7013893011933741
+            },
+            "squad_exact_match": 78.62819299905392,
+            "squad_f1": 86.32463474157272
+        },
         "7250": {
             "parse-depth": {
                 "dev.root_acc": 0.8117647058823529,
@@ -168,6 +360,78 @@
             "squad_exact_match": 78.35383159886472,
             "squad_f1": 86.18633759247058
         },
+        "7500": {
+            "parse-depth": {
+                "dev.root_acc": 0.8111764705882353,
+                "dev.spearmanr-5_50-mean": 0.8519388152876892
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8003923363217444,
+                "dev.uuas": 0.7034079439529775
+            },
+            "squad_exact_match": 78.3349101229896,
+            "squad_f1": 86.34916200254334
+        },
+        "7750": {
+            "parse-depth": {
+                "dev.root_acc": 0.808235294117647,
+                "dev.spearmanr-5_50-mean": 0.8538925698404446
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8022430767903842,
+                "dev.uuas": 0.6926022680045123
+            },
+            "squad_exact_match": 77.55912961210974,
+            "squad_f1": 86.20755362251406
+        },
+        "8000": {
+            "parse-depth": {
+                "dev.root_acc": 0.8094117647058824,
+                "dev.spearmanr-5_50-mean": 0.8548366666674868
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8048440857121519,
+                "dev.uuas": 0.7085139226978566
+            },
+            "squad_exact_match": 78.6565752128666,
+            "squad_f1": 86.44658929803606
+        },
+        "8250": {
+            "parse-depth": {
+                "dev.root_acc": 0.7958823529411765,
+                "dev.spearmanr-5_50-mean": 0.848161829378755
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7960302963008058,
+                "dev.uuas": 0.6988659977438698
+            },
+            "squad_exact_match": 78.54304635761589,
+            "squad_f1": 86.25149829395077
+        },
+        "8500": {
+            "parse-depth": {
+                "dev.root_acc": 0.8252941176470588,
+                "dev.spearmanr-5_50-mean": 0.8557865360266368
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8026493167465805,
+                "dev.uuas": 0.6971739001365552
+            },
+            "squad_exact_match": 77.83349101229896,
+            "squad_f1": 86.19863830263834
+        },
+        "8750": {
+            "parse-depth": {
+                "dev.root_acc": 0.8182352941176471,
+                "dev.spearmanr-5_50-mean": 0.8526483043491144
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7994276444991987,
+                "dev.uuas": 0.697411387520038
+            },
+            "squad_exact_match": 78.59981078524125,
+            "squad_f1": 86.61558180111481
+        },
         "9000": {
             "parse-depth": {
                 "dev.root_acc": 0.8029411764705883,
@@ -179,6 +443,54 @@
             },
             "squad_exact_match": 78.54304635761589,
             "squad_f1": 86.54833569634555
+        },
+        "9250": {
+            "parse-depth": {
+                "dev.root_acc": 0.8076470588235294,
+                "dev.spearmanr-5_50-mean": 0.8483663309809666
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7961974131452665,
+                "dev.uuas": 0.6886837261770469
+            },
+            "squad_exact_match": 79.2336802270577,
+            "squad_f1": 87.00213502894188
+        },
+        "9500": {
+            "parse-depth": {
+                "dev.root_acc": 0.8094117647058824,
+                "dev.spearmanr-5_50-mean": 0.8526984836468834
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.803445563059609,
+                "dev.uuas": 0.7010033841952146
+            },
+            "squad_exact_match": 79.64995269631031,
+            "squad_f1": 87.41372036085316
+        },
+        "9750": {
+            "parse-depth": {
+                "dev.root_acc": 0.8264705882352941,
+                "dev.spearmanr-5_50-mean": 0.8570918098499258
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7993943498200432,
+                "dev.uuas": 0.6971739001365552
+            },
+            "squad_exact_match": 79.68779564806054,
+            "squad_f1": 87.32937488965169
+        },
+        "10000": {
+            "parse-depth": {
+                "dev.root_acc": 0.821764705882353,
+                "dev.spearmanr-5_50-mean": 0.8564572867563701
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8069843903686162,
+                "dev.uuas": 0.7040610342575551
+            },
+            "squad_exact_match": 79.91485335856197,
+            "squad_f1": 87.49772329363819
         },
         "11000": {
             "parse-depth": {
@@ -350,6 +662,18 @@
             "squad_exact_match": 70.84200567644277,
             "squad_f1": 80.63773288899583
         },
+        "1750": {
+            "parse-depth": {
+                "dev.root_acc": 0.831764705882353,
+                "dev.spearmanr-5_50-mean": 0.8596777616566473
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8044998283424043,
+                "dev.uuas": 0.6981238496704862
+            },
+            "squad_exact_match": 70.51087984862819,
+            "squad_f1": 80.33543063681665
+        },
         "2000": {
             "parse-depth": {
                 "dev.root_acc": 0.8182352941176471,
@@ -361,6 +685,78 @@
             },
             "squad_exact_match": 72.03405865657521,
             "squad_f1": 81.61329510500742
+        },
+        "2250": {
+            "parse-depth": {
+                "dev.root_acc": 0.8158823529411765,
+                "dev.spearmanr-5_50-mean": 0.8526103380533556
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7965325940679796,
+                "dev.uuas": 0.6866353974945081
+            },
+            "squad_exact_match": 73.24503311258277,
+            "squad_f1": 82.4797339300189
+        },
+        "2500": {
+            "parse-depth": {
+                "dev.root_acc": 0.8211764705882353,
+                "dev.spearmanr-5_50-mean": 0.856036443862454
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8017322324672846,
+                "dev.uuas": 0.7025470521878525
+            },
+            "squad_exact_match": 73.62346263008514,
+            "squad_f1": 82.44439330149474
+        },
+        "2750": {
+            "parse-depth": {
+                "dev.root_acc": 0.8282352941176471,
+                "dev.spearmanr-5_50-mean": 0.8542123909769191
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.803186889009494,
+                "dev.uuas": 0.6958083476815294
+            },
+            "squad_exact_match": 74.58845789971618,
+            "squad_f1": 83.36605057224165
+        },
+        "3000": {
+            "parse-depth": {
+                "dev.root_acc": 0.8305882352941176,
+                "dev.spearmanr-5_50-mean": 0.8559750474364382
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8018294510500271,
+                "dev.uuas": 0.6982425933622276
+            },
+            "squad_exact_match": 74.64522232734153,
+            "squad_f1": 83.35548959816283
+        },
+        "3250": {
+            "parse-depth": {
+                "dev.root_acc": 0.8235294117647058,
+                "dev.spearmanr-5_50-mean": 0.8539916117820728
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8079541631034152,
+                "dev.uuas": 0.6935522175384433
+            },
+            "squad_exact_match": 74.79659413434248,
+            "squad_f1": 83.62368428876063
+        },
+        "3500": {
+            "parse-depth": {
+                "dev.root_acc": 0.821764705882353,
+                "dev.spearmanr-5_50-mean": 0.8533242012010228
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7976628586483999,
+                "dev.uuas": 0.6713174612598706
+            },
+            "squad_exact_match": 75.05203405865657,
+            "squad_f1": 83.74697999758735
         },
         "3750": {
             "parse-depth": {
@@ -374,6 +770,78 @@
             "squad_exact_match": 75.15610217596972,
             "squad_f1": 84.07810958908239
         },
+        "4000": {
+            "parse-depth": {
+                "dev.root_acc": 0.8064705882352942,
+                "dev.spearmanr-5_50-mean": 0.846932725309989
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.798390750928173,
+                "dev.uuas": 0.6880306358724693
+            },
+            "squad_exact_match": 75.94134342478714,
+            "squad_f1": 84.4113449130241
+        },
+        "4250": {
+            "parse-depth": {
+                "dev.root_acc": 0.8017647058823529,
+                "dev.spearmanr-5_50-mean": 0.8465565899211182
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7941069325457718,
+                "dev.uuas": 0.6770171584634567
+            },
+            "squad_exact_match": 75.35477767265847,
+            "squad_f1": 84.29395838634996
+        },
+        "4500": {
+            "parse-depth": {
+                "dev.root_acc": 0.7852941176470588,
+                "dev.spearmanr-5_50-mean": 0.8419263470495592
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7958847285264128,
+                "dev.uuas": 0.6892477587128184
+            },
+            "squad_exact_match": 76.1116367076632,
+            "squad_f1": 84.64728979774097
+        },
+        "4750": {
+            "parse-depth": {
+                "dev.root_acc": 0.8017647058823529,
+                "dev.spearmanr-5_50-mean": 0.8446076610219876
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7923817507388793,
+                "dev.uuas": 0.680668526984504
+            },
+            "squad_exact_match": 77.25638599810786,
+            "squad_f1": 85.45276026768941
+        },
+        "5000": {
+            "parse-depth": {
+                "dev.root_acc": 0.8058823529411765,
+                "dev.spearmanr-5_50-mean": 0.8499335334962373
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8002430042051971,
+                "dev.uuas": 0.6952740010686932
+            },
+            "squad_exact_match": 76.86849574266793,
+            "squad_f1": 85.13509591055153
+        },
+        "5250": {
+            "parse-depth": {
+                "dev.root_acc": 0.8064705882352942,
+                "dev.spearmanr-5_50-mean": 0.8429850563399333
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7945174678185996,
+                "dev.uuas": 0.68636822418809
+            },
+            "squad_exact_match": 77.34153263954589,
+            "squad_f1": 85.46617664447811
+        },
         "5500": {
             "parse-depth": {
                 "dev.root_acc": 0.8076470588235294,
@@ -385,6 +853,42 @@
             },
             "squad_exact_match": 76.3197729422895,
             "squad_f1": 85.00609314300502
+        },
+        "5750": {
+            "parse-depth": {
+                "dev.root_acc": 0.8158823529411765,
+                "dev.spearmanr-5_50-mean": 0.8489252671112505
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.79779926649588,
+                "dev.uuas": 0.6858041916523184
+            },
+            "squad_exact_match": 76.75496688741723,
+            "squad_f1": 85.23869755916078
+        },
+        "6000": {
+            "parse-depth": {
+                "dev.root_acc": 0.8141176470588235,
+                "dev.spearmanr-5_50-mean": 0.8475811384313907
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8033048732800583,
+                "dev.uuas": 0.6915335747788399
+            },
+            "squad_exact_match": 77.76726584673605,
+            "squad_f1": 85.856118342394
+        },
+        "6250": {
+            "parse-depth": {
+                "dev.root_acc": 0.8252941176470588,
+                "dev.spearmanr-5_50-mean": 0.8467190385050556
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8023190089423491,
+                "dev.uuas": 0.6894555601733658
+            },
+            "squad_exact_match": 77.52128666035951,
+            "squad_f1": 85.70791223663615
         },
         "7250": {
             "parse-depth": {
@@ -580,6 +1084,18 @@
             "squad_exact_match": 70.86092715231788,
             "squad_f1": 80.4368810613445
         },
+        "1750": {
+            "parse-depth": {
+                "dev.root_acc": 0.8152941176470588,
+                "dev.spearmanr-5_50-mean": 0.8575053924610575
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8041476983319569,
+                "dev.uuas": 0.6993112865879
+            },
+            "squad_exact_match": 70.59602649006622,
+            "squad_f1": 80.38099091598305
+        },
         "2000": {
             "parse-depth": {
                 "dev.root_acc": 0.8229411764705883,
@@ -591,6 +1107,78 @@
             },
             "squad_exact_match": 72.82876064333018,
             "squad_f1": 82.20831826630645
+        },
+        "2250": {
+            "parse-depth": {
+                "dev.root_acc": 0.8276470588235294,
+                "dev.spearmanr-5_50-mean": 0.8567405672749934
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8054596963656095,
+                "dev.uuas": 0.6914445170100338
+            },
+            "squad_exact_match": 73.58561967833491,
+            "squad_f1": 82.70072792509103
+        },
+        "2500": {
+            "parse-depth": {
+                "dev.root_acc": 0.8270588235294117,
+                "dev.spearmanr-5_50-mean": 0.8558839273694899
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7999054576516273,
+                "dev.uuas": 0.6916820043935166
+            },
+            "squad_exact_match": 73.8221381267739,
+            "squad_f1": 82.54356241346575
+        },
+        "2750": {
+            "parse-depth": {
+                "dev.root_acc": 0.8352941176470589,
+                "dev.spearmanr-5_50-mean": 0.8642756230202338
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8086850733822979,
+                "dev.uuas": 0.7035563735676542
+            },
+            "squad_exact_match": 72.87606433301798,
+            "squad_f1": 82.02835440520195
+        },
+        "3000": {
+            "parse-depth": {
+                "dev.root_acc": 0.8076470588235294,
+                "dev.spearmanr-5_50-mean": 0.8532371580183397
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8012553142338824,
+                "dev.uuas": 0.6970551564448139
+            },
+            "squad_exact_match": 74.3519394512772,
+            "squad_f1": 83.12123257901796
+        },
+        "3250": {
+            "parse-depth": {
+                "dev.root_acc": 0.8170588235294117,
+                "dev.spearmanr-5_50-mean": 0.8534994546599034
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8005016538566602,
+                "dev.uuas": 0.6874369174137623
+            },
+            "squad_exact_match": 75.1371807000946,
+            "squad_f1": 83.69961178791404
+        },
+        "3500": {
+            "parse-depth": {
+                "dev.root_acc": 0.8229411764705883,
+                "dev.spearmanr-5_50-mean": 0.851447575296544
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8026315586175312,
+                "dev.uuas": 0.6936709612301847
+            },
+            "squad_exact_match": 75.56291390728477,
+            "squad_f1": 83.79729271484516
         },
         "3750": {
             "parse-depth": {
@@ -604,6 +1192,78 @@
             "squad_exact_match": 75.50614947965941,
             "squad_f1": 84.42218898568368
         },
+        "4000": {
+            "parse-depth": {
+                "dev.root_acc": 0.8211764705882353,
+                "dev.spearmanr-5_50-mean": 0.8568400892970454
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8067047994252067,
+                "dev.uuas": 0.6996081458172535
+            },
+            "squad_exact_match": 76.58467360454115,
+            "squad_f1": 84.89525110459851
+        },
+        "4250": {
+            "parse-depth": {
+                "dev.root_acc": 0.8147058823529412,
+                "dev.spearmanr-5_50-mean": 0.8571337837215532
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8057012854788914,
+                "dev.uuas": 0.698361337053969
+            },
+            "squad_exact_match": 76.13055818353831,
+            "squad_f1": 84.77166632018495
+        },
+        "4500": {
+            "parse-depth": {
+                "dev.root_acc": 0.8023529411764706,
+                "dev.spearmanr-5_50-mean": 0.8490242971046951
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7974261868686778,
+                "dev.uuas": 0.6951849432998872
+            },
+            "squad_exact_match": 76.28192999053927,
+            "squad_f1": 85.09928110141665
+        },
+        "4750": {
+            "parse-depth": {
+                "dev.root_acc": 0.8117647058823529,
+                "dev.spearmanr-5_50-mean": 0.855487062866801
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8008677867540422,
+                "dev.uuas": 0.6942646796888915
+            },
+            "squad_exact_match": 75.92242194891202,
+            "squad_f1": 84.61972714908154
+        },
+        "5000": {
+            "parse-depth": {
+                "dev.root_acc": 0.8070588235294117,
+                "dev.spearmanr-5_50-mean": 0.8536283064461674
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8016405052487034,
+                "dev.uuas": 0.695511488452176
+            },
+            "squad_exact_match": 76.19678334910122,
+            "squad_f1": 84.53717934000035
+        },
+        "5250": {
+            "parse-depth": {
+                "dev.root_acc": 0.8023529411764706,
+                "dev.spearmanr-5_50-mean": 0.8510635003351511
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8033430043685164,
+                "dev.uuas": 0.6985988244374518
+            },
+            "squad_exact_match": 77.37937559129612,
+            "squad_f1": 85.57745858309492
+        },
         "5500": {
             "parse-depth": {
                 "dev.root_acc": 0.8282352941176471,
@@ -615,6 +1275,42 @@
             },
             "squad_exact_match": 76.00756859035005,
             "squad_f1": 84.5310109636862
+        },
+        "5750": {
+            "parse-depth": {
+                "dev.root_acc": 0.8176470588235294,
+                "dev.spearmanr-5_50-mean": 0.8509073966458479
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7990059941787196,
+                "dev.uuas": 0.6880306358724693
+            },
+            "squad_exact_match": 76.7833491012299,
+            "squad_f1": 85.34533896975228
+        },
+        "6000": {
+            "parse-depth": {
+                "dev.root_acc": 0.8076470588235294,
+                "dev.spearmanr-5_50-mean": 0.8521670204134897
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7980688604094351,
+                "dev.uuas": 0.6798670070652496
+            },
+            "squad_exact_match": 77.51182592242195,
+            "squad_f1": 85.76060342679084
+        },
+        "6250": {
+            "parse-depth": {
+                "dev.root_acc": 0.8135294117647058,
+                "dev.spearmanr-5_50-mean": 0.8500604620833527
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8008546607566869,
+                "dev.uuas": 0.6930475568485425
+            },
+            "squad_exact_match": 77.85241248817408,
+            "squad_f1": 85.75963872299235
         },
         "7250": {
             "parse-depth": {
@@ -834,6 +1530,78 @@
             "squad_exact_match": 72.82876064333018,
             "squad_f1": 82.20831826630645
         },
+        "2250": {
+            "parse-depth": {
+                "dev.root_acc": 0.8341176470588235,
+                "dev.spearmanr-5_50-mean": 0.8583338599732151
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8054601527320294,
+                "dev.uuas": 0.690761740782521
+            },
+            "squad_exact_match": 73.58561967833491,
+            "squad_f1": 82.70072792509103
+        },
+        "2500": {
+            "parse-depth": {
+                "dev.root_acc": 0.8170588235294117,
+                "dev.spearmanr-5_50-mean": 0.8541234863476248
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8000399689000434,
+                "dev.uuas": 0.6940568782283442
+            },
+            "squad_exact_match": 73.8221381267739,
+            "squad_f1": 82.54356241346575
+        },
+        "2750": {
+            "parse-depth": {
+                "dev.root_acc": 0.8347058823529412,
+                "dev.spearmanr-5_50-mean": 0.864037295581234
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8096225679081342,
+                "dev.uuas": 0.7059312474024817
+            },
+            "squad_exact_match": 72.87606433301798,
+            "squad_f1": 82.02835440520195
+        },
+        "3000": {
+            "parse-depth": {
+                "dev.root_acc": 0.8135294117647058,
+                "dev.spearmanr-5_50-mean": 0.8536033871499574
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8012782188668643,
+                "dev.uuas": 0.6965208098319777
+            },
+            "squad_exact_match": 74.3519394512772,
+            "squad_f1": 83.12123257901796
+        },
+        "3250": {
+            "parse-depth": {
+                "dev.root_acc": 0.821764705882353,
+                "dev.spearmanr-5_50-mean": 0.8562482968224453
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8002835439627268,
+                "dev.uuas": 0.687318173722021
+            },
+            "squad_exact_match": 75.1371807000946,
+            "squad_f1": 83.69961178791404
+        },
+        "3500": {
+            "parse-depth": {
+                "dev.root_acc": 0.8182352941176471,
+                "dev.spearmanr-5_50-mean": 0.8511865155295193
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8031210522681398,
+                "dev.uuas": 0.69542243068337
+            },
+            "squad_exact_match": 75.56291390728477,
+            "squad_f1": 83.79729271484516
+        },
         "3750": {
             "parse-depth": {
                 "dev.root_acc": 0.8111764705882353,
@@ -845,6 +1613,78 @@
             },
             "squad_exact_match": 75.50614947965941,
             "squad_f1": 84.42218898568368
+        },
+        "4000": {
+            "parse-depth": {
+                "dev.root_acc": 0.8141176470588235,
+                "dev.spearmanr-5_50-mean": 0.8567127892442583
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8068454813752439,
+                "dev.uuas": 0.7005877812741198
+            },
+            "squad_exact_match": 76.58467360454115,
+            "squad_f1": 84.89525110459851
+        },
+        "4250": {
+            "parse-depth": {
+                "dev.root_acc": 0.798235294117647,
+                "dev.spearmanr-5_50-mean": 0.8545302813598812
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8055346335567929,
+                "dev.uuas": 0.6969660986760078
+            },
+            "squad_exact_match": 76.13055818353831,
+            "squad_f1": 84.77166632018495
+        },
+        "4500": {
+            "parse-depth": {
+                "dev.root_acc": 0.8111764705882353,
+                "dev.spearmanr-5_50-mean": 0.8510198900629918
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7976279029037635,
+                "dev.uuas": 0.6967879831383957
+            },
+            "squad_exact_match": 76.28192999053927,
+            "squad_f1": 85.09928110141665
+        },
+        "4750": {
+            "parse-depth": {
+                "dev.root_acc": 0.8041176470588235,
+                "dev.spearmanr-5_50-mean": 0.8541360912718636
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8010090354942987,
+                "dev.uuas": 0.6931069286944131
+            },
+            "squad_exact_match": 75.92242194891202,
+            "squad_f1": 84.61972714908154
+        },
+        "5000": {
+            "parse-depth": {
+                "dev.root_acc": 0.81,
+                "dev.spearmanr-5_50-mean": 0.8521101956984747
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8017151000737541,
+                "dev.uuas": 0.6951552573769518
+            },
+            "squad_exact_match": 76.19678334910122,
+            "squad_f1": 84.53717934000035
+        },
+        "5250": {
+            "parse-depth": {
+                "dev.root_acc": 0.8029411764705883,
+                "dev.spearmanr-5_50-mean": 0.8490945684713403
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8037381155531432,
+                "dev.uuas": 0.6991628569732233
+            },
+            "squad_exact_match": 77.37937559129612,
+            "squad_f1": 85.57745858309492
         },
         "5500": {
             "parse-depth": {
@@ -858,6 +1698,78 @@
             "squad_exact_match": 76.00756859035005,
             "squad_f1": 84.5310109636862
         },
+        "5750": {
+            "parse-depth": {
+                "dev.root_acc": 0.8041176470588235,
+                "dev.spearmanr-5_50-mean": 0.8495540757452515
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7971988437813333,
+                "dev.uuas": 0.6864869678798314
+            },
+            "squad_exact_match": 76.7833491012299,
+            "squad_f1": 85.34533896975228
+        },
+        "6000": {
+            "parse-depth": {
+                "dev.root_acc": 0.8158823529411765,
+                "dev.spearmanr-5_50-mean": 0.8505436127291365
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7979268656463875,
+                "dev.uuas": 0.6795404619129609
+            },
+            "squad_exact_match": 77.51182592242195,
+            "squad_f1": 85.76060342679084
+        },
+        "6250": {
+            "parse-depth": {
+                "dev.root_acc": 0.808235294117647,
+                "dev.spearmanr-5_50-mean": 0.8492296252137387
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8006348525666648,
+                "dev.uuas": 0.6930178709256071
+            },
+            "squad_exact_match": 77.85241248817408,
+            "squad_f1": 85.75963872299235
+        },
+        "6500": {
+            "parse-depth": {
+                "dev.root_acc": 0.8047058823529412,
+                "dev.spearmanr-5_50-mean": 0.8490382520982631
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8020212958617495,
+                "dev.uuas": 0.6942053078430208
+            },
+            "squad_exact_match": 78.20245979186376,
+            "squad_f1": 85.92408845521877
+        },
+        "6750": {
+            "parse-depth": {
+                "dev.root_acc": 0.821764705882353,
+                "dev.spearmanr-5_50-mean": 0.8506952427221356
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8044107463272977,
+                "dev.uuas": 0.7014189871163095
+            },
+            "squad_exact_match": 77.80510879848629,
+            "squad_f1": 85.7758852060172
+        },
+        "7000": {
+            "parse-depth": {
+                "dev.root_acc": 0.821764705882353,
+                "dev.spearmanr-5_50-mean": 0.8536346510983803
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8021149015365253,
+                "dev.uuas": 0.7018345900374042
+            },
+            "squad_exact_match": 78.62819299905392,
+            "squad_f1": 86.32463474157272
+        },
         "7250": {
             "parse-depth": {
                 "dev.root_acc": 0.8176470588235294,
@@ -869,6 +1781,30 @@
             },
             "squad_exact_match": 78.35383159886472,
             "squad_f1": 86.18633759247058
+        },
+        "7500": {
+            "parse-depth": {
+                "dev.root_acc": 0.8252941176470588,
+                "dev.spearmanr-5_50-mean": 0.8565466476563521
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.800579531316266,
+                "dev.uuas": 0.7027251677254646
+            },
+            "squad_exact_match": 78.3349101229896,
+            "squad_f1": 86.34916200254334
+        },
+        "7750": {
+            "parse-depth": {
+                "dev.root_acc": 0.8129411764705883,
+                "dev.spearmanr-5_50-mean": 0.8558751440938398
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.802590212537516,
+                "dev.uuas": 0.6930475568485425
+            },
+            "squad_exact_match": 77.55912961210974,
+            "squad_f1": 86.20755362251406
         },
         "9000": {
             "parse-depth": {
@@ -1052,6 +1988,18 @@
             "squad_exact_match": 71.20151371807,
             "squad_f1": 80.89639778925465
         },
+        "1750": {
+            "parse-depth": {
+                "dev.root_acc": 0.821764705882353,
+                "dev.spearmanr-5_50-mean": 0.8481837113017692
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8066378968302486,
+                "dev.uuas": 0.7039126046428783
+            },
+            "squad_exact_match": 70.99337748344371,
+            "squad_f1": 80.68167872252164
+        },
         "2000": {
             "parse-depth": {
                 "dev.root_acc": 0.821764705882353,
@@ -1063,6 +2011,78 @@
             },
             "squad_exact_match": 72.00567644276254,
             "squad_f1": 81.38935155656922
+        },
+        "2250": {
+            "parse-depth": {
+                "dev.root_acc": 0.8247058823529412,
+                "dev.spearmanr-5_50-mean": 0.8494596349016517
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7967303577539786,
+                "dev.uuas": 0.6871400581844089
+            },
+            "squad_exact_match": 73.0558183538316,
+            "squad_f1": 81.94900830212345
+        },
+        "2500": {
+            "parse-depth": {
+                "dev.root_acc": 0.8347058823529412,
+                "dev.spearmanr-5_50-mean": 0.850622291755186
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7960192064981285,
+                "dev.uuas": 0.6887727839458528
+            },
+            "squad_exact_match": 73.79375591296122,
+            "squad_f1": 82.73356994928609
+        },
+        "2750": {
+            "parse-depth": {
+                "dev.root_acc": 0.8135294117647058,
+                "dev.spearmanr-5_50-mean": 0.8488460782584275
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.803046402587844,
+                "dev.uuas": 0.698450394822775
+            },
+            "squad_exact_match": 73.20719016083254,
+            "squad_f1": 82.61622518193036
+        },
+        "3000": {
+            "parse-depth": {
+                "dev.root_acc": 0.8117647058823529,
+                "dev.spearmanr-5_50-mean": 0.8504532842620572
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8025100853119042,
+                "dev.uuas": 0.6881196936412753
+            },
+            "squad_exact_match": 74.75875118259225,
+            "squad_f1": 83.4774908727197
+        },
+        "3250": {
+            "parse-depth": {
+                "dev.root_acc": 0.8105882352941176,
+                "dev.spearmanr-5_50-mean": 0.8479066550795303
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7989898393673923,
+                "dev.uuas": 0.678946743454254
+            },
+            "squad_exact_match": 74.77767265846737,
+            "squad_f1": 83.5377281232664
+        },
+        "3500": {
+            "parse-depth": {
+                "dev.root_acc": 0.7964705882352942,
+                "dev.spearmanr-5_50-mean": 0.8433423829299144
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7971969870401653,
+                "dev.uuas": 0.6823606245918186
+            },
+            "squad_exact_match": 76.34815515610218,
+            "squad_f1": 84.46134797800441
         },
         "3750": {
             "parse-depth": {
@@ -1076,6 +2096,78 @@
             "squad_exact_match": 75.93188268684958,
             "squad_f1": 84.55961035931703
         },
+        "4000": {
+            "parse-depth": {
+                "dev.root_acc": 0.8147058823529412,
+                "dev.spearmanr-5_50-mean": 0.8520175285845503
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8036087935453665,
+                "dev.uuas": 0.6997565754319302
+            },
+            "squad_exact_match": 76.1778618732261,
+            "squad_f1": 84.78604992548959
+        },
+        "4250": {
+            "parse-depth": {
+                "dev.root_acc": 0.8117647058823529,
+                "dev.spearmanr-5_50-mean": 0.8502345636865268
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8000137051747754,
+                "dev.uuas": 0.6934037879237666
+            },
+            "squad_exact_match": 76.15894039735099,
+            "squad_f1": 84.93850596035317
+        },
+        "4500": {
+            "parse-depth": {
+                "dev.root_acc": 0.8235294117647058,
+                "dev.spearmanr-5_50-mean": 0.8506321540671948
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.792991789193364,
+                "dev.uuas": 0.6905242533990382
+            },
+            "squad_exact_match": 76.35761589403974,
+            "squad_f1": 84.73630842971423
+        },
+        "4750": {
+            "parse-depth": {
+                "dev.root_acc": 0.7858823529411765,
+                "dev.spearmanr-5_50-mean": 0.8391538362709584
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.793582635601954,
+                "dev.uuas": 0.6772843317698747
+            },
+            "squad_exact_match": 76.85903500473037,
+            "squad_f1": 85.10734839080078
+        },
+        "5000": {
+            "parse-depth": {
+                "dev.root_acc": 0.8105882352941176,
+                "dev.spearmanr-5_50-mean": 0.8487712582675632
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7951624804195526,
+                "dev.uuas": 0.6903164519384908
+            },
+            "squad_exact_match": 76.54683065279092,
+            "squad_f1": 84.67687374577021
+        },
+        "5250": {
+            "parse-depth": {
+                "dev.root_acc": 0.8047058823529412,
+                "dev.spearmanr-5_50-mean": 0.855952627703378
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8008257735205172,
+                "dev.uuas": 0.6878228344119218
+            },
+            "squad_exact_match": 77.34153263954589,
+            "squad_f1": 85.60454433399241
+        },
         "5500": {
             "parse-depth": {
                 "dev.root_acc": 0.8158823529411765,
@@ -1088,6 +2180,78 @@
             "squad_exact_match": 76.92526017029329,
             "squad_f1": 85.34707815490125
         },
+        "5750": {
+            "parse-depth": {
+                "dev.root_acc": 0.8064705882352942,
+                "dev.spearmanr-5_50-mean": 0.8442711956561324
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7948917081627016,
+                "dev.uuas": 0.6814106750578875
+            },
+            "squad_exact_match": 76.08325449385052,
+            "squad_f1": 84.78347149777626
+        },
+        "6000": {
+            "parse-depth": {
+                "dev.root_acc": 0.8070588235294117,
+                "dev.spearmanr-5_50-mean": 0.8465110968359822
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8006110661693766,
+                "dev.uuas": 0.6858041916523184
+            },
+            "squad_exact_match": 77.49290444654683,
+            "squad_f1": 85.84453077130085
+        },
+        "6250": {
+            "parse-depth": {
+                "dev.root_acc": 0.8094117647058824,
+                "dev.spearmanr-5_50-mean": 0.8472568829493771
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7997699513812195,
+                "dev.uuas": 0.6868431989550555
+            },
+            "squad_exact_match": 78.35383159886472,
+            "squad_f1": 86.08108147319761
+        },
+        "6500": {
+            "parse-depth": {
+                "dev.root_acc": 0.8076470588235294,
+                "dev.spearmanr-5_50-mean": 0.8481415278150629
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7979446571931025,
+                "dev.uuas": 0.6866353974945081
+            },
+            "squad_exact_match": 77.92809839167455,
+            "squad_f1": 85.95937427106153
+        },
+        "6750": {
+            "parse-depth": {
+                "dev.root_acc": 0.8205882352941176,
+                "dev.spearmanr-5_50-mean": 0.8517199080797588
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8022346878671764,
+                "dev.uuas": 0.6999346909695422
+            },
+            "squad_exact_match": 78.72280037842951,
+            "squad_f1": 86.31204677362994
+        },
+        "7000": {
+            "parse-depth": {
+                "dev.root_acc": 0.8094117647058824,
+                "dev.spearmanr-5_50-mean": 0.8461241899197546
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8022184239067718,
+                "dev.uuas": 0.6953927447604346
+            },
+            "squad_exact_match": 79.11069063386944,
+            "squad_f1": 86.53642903887476
+        },
         "7250": {
             "parse-depth": {
                 "dev.root_acc": 0.7911764705882353,
@@ -1099,6 +2263,30 @@
             },
             "squad_exact_match": 78.77010406811732,
             "squad_f1": 86.45184714557242
+        },
+        "7500": {
+            "parse-depth": {
+                "dev.root_acc": 0.7994117647058824,
+                "dev.spearmanr-5_50-mean": 0.84418793065732
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7913258532995868,
+                "dev.uuas": 0.6764828118506204
+            },
+            "squad_exact_match": 78.06054872280038,
+            "squad_f1": 86.09389443694417
+        },
+        "7750": {
+            "parse-depth": {
+                "dev.root_acc": 0.8058823529411765,
+                "dev.spearmanr-5_50-mean": 0.853386339788226
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7961990780471789,
+                "dev.uuas": 0.6762156385442023
+            },
+            "squad_exact_match": 78.63765373699148,
+            "squad_f1": 86.69348189352925
         },
         "9000": {
             "parse-depth": {
