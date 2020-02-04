@@ -21,4 +21,5 @@ python bert_base_cased_finetuned_squad.py --probe_name naacl_19_ptb \
                                           --models_path /homedtic/lperez/transformers/lpmayos_experiments/bert_base_cased_finetuned_squad/run0 \
                                           --checkpoints 0 \
                                           --squad_dataset_file /homedtic/lperez/transformers/examples/tests_samples/SQUAD/dev-v1.1.json \
-					  --model_to_load bert-base-cased
+					                      --model_to_load bert-base-cased \
+					                      --seed 0

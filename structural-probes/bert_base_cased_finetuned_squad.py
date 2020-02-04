@@ -106,7 +106,7 @@ class Namespace:
         self.__dict__.update(kwargs)
 
 
-def execute_probe(configuration, probes_path_hdf5, ptb_path, results_dir, config_file):
+def execute_probe(seed, configuration, probes_path_hdf5, ptb_path, results_dir, config_file):
     if not os.path.exists(results_dir):
         configuration['dataset']['corpus']['root'] = ptb_path
         configuration['dataset']['embeddings']['root'] = probes_path_hdf5
@@ -128,7 +128,14 @@ def execute_probe(configuration, probes_path_hdf5, ptb_path, results_dir, config
                              results_dir=results_dir,
                              train_probe=1,
                              report_results=1,
-                             seed=0)
+                             seed=seed)
+
+        # set all random seeds for (within-machine) reproducibility
+        logging.info('Setting random seed to %s for (within-machine) reproducibility' % seed)
+        np.random.seed(seed)
+        torch.manual_seed(seed)
+        torch.backends.cudnn.deterministic = True
+        torch.backends.cudnn.benchmark = False
 
         yaml_args = yaml.load(open(config_file))
         setup_new_experiment_dir(cli_args, yaml_args, cli_args.results_dir)
@@ -139,7 +146,7 @@ def execute_probe(configuration, probes_path_hdf5, ptb_path, results_dir, config
         logging.info('ATTENTION: syntactic probes results folder %s already exists; skipping probing' % results_dir)
 
 
-def eval_squad_and_structural_probing(probe_name, ptb_path, probes_input_paths, parse_distance_yaml, parse_depth_yaml, models_path, checkpoints_list, dataset_file, bert_model, model_to_load):
+def eval_squad_and_structural_probing(seed, probe_name, ptb_path, probes_input_paths, parse_distance_yaml, parse_depth_yaml, models_path, checkpoints_list, dataset_file, bert_model, model_to_load):
     """ traverses the given path looking for prediction files and computes the results
     """
 
@@ -188,7 +195,7 @@ def eval_squad_and_structural_probing(probe_name, ptb_path, probes_input_paths, 
             execute_probe(pad_yaml, probes_path_hdf5, ptb_path, parse_depth_results_dir, config_file)
 
             config_file = probes_path + '/parse_distance.yaml'
-            execute_probe(prd_yaml, probes_path_hdf5, ptb_path, parse_distance_results_dir, config_file)
+            execute_probe(seed, prd_yaml, probes_path_hdf5, ptb_path, parse_distance_results_dir, config_file)
 
             # 2.3. Remove generated hdf5 files
 
@@ -214,6 +221,7 @@ if __name__ == '__main__':
     parser.add_argument("--squad_dataset_file", default=None, type=str, required=True, help="/home/lpmayos/hd/code/transformers/examples/tests_samples/SQUAD/dev-v1.1.json")
     parser.add_argument("--bert_type", default="base", type=str, required=False, help="base or large")
     parser.add_argument("--model_to_load", default=None, type=str, required=False, help="If provided, we load this model instead of the models in the checkpoints")
+    parser.add_argument("--seed", type=int, required=True, help="sets all random seeds for (within-machine) reproducibility")
 
     args = parser.parse_args()
-    eval_squad_and_structural_probing(args.probe_name, args.ptb_path, args.probes_input_paths, args.parse_distance_yaml, args.parse_depth_yaml, args.models_path, args.checkpoints, args.squad_dataset_file, args.bert_type, args.model_to_load)
+    eval_squad_and_structural_probing(args.seed, args.probe_name, args.ptb_path, args.probes_input_paths, args.parse_distance_yaml, args.parse_depth_yaml, args.models_path, args.checkpoints, args.squad_dataset_file, args.bert_type, args.model_to_load)
