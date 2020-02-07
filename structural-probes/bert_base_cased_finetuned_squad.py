@@ -192,7 +192,7 @@ def eval_squad_and_structural_probing(seed, probe_name, ptb_path, probes_input_p
             # 2.2. Execute probes using the generated hdf5 files (copied from structural-probes/run_experiment.py)
 
             config_file = probes_path + '/parse_depth.yaml'
-            execute_probe(pad_yaml, probes_path_hdf5, ptb_path, parse_depth_results_dir, config_file)
+            execute_probe(seed, pad_yaml, probes_path_hdf5, ptb_path, parse_depth_results_dir, config_file)
 
             config_file = probes_path + '/parse_distance.yaml'
             execute_probe(seed, prd_yaml, probes_path_hdf5, ptb_path, parse_distance_results_dir, config_file)
