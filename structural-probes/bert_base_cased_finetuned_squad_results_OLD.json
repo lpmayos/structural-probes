@@ -1,5 +1,17 @@
 {
     "run1": {
+        "0": {
+            "parse-depth": {
+                "dev.root_acc": 0.8411764705882353,
+                "dev.spearmanr-5_50-mean": 0.8627648152866605
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8035446230461999,
+                "dev.uuas": 0.7266223356884165
+            },
+            "squad_exact_match": 0.08514664143803216,
+            "squad_f1": 6.230639794467306
+        },
         "250": {
             "parse-depth": {
                 "dev.root_acc": 0.8123529411764706,
@@ -158,6 +170,18 @@
         }
     },
     "run2": {
+        "0": {
+            "parse-depth": {
+                "dev.root_acc": 0.8411764705882353,
+                "dev.spearmanr-5_50-mean": 0.8627648152866605
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8035446230461999,
+                "dev.uuas": 0.7266223356884165
+            },
+            "squad_exact_match": 0.08514664143803216,
+            "squad_f1": 6.230639794467306
+        },
         "250": {
             "parse-depth": {
                 "dev.root_acc": 0.8064705882352942,
@@ -316,6 +340,18 @@
         }
     },
     "run3": {
+        "0": {
+            "parse-depth": {
+                "dev.root_acc": 0.8411764705882353,
+                "dev.spearmanr-5_50-mean": 0.8627648152866605
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8035446230461999,
+                "dev.uuas": 0.7266223356884165
+            },
+            "squad_exact_match": 0.08514664143803216,
+            "squad_f1": 6.230639794467306
+        },
         "250": {
             "parse-depth": {
                 "dev.root_acc": 0.8076470588235294,
@@ -474,6 +510,18 @@
         }
     },
     "run4": {
+        "0": {
+            "parse-depth": {
+                "dev.root_acc": 0.8411764705882353,
+                "dev.spearmanr-5_50-mean": 0.8627648152866605
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8035446230461999,
+                "dev.uuas": 0.7266223356884165
+            },
+            "squad_exact_match": 0.08514664143803216,
+            "squad_f1": 6.230639794467306
+        },
         "250": {
             "parse-depth": {
                 "dev.root_acc": 0.808235294117647,
@@ -632,6 +680,18 @@
         }
     },
     "run5": {
+        "0": {
+            "parse-depth": {
+                "dev.root_acc": 0.8411764705882353,
+                "dev.spearmanr-5_50-mean": 0.8627648152866605
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8035446230461999,
+                "dev.uuas": 0.7266223356884165
+            },
+            "squad_exact_match": 0.08514664143803216,
+            "squad_f1": 6.230639794467306
+        },
         "250": {
             "parse-depth": {
                 "dev.root_acc": 0.8141176470588235,
