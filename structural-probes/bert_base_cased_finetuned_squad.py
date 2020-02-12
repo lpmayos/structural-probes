@@ -94,8 +94,9 @@ def convert_raw_to_bert_hdf5(model_path, probes_input_paths, output_folder_path,
     return hdf5_files_paths
 
 
-def remove_generated_hdf5(hdf5_files_paths):
-    for file in hdf5_files_paths:
+def remove_files(file_list):
+    logging.info('Removing generated hdf5 files. This may take a while .....')
+    for file in file_list:
         if os.path.exists(file):
             os.remove(file)
             logging.info("Removed file in %s" % file)
@@ -156,6 +157,8 @@ def eval_squad_and_structural_probing(seed, probe_name, ptb_path, probes_input_p
     with open(parse_depth_yaml, 'r') as prd_yaml:
         prd_yaml = yaml.safe_load(prd_yaml)
 
+    hd5_files_to_remove = []
+
     for checkpoint in checkpoints_list:
 
         predictions_file = models_path + '/results/predictions_' + checkpoint + '.json'
@@ -199,10 +202,15 @@ def eval_squad_and_structural_probing(seed, probe_name, ptb_path, probes_input_p
 
             # 2.3. Remove generated hdf5 files
 
-            remove_generated_hdf5(hdf5_files_paths)
+            # remove_files(hdf5_files_paths)
+            hd5_files_to_remove.extend(hdf5_files_paths)
 
         else:
             logging.info('ATTENTION: syntactic probes results folders already exists; skipping probing')
+
+    # we remove all generated hdf5 files at the end, because it takes long time in the cluster for some reason.
+
+    remove_files(hd5_files_to_remove)
 
 
 if __name__ == '__main__':
