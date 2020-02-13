@@ -82,7 +82,8 @@ def analyse_results(probe_name, models_path, runs_list, checkpoints_list, output
             else:
                 logging.info('File %s does not exists yet' % dev_spearman_file)
 
-        results[run][int(checkpoint)] = checkpoint_results
+
+            results[run][int(checkpoint)] = checkpoint_results
 
     with open(output_file, 'w') as outfile:
         json.dump(results, outfile, indent=4, sort_keys=True)
