@@ -1,6 +1,7 @@
 {
     "run1": {
         "0": {
+            "mlm_preplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.8411764705882353,
                 "dev.spearmanr-5_50-mean": 0.8627648152866605
@@ -12,7 +13,15 @@
             "squad_exact_match": 0.08514664143803216,
             "squad_f1": 6.230639794467306
         },
+        "250": {
+            "mlm_preplexity": 71051.3281,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "500": {
+            "mlm_preplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.8029411764705883,
                 "dev.spearmanr-5_50-mean": 0.8599523775721202
@@ -24,7 +33,15 @@
             "squad_exact_match": 63.28287606433302,
             "squad_f1": 73.36544233999606
         },
+        "750": {
+            "mlm_preplexity": null,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "1000": {
+            "mlm_preplexity": 79569.8438,
             "parse-depth": {
                 "dev.root_acc": 0.8264705882352941,
                 "dev.spearmanr-5_50-mean": 0.8577582723343747
@@ -36,7 +53,15 @@
             "squad_exact_match": 68.94985808893094,
             "squad_f1": 79.0874580202658
         },
+        "1250": {
+            "mlm_preplexity": 29800.1582,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "1500": {
+            "mlm_preplexity": 136237.25,
             "parse-depth": {
                 "dev.root_acc": 0.8117647058823529,
                 "dev.spearmanr-5_50-mean": 0.8562805929389745
@@ -48,7 +73,15 @@
             "squad_exact_match": 70.3027436140019,
             "squad_f1": 80.33626630068257
         },
+        "1750": {
+            "mlm_preplexity": 81037.1406,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "2000": {
+            "mlm_preplexity": 49867.9102,
             "parse-depth": {
                 "dev.root_acc": 0.8358823529411765,
                 "dev.spearmanr-5_50-mean": 0.8599377230674063
@@ -60,7 +93,15 @@
             "squad_exact_match": 72.65846736045411,
             "squad_f1": 81.62258524438542
         },
+        "2250": {
+            "mlm_preplexity": 91368.2422,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "2500": {
+            "mlm_preplexity": 38627.9492,
             "parse-depth": {
                 "dev.root_acc": 0.8170588235294117,
                 "dev.spearmanr-5_50-mean": 0.8579182052537182
@@ -72,7 +113,15 @@
             "squad_exact_match": 73.58561967833491,
             "squad_f1": 82.71976065362199
         },
+        "2750": {
+            "mlm_preplexity": 51721.8086,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "3000": {
+            "mlm_preplexity": 70643.5078,
             "parse-depth": {
                 "dev.root_acc": 0.8017647058823529,
                 "dev.spearmanr-5_50-mean": 0.8542107432682526
@@ -84,7 +133,15 @@
             "squad_exact_match": 73.14096499526963,
             "squad_f1": 82.38238233540896
         },
+        "3250": {
+            "mlm_preplexity": 84062.625,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "3500": {
+            "mlm_preplexity": 42987.5938,
             "parse-depth": {
                 "dev.root_acc": 0.8058823529411765,
                 "dev.spearmanr-5_50-mean": 0.8529114700412066
@@ -96,7 +153,15 @@
             "squad_exact_match": 73.90728476821192,
             "squad_f1": 82.90377256307757
         },
+        "3750": {
+            "mlm_preplexity": 77367.4141,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "4000": {
+            "mlm_preplexity": 34855.6992,
             "parse-depth": {
                 "dev.root_acc": 0.8152941176470588,
                 "dev.spearmanr-5_50-mean": 0.8559678829418165
@@ -108,7 +173,15 @@
             "squad_exact_match": 75.61967833491012,
             "squad_f1": 83.97716457994308
         },
+        "4250": {
+            "mlm_preplexity": 45618.8359,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "4500": {
+            "mlm_preplexity": 62993.2695,
             "parse-depth": {
                 "dev.root_acc": 0.8176470588235294,
                 "dev.spearmanr-5_50-mean": 0.8602872332365505
@@ -120,7 +193,15 @@
             "squad_exact_match": 76.61305581835383,
             "squad_f1": 84.78694381386273
         },
+        "4750": {
+            "mlm_preplexity": 116545.0078,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "5000": {
+            "mlm_preplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.8123529411764706,
                 "dev.spearmanr-5_50-mean": 0.8591685770605995
@@ -132,7 +213,15 @@
             "squad_exact_match": 76.67928098391674,
             "squad_f1": 84.93391963829765
         },
+        "5250": {
+            "mlm_preplexity": null,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "5500": {
+            "mlm_preplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.7970588235294118,
                 "dev.spearmanr-5_50-mean": 0.8506323139000603
@@ -144,7 +233,34 @@
             "squad_exact_match": 77.1523178807947,
             "squad_f1": 85.34615207513635
         },
+        "5750": {
+            "mlm_preplexity": null,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "6000": {
+            "mlm_preplexity": null,
+            "parse-depth": {
+                "dev.root_acc": 0.7947058823529412,
+                "dev.spearmanr-5_50-mean": 0.8549996183752099
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.804952844871658
+            },
+            "squad_exact_match": 77.41721854304636,
+            "squad_f1": 85.44066185957251
+        },
+        "6250": {
+            "mlm_preplexity": null,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "6500": {
+            "mlm_preplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.8229411764705883,
                 "dev.spearmanr-5_50-mean": 0.857266536135636
@@ -156,7 +272,15 @@
             "squad_exact_match": 77.77672658467361,
             "squad_f1": 85.82644491663868
         },
+        "6750": {
+            "mlm_preplexity": null,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "7000": {
+            "mlm_preplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.8035294117647059,
                 "dev.spearmanr-5_50-mean": 0.8522755309226339
@@ -167,10 +291,434 @@
             },
             "squad_exact_match": 77.8240302743614,
             "squad_f1": 86.03391937103578
+        },
+        "7250": {
+            "mlm_preplexity": null,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "7500": {
+            "mlm_preplexity": null,
+            "parse-depth": {},
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8030828832853352,
+                "dev.uuas": 0.6855963901917711
+            },
+            "squad_exact_match": 78.52412488174078,
+            "squad_f1": 86.51972802459528
+        },
+        "7750": {
+            "mlm_preplexity": null,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "8000": {
+            "mlm_preplexity": null,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": 78.77956480605488,
+            "squad_f1": 86.55885962632817
+        },
+        "8250": {
+            "mlm_preplexity": null,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "8500": {
+            "mlm_preplexity": null,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "8750": {
+            "mlm_preplexity": null,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "9000": {
+            "mlm_preplexity": null,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "9250": {
+            "mlm_preplexity": null,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "9500": {
+            "mlm_preplexity": null,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "9750": {
+            "mlm_preplexity": null,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "10000": {
+            "mlm_preplexity": 92846.1172,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "10250": {
+            "mlm_preplexity": 31971.8184,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "10500": {
+            "mlm_preplexity": 151225.1562,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "10750": {
+            "mlm_preplexity": 108086.0547,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "11000": {
+            "mlm_preplexity": 45696.5586,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "11250": {
+            "mlm_preplexity": 40064.2578,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "11500": {
+            "mlm_preplexity": 37101.8945,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "11750": {
+            "mlm_preplexity": 55332.8789,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "12000": {
+            "mlm_preplexity": 89130.8281,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "12250": {
+            "mlm_preplexity": 43927.3477,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "12500": {
+            "mlm_preplexity": 68285.3594,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "12750": {
+            "mlm_preplexity": 69552.8594,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "13000": {
+            "mlm_preplexity": 53782.1719,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "13250": {
+            "mlm_preplexity": 50663.3594,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "13500": {
+            "mlm_preplexity": 78121.2188,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "13750": {
+            "mlm_preplexity": 41697.4805,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "14000": {
+            "mlm_preplexity": 81210.2031,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "14250": {
+            "mlm_preplexity": 37637.75,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "14500": {
+            "mlm_preplexity": 31644.4492,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "14750": {
+            "mlm_preplexity": 65374.4531,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "15000": {
+            "mlm_preplexity": 48728.4688,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "15250": {
+            "mlm_preplexity": 29689.584,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "15500": {
+            "mlm_preplexity": 33154.9414,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "15750": {
+            "mlm_preplexity": 84967.4297,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "16000": {
+            "mlm_preplexity": 40884.5039,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "16250": {
+            "mlm_preplexity": 47198.8164,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "16500": {
+            "mlm_preplexity": 33899.6836,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "16750": {
+            "mlm_preplexity": 37193.8984,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "17000": {
+            "mlm_preplexity": 66201.6719,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "17250": {
+            "mlm_preplexity": 63130.6914,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "17500": {
+            "mlm_preplexity": 25877.8906,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "17750": {
+            "mlm_preplexity": 41488.3203,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "18000": {
+            "mlm_preplexity": 52061.1953,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "18250": {
+            "mlm_preplexity": 55537.7383,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "18500": {
+            "mlm_preplexity": 100971.875,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "18750": {
+            "mlm_preplexity": 51066.5117,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "19000": {
+            "mlm_preplexity": 35232.3125,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "19250": {
+            "mlm_preplexity": 100801.5781,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "19500": {
+            "mlm_preplexity": 45557.9258,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "19750": {
+            "mlm_preplexity": 95880.9297,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "20000": {
+            "mlm_preplexity": 47075.6875,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "20250": {
+            "mlm_preplexity": 69420.5859,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "20500": {
+            "mlm_preplexity": 50144.6992,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "20750": {
+            "mlm_preplexity": 120922.1016,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "21000": {
+            "mlm_preplexity": 46821.6406,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "21250": {
+            "mlm_preplexity": 87593.9688,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "21500": {
+            "mlm_preplexity": 122785.125,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "21750": {
+            "mlm_preplexity": 99216.5625,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "22000": {
+            "mlm_preplexity": 72132.2422,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
         }
     },
     "run2": {
         "0": {
+            "mlm_preplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.8411764705882353,
                 "dev.spearmanr-5_50-mean": 0.8627648152866605
@@ -182,7 +730,15 @@
             "squad_exact_match": 0.08514664143803216,
             "squad_f1": 6.230639794467306
         },
+        "250": {
+            "mlm_preplexity": 88780.2891,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "500": {
+            "mlm_preplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.8188235294117647,
                 "dev.spearmanr-5_50-mean": 0.8547789883833173
@@ -194,7 +750,15 @@
             "squad_exact_match": 60.17029328287607,
             "squad_f1": 71.6428744396215
         },
+        "750": {
+            "mlm_preplexity": null,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "1000": {
+            "mlm_preplexity": 93135.6719,
             "parse-depth": {
                 "dev.root_acc": 0.808235294117647,
                 "dev.spearmanr-5_50-mean": 0.8536551424987205
@@ -206,7 +770,15 @@
             "squad_exact_match": 66.53736991485336,
             "squad_f1": 76.79783529482638
         },
+        "1250": {
+            "mlm_preplexity": 25745.0156,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "1500": {
+            "mlm_preplexity": 46659.4766,
             "parse-depth": {
                 "dev.root_acc": 0.81,
                 "dev.spearmanr-5_50-mean": 0.8550172841340375
@@ -218,7 +790,15 @@
             "squad_exact_match": 70.38789025543993,
             "squad_f1": 80.10546910768615
         },
+        "1750": {
+            "mlm_preplexity": 78582.5469,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "2000": {
+            "mlm_preplexity": 62624.8281,
             "parse-depth": {
                 "dev.root_acc": 0.7988235294117647,
                 "dev.spearmanr-5_50-mean": 0.849839148189295
@@ -230,7 +810,15 @@
             "squad_exact_match": 70.63386944181646,
             "squad_f1": 80.70561444126909
         },
+        "2250": {
+            "mlm_preplexity": 64135.8633,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "2500": {
+            "mlm_preplexity": 37193.2617,
             "parse-depth": {
                 "dev.root_acc": 0.8270588235294117,
                 "dev.spearmanr-5_50-mean": 0.8525793393107222
@@ -242,7 +830,15 @@
             "squad_exact_match": 73.87890255439925,
             "squad_f1": 82.89002633562475
         },
+        "2750": {
+            "mlm_preplexity": 70262.6797,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "3000": {
+            "mlm_preplexity": 35072.5703,
             "parse-depth": {
                 "dev.root_acc": 0.8076470588235294,
                 "dev.spearmanr-5_50-mean": 0.8474696188436149
@@ -254,7 +850,15 @@
             "squad_exact_match": 73.71807000946073,
             "squad_f1": 82.36734769780985
         },
+        "3250": {
+            "mlm_preplexity": 58256.418,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "3500": {
+            "mlm_preplexity": 36443.5938,
             "parse-depth": {
                 "dev.root_acc": 0.8023529411764706,
                 "dev.spearmanr-5_50-mean": 0.8454083753724413
@@ -266,7 +870,15 @@
             "squad_exact_match": 75.23178807947019,
             "squad_f1": 83.66081922747567
         },
+        "3750": {
+            "mlm_preplexity": 33263.793,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "4000": {
+            "mlm_preplexity": 45527.8711,
             "parse-depth": {
                 "dev.root_acc": 0.8064705882352942,
                 "dev.spearmanr-5_50-mean": 0.8530825242230193
@@ -278,7 +890,15 @@
             "squad_exact_match": 75.4872280037843,
             "squad_f1": 83.9646563372891
         },
+        "4250": {
+            "mlm_preplexity": null,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "4500": {
+            "mlm_preplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.8023529411764706,
                 "dev.spearmanr-5_50-mean": 0.8500625063730205
@@ -290,7 +910,15 @@
             "squad_exact_match": 76.14947965941343,
             "squad_f1": 84.48796106571639
         },
+        "4750": {
+            "mlm_preplexity": null,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "5000": {
+            "mlm_preplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.8017647058823529,
                 "dev.spearmanr-5_50-mean": 0.8466481354521826
@@ -302,7 +930,15 @@
             "squad_exact_match": 75.73320719016083,
             "squad_f1": 84.2225924340262
         },
+        "5250": {
+            "mlm_preplexity": null,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "5500": {
+            "mlm_preplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.8029411764705883,
                 "dev.spearmanr-5_50-mean": 0.8504911421534193
@@ -314,7 +950,15 @@
             "squad_exact_match": 77.84295175023652,
             "squad_f1": 85.92104340629244
         },
+        "5750": {
+            "mlm_preplexity": null,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "6000": {
+            "mlm_preplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.7735294117647059,
                 "dev.spearmanr-5_50-mean": 0.8377321841442544
@@ -326,7 +970,15 @@
             "squad_exact_match": 77.93755912961211,
             "squad_f1": 85.95688709984387
         },
+        "6250": {
+            "mlm_preplexity": null,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "6500": {
+            "mlm_preplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.8135294117647058,
                 "dev.spearmanr-5_50-mean": 0.8532925383919087
@@ -338,7 +990,15 @@
             "squad_exact_match": 77.80510879848629,
             "squad_f1": 86.07588624346971
         },
+        "6750": {
+            "mlm_preplexity": null,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "7000": {
+            "mlm_preplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.7888235294117647,
                 "dev.spearmanr-5_50-mean": 0.8439372214922972
@@ -349,10 +1009,446 @@
             },
             "squad_exact_match": 79.00662251655629,
             "squad_f1": 86.65556776900559
+        },
+        "7250": {
+            "mlm_preplexity": null,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "7500": {
+            "mlm_preplexity": null,
+            "parse-depth": {},
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7807235044920352,
+                "dev.uuas": 0.6599477527756338
+            },
+            "squad_exact_match": 77.96594134342479,
+            "squad_f1": 86.34004814084062
+        },
+        "7750": {
+            "mlm_preplexity": null,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "8000": {
+            "mlm_preplexity": null,
+            "parse-depth": {
+                "dev.root_acc": 0.7770588235294118,
+                "dev.spearmanr-5_50-mean": 0.8351856369048407
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7832311197179272,
+                "dev.uuas": 0.6627976013774268
+            },
+            "squad_exact_match": 79.50804162724693,
+            "squad_f1": 86.96326402748316
+        },
+        "8250": {
+            "mlm_preplexity": null,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "8500": {
+            "mlm_preplexity": null,
+            "parse-depth": {
+                "dev.root_acc": 0.8076470588235294,
+                "dev.spearmanr-5_50-mean": 0.8469025236095331
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7914670800562604,
+                "dev.uuas": 0.6633913198361338
+            },
+            "squad_exact_match": 78.99716177861873,
+            "squad_f1": 86.84236184961429
+        },
+        "8750": {
+            "mlm_preplexity": null,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "9000": {
+            "mlm_preplexity": null,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": 79.49858088930937,
+            "squad_f1": 87.05955695892897
+        },
+        "9250": {
+            "mlm_preplexity": null,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "9500": {
+            "mlm_preplexity": null,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "9750": {
+            "mlm_preplexity": null,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "10000": {
+            "mlm_preplexity": 59506.2383,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "10250": {
+            "mlm_preplexity": 88096.6172,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "10500": {
+            "mlm_preplexity": 30968.9746,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "10750": {
+            "mlm_preplexity": 40984.9531,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "11000": {
+            "mlm_preplexity": 53425.5586,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "11250": {
+            "mlm_preplexity": 73821.4766,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "11500": {
+            "mlm_preplexity": 77254.1641,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "11750": {
+            "mlm_preplexity": 32245.8457,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "12000": {
+            "mlm_preplexity": 65451.5547,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "12250": {
+            "mlm_preplexity": 62213.4336,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "12500": {
+            "mlm_preplexity": 53451.2422,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "12750": {
+            "mlm_preplexity": 65035.6094,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "13000": {
+            "mlm_preplexity": 132566.1406,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "13250": {
+            "mlm_preplexity": 76029.6172,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "13500": {
+            "mlm_preplexity": 60921.1641,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "13750": {
+            "mlm_preplexity": 72080.2578,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "14000": {
+            "mlm_preplexity": 66688.8359,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "14250": {
+            "mlm_preplexity": 49323.3711,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "14500": {
+            "mlm_preplexity": 40906.1914,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "14750": {
+            "mlm_preplexity": 36621.1719,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "15000": {
+            "mlm_preplexity": 62202.1055,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "15250": {
+            "mlm_preplexity": 42267.6875,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "15500": {
+            "mlm_preplexity": 64322.1953,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "15750": {
+            "mlm_preplexity": 33432.3828,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "16000": {
+            "mlm_preplexity": 106980.3516,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "16250": {
+            "mlm_preplexity": 45535.6875,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "16500": {
+            "mlm_preplexity": 64893.3594,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "16750": {
+            "mlm_preplexity": 33540.6719,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "17000": {
+            "mlm_preplexity": 30923.6426,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "17250": {
+            "mlm_preplexity": 21008.6816,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "17500": {
+            "mlm_preplexity": 258266.4688,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "17750": {
+            "mlm_preplexity": 75622.3516,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "18000": {
+            "mlm_preplexity": 55971.1367,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "18250": {
+            "mlm_preplexity": 66069.2188,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "18500": {
+            "mlm_preplexity": 52877.3594,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "18750": {
+            "mlm_preplexity": 43466.9922,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "19000": {
+            "mlm_preplexity": 56710.5703,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "19250": {
+            "mlm_preplexity": 38734.1875,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "19500": {
+            "mlm_preplexity": 49749.8203,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "19750": {
+            "mlm_preplexity": 52946.0352,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "20000": {
+            "mlm_preplexity": 118375.6953,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "20250": {
+            "mlm_preplexity": 77584.9375,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "20500": {
+            "mlm_preplexity": 51310.6445,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "20750": {
+            "mlm_preplexity": 45148.5469,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "21000": {
+            "mlm_preplexity": 55563.6445,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "21250": {
+            "mlm_preplexity": 58430.293,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "21500": {
+            "mlm_preplexity": 69824.4766,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "21750": {
+            "mlm_preplexity": 52654.9883,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "22000": {
+            "mlm_preplexity": 47156.7461,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
         }
     },
     "run3": {
         "0": {
+            "mlm_preplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.8411764705882353,
                 "dev.spearmanr-5_50-mean": 0.8627648152866605
@@ -364,7 +1460,15 @@
             "squad_exact_match": 0.08514664143803216,
             "squad_f1": 6.230639794467306
         },
+        "250": {
+            "mlm_preplexity": 60231.625,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "500": {
+            "mlm_preplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.8005882352941176,
                 "dev.spearmanr-5_50-mean": 0.8504484096553651
@@ -376,7 +1480,15 @@
             "squad_exact_match": 62.232734153263955,
             "squad_f1": 73.34193938328895
         },
+        "750": {
+            "mlm_preplexity": null,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "1000": {
+            "mlm_preplexity": 58417.4219,
             "parse-depth": {
                 "dev.root_acc": 0.8,
                 "dev.spearmanr-5_50-mean": 0.8508678205423624
@@ -388,7 +1500,15 @@
             "squad_exact_match": 67.09555345316934,
             "squad_f1": 77.24167975346055
         },
+        "1250": {
+            "mlm_preplexity": 37530.8281,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "1500": {
+            "mlm_preplexity": 100914.7891,
             "parse-depth": {
                 "dev.root_acc": 0.7905882352941176,
                 "dev.spearmanr-5_50-mean": 0.8387112862122137
@@ -400,7 +1520,15 @@
             "squad_exact_match": 69.96215704824976,
             "squad_f1": 79.44665473951974
         },
+        "1750": {
+            "mlm_preplexity": 125901.5625,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "2000": {
+            "mlm_preplexity": 40879.3984,
             "parse-depth": {
                 "dev.root_acc": 0.8023529411764706,
                 "dev.spearmanr-5_50-mean": 0.846811370458216
@@ -412,7 +1540,15 @@
             "squad_exact_match": 73.02743614001892,
             "squad_f1": 82.20037713394734
         },
+        "2250": {
+            "mlm_preplexity": 65556.7578,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "2500": {
+            "mlm_preplexity": 94249.6094,
             "parse-depth": {
                 "dev.root_acc": 0.7988235294117647,
                 "dev.spearmanr-5_50-mean": 0.8447829957905953
@@ -424,7 +1560,15 @@
             "squad_exact_match": 72.5449385052034,
             "squad_f1": 82.17029457289456
         },
+        "2750": {
+            "mlm_preplexity": 81652.2422,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "3000": {
+            "mlm_preplexity": 82113.9844,
             "parse-depth": {
                 "dev.root_acc": 0.7976470588235294,
                 "dev.spearmanr-5_50-mean": 0.8419269721307215
@@ -436,7 +1580,15 @@
             "squad_exact_match": 73.4720908230842,
             "squad_f1": 82.3439986304658
         },
+        "3250": {
+            "mlm_preplexity": 59229.6602,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "3500": {
+            "mlm_preplexity": 54744.2227,
             "parse-depth": {
                 "dev.root_acc": 0.7905882352941176,
                 "dev.spearmanr-5_50-mean": 0.8409588490101801
@@ -448,7 +1600,15 @@
             "squad_exact_match": 75.31693472090824,
             "squad_f1": 83.99367291566513
         },
+        "3750": {
+            "mlm_preplexity": null,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "4000": {
+            "mlm_preplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.7994117647058824,
                 "dev.spearmanr-5_50-mean": 0.848896321811324
@@ -460,7 +1620,15 @@
             "squad_exact_match": 74.96688741721854,
             "squad_f1": 83.92099008455041
         },
+        "4250": {
+            "mlm_preplexity": null,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "4500": {
+            "mlm_preplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.798235294117647,
                 "dev.spearmanr-5_50-mean": 0.8451945069735601
@@ -472,7 +1640,15 @@
             "squad_exact_match": 76.02649006622516,
             "squad_f1": 84.4076383433874
         },
+        "4750": {
+            "mlm_preplexity": null,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "5000": {
+            "mlm_preplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.8117647058823529,
                 "dev.spearmanr-5_50-mean": 0.8510118935751355
@@ -484,7 +1660,15 @@
             "squad_exact_match": 76.37653736991486,
             "squad_f1": 84.7316058727922
         },
+        "5250": {
+            "mlm_preplexity": null,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "5500": {
+            "mlm_preplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.7929411764705883,
                 "dev.spearmanr-5_50-mean": 0.8404905961883786
@@ -496,7 +1680,15 @@
             "squad_exact_match": 77.46452223273415,
             "squad_f1": 85.26904343557634
         },
+        "5750": {
+            "mlm_preplexity": null,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "6000": {
+            "mlm_preplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.7741176470588236,
                 "dev.spearmanr-5_50-mean": 0.8358276457726784
@@ -508,7 +1700,15 @@
             "squad_exact_match": 77.46452223273415,
             "squad_f1": 85.57581669972414
         },
+        "6250": {
+            "mlm_preplexity": null,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "6500": {
+            "mlm_preplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.7752941176470588,
                 "dev.spearmanr-5_50-mean": 0.8431596283866731
@@ -520,7 +1720,15 @@
             "squad_exact_match": 77.92809839167455,
             "squad_f1": 86.01091962990954
         },
+        "6750": {
+            "mlm_preplexity": null,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "7000": {
+            "mlm_preplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.7729411764705882,
                 "dev.spearmanr-5_50-mean": 0.8425336651401897
@@ -532,7 +1740,15 @@
             "squad_exact_match": 77.95648060548723,
             "squad_f1": 86.07913208367177
         },
+        "7250": {
+            "mlm_preplexity": null,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "7500": {
+            "mlm_preplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.7647058823529411,
                 "dev.spearmanr-5_50-mean": 0.8373276916303831
@@ -544,7 +1760,15 @@
             "squad_exact_match": 78.17407757805108,
             "squad_f1": 86.26053929156002
         },
+        "7750": {
+            "mlm_preplexity": null,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "8000": {
+            "mlm_preplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.7458823529411764,
                 "dev.spearmanr-5_50-mean": 0.8308656401296363
@@ -556,7 +1780,15 @@
             "squad_exact_match": 79.10122989593188,
             "squad_f1": 86.58345806779315
         },
+        "8250": {
+            "mlm_preplexity": null,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "8500": {
+            "mlm_preplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.76,
                 "dev.spearmanr-5_50-mean": 0.8367663798978578
@@ -568,7 +1800,15 @@
             "squad_exact_match": 78.57142857142857,
             "squad_f1": 86.37420327640739
         },
+        "8750": {
+            "mlm_preplexity": null,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "9000": {
+            "mlm_preplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.778235294117647,
                 "dev.spearmanr-5_50-mean": 0.8360629249607455
@@ -580,7 +1820,15 @@
             "squad_exact_match": 78.88363292336803,
             "squad_f1": 86.62446247224344
         },
+        "9250": {
+            "mlm_preplexity": null,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "9500": {
+            "mlm_preplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.7752941176470588,
                 "dev.spearmanr-5_50-mean": 0.8356063917009291
@@ -592,7 +1840,15 @@
             "squad_exact_match": 79.65941343424787,
             "squad_f1": 87.09401736149562
         },
+        "9750": {
+            "mlm_preplexity": null,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "10000": {
+            "mlm_preplexity": 83591.4375,
             "parse-depth": {
                 "dev.root_acc": 0.79,
                 "dev.spearmanr-5_50-mean": 0.8398811640722691
@@ -604,7 +1860,15 @@
             "squad_exact_match": 79.24314096499526,
             "squad_f1": 86.93167670267093
         },
+        "10250": {
+            "mlm_preplexity": 101601.8672,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "10500": {
+            "mlm_preplexity": 41087.6797,
             "parse-depth": {
                 "dev.root_acc": 0.7705882352941177,
                 "dev.spearmanr-5_50-mean": 0.8346754762318561
@@ -616,7 +1880,15 @@
             "squad_exact_match": 79.59318826868495,
             "squad_f1": 87.15673869667926
         },
+        "10750": {
+            "mlm_preplexity": 78611.1797,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "11000": {
+            "mlm_preplexity": 54839.6367,
             "parse-depth": {
                 "dev.root_acc": 0.7735294117647059,
                 "dev.spearmanr-5_50-mean": 0.8330230288679918
@@ -628,7 +1900,15 @@
             "squad_exact_match": 79.57426679280984,
             "squad_f1": 87.31106247258572
         },
+        "11250": {
+            "mlm_preplexity": 32473.6289,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "11500": {
+            "mlm_preplexity": 48889.2461,
             "parse-depth": {
                 "dev.root_acc": 0.7558823529411764,
                 "dev.spearmanr-5_50-mean": 0.8310486717213755
@@ -639,10 +1919,325 @@
             },
             "squad_exact_match": 79.56480605487228,
             "squad_f1": 87.15601279937198
+        },
+        "11750": {
+            "mlm_preplexity": 100413.6641,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "12000": {
+            "mlm_preplexity": 59499.6523,
+            "parse-depth": {
+                "dev.root_acc": 0.7823529411764706,
+                "dev.spearmanr-5_50-mean": 0.8364845743832324
+            },
+            "parse-distance": {},
+            "squad_exact_match": 79.8864711447493,
+            "squad_f1": 87.27030095651065
+        },
+        "12250": {
+            "mlm_preplexity": 48308.6562,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "12500": {
+            "mlm_preplexity": 42539.3164,
+            "parse-depth": {
+                "dev.root_acc": 0.7717647058823529,
+                "dev.spearmanr-5_50-mean": 0.834088478890558
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7703142754851433,
+                "dev.uuas": 0.635367808585169
+            },
+            "squad_exact_match": 80.00946073793756,
+            "squad_f1": 87.6980221729169
+        },
+        "12750": {
+            "mlm_preplexity": 107094.8828,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "13000": {
+            "mlm_preplexity": 43484.4883,
+            "parse-depth": {
+                "dev.root_acc": 0.7423529411764705,
+                "dev.spearmanr-5_50-mean": 0.8257331035474611
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7627606501525058,
+                "dev.uuas": 0.6219497714183934
+            },
+            "squad_exact_match": 80.08514664143803,
+            "squad_f1": 87.48728793263746
+        },
+        "13250": {
+            "mlm_preplexity": 89647.0859,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "13500": {
+            "mlm_preplexity": 37412.8984,
+            "parse-depth": {
+                "dev.root_acc": 0.75,
+                "dev.spearmanr-5_50-mean": 0.8287352424732389
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.773171447581867
+            },
+            "squad_exact_match": 79.59318826868495,
+            "squad_f1": 87.17298964029953
+        },
+        "13750": {
+            "mlm_preplexity": 53692.8984,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "14000": {
+            "mlm_preplexity": 53641.0,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "14250": {
+            "mlm_preplexity": 113877.8203,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "14500": {
+            "mlm_preplexity": 124357.8906,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "14750": {
+            "mlm_preplexity": 85501.8047,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "15000": {
+            "mlm_preplexity": 55846.957,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "15250": {
+            "mlm_preplexity": 110751.1172,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "15500": {
+            "mlm_preplexity": 51897.707,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "15750": {
+            "mlm_preplexity": 56957.3477,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "16000": {
+            "mlm_preplexity": 53922.8945,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "16250": {
+            "mlm_preplexity": 30048.4668,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "16500": {
+            "mlm_preplexity": 37448.0977,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "16750": {
+            "mlm_preplexity": 37409.1523,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "17000": {
+            "mlm_preplexity": 42207.1875,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "17250": {
+            "mlm_preplexity": 95474.5234,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "17500": {
+            "mlm_preplexity": 37581.3281,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "17750": {
+            "mlm_preplexity": 105522.75,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "18000": {
+            "mlm_preplexity": 115601.7656,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "18250": {
+            "mlm_preplexity": 58318.9531,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "18500": {
+            "mlm_preplexity": 56469.4414,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "18750": {
+            "mlm_preplexity": 74439.5,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "19000": {
+            "mlm_preplexity": 43137.2852,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "19250": {
+            "mlm_preplexity": 43047.9805,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "19500": {
+            "mlm_preplexity": 84350.6797,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "19750": {
+            "mlm_preplexity": 70805.9219,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "20000": {
+            "mlm_preplexity": 89247.6094,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "20250": {
+            "mlm_preplexity": 102755.1172,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "20500": {
+            "mlm_preplexity": 70811.7266,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "20750": {
+            "mlm_preplexity": 59856.3867,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "21000": {
+            "mlm_preplexity": 54778.7422,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "21250": {
+            "mlm_preplexity": 84185.0469,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "21500": {
+            "mlm_preplexity": 52027.6406,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "21750": {
+            "mlm_preplexity": 97844.6719,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "22000": {
+            "mlm_preplexity": 62241.5664,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
         }
     },
     "run4": {
         "0": {
+            "mlm_preplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.8411764705882353,
                 "dev.spearmanr-5_50-mean": 0.8627648152866605
@@ -654,7 +2249,15 @@
             "squad_exact_match": 0.08514664143803216,
             "squad_f1": 6.230639794467306
         },
+        "250": {
+            "mlm_preplexity": 101757.0156,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "500": {
+            "mlm_preplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.8141176470588235,
                 "dev.spearmanr-5_50-mean": 0.8556860843464634
@@ -666,7 +2269,15 @@
             "squad_exact_match": 62.8949858088931,
             "squad_f1": 74.25198535610545
         },
+        "750": {
+            "mlm_preplexity": null,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "1000": {
+            "mlm_preplexity": 45824.207,
             "parse-depth": {
                 "dev.root_acc": 0.8176470588235294,
                 "dev.spearmanr-5_50-mean": 0.8558090798294012
@@ -678,7 +2289,15 @@
             "squad_exact_match": 68.96877956480606,
             "squad_f1": 79.00475076973899
         },
+        "1250": {
+            "mlm_preplexity": 35386.9102,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "1500": {
+            "mlm_preplexity": 29842.7051,
             "parse-depth": {
                 "dev.root_acc": 0.8029411764705883,
                 "dev.spearmanr-5_50-mean": 0.8491821990263958
@@ -690,7 +2309,15 @@
             "squad_exact_match": 70.74739829706716,
             "squad_f1": 80.47153911291285
         },
+        "1750": {
+            "mlm_preplexity": 110162.8984,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "2000": {
+            "mlm_preplexity": 71775.2109,
             "parse-depth": {
                 "dev.root_acc": 0.8011764705882353,
                 "dev.spearmanr-5_50-mean": 0.8481310496949072
@@ -702,7 +2329,15 @@
             "squad_exact_match": 72.03405865657521,
             "squad_f1": 81.56029220408479
         },
+        "2250": {
+            "mlm_preplexity": 179740.0625,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "2500": {
+            "mlm_preplexity": 57010.3867,
             "parse-depth": {
                 "dev.root_acc": 0.7888235294117647,
                 "dev.spearmanr-5_50-mean": 0.8453476016602015
@@ -714,7 +2349,15 @@
             "squad_exact_match": 73.43424787133397,
             "squad_f1": 82.54832885264055
         },
+        "2750": {
+            "mlm_preplexity": 109253.5,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "3000": {
+            "mlm_preplexity": 57878.8516,
             "parse-depth": {
                 "dev.root_acc": 0.8035294117647059,
                 "dev.spearmanr-5_50-mean": 0.8511122342645693
@@ -726,7 +2369,15 @@
             "squad_exact_match": 74.27625354777673,
             "squad_f1": 83.27714688384164
         },
+        "3250": {
+            "mlm_preplexity": 46407.2344,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "3500": {
+            "mlm_preplexity": 67037.8281,
             "parse-depth": {
                 "dev.root_acc": 0.7905882352941176,
                 "dev.spearmanr-5_50-mean": 0.8411979846622569
@@ -738,7 +2389,15 @@
             "squad_exact_match": 75.69536423841059,
             "squad_f1": 84.26450924964661
         },
+        "3750": {
+            "mlm_preplexity": null,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "4000": {
+            "mlm_preplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.7929411764705883,
                 "dev.spearmanr-5_50-mean": 0.8435202153798894
@@ -750,7 +2409,15 @@
             "squad_exact_match": 75.6480605487228,
             "squad_f1": 84.39328684479811
         },
+        "4250": {
+            "mlm_preplexity": null,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "4500": {
+            "mlm_preplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.7976470588235294,
                 "dev.spearmanr-5_50-mean": 0.8446295580922185
@@ -762,7 +2429,15 @@
             "squad_exact_match": 75.7899716177862,
             "squad_f1": 84.32248942508832
         },
+        "4750": {
+            "mlm_preplexity": null,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "5000": {
+            "mlm_preplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.7964705882352942,
                 "dev.spearmanr-5_50-mean": 0.8433976646307447
@@ -774,7 +2449,15 @@
             "squad_exact_match": 76.20624408703878,
             "squad_f1": 85.00499218040054
         },
+        "5250": {
+            "mlm_preplexity": null,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "5500": {
+            "mlm_preplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.7929411764705883,
                 "dev.spearmanr-5_50-mean": 0.8429033727797581
@@ -786,7 +2469,15 @@
             "squad_exact_match": 77.65373699148533,
             "squad_f1": 85.95899014248451
         },
+        "5750": {
+            "mlm_preplexity": null,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "6000": {
+            "mlm_preplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.7976470588235294,
                 "dev.spearmanr-5_50-mean": 0.845408018732941
@@ -798,7 +2489,15 @@
             "squad_exact_match": 77.28476821192054,
             "squad_f1": 85.89137902622564
         },
+        "6250": {
+            "mlm_preplexity": null,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "6500": {
+            "mlm_preplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.8170588235294117,
                 "dev.spearmanr-5_50-mean": 0.8478147844614123
@@ -810,7 +2509,15 @@
             "squad_exact_match": 77.37937559129612,
             "squad_f1": 85.8662279268166
         },
+        "6750": {
+            "mlm_preplexity": null,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "7000": {
+            "mlm_preplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.8117647058823529,
                 "dev.spearmanr-5_50-mean": 0.8517889995843357
@@ -822,7 +2529,15 @@
             "squad_exact_match": 78.13623462630085,
             "squad_f1": 86.28311656464331
         },
+        "7250": {
+            "mlm_preplexity": null,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "7500": {
+            "mlm_preplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.7994117647058824,
                 "dev.spearmanr-5_50-mean": 0.8472653422735824
@@ -834,7 +2549,15 @@
             "squad_exact_match": 78.08893093661305,
             "squad_f1": 86.27732466017834
         },
+        "7750": {
+            "mlm_preplexity": null,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "8000": {
+            "mlm_preplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.7976470588235294,
                 "dev.spearmanr-5_50-mean": 0.8442374140978464
@@ -845,10 +2568,450 @@
             },
             "squad_exact_match": 79.36613055818354,
             "squad_f1": 86.9439366198698
+        },
+        "8250": {
+            "mlm_preplexity": null,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "8500": {
+            "mlm_preplexity": null,
+            "parse-depth": {
+                "dev.root_acc": 0.7964705882352942,
+                "dev.spearmanr-5_50-mean": 0.8411757531238822
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7927107119667154
+            },
+            "squad_exact_match": 78.77010406811732,
+            "squad_f1": 86.78029119424389
+        },
+        "8750": {
+            "mlm_preplexity": null,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "9000": {
+            "mlm_preplexity": null,
+            "parse-depth": {
+                "dev.root_acc": 0.8041176470588235,
+                "dev.spearmanr-5_50-mean": 0.8455849049042258
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.803152455999041,
+                "dev.uuas": 0.6943834233806329
+            },
+            "squad_exact_match": 79.30936613055819,
+            "squad_f1": 86.92580254377303
+        },
+        "9250": {
+            "mlm_preplexity": null,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "9500": {
+            "mlm_preplexity": null,
+            "parse-depth": {
+                "dev.root_acc": 0.8094117647058824,
+                "dev.spearmanr-5_50-mean": 0.8484707825500637
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8042570085028298,
+                "dev.uuas": 0.6968473549842664
+            },
+            "squad_exact_match": 79.50804162724693,
+            "squad_f1": 87.19561605691155
+        },
+        "9750": {
+            "mlm_preplexity": null,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "10000": {
+            "mlm_preplexity": 92881.8125,
+            "parse-depth": {
+                "dev.root_acc": 0.7947058823529412,
+                "dev.spearmanr-5_50-mean": 0.8437837463143072
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7973067085381855,
+                "dev.uuas": 0.6807575847533099
+            },
+            "squad_exact_match": 79.15799432355723,
+            "squad_f1": 87.12900726980234
+        },
+        "10250": {
+            "mlm_preplexity": 111845.9688,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "10500": {
+            "mlm_preplexity": 124487.5781,
+            "parse-depth": {
+                "dev.root_acc": 0.7858823529411765,
+                "dev.spearmanr-5_50-mean": 0.8358858651331303
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7902500052283569,
+                "dev.uuas": 0.6778483643056462
+            },
+            "squad_exact_match": 79.55534531693472,
+            "squad_f1": 87.41589646212778
+        },
+        "10750": {
+            "mlm_preplexity": 90404.8438,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "11000": {
+            "mlm_preplexity": 56522.1875,
+            "parse-depth": {
+                "dev.root_acc": 0.7970588235294118,
+                "dev.spearmanr-5_50-mean": 0.8440555042266792
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7937824850476822,
+                "dev.uuas": 0.6806091551386333
+            },
+            "squad_exact_match": 80.23651844843897,
+            "squad_f1": 87.78732755620779
+        },
+        "11250": {
+            "mlm_preplexity": 60462.2344,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "11500": {
+            "mlm_preplexity": 63992.4102,
+            "parse-depth": {
+                "dev.root_acc": 0.7864705882352941,
+                "dev.spearmanr-5_50-mean": 0.8365725252929614
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7797927953796417,
+                "dev.uuas": 0.652199726889509
+            },
+            "squad_exact_match": 79.94323557237465,
+            "squad_f1": 87.71805985939876
+        },
+        "11750": {
+            "mlm_preplexity": 47049.25,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "12000": {
+            "mlm_preplexity": 59575.0586,
+            "parse-depth": {
+                "dev.root_acc": 0.7970588235294118,
+                "dev.spearmanr-5_50-mean": 0.8409537737015542
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7832792089997579,
+                "dev.uuas": 0.6578400522472244
+            },
+            "squad_exact_match": 80.60548722800378,
+            "squad_f1": 88.1012771767164
+        },
+        "12250": {
+            "mlm_preplexity": 64597.2891,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "12500": {
+            "mlm_preplexity": 58199.0547,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": 80.2081362346263,
+            "squad_f1": 87.90038540720376
+        },
+        "12750": {
+            "mlm_preplexity": 47706.9297,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "13000": {
+            "mlm_preplexity": 94333.5078,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "13250": {
+            "mlm_preplexity": 47091.6719,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "13500": {
+            "mlm_preplexity": 63366.8359,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "13750": {
+            "mlm_preplexity": 42387.7383,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "14000": {
+            "mlm_preplexity": 60689.9609,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "14250": {
+            "mlm_preplexity": 89984.6562,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "14500": {
+            "mlm_preplexity": 79998.2188,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "14750": {
+            "mlm_preplexity": 32353.6895,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "15000": {
+            "mlm_preplexity": 71022.875,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "15250": {
+            "mlm_preplexity": 45734.3164,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "15500": {
+            "mlm_preplexity": 41331.1055,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "15750": {
+            "mlm_preplexity": 101731.8828,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "16000": {
+            "mlm_preplexity": 68724.5781,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "16250": {
+            "mlm_preplexity": 92550.2344,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "16500": {
+            "mlm_preplexity": 40328.8398,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "16750": {
+            "mlm_preplexity": 23152.5898,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "17000": {
+            "mlm_preplexity": 42167.5195,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "17250": {
+            "mlm_preplexity": 65886.875,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "17500": {
+            "mlm_preplexity": 46794.0078,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "17750": {
+            "mlm_preplexity": 96140.9688,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "18000": {
+            "mlm_preplexity": 34559.1641,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "18250": {
+            "mlm_preplexity": 65636.1406,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "18500": {
+            "mlm_preplexity": 57599.457,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "18750": {
+            "mlm_preplexity": 43865.8906,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "19000": {
+            "mlm_preplexity": 28583.2246,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "19250": {
+            "mlm_preplexity": 63853.2344,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "19500": {
+            "mlm_preplexity": 54638.5508,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "19750": {
+            "mlm_preplexity": 53057.5391,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "20000": {
+            "mlm_preplexity": 42478.5898,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "20250": {
+            "mlm_preplexity": 49294.6875,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "20500": {
+            "mlm_preplexity": 112402.8594,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "20750": {
+            "mlm_preplexity": 77811.1562,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "21000": {
+            "mlm_preplexity": 34291.9219,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "21250": {
+            "mlm_preplexity": 46643.6836,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "21500": {
+            "mlm_preplexity": 84630.5234,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "21750": {
+            "mlm_preplexity": 64348.8867,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "22000": {
+            "mlm_preplexity": 103234.4453,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
         }
     },
     "run5": {
         "0": {
+            "mlm_preplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.8411764705882353,
                 "dev.spearmanr-5_50-mean": 0.8627648152866605
@@ -860,7 +3023,15 @@
             "squad_exact_match": 0.08514664143803216,
             "squad_f1": 6.230639794467306
         },
+        "250": {
+            "mlm_preplexity": 88706.4922,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "500": {
+            "mlm_preplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.7964705882352942,
                 "dev.spearmanr-5_50-mean": 0.8462124826248835
@@ -872,7 +3043,15 @@
             "squad_exact_match": 62.35572374645222,
             "squad_f1": 73.02804335984929
         },
+        "750": {
+            "mlm_preplexity": null,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "1000": {
+            "mlm_preplexity": 53125.5391,
             "parse-depth": {
                 "dev.root_acc": 0.7805882352941177,
                 "dev.spearmanr-5_50-mean": 0.8405249780086004
@@ -884,7 +3063,15 @@
             "squad_exact_match": 68.13623462630085,
             "squad_f1": 78.25940520934013
         },
+        "1250": {
+            "mlm_preplexity": 23504.9922,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "1500": {
+            "mlm_preplexity": 70055.8594,
             "parse-depth": {
                 "dev.root_acc": 0.8135294117647058,
                 "dev.spearmanr-5_50-mean": 0.8451444534608809
@@ -896,7 +3083,15 @@
             "squad_exact_match": 70.55818353831599,
             "squad_f1": 80.63687458472528
         },
+        "1750": {
+            "mlm_preplexity": 104514.7109,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "2000": {
+            "mlm_preplexity": 77317.7031,
             "parse-depth": {
                 "dev.root_acc": 0.8023529411764706,
                 "dev.spearmanr-5_50-mean": 0.8392201556366995
@@ -908,7 +3103,15 @@
             "squad_exact_match": 73.15042573320719,
             "squad_f1": 82.17833123609992
         },
+        "2250": {
+            "mlm_preplexity": 34116.0703,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "2500": {
+            "mlm_preplexity": 66120.7188,
             "parse-depth": {
                 "dev.root_acc": 0.7941176470588235,
                 "dev.spearmanr-5_50-mean": 0.8404481559111063
@@ -920,7 +3123,15 @@
             "squad_exact_match": 74.720908230842,
             "squad_f1": 83.43994639399098
         },
+        "2750": {
+            "mlm_preplexity": 102852.6641,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "3000": {
+            "mlm_preplexity": 154295.4844,
             "parse-depth": {
                 "dev.root_acc": 0.82,
                 "dev.spearmanr-5_50-mean": 0.8469331674792752
@@ -932,7 +3143,15 @@
             "squad_exact_match": 74.98580889309366,
             "squad_f1": 83.5866233583272
         },
+        "3250": {
+            "mlm_preplexity": 59422.3633,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "3500": {
+            "mlm_preplexity": 58605.8086,
             "parse-depth": {
                 "dev.root_acc": 0.7976470588235294,
                 "dev.spearmanr-5_50-mean": 0.8365775584663256
@@ -944,7 +3163,15 @@
             "squad_exact_match": 75.33585619678335,
             "squad_f1": 83.99427267242922
         },
+        "3750": {
+            "mlm_preplexity": null,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "4000": {
+            "mlm_preplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.8188235294117647,
                 "dev.spearmanr-5_50-mean": 0.8469870229525315
@@ -956,7 +3183,15 @@
             "squad_exact_match": 75.50614947965941,
             "squad_f1": 84.34019096004833
         },
+        "4250": {
+            "mlm_preplexity": null,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "4500": {
+            "mlm_preplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.8182352941176471,
                 "dev.spearmanr-5_50-mean": 0.846328199914474
@@ -968,7 +3203,15 @@
             "squad_exact_match": 75.69536423841059,
             "squad_f1": 84.72210108966094
         },
+        "4750": {
+            "mlm_preplexity": null,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "5000": {
+            "mlm_preplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.8135294117647058,
                 "dev.spearmanr-5_50-mean": 0.8445853486072782
@@ -980,7 +3223,15 @@
             "squad_exact_match": 75.4872280037843,
             "squad_f1": 83.86739797154988
         },
+        "5250": {
+            "mlm_preplexity": null,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "5500": {
+            "mlm_preplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.7852941176470588,
                 "dev.spearmanr-5_50-mean": 0.8368717843807593
@@ -992,7 +3243,15 @@
             "squad_exact_match": 75.9508041627247,
             "squad_f1": 84.65502767423584
         },
+        "5750": {
+            "mlm_preplexity": null,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "6000": {
+            "mlm_preplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.8005882352941176,
                 "dev.spearmanr-5_50-mean": 0.8432685295083099
@@ -1004,7 +3263,15 @@
             "squad_exact_match": 78.05108798486282,
             "squad_f1": 85.99620519985776
         },
+        "6250": {
+            "mlm_preplexity": null,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "6500": {
+            "mlm_preplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.8035294117647059,
                 "dev.spearmanr-5_50-mean": 0.8419903680162854
@@ -1016,7 +3283,15 @@
             "squad_exact_match": 78.7511825922422,
             "squad_f1": 86.43181212738185
         },
+        "6750": {
+            "mlm_preplexity": null,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "7000": {
+            "mlm_preplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.8058823529411765,
                 "dev.spearmanr-5_50-mean": 0.841052938645638
@@ -1028,7 +3303,15 @@
             "squad_exact_match": 78.37275307473983,
             "squad_f1": 85.96829374604565
         },
+        "7250": {
+            "mlm_preplexity": null,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "7500": {
+            "mlm_preplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.7841176470588235,
                 "dev.spearmanr-5_50-mean": 0.8314713303233611
@@ -1040,7 +3323,15 @@
             "squad_exact_match": 78.41059602649007,
             "squad_f1": 86.51617929513183
         },
+        "7750": {
+            "mlm_preplexity": null,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "8000": {
+            "mlm_preplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.7935294117647059,
                 "dev.spearmanr-5_50-mean": 0.8370074303927046
@@ -1052,7 +3343,15 @@
             "squad_exact_match": 79.4228949858089,
             "squad_f1": 87.13874744519467
         },
+        "8250": {
+            "mlm_preplexity": null,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "8500": {
+            "mlm_preplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.7776470588235294,
                 "dev.spearmanr-5_50-mean": 0.8349450299939841
@@ -1064,7 +3363,15 @@
             "squad_exact_match": 78.92147587511826,
             "squad_f1": 86.8768086428766
         },
+        "8750": {
+            "mlm_preplexity": null,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "9000": {
+            "mlm_preplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.7976470588235294,
                 "dev.spearmanr-5_50-mean": 0.83771490677615
@@ -1075,6 +3382,381 @@
             },
             "squad_exact_match": 78.40113528855251,
             "squad_f1": 86.70268813560077
+        },
+        "9250": {
+            "mlm_preplexity": null,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "9500": {
+            "mlm_preplexity": null,
+            "parse-depth": {
+                "dev.root_acc": 0.7858823529411765,
+                "dev.spearmanr-5_50-mean": 0.834643596034034
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7819645445133818
+            },
+            "squad_exact_match": 79.38505203405866,
+            "squad_f1": 87.22305289105591
+        },
+        "9750": {
+            "mlm_preplexity": null,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "10000": {
+            "mlm_preplexity": 137818.3281,
+            "parse-depth": {
+                "dev.root_acc": 0.8047058823529412,
+                "dev.spearmanr-5_50-mean": 0.8388646970763756
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7802415114426123,
+                "dev.uuas": 0.6465000296859229
+            },
+            "squad_exact_match": 79.91485335856197,
+            "squad_f1": 87.22920639782282
+        },
+        "10250": {
+            "mlm_preplexity": 41698.2773,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "10500": {
+            "mlm_preplexity": 81806.8047,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": 80.0473036896878,
+            "squad_f1": 87.27924863586931
+        },
+        "10750": {
+            "mlm_preplexity": 55113.1094,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "11000": {
+            "mlm_preplexity": 27833.8145,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "11250": {
+            "mlm_preplexity": 37079.0078,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "11500": {
+            "mlm_preplexity": 60988.4766,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "11750": {
+            "mlm_preplexity": 61766.5625,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "12000": {
+            "mlm_preplexity": 183351.375,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "12250": {
+            "mlm_preplexity": 42225.5078,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "12500": {
+            "mlm_preplexity": 24865.6953,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "12750": {
+            "mlm_preplexity": 63575.9727,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "13000": {
+            "mlm_preplexity": 68753.75,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "13250": {
+            "mlm_preplexity": 47803.0234,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "13500": {
+            "mlm_preplexity": 46671.3594,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "13750": {
+            "mlm_preplexity": 38231.5859,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "14000": {
+            "mlm_preplexity": 77690.1484,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "14250": {
+            "mlm_preplexity": 31335.1914,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "14500": {
+            "mlm_preplexity": 48795.1094,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "14750": {
+            "mlm_preplexity": 148712.6094,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "15000": {
+            "mlm_preplexity": 83013.0156,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "15250": {
+            "mlm_preplexity": 35617.75,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "15500": {
+            "mlm_preplexity": 44501.0508,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "15750": {
+            "mlm_preplexity": 58269.918,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "16000": {
+            "mlm_preplexity": 83113.3828,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "16250": {
+            "mlm_preplexity": 54350.6367,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "16500": {
+            "mlm_preplexity": 35173.4961,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "16750": {
+            "mlm_preplexity": 34229.875,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "17000": {
+            "mlm_preplexity": 51495.8984,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "17250": {
+            "mlm_preplexity": 48420.9219,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "17500": {
+            "mlm_preplexity": 35588.4141,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "17750": {
+            "mlm_preplexity": 65556.8828,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "18000": {
+            "mlm_preplexity": 53206.9688,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "18250": {
+            "mlm_preplexity": 65174.6875,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "18500": {
+            "mlm_preplexity": 40089.0625,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "18750": {
+            "mlm_preplexity": 39247.5508,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "19000": {
+            "mlm_preplexity": 32328.0898,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "19250": {
+            "mlm_preplexity": 36987.6797,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "19500": {
+            "mlm_preplexity": 34750.4844,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "19750": {
+            "mlm_preplexity": 96632.1016,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "20000": {
+            "mlm_preplexity": 87594.8047,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "20250": {
+            "mlm_preplexity": 40069.1875,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "20500": {
+            "mlm_preplexity": 106437.0312,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "20750": {
+            "mlm_preplexity": 65840.2031,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "21000": {
+            "mlm_preplexity": 74242.0469,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "21250": {
+            "mlm_preplexity": 65262.5117,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "21500": {
+            "mlm_preplexity": 56938.2305,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "21750": {
+            "mlm_preplexity": 147397.7969,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "22000": {
+            "mlm_preplexity": 55973.0586,
+            "parse-depth": {},
+            "parse-distance": {},
+            "squad_exact_match": null,
+            "squad_f1": null
         }
     }
 }
