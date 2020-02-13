@@ -31,14 +31,12 @@ def analyse_results(probe_name, models_path, runs_list, checkpoints_list, output
                                   'squad_f1': None,
                                   'mlm_perplexity': None,
                                   'parse-depth': {
-                                      {'dev.root_acc': None,
-                                       'dev.spearmanr-5_50-mean': None
-                                      }
+                                      'dev.root_acc': None,
+                                      'dev.spearmanr-5_50-mean': None
                                   },
                                   'parse-distance': {
-                                      {'dev.spearmanr-5_50-mean': None,
-                                       'dev.uuas': None
-                                      }
+                                      'dev.spearmanr-5_50-mean': None,
+                                      'dev.uuas': None
                                   }}
 
             if os.path.exists(squad_results_path):
