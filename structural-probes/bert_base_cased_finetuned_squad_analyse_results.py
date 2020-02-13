@@ -30,8 +30,16 @@ def analyse_results(probe_name, models_path, runs_list, checkpoints_list, output
             checkpoint_results = {'squad_exact_match': None,
                                   'squad_f1': None,
                                   'mlm_perplexity': None,
-                                  'parse-depth': {},
-                                  'parse-distance': {}}
+                                  'parse-depth': {
+                                      {'dev.root_acc': None,
+                                       'dev.spearmanr-5_50-mean': None
+                                      }
+                                  },
+                                  'parse-distance': {
+                                      {'dev.spearmanr-5_50-mean': None,
+                                       'dev.uuas': None
+                                      }
+                                  }}
 
             if os.path.exists(squad_results_path):
                 with open(squad_results_path) as file:
