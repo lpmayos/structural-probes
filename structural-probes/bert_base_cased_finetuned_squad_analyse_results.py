@@ -29,7 +29,7 @@ def analyse_results(probe_name, models_path, runs_list, checkpoints_list, output
 
             checkpoint_results = {'squad_exact_match': None,
                                   'squad_f1': None,
-                                  'mlm_preplexity': None,
+                                  'mlm_perplexity': None,
                                   'parse-depth': {},
                                   'parse-distance': {}}
 
@@ -45,8 +45,8 @@ def analyse_results(probe_name, models_path, runs_list, checkpoints_list, output
                 with open(mlm_results_path) as file:
                     line = file.readline()
                     pattern = re.compile(r"[-+]?[0-9]*\.?[0-9]+")  # regular expression to match floats, with optional +/-
-                    mlm_preplexity = float(pattern.findall(line)[0])
-                    checkpoint_results['mlm_preplexity'] = mlm_preplexity
+                    mlm_perplexity = float(pattern.findall(line)[0])
+                    checkpoint_results['mlm_perplexity'] = mlm_perplexity
             else:
                 logging.info('File %s does not exists yet' % mlm_results_path)
 
