@@ -1,7 +1,7 @@
 {
     "run1": {
         "0": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.8411764705882353,
                 "dev.spearmanr-5_50-mean": 0.8627648152866605
@@ -14,14 +14,14 @@
             "squad_f1": 6.230639794467306
         },
         "250": {
-            "mlm_preplexity": 71051.3281,
+            "mlm_perplexity": 71051.3281,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "500": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.8029411764705883,
                 "dev.spearmanr-5_50-mean": 0.8599523775721202
@@ -34,14 +34,14 @@
             "squad_f1": 73.36544233999606
         },
         "750": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "1000": {
-            "mlm_preplexity": 79569.8438,
+            "mlm_perplexity": 79569.8438,
             "parse-depth": {
                 "dev.root_acc": 0.8264705882352941,
                 "dev.spearmanr-5_50-mean": 0.8577582723343747
@@ -54,14 +54,14 @@
             "squad_f1": 79.0874580202658
         },
         "1250": {
-            "mlm_preplexity": 29800.1582,
+            "mlm_perplexity": 29800.1582,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "1500": {
-            "mlm_preplexity": 136237.25,
+            "mlm_perplexity": 136237.25,
             "parse-depth": {
                 "dev.root_acc": 0.8117647058823529,
                 "dev.spearmanr-5_50-mean": 0.8562805929389745
@@ -74,14 +74,14 @@
             "squad_f1": 80.33626630068257
         },
         "1750": {
-            "mlm_preplexity": 81037.1406,
+            "mlm_perplexity": 81037.1406,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "2000": {
-            "mlm_preplexity": 49867.9102,
+            "mlm_perplexity": 49867.9102,
             "parse-depth": {
                 "dev.root_acc": 0.8358823529411765,
                 "dev.spearmanr-5_50-mean": 0.8599377230674063
@@ -94,14 +94,14 @@
             "squad_f1": 81.62258524438542
         },
         "2250": {
-            "mlm_preplexity": 91368.2422,
+            "mlm_perplexity": 91368.2422,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "2500": {
-            "mlm_preplexity": 38627.9492,
+            "mlm_perplexity": 38627.9492,
             "parse-depth": {
                 "dev.root_acc": 0.8170588235294117,
                 "dev.spearmanr-5_50-mean": 0.8579182052537182
@@ -114,14 +114,14 @@
             "squad_f1": 82.71976065362199
         },
         "2750": {
-            "mlm_preplexity": 51721.8086,
+            "mlm_perplexity": 51721.8086,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "3000": {
-            "mlm_preplexity": 70643.5078,
+            "mlm_perplexity": 70643.5078,
             "parse-depth": {
                 "dev.root_acc": 0.8017647058823529,
                 "dev.spearmanr-5_50-mean": 0.8542107432682526
@@ -134,14 +134,14 @@
             "squad_f1": 82.38238233540896
         },
         "3250": {
-            "mlm_preplexity": 84062.625,
+            "mlm_perplexity": 84062.625,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "3500": {
-            "mlm_preplexity": 42987.5938,
+            "mlm_perplexity": 42987.5938,
             "parse-depth": {
                 "dev.root_acc": 0.8058823529411765,
                 "dev.spearmanr-5_50-mean": 0.8529114700412066
@@ -154,14 +154,14 @@
             "squad_f1": 82.90377256307757
         },
         "3750": {
-            "mlm_preplexity": 77367.4141,
+            "mlm_perplexity": 77367.4141,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "4000": {
-            "mlm_preplexity": 34855.6992,
+            "mlm_perplexity": 34855.6992,
             "parse-depth": {
                 "dev.root_acc": 0.8152941176470588,
                 "dev.spearmanr-5_50-mean": 0.8559678829418165
@@ -174,14 +174,14 @@
             "squad_f1": 83.97716457994308
         },
         "4250": {
-            "mlm_preplexity": 45618.8359,
+            "mlm_perplexity": 45618.8359,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "4500": {
-            "mlm_preplexity": 62993.2695,
+            "mlm_perplexity": 62993.2695,
             "parse-depth": {
                 "dev.root_acc": 0.8176470588235294,
                 "dev.spearmanr-5_50-mean": 0.8602872332365505
@@ -194,14 +194,14 @@
             "squad_f1": 84.78694381386273
         },
         "4750": {
-            "mlm_preplexity": 116545.0078,
+            "mlm_perplexity": 116545.0078,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "5000": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.8123529411764706,
                 "dev.spearmanr-5_50-mean": 0.8591685770605995
@@ -214,14 +214,14 @@
             "squad_f1": 84.93391963829765
         },
         "5250": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "5500": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.7970588235294118,
                 "dev.spearmanr-5_50-mean": 0.8506323139000603
@@ -234,14 +234,14 @@
             "squad_f1": 85.34615207513635
         },
         "5750": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "6000": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.7947058823529412,
                 "dev.spearmanr-5_50-mean": 0.8549996183752099
@@ -253,14 +253,14 @@
             "squad_f1": 85.44066185957251
         },
         "6250": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "6500": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.8229411764705883,
                 "dev.spearmanr-5_50-mean": 0.857266536135636
@@ -273,14 +273,14 @@
             "squad_f1": 85.82644491663868
         },
         "6750": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "7000": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.8035294117647059,
                 "dev.spearmanr-5_50-mean": 0.8522755309226339
@@ -293,14 +293,14 @@
             "squad_f1": 86.03391937103578
         },
         "7250": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "7500": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {},
             "parse-distance": {
                 "dev.spearmanr-5_50-mean": 0.8030828832853352,
@@ -310,406 +310,406 @@
             "squad_f1": 86.51972802459528
         },
         "7750": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "8000": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": 78.77956480605488,
             "squad_f1": 86.55885962632817
         },
         "8250": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "8500": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "8750": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "9000": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "9250": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "9500": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "9750": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "10000": {
-            "mlm_preplexity": 92846.1172,
+            "mlm_perplexity": 92846.1172,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "10250": {
-            "mlm_preplexity": 31971.8184,
+            "mlm_perplexity": 31971.8184,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "10500": {
-            "mlm_preplexity": 151225.1562,
+            "mlm_perplexity": 151225.1562,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "10750": {
-            "mlm_preplexity": 108086.0547,
+            "mlm_perplexity": 108086.0547,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "11000": {
-            "mlm_preplexity": 45696.5586,
+            "mlm_perplexity": 45696.5586,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "11250": {
-            "mlm_preplexity": 40064.2578,
+            "mlm_perplexity": 40064.2578,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "11500": {
-            "mlm_preplexity": 37101.8945,
+            "mlm_perplexity": 37101.8945,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "11750": {
-            "mlm_preplexity": 55332.8789,
+            "mlm_perplexity": 55332.8789,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "12000": {
-            "mlm_preplexity": 89130.8281,
+            "mlm_perplexity": 89130.8281,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "12250": {
-            "mlm_preplexity": 43927.3477,
+            "mlm_perplexity": 43927.3477,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "12500": {
-            "mlm_preplexity": 68285.3594,
+            "mlm_perplexity": 68285.3594,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "12750": {
-            "mlm_preplexity": 69552.8594,
+            "mlm_perplexity": 69552.8594,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "13000": {
-            "mlm_preplexity": 53782.1719,
+            "mlm_perplexity": 53782.1719,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "13250": {
-            "mlm_preplexity": 50663.3594,
+            "mlm_perplexity": 50663.3594,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "13500": {
-            "mlm_preplexity": 78121.2188,
+            "mlm_perplexity": 78121.2188,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "13750": {
-            "mlm_preplexity": 41697.4805,
+            "mlm_perplexity": 41697.4805,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "14000": {
-            "mlm_preplexity": 81210.2031,
+            "mlm_perplexity": 81210.2031,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "14250": {
-            "mlm_preplexity": 37637.75,
+            "mlm_perplexity": 37637.75,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "14500": {
-            "mlm_preplexity": 31644.4492,
+            "mlm_perplexity": 31644.4492,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "14750": {
-            "mlm_preplexity": 65374.4531,
+            "mlm_perplexity": 65374.4531,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "15000": {
-            "mlm_preplexity": 48728.4688,
+            "mlm_perplexity": 48728.4688,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "15250": {
-            "mlm_preplexity": 29689.584,
+            "mlm_perplexity": 29689.584,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "15500": {
-            "mlm_preplexity": 33154.9414,
+            "mlm_perplexity": 33154.9414,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "15750": {
-            "mlm_preplexity": 84967.4297,
+            "mlm_perplexity": 84967.4297,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "16000": {
-            "mlm_preplexity": 40884.5039,
+            "mlm_perplexity": 40884.5039,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "16250": {
-            "mlm_preplexity": 47198.8164,
+            "mlm_perplexity": 47198.8164,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "16500": {
-            "mlm_preplexity": 33899.6836,
+            "mlm_perplexity": 33899.6836,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "16750": {
-            "mlm_preplexity": 37193.8984,
+            "mlm_perplexity": 37193.8984,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "17000": {
-            "mlm_preplexity": 66201.6719,
+            "mlm_perplexity": 66201.6719,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "17250": {
-            "mlm_preplexity": 63130.6914,
+            "mlm_perplexity": 63130.6914,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "17500": {
-            "mlm_preplexity": 25877.8906,
+            "mlm_perplexity": 25877.8906,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "17750": {
-            "mlm_preplexity": 41488.3203,
+            "mlm_perplexity": 41488.3203,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "18000": {
-            "mlm_preplexity": 52061.1953,
+            "mlm_perplexity": 52061.1953,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "18250": {
-            "mlm_preplexity": 55537.7383,
+            "mlm_perplexity": 55537.7383,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "18500": {
-            "mlm_preplexity": 100971.875,
+            "mlm_perplexity": 100971.875,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "18750": {
-            "mlm_preplexity": 51066.5117,
+            "mlm_perplexity": 51066.5117,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "19000": {
-            "mlm_preplexity": 35232.3125,
+            "mlm_perplexity": 35232.3125,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "19250": {
-            "mlm_preplexity": 100801.5781,
+            "mlm_perplexity": 100801.5781,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "19500": {
-            "mlm_preplexity": 45557.9258,
+            "mlm_perplexity": 45557.9258,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "19750": {
-            "mlm_preplexity": 95880.9297,
+            "mlm_perplexity": 95880.9297,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "20000": {
-            "mlm_preplexity": 47075.6875,
+            "mlm_perplexity": 47075.6875,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "20250": {
-            "mlm_preplexity": 69420.5859,
+            "mlm_perplexity": 69420.5859,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "20500": {
-            "mlm_preplexity": 50144.6992,
+            "mlm_perplexity": 50144.6992,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "20750": {
-            "mlm_preplexity": 120922.1016,
+            "mlm_perplexity": 120922.1016,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "21000": {
-            "mlm_preplexity": 46821.6406,
+            "mlm_perplexity": 46821.6406,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "21250": {
-            "mlm_preplexity": 87593.9688,
+            "mlm_perplexity": 87593.9688,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "21500": {
-            "mlm_preplexity": 122785.125,
+            "mlm_perplexity": 122785.125,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "21750": {
-            "mlm_preplexity": 99216.5625,
+            "mlm_perplexity": 99216.5625,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "22000": {
-            "mlm_preplexity": 72132.2422,
+            "mlm_perplexity": 72132.2422,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
@@ -718,7 +718,7 @@
     },
     "run2": {
         "0": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.8411764705882353,
                 "dev.spearmanr-5_50-mean": 0.8627648152866605
@@ -731,14 +731,14 @@
             "squad_f1": 6.230639794467306
         },
         "250": {
-            "mlm_preplexity": 88780.2891,
+            "mlm_perplexity": 88780.2891,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "500": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.8188235294117647,
                 "dev.spearmanr-5_50-mean": 0.8547789883833173
@@ -751,14 +751,14 @@
             "squad_f1": 71.6428744396215
         },
         "750": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "1000": {
-            "mlm_preplexity": 93135.6719,
+            "mlm_perplexity": 93135.6719,
             "parse-depth": {
                 "dev.root_acc": 0.808235294117647,
                 "dev.spearmanr-5_50-mean": 0.8536551424987205
@@ -771,14 +771,14 @@
             "squad_f1": 76.79783529482638
         },
         "1250": {
-            "mlm_preplexity": 25745.0156,
+            "mlm_perplexity": 25745.0156,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "1500": {
-            "mlm_preplexity": 46659.4766,
+            "mlm_perplexity": 46659.4766,
             "parse-depth": {
                 "dev.root_acc": 0.81,
                 "dev.spearmanr-5_50-mean": 0.8550172841340375
@@ -791,14 +791,14 @@
             "squad_f1": 80.10546910768615
         },
         "1750": {
-            "mlm_preplexity": 78582.5469,
+            "mlm_perplexity": 78582.5469,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "2000": {
-            "mlm_preplexity": 62624.8281,
+            "mlm_perplexity": 62624.8281,
             "parse-depth": {
                 "dev.root_acc": 0.7988235294117647,
                 "dev.spearmanr-5_50-mean": 0.849839148189295
@@ -811,14 +811,14 @@
             "squad_f1": 80.70561444126909
         },
         "2250": {
-            "mlm_preplexity": 64135.8633,
+            "mlm_perplexity": 64135.8633,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "2500": {
-            "mlm_preplexity": 37193.2617,
+            "mlm_perplexity": 37193.2617,
             "parse-depth": {
                 "dev.root_acc": 0.8270588235294117,
                 "dev.spearmanr-5_50-mean": 0.8525793393107222
@@ -831,14 +831,14 @@
             "squad_f1": 82.89002633562475
         },
         "2750": {
-            "mlm_preplexity": 70262.6797,
+            "mlm_perplexity": 70262.6797,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "3000": {
-            "mlm_preplexity": 35072.5703,
+            "mlm_perplexity": 35072.5703,
             "parse-depth": {
                 "dev.root_acc": 0.8076470588235294,
                 "dev.spearmanr-5_50-mean": 0.8474696188436149
@@ -851,14 +851,14 @@
             "squad_f1": 82.36734769780985
         },
         "3250": {
-            "mlm_preplexity": 58256.418,
+            "mlm_perplexity": 58256.418,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "3500": {
-            "mlm_preplexity": 36443.5938,
+            "mlm_perplexity": 36443.5938,
             "parse-depth": {
                 "dev.root_acc": 0.8023529411764706,
                 "dev.spearmanr-5_50-mean": 0.8454083753724413
@@ -871,14 +871,14 @@
             "squad_f1": 83.66081922747567
         },
         "3750": {
-            "mlm_preplexity": 33263.793,
+            "mlm_perplexity": 33263.793,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "4000": {
-            "mlm_preplexity": 45527.8711,
+            "mlm_perplexity": 45527.8711,
             "parse-depth": {
                 "dev.root_acc": 0.8064705882352942,
                 "dev.spearmanr-5_50-mean": 0.8530825242230193
@@ -891,14 +891,14 @@
             "squad_f1": 83.9646563372891
         },
         "4250": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": 31267.8184,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "4500": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.8023529411764706,
                 "dev.spearmanr-5_50-mean": 0.8500625063730205
@@ -911,14 +911,14 @@
             "squad_f1": 84.48796106571639
         },
         "4750": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "5000": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.8017647058823529,
                 "dev.spearmanr-5_50-mean": 0.8466481354521826
@@ -931,14 +931,14 @@
             "squad_f1": 84.2225924340262
         },
         "5250": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "5500": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.8029411764705883,
                 "dev.spearmanr-5_50-mean": 0.8504911421534193
@@ -951,14 +951,14 @@
             "squad_f1": 85.92104340629244
         },
         "5750": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "6000": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.7735294117647059,
                 "dev.spearmanr-5_50-mean": 0.8377321841442544
@@ -971,14 +971,14 @@
             "squad_f1": 85.95688709984387
         },
         "6250": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "6500": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.8135294117647058,
                 "dev.spearmanr-5_50-mean": 0.8532925383919087
@@ -991,14 +991,14 @@
             "squad_f1": 86.07588624346971
         },
         "6750": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "7000": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.7888235294117647,
                 "dev.spearmanr-5_50-mean": 0.8439372214922972
@@ -1011,14 +1011,14 @@
             "squad_f1": 86.65556776900559
         },
         "7250": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "7500": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {},
             "parse-distance": {
                 "dev.spearmanr-5_50-mean": 0.7807235044920352,
@@ -1028,14 +1028,14 @@
             "squad_f1": 86.34004814084062
         },
         "7750": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "8000": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.7770588235294118,
                 "dev.spearmanr-5_50-mean": 0.8351856369048407
@@ -1048,14 +1048,14 @@
             "squad_f1": 86.96326402748316
         },
         "8250": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "8500": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.8076470588235294,
                 "dev.spearmanr-5_50-mean": 0.8469025236095331
@@ -1068,378 +1068,378 @@
             "squad_f1": 86.84236184961429
         },
         "8750": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "9000": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": 79.49858088930937,
             "squad_f1": 87.05955695892897
         },
         "9250": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "9500": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "9750": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "10000": {
-            "mlm_preplexity": 59506.2383,
+            "mlm_perplexity": 59506.2383,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "10250": {
-            "mlm_preplexity": 88096.6172,
+            "mlm_perplexity": 88096.6172,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "10500": {
-            "mlm_preplexity": 30968.9746,
+            "mlm_perplexity": 30968.9746,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "10750": {
-            "mlm_preplexity": 40984.9531,
+            "mlm_perplexity": 40984.9531,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "11000": {
-            "mlm_preplexity": 53425.5586,
+            "mlm_perplexity": 53425.5586,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "11250": {
-            "mlm_preplexity": 73821.4766,
+            "mlm_perplexity": 73821.4766,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "11500": {
-            "mlm_preplexity": 77254.1641,
+            "mlm_perplexity": 77254.1641,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "11750": {
-            "mlm_preplexity": 32245.8457,
+            "mlm_perplexity": 32245.8457,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "12000": {
-            "mlm_preplexity": 65451.5547,
+            "mlm_perplexity": 65451.5547,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "12250": {
-            "mlm_preplexity": 62213.4336,
+            "mlm_perplexity": 62213.4336,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "12500": {
-            "mlm_preplexity": 53451.2422,
+            "mlm_perplexity": 53451.2422,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "12750": {
-            "mlm_preplexity": 65035.6094,
+            "mlm_perplexity": 65035.6094,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "13000": {
-            "mlm_preplexity": 132566.1406,
+            "mlm_perplexity": 132566.1406,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "13250": {
-            "mlm_preplexity": 76029.6172,
+            "mlm_perplexity": 76029.6172,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "13500": {
-            "mlm_preplexity": 60921.1641,
+            "mlm_perplexity": 60921.1641,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "13750": {
-            "mlm_preplexity": 72080.2578,
+            "mlm_perplexity": 72080.2578,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "14000": {
-            "mlm_preplexity": 66688.8359,
+            "mlm_perplexity": 66688.8359,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "14250": {
-            "mlm_preplexity": 49323.3711,
+            "mlm_perplexity": 49323.3711,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "14500": {
-            "mlm_preplexity": 40906.1914,
+            "mlm_perplexity": 40906.1914,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "14750": {
-            "mlm_preplexity": 36621.1719,
+            "mlm_perplexity": 36621.1719,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "15000": {
-            "mlm_preplexity": 62202.1055,
+            "mlm_perplexity": 62202.1055,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "15250": {
-            "mlm_preplexity": 42267.6875,
+            "mlm_perplexity": 42267.6875,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "15500": {
-            "mlm_preplexity": 64322.1953,
+            "mlm_perplexity": 64322.1953,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "15750": {
-            "mlm_preplexity": 33432.3828,
+            "mlm_perplexity": 33432.3828,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "16000": {
-            "mlm_preplexity": 106980.3516,
+            "mlm_perplexity": 106980.3516,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "16250": {
-            "mlm_preplexity": 45535.6875,
+            "mlm_perplexity": 45535.6875,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "16500": {
-            "mlm_preplexity": 64893.3594,
+            "mlm_perplexity": 64893.3594,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "16750": {
-            "mlm_preplexity": 33540.6719,
+            "mlm_perplexity": 33540.6719,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "17000": {
-            "mlm_preplexity": 30923.6426,
+            "mlm_perplexity": 30923.6426,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "17250": {
-            "mlm_preplexity": 21008.6816,
+            "mlm_perplexity": 21008.6816,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "17500": {
-            "mlm_preplexity": 258266.4688,
+            "mlm_perplexity": 258266.4688,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "17750": {
-            "mlm_preplexity": 75622.3516,
+            "mlm_perplexity": 75622.3516,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "18000": {
-            "mlm_preplexity": 55971.1367,
+            "mlm_perplexity": 55971.1367,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "18250": {
-            "mlm_preplexity": 66069.2188,
+            "mlm_perplexity": 66069.2188,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "18500": {
-            "mlm_preplexity": 52877.3594,
+            "mlm_perplexity": 52877.3594,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "18750": {
-            "mlm_preplexity": 43466.9922,
+            "mlm_perplexity": 43466.9922,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "19000": {
-            "mlm_preplexity": 56710.5703,
+            "mlm_perplexity": 56710.5703,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "19250": {
-            "mlm_preplexity": 38734.1875,
+            "mlm_perplexity": 38734.1875,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "19500": {
-            "mlm_preplexity": 49749.8203,
+            "mlm_perplexity": 49749.8203,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "19750": {
-            "mlm_preplexity": 52946.0352,
+            "mlm_perplexity": 52946.0352,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "20000": {
-            "mlm_preplexity": 118375.6953,
+            "mlm_perplexity": 118375.6953,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "20250": {
-            "mlm_preplexity": 77584.9375,
+            "mlm_perplexity": 77584.9375,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "20500": {
-            "mlm_preplexity": 51310.6445,
+            "mlm_perplexity": 51310.6445,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "20750": {
-            "mlm_preplexity": 45148.5469,
+            "mlm_perplexity": 45148.5469,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "21000": {
-            "mlm_preplexity": 55563.6445,
+            "mlm_perplexity": 55563.6445,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "21250": {
-            "mlm_preplexity": 58430.293,
+            "mlm_perplexity": 58430.293,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "21500": {
-            "mlm_preplexity": 69824.4766,
+            "mlm_perplexity": 69824.4766,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "21750": {
-            "mlm_preplexity": 52654.9883,
+            "mlm_perplexity": 52654.9883,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "22000": {
-            "mlm_preplexity": 47156.7461,
+            "mlm_perplexity": 47156.7461,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
@@ -1448,7 +1448,7 @@
     },
     "run3": {
         "0": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.8411764705882353,
                 "dev.spearmanr-5_50-mean": 0.8627648152866605
@@ -1461,14 +1461,14 @@
             "squad_f1": 6.230639794467306
         },
         "250": {
-            "mlm_preplexity": 60231.625,
+            "mlm_perplexity": 60231.625,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "500": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.8005882352941176,
                 "dev.spearmanr-5_50-mean": 0.8504484096553651
@@ -1481,14 +1481,14 @@
             "squad_f1": 73.34193938328895
         },
         "750": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "1000": {
-            "mlm_preplexity": 58417.4219,
+            "mlm_perplexity": 58417.4219,
             "parse-depth": {
                 "dev.root_acc": 0.8,
                 "dev.spearmanr-5_50-mean": 0.8508678205423624
@@ -1501,14 +1501,14 @@
             "squad_f1": 77.24167975346055
         },
         "1250": {
-            "mlm_preplexity": 37530.8281,
+            "mlm_perplexity": 37530.8281,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "1500": {
-            "mlm_preplexity": 100914.7891,
+            "mlm_perplexity": 100914.7891,
             "parse-depth": {
                 "dev.root_acc": 0.7905882352941176,
                 "dev.spearmanr-5_50-mean": 0.8387112862122137
@@ -1521,14 +1521,14 @@
             "squad_f1": 79.44665473951974
         },
         "1750": {
-            "mlm_preplexity": 125901.5625,
+            "mlm_perplexity": 125901.5625,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "2000": {
-            "mlm_preplexity": 40879.3984,
+            "mlm_perplexity": 40879.3984,
             "parse-depth": {
                 "dev.root_acc": 0.8023529411764706,
                 "dev.spearmanr-5_50-mean": 0.846811370458216
@@ -1541,14 +1541,14 @@
             "squad_f1": 82.20037713394734
         },
         "2250": {
-            "mlm_preplexity": 65556.7578,
+            "mlm_perplexity": 65556.7578,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "2500": {
-            "mlm_preplexity": 94249.6094,
+            "mlm_perplexity": 94249.6094,
             "parse-depth": {
                 "dev.root_acc": 0.7988235294117647,
                 "dev.spearmanr-5_50-mean": 0.8447829957905953
@@ -1561,14 +1561,14 @@
             "squad_f1": 82.17029457289456
         },
         "2750": {
-            "mlm_preplexity": 81652.2422,
+            "mlm_perplexity": 81652.2422,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "3000": {
-            "mlm_preplexity": 82113.9844,
+            "mlm_perplexity": 82113.9844,
             "parse-depth": {
                 "dev.root_acc": 0.7976470588235294,
                 "dev.spearmanr-5_50-mean": 0.8419269721307215
@@ -1581,14 +1581,14 @@
             "squad_f1": 82.3439986304658
         },
         "3250": {
-            "mlm_preplexity": 59229.6602,
+            "mlm_perplexity": 59229.6602,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "3500": {
-            "mlm_preplexity": 54744.2227,
+            "mlm_perplexity": 54744.2227,
             "parse-depth": {
                 "dev.root_acc": 0.7905882352941176,
                 "dev.spearmanr-5_50-mean": 0.8409588490101801
@@ -1601,14 +1601,14 @@
             "squad_f1": 83.99367291566513
         },
         "3750": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": 37208.5508,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "4000": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.7994117647058824,
                 "dev.spearmanr-5_50-mean": 0.848896321811324
@@ -1621,14 +1621,14 @@
             "squad_f1": 83.92099008455041
         },
         "4250": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "4500": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.798235294117647,
                 "dev.spearmanr-5_50-mean": 0.8451945069735601
@@ -1641,14 +1641,14 @@
             "squad_f1": 84.4076383433874
         },
         "4750": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "5000": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.8117647058823529,
                 "dev.spearmanr-5_50-mean": 0.8510118935751355
@@ -1661,14 +1661,14 @@
             "squad_f1": 84.7316058727922
         },
         "5250": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "5500": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.7929411764705883,
                 "dev.spearmanr-5_50-mean": 0.8404905961883786
@@ -1681,14 +1681,14 @@
             "squad_f1": 85.26904343557634
         },
         "5750": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "6000": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.7741176470588236,
                 "dev.spearmanr-5_50-mean": 0.8358276457726784
@@ -1701,14 +1701,14 @@
             "squad_f1": 85.57581669972414
         },
         "6250": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "6500": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.7752941176470588,
                 "dev.spearmanr-5_50-mean": 0.8431596283866731
@@ -1721,14 +1721,14 @@
             "squad_f1": 86.01091962990954
         },
         "6750": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "7000": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.7729411764705882,
                 "dev.spearmanr-5_50-mean": 0.8425336651401897
@@ -1741,14 +1741,14 @@
             "squad_f1": 86.07913208367177
         },
         "7250": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "7500": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.7647058823529411,
                 "dev.spearmanr-5_50-mean": 0.8373276916303831
@@ -1761,14 +1761,14 @@
             "squad_f1": 86.26053929156002
         },
         "7750": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "8000": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.7458823529411764,
                 "dev.spearmanr-5_50-mean": 0.8308656401296363
@@ -1781,14 +1781,14 @@
             "squad_f1": 86.58345806779315
         },
         "8250": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "8500": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.76,
                 "dev.spearmanr-5_50-mean": 0.8367663798978578
@@ -1801,14 +1801,14 @@
             "squad_f1": 86.37420327640739
         },
         "8750": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "9000": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.778235294117647,
                 "dev.spearmanr-5_50-mean": 0.8360629249607455
@@ -1821,14 +1821,14 @@
             "squad_f1": 86.62446247224344
         },
         "9250": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "9500": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.7752941176470588,
                 "dev.spearmanr-5_50-mean": 0.8356063917009291
@@ -1841,14 +1841,14 @@
             "squad_f1": 87.09401736149562
         },
         "9750": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "10000": {
-            "mlm_preplexity": 83591.4375,
+            "mlm_perplexity": 83591.4375,
             "parse-depth": {
                 "dev.root_acc": 0.79,
                 "dev.spearmanr-5_50-mean": 0.8398811640722691
@@ -1861,14 +1861,14 @@
             "squad_f1": 86.93167670267093
         },
         "10250": {
-            "mlm_preplexity": 101601.8672,
+            "mlm_perplexity": 101601.8672,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "10500": {
-            "mlm_preplexity": 41087.6797,
+            "mlm_perplexity": 41087.6797,
             "parse-depth": {
                 "dev.root_acc": 0.7705882352941177,
                 "dev.spearmanr-5_50-mean": 0.8346754762318561
@@ -1881,14 +1881,14 @@
             "squad_f1": 87.15673869667926
         },
         "10750": {
-            "mlm_preplexity": 78611.1797,
+            "mlm_perplexity": 78611.1797,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "11000": {
-            "mlm_preplexity": 54839.6367,
+            "mlm_perplexity": 54839.6367,
             "parse-depth": {
                 "dev.root_acc": 0.7735294117647059,
                 "dev.spearmanr-5_50-mean": 0.8330230288679918
@@ -1901,14 +1901,14 @@
             "squad_f1": 87.31106247258572
         },
         "11250": {
-            "mlm_preplexity": 32473.6289,
+            "mlm_perplexity": 32473.6289,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "11500": {
-            "mlm_preplexity": 48889.2461,
+            "mlm_perplexity": 48889.2461,
             "parse-depth": {
                 "dev.root_acc": 0.7558823529411764,
                 "dev.spearmanr-5_50-mean": 0.8310486717213755
@@ -1921,14 +1921,14 @@
             "squad_f1": 87.15601279937198
         },
         "11750": {
-            "mlm_preplexity": 100413.6641,
+            "mlm_perplexity": 100413.6641,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "12000": {
-            "mlm_preplexity": 59499.6523,
+            "mlm_perplexity": 59499.6523,
             "parse-depth": {
                 "dev.root_acc": 0.7823529411764706,
                 "dev.spearmanr-5_50-mean": 0.8364845743832324
@@ -1938,14 +1938,14 @@
             "squad_f1": 87.27030095651065
         },
         "12250": {
-            "mlm_preplexity": 48308.6562,
+            "mlm_perplexity": 48308.6562,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "12500": {
-            "mlm_preplexity": 42539.3164,
+            "mlm_perplexity": 42539.3164,
             "parse-depth": {
                 "dev.root_acc": 0.7717647058823529,
                 "dev.spearmanr-5_50-mean": 0.834088478890558
@@ -1958,14 +1958,14 @@
             "squad_f1": 87.6980221729169
         },
         "12750": {
-            "mlm_preplexity": 107094.8828,
+            "mlm_perplexity": 107094.8828,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "13000": {
-            "mlm_preplexity": 43484.4883,
+            "mlm_perplexity": 43484.4883,
             "parse-depth": {
                 "dev.root_acc": 0.7423529411764705,
                 "dev.spearmanr-5_50-mean": 0.8257331035474611
@@ -1978,14 +1978,14 @@
             "squad_f1": 87.48728793263746
         },
         "13250": {
-            "mlm_preplexity": 89647.0859,
+            "mlm_perplexity": 89647.0859,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "13500": {
-            "mlm_preplexity": 37412.8984,
+            "mlm_perplexity": 37412.8984,
             "parse-depth": {
                 "dev.root_acc": 0.75,
                 "dev.spearmanr-5_50-mean": 0.8287352424732389
@@ -1997,238 +1997,238 @@
             "squad_f1": 87.17298964029953
         },
         "13750": {
-            "mlm_preplexity": 53692.8984,
+            "mlm_perplexity": 53692.8984,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "14000": {
-            "mlm_preplexity": 53641.0,
+            "mlm_perplexity": 53641.0,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "14250": {
-            "mlm_preplexity": 113877.8203,
+            "mlm_perplexity": 113877.8203,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "14500": {
-            "mlm_preplexity": 124357.8906,
+            "mlm_perplexity": 124357.8906,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "14750": {
-            "mlm_preplexity": 85501.8047,
+            "mlm_perplexity": 85501.8047,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "15000": {
-            "mlm_preplexity": 55846.957,
+            "mlm_perplexity": 55846.957,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "15250": {
-            "mlm_preplexity": 110751.1172,
+            "mlm_perplexity": 110751.1172,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "15500": {
-            "mlm_preplexity": 51897.707,
+            "mlm_perplexity": 51897.707,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "15750": {
-            "mlm_preplexity": 56957.3477,
+            "mlm_perplexity": 56957.3477,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "16000": {
-            "mlm_preplexity": 53922.8945,
+            "mlm_perplexity": 53922.8945,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "16250": {
-            "mlm_preplexity": 30048.4668,
+            "mlm_perplexity": 30048.4668,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "16500": {
-            "mlm_preplexity": 37448.0977,
+            "mlm_perplexity": 37448.0977,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "16750": {
-            "mlm_preplexity": 37409.1523,
+            "mlm_perplexity": 37409.1523,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "17000": {
-            "mlm_preplexity": 42207.1875,
+            "mlm_perplexity": 42207.1875,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "17250": {
-            "mlm_preplexity": 95474.5234,
+            "mlm_perplexity": 95474.5234,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "17500": {
-            "mlm_preplexity": 37581.3281,
+            "mlm_perplexity": 37581.3281,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "17750": {
-            "mlm_preplexity": 105522.75,
+            "mlm_perplexity": 105522.75,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "18000": {
-            "mlm_preplexity": 115601.7656,
+            "mlm_perplexity": 115601.7656,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "18250": {
-            "mlm_preplexity": 58318.9531,
+            "mlm_perplexity": 58318.9531,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "18500": {
-            "mlm_preplexity": 56469.4414,
+            "mlm_perplexity": 56469.4414,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "18750": {
-            "mlm_preplexity": 74439.5,
+            "mlm_perplexity": 74439.5,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "19000": {
-            "mlm_preplexity": 43137.2852,
+            "mlm_perplexity": 43137.2852,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "19250": {
-            "mlm_preplexity": 43047.9805,
+            "mlm_perplexity": 43047.9805,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "19500": {
-            "mlm_preplexity": 84350.6797,
+            "mlm_perplexity": 84350.6797,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "19750": {
-            "mlm_preplexity": 70805.9219,
+            "mlm_perplexity": 70805.9219,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "20000": {
-            "mlm_preplexity": 89247.6094,
+            "mlm_perplexity": 89247.6094,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "20250": {
-            "mlm_preplexity": 102755.1172,
+            "mlm_perplexity": 102755.1172,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "20500": {
-            "mlm_preplexity": 70811.7266,
+            "mlm_perplexity": 70811.7266,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "20750": {
-            "mlm_preplexity": 59856.3867,
+            "mlm_perplexity": 59856.3867,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "21000": {
-            "mlm_preplexity": 54778.7422,
+            "mlm_perplexity": 54778.7422,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "21250": {
-            "mlm_preplexity": 84185.0469,
+            "mlm_perplexity": 84185.0469,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "21500": {
-            "mlm_preplexity": 52027.6406,
+            "mlm_perplexity": 52027.6406,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "21750": {
-            "mlm_preplexity": 97844.6719,
+            "mlm_perplexity": 97844.6719,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "22000": {
-            "mlm_preplexity": 62241.5664,
+            "mlm_perplexity": 62241.5664,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
@@ -2237,7 +2237,7 @@
     },
     "run4": {
         "0": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.8411764705882353,
                 "dev.spearmanr-5_50-mean": 0.8627648152866605
@@ -2250,14 +2250,14 @@
             "squad_f1": 6.230639794467306
         },
         "250": {
-            "mlm_preplexity": 101757.0156,
+            "mlm_perplexity": 101757.0156,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "500": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.8141176470588235,
                 "dev.spearmanr-5_50-mean": 0.8556860843464634
@@ -2270,14 +2270,14 @@
             "squad_f1": 74.25198535610545
         },
         "750": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "1000": {
-            "mlm_preplexity": 45824.207,
+            "mlm_perplexity": 45824.207,
             "parse-depth": {
                 "dev.root_acc": 0.8176470588235294,
                 "dev.spearmanr-5_50-mean": 0.8558090798294012
@@ -2290,14 +2290,14 @@
             "squad_f1": 79.00475076973899
         },
         "1250": {
-            "mlm_preplexity": 35386.9102,
+            "mlm_perplexity": 35386.9102,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "1500": {
-            "mlm_preplexity": 29842.7051,
+            "mlm_perplexity": 29842.7051,
             "parse-depth": {
                 "dev.root_acc": 0.8029411764705883,
                 "dev.spearmanr-5_50-mean": 0.8491821990263958
@@ -2310,14 +2310,14 @@
             "squad_f1": 80.47153911291285
         },
         "1750": {
-            "mlm_preplexity": 110162.8984,
+            "mlm_perplexity": 110162.8984,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "2000": {
-            "mlm_preplexity": 71775.2109,
+            "mlm_perplexity": 71775.2109,
             "parse-depth": {
                 "dev.root_acc": 0.8011764705882353,
                 "dev.spearmanr-5_50-mean": 0.8481310496949072
@@ -2330,14 +2330,14 @@
             "squad_f1": 81.56029220408479
         },
         "2250": {
-            "mlm_preplexity": 179740.0625,
+            "mlm_perplexity": 179740.0625,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "2500": {
-            "mlm_preplexity": 57010.3867,
+            "mlm_perplexity": 57010.3867,
             "parse-depth": {
                 "dev.root_acc": 0.7888235294117647,
                 "dev.spearmanr-5_50-mean": 0.8453476016602015
@@ -2350,14 +2350,14 @@
             "squad_f1": 82.54832885264055
         },
         "2750": {
-            "mlm_preplexity": 109253.5,
+            "mlm_perplexity": 109253.5,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "3000": {
-            "mlm_preplexity": 57878.8516,
+            "mlm_perplexity": 57878.8516,
             "parse-depth": {
                 "dev.root_acc": 0.8035294117647059,
                 "dev.spearmanr-5_50-mean": 0.8511122342645693
@@ -2370,14 +2370,14 @@
             "squad_f1": 83.27714688384164
         },
         "3250": {
-            "mlm_preplexity": 46407.2344,
+            "mlm_perplexity": 46407.2344,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "3500": {
-            "mlm_preplexity": 67037.8281,
+            "mlm_perplexity": 67037.8281,
             "parse-depth": {
                 "dev.root_acc": 0.7905882352941176,
                 "dev.spearmanr-5_50-mean": 0.8411979846622569
@@ -2390,14 +2390,14 @@
             "squad_f1": 84.26450924964661
         },
         "3750": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": 66437.8359,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "4000": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.7929411764705883,
                 "dev.spearmanr-5_50-mean": 0.8435202153798894
@@ -2410,14 +2410,14 @@
             "squad_f1": 84.39328684479811
         },
         "4250": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "4500": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.7976470588235294,
                 "dev.spearmanr-5_50-mean": 0.8446295580922185
@@ -2430,14 +2430,14 @@
             "squad_f1": 84.32248942508832
         },
         "4750": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "5000": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.7964705882352942,
                 "dev.spearmanr-5_50-mean": 0.8433976646307447
@@ -2450,14 +2450,14 @@
             "squad_f1": 85.00499218040054
         },
         "5250": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "5500": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.7929411764705883,
                 "dev.spearmanr-5_50-mean": 0.8429033727797581
@@ -2470,14 +2470,14 @@
             "squad_f1": 85.95899014248451
         },
         "5750": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "6000": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.7976470588235294,
                 "dev.spearmanr-5_50-mean": 0.845408018732941
@@ -2490,14 +2490,14 @@
             "squad_f1": 85.89137902622564
         },
         "6250": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "6500": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.8170588235294117,
                 "dev.spearmanr-5_50-mean": 0.8478147844614123
@@ -2510,14 +2510,14 @@
             "squad_f1": 85.8662279268166
         },
         "6750": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "7000": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.8117647058823529,
                 "dev.spearmanr-5_50-mean": 0.8517889995843357
@@ -2530,14 +2530,14 @@
             "squad_f1": 86.28311656464331
         },
         "7250": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "7500": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.7994117647058824,
                 "dev.spearmanr-5_50-mean": 0.8472653422735824
@@ -2550,14 +2550,14 @@
             "squad_f1": 86.27732466017834
         },
         "7750": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "8000": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.7976470588235294,
                 "dev.spearmanr-5_50-mean": 0.8442374140978464
@@ -2570,14 +2570,14 @@
             "squad_f1": 86.9439366198698
         },
         "8250": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "8500": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.7964705882352942,
                 "dev.spearmanr-5_50-mean": 0.8411757531238822
@@ -2589,14 +2589,14 @@
             "squad_f1": 86.78029119424389
         },
         "8750": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "9000": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.8041176470588235,
                 "dev.spearmanr-5_50-mean": 0.8455849049042258
@@ -2609,14 +2609,14 @@
             "squad_f1": 86.92580254377303
         },
         "9250": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "9500": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.8094117647058824,
                 "dev.spearmanr-5_50-mean": 0.8484707825500637
@@ -2629,14 +2629,14 @@
             "squad_f1": 87.19561605691155
         },
         "9750": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "10000": {
-            "mlm_preplexity": 92881.8125,
+            "mlm_perplexity": 92881.8125,
             "parse-depth": {
                 "dev.root_acc": 0.7947058823529412,
                 "dev.spearmanr-5_50-mean": 0.8437837463143072
@@ -2649,14 +2649,14 @@
             "squad_f1": 87.12900726980234
         },
         "10250": {
-            "mlm_preplexity": 111845.9688,
+            "mlm_perplexity": 111845.9688,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "10500": {
-            "mlm_preplexity": 124487.5781,
+            "mlm_perplexity": 124487.5781,
             "parse-depth": {
                 "dev.root_acc": 0.7858823529411765,
                 "dev.spearmanr-5_50-mean": 0.8358858651331303
@@ -2669,14 +2669,14 @@
             "squad_f1": 87.41589646212778
         },
         "10750": {
-            "mlm_preplexity": 90404.8438,
+            "mlm_perplexity": 90404.8438,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "11000": {
-            "mlm_preplexity": 56522.1875,
+            "mlm_perplexity": 56522.1875,
             "parse-depth": {
                 "dev.root_acc": 0.7970588235294118,
                 "dev.spearmanr-5_50-mean": 0.8440555042266792
@@ -2689,14 +2689,14 @@
             "squad_f1": 87.78732755620779
         },
         "11250": {
-            "mlm_preplexity": 60462.2344,
+            "mlm_perplexity": 60462.2344,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "11500": {
-            "mlm_preplexity": 63992.4102,
+            "mlm_perplexity": 63992.4102,
             "parse-depth": {
                 "dev.root_acc": 0.7864705882352941,
                 "dev.spearmanr-5_50-mean": 0.8365725252929614
@@ -2709,14 +2709,14 @@
             "squad_f1": 87.71805985939876
         },
         "11750": {
-            "mlm_preplexity": 47049.25,
+            "mlm_perplexity": 47049.25,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "12000": {
-            "mlm_preplexity": 59575.0586,
+            "mlm_perplexity": 59575.0586,
             "parse-depth": {
                 "dev.root_acc": 0.7970588235294118,
                 "dev.spearmanr-5_50-mean": 0.8409537737015542
@@ -2729,280 +2729,283 @@
             "squad_f1": 88.1012771767164
         },
         "12250": {
-            "mlm_preplexity": 64597.2891,
+            "mlm_perplexity": 64597.2891,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "12500": {
-            "mlm_preplexity": 58199.0547,
-            "parse-depth": {},
+            "mlm_perplexity": 58199.0547,
+            "parse-depth": {
+                "dev.root_acc": 0.7864705882352941,
+                "dev.spearmanr-5_50-mean": 0.8330709849776534
+            },
             "parse-distance": {},
             "squad_exact_match": 80.2081362346263,
             "squad_f1": 87.90038540720376
         },
         "12750": {
-            "mlm_preplexity": 47706.9297,
+            "mlm_perplexity": 47706.9297,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "13000": {
-            "mlm_preplexity": 94333.5078,
+            "mlm_perplexity": 94333.5078,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "13250": {
-            "mlm_preplexity": 47091.6719,
+            "mlm_perplexity": 47091.6719,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "13500": {
-            "mlm_preplexity": 63366.8359,
+            "mlm_perplexity": 63366.8359,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "13750": {
-            "mlm_preplexity": 42387.7383,
+            "mlm_perplexity": 42387.7383,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "14000": {
-            "mlm_preplexity": 60689.9609,
+            "mlm_perplexity": 60689.9609,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "14250": {
-            "mlm_preplexity": 89984.6562,
+            "mlm_perplexity": 89984.6562,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "14500": {
-            "mlm_preplexity": 79998.2188,
+            "mlm_perplexity": 79998.2188,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "14750": {
-            "mlm_preplexity": 32353.6895,
+            "mlm_perplexity": 32353.6895,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "15000": {
-            "mlm_preplexity": 71022.875,
+            "mlm_perplexity": 71022.875,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "15250": {
-            "mlm_preplexity": 45734.3164,
+            "mlm_perplexity": 45734.3164,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "15500": {
-            "mlm_preplexity": 41331.1055,
+            "mlm_perplexity": 41331.1055,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "15750": {
-            "mlm_preplexity": 101731.8828,
+            "mlm_perplexity": 101731.8828,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "16000": {
-            "mlm_preplexity": 68724.5781,
+            "mlm_perplexity": 68724.5781,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "16250": {
-            "mlm_preplexity": 92550.2344,
+            "mlm_perplexity": 92550.2344,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "16500": {
-            "mlm_preplexity": 40328.8398,
+            "mlm_perplexity": 40328.8398,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "16750": {
-            "mlm_preplexity": 23152.5898,
+            "mlm_perplexity": 23152.5898,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "17000": {
-            "mlm_preplexity": 42167.5195,
+            "mlm_perplexity": 42167.5195,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "17250": {
-            "mlm_preplexity": 65886.875,
+            "mlm_perplexity": 65886.875,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "17500": {
-            "mlm_preplexity": 46794.0078,
+            "mlm_perplexity": 46794.0078,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "17750": {
-            "mlm_preplexity": 96140.9688,
+            "mlm_perplexity": 96140.9688,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "18000": {
-            "mlm_preplexity": 34559.1641,
+            "mlm_perplexity": 34559.1641,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "18250": {
-            "mlm_preplexity": 65636.1406,
+            "mlm_perplexity": 65636.1406,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "18500": {
-            "mlm_preplexity": 57599.457,
+            "mlm_perplexity": 57599.457,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "18750": {
-            "mlm_preplexity": 43865.8906,
+            "mlm_perplexity": 43865.8906,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "19000": {
-            "mlm_preplexity": 28583.2246,
+            "mlm_perplexity": 28583.2246,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "19250": {
-            "mlm_preplexity": 63853.2344,
+            "mlm_perplexity": 63853.2344,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "19500": {
-            "mlm_preplexity": 54638.5508,
+            "mlm_perplexity": 54638.5508,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "19750": {
-            "mlm_preplexity": 53057.5391,
+            "mlm_perplexity": 53057.5391,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "20000": {
-            "mlm_preplexity": 42478.5898,
+            "mlm_perplexity": 42478.5898,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "20250": {
-            "mlm_preplexity": 49294.6875,
+            "mlm_perplexity": 49294.6875,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "20500": {
-            "mlm_preplexity": 112402.8594,
+            "mlm_perplexity": 112402.8594,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "20750": {
-            "mlm_preplexity": 77811.1562,
+            "mlm_perplexity": 77811.1562,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "21000": {
-            "mlm_preplexity": 34291.9219,
+            "mlm_perplexity": 34291.9219,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "21250": {
-            "mlm_preplexity": 46643.6836,
+            "mlm_perplexity": 46643.6836,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "21500": {
-            "mlm_preplexity": 84630.5234,
+            "mlm_perplexity": 84630.5234,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "21750": {
-            "mlm_preplexity": 64348.8867,
+            "mlm_perplexity": 64348.8867,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "22000": {
-            "mlm_preplexity": 103234.4453,
+            "mlm_perplexity": 103234.4453,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
@@ -3011,7 +3014,7 @@
     },
     "run5": {
         "0": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.8411764705882353,
                 "dev.spearmanr-5_50-mean": 0.8627648152866605
@@ -3024,14 +3027,14 @@
             "squad_f1": 6.230639794467306
         },
         "250": {
-            "mlm_preplexity": 88706.4922,
+            "mlm_perplexity": 88706.4922,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "500": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.7964705882352942,
                 "dev.spearmanr-5_50-mean": 0.8462124826248835
@@ -3044,14 +3047,14 @@
             "squad_f1": 73.02804335984929
         },
         "750": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "1000": {
-            "mlm_preplexity": 53125.5391,
+            "mlm_perplexity": 53125.5391,
             "parse-depth": {
                 "dev.root_acc": 0.7805882352941177,
                 "dev.spearmanr-5_50-mean": 0.8405249780086004
@@ -3064,14 +3067,14 @@
             "squad_f1": 78.25940520934013
         },
         "1250": {
-            "mlm_preplexity": 23504.9922,
+            "mlm_perplexity": 23504.9922,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "1500": {
-            "mlm_preplexity": 70055.8594,
+            "mlm_perplexity": 70055.8594,
             "parse-depth": {
                 "dev.root_acc": 0.8135294117647058,
                 "dev.spearmanr-5_50-mean": 0.8451444534608809
@@ -3084,14 +3087,14 @@
             "squad_f1": 80.63687458472528
         },
         "1750": {
-            "mlm_preplexity": 104514.7109,
+            "mlm_perplexity": 104514.7109,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "2000": {
-            "mlm_preplexity": 77317.7031,
+            "mlm_perplexity": 77317.7031,
             "parse-depth": {
                 "dev.root_acc": 0.8023529411764706,
                 "dev.spearmanr-5_50-mean": 0.8392201556366995
@@ -3104,14 +3107,14 @@
             "squad_f1": 82.17833123609992
         },
         "2250": {
-            "mlm_preplexity": 34116.0703,
+            "mlm_perplexity": 34116.0703,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "2500": {
-            "mlm_preplexity": 66120.7188,
+            "mlm_perplexity": 66120.7188,
             "parse-depth": {
                 "dev.root_acc": 0.7941176470588235,
                 "dev.spearmanr-5_50-mean": 0.8404481559111063
@@ -3124,14 +3127,14 @@
             "squad_f1": 83.43994639399098
         },
         "2750": {
-            "mlm_preplexity": 102852.6641,
+            "mlm_perplexity": 102852.6641,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "3000": {
-            "mlm_preplexity": 154295.4844,
+            "mlm_perplexity": 154295.4844,
             "parse-depth": {
                 "dev.root_acc": 0.82,
                 "dev.spearmanr-5_50-mean": 0.8469331674792752
@@ -3144,14 +3147,14 @@
             "squad_f1": 83.5866233583272
         },
         "3250": {
-            "mlm_preplexity": 59422.3633,
+            "mlm_perplexity": 59422.3633,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "3500": {
-            "mlm_preplexity": 58605.8086,
+            "mlm_perplexity": 58605.8086,
             "parse-depth": {
                 "dev.root_acc": 0.7976470588235294,
                 "dev.spearmanr-5_50-mean": 0.8365775584663256
@@ -3164,14 +3167,14 @@
             "squad_f1": 83.99427267242922
         },
         "3750": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": 56931.5508,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "4000": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.8188235294117647,
                 "dev.spearmanr-5_50-mean": 0.8469870229525315
@@ -3184,14 +3187,14 @@
             "squad_f1": 84.34019096004833
         },
         "4250": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "4500": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.8182352941176471,
                 "dev.spearmanr-5_50-mean": 0.846328199914474
@@ -3204,14 +3207,14 @@
             "squad_f1": 84.72210108966094
         },
         "4750": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "5000": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.8135294117647058,
                 "dev.spearmanr-5_50-mean": 0.8445853486072782
@@ -3224,14 +3227,14 @@
             "squad_f1": 83.86739797154988
         },
         "5250": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "5500": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.7852941176470588,
                 "dev.spearmanr-5_50-mean": 0.8368717843807593
@@ -3244,14 +3247,14 @@
             "squad_f1": 84.65502767423584
         },
         "5750": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "6000": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.8005882352941176,
                 "dev.spearmanr-5_50-mean": 0.8432685295083099
@@ -3264,14 +3267,14 @@
             "squad_f1": 85.99620519985776
         },
         "6250": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "6500": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.8035294117647059,
                 "dev.spearmanr-5_50-mean": 0.8419903680162854
@@ -3284,14 +3287,14 @@
             "squad_f1": 86.43181212738185
         },
         "6750": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "7000": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.8058823529411765,
                 "dev.spearmanr-5_50-mean": 0.841052938645638
@@ -3304,14 +3307,14 @@
             "squad_f1": 85.96829374604565
         },
         "7250": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "7500": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.7841176470588235,
                 "dev.spearmanr-5_50-mean": 0.8314713303233611
@@ -3324,14 +3327,14 @@
             "squad_f1": 86.51617929513183
         },
         "7750": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "8000": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.7935294117647059,
                 "dev.spearmanr-5_50-mean": 0.8370074303927046
@@ -3344,14 +3347,14 @@
             "squad_f1": 87.13874744519467
         },
         "8250": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "8500": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.7776470588235294,
                 "dev.spearmanr-5_50-mean": 0.8349450299939841
@@ -3364,14 +3367,14 @@
             "squad_f1": 86.8768086428766
         },
         "8750": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "9000": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.7976470588235294,
                 "dev.spearmanr-5_50-mean": 0.83771490677615
@@ -3384,14 +3387,14 @@
             "squad_f1": 86.70268813560077
         },
         "9250": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "9500": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {
                 "dev.root_acc": 0.7858823529411765,
                 "dev.spearmanr-5_50-mean": 0.834643596034034
@@ -3403,14 +3406,14 @@
             "squad_f1": 87.22305289105591
         },
         "9750": {
-            "mlm_preplexity": null,
+            "mlm_perplexity": null,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "10000": {
-            "mlm_preplexity": 137818.3281,
+            "mlm_perplexity": 137818.3281,
             "parse-depth": {
                 "dev.root_acc": 0.8047058823529412,
                 "dev.spearmanr-5_50-mean": 0.8388646970763756
@@ -3423,336 +3426,336 @@
             "squad_f1": 87.22920639782282
         },
         "10250": {
-            "mlm_preplexity": 41698.2773,
+            "mlm_perplexity": 41698.2773,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "10500": {
-            "mlm_preplexity": 81806.8047,
+            "mlm_perplexity": 81806.8047,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": 80.0473036896878,
             "squad_f1": 87.27924863586931
         },
         "10750": {
-            "mlm_preplexity": 55113.1094,
+            "mlm_perplexity": 55113.1094,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "11000": {
-            "mlm_preplexity": 27833.8145,
+            "mlm_perplexity": 27833.8145,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "11250": {
-            "mlm_preplexity": 37079.0078,
+            "mlm_perplexity": 37079.0078,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "11500": {
-            "mlm_preplexity": 60988.4766,
+            "mlm_perplexity": 60988.4766,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "11750": {
-            "mlm_preplexity": 61766.5625,
+            "mlm_perplexity": 61766.5625,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "12000": {
-            "mlm_preplexity": 183351.375,
+            "mlm_perplexity": 183351.375,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "12250": {
-            "mlm_preplexity": 42225.5078,
+            "mlm_perplexity": 42225.5078,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "12500": {
-            "mlm_preplexity": 24865.6953,
+            "mlm_perplexity": 24865.6953,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "12750": {
-            "mlm_preplexity": 63575.9727,
+            "mlm_perplexity": 63575.9727,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "13000": {
-            "mlm_preplexity": 68753.75,
+            "mlm_perplexity": 68753.75,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "13250": {
-            "mlm_preplexity": 47803.0234,
+            "mlm_perplexity": 47803.0234,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "13500": {
-            "mlm_preplexity": 46671.3594,
+            "mlm_perplexity": 46671.3594,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "13750": {
-            "mlm_preplexity": 38231.5859,
+            "mlm_perplexity": 38231.5859,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "14000": {
-            "mlm_preplexity": 77690.1484,
+            "mlm_perplexity": 77690.1484,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "14250": {
-            "mlm_preplexity": 31335.1914,
+            "mlm_perplexity": 31335.1914,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "14500": {
-            "mlm_preplexity": 48795.1094,
+            "mlm_perplexity": 48795.1094,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "14750": {
-            "mlm_preplexity": 148712.6094,
+            "mlm_perplexity": 148712.6094,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "15000": {
-            "mlm_preplexity": 83013.0156,
+            "mlm_perplexity": 83013.0156,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "15250": {
-            "mlm_preplexity": 35617.75,
+            "mlm_perplexity": 35617.75,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "15500": {
-            "mlm_preplexity": 44501.0508,
+            "mlm_perplexity": 44501.0508,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "15750": {
-            "mlm_preplexity": 58269.918,
+            "mlm_perplexity": 58269.918,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "16000": {
-            "mlm_preplexity": 83113.3828,
+            "mlm_perplexity": 83113.3828,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "16250": {
-            "mlm_preplexity": 54350.6367,
+            "mlm_perplexity": 54350.6367,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "16500": {
-            "mlm_preplexity": 35173.4961,
+            "mlm_perplexity": 35173.4961,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "16750": {
-            "mlm_preplexity": 34229.875,
+            "mlm_perplexity": 34229.875,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "17000": {
-            "mlm_preplexity": 51495.8984,
+            "mlm_perplexity": 51495.8984,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "17250": {
-            "mlm_preplexity": 48420.9219,
+            "mlm_perplexity": 48420.9219,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "17500": {
-            "mlm_preplexity": 35588.4141,
+            "mlm_perplexity": 35588.4141,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "17750": {
-            "mlm_preplexity": 65556.8828,
+            "mlm_perplexity": 65556.8828,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "18000": {
-            "mlm_preplexity": 53206.9688,
+            "mlm_perplexity": 53206.9688,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "18250": {
-            "mlm_preplexity": 65174.6875,
+            "mlm_perplexity": 65174.6875,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "18500": {
-            "mlm_preplexity": 40089.0625,
+            "mlm_perplexity": 40089.0625,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "18750": {
-            "mlm_preplexity": 39247.5508,
+            "mlm_perplexity": 39247.5508,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "19000": {
-            "mlm_preplexity": 32328.0898,
+            "mlm_perplexity": 32328.0898,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "19250": {
-            "mlm_preplexity": 36987.6797,
+            "mlm_perplexity": 36987.6797,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "19500": {
-            "mlm_preplexity": 34750.4844,
+            "mlm_perplexity": 34750.4844,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "19750": {
-            "mlm_preplexity": 96632.1016,
+            "mlm_perplexity": 96632.1016,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "20000": {
-            "mlm_preplexity": 87594.8047,
+            "mlm_perplexity": 87594.8047,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "20250": {
-            "mlm_preplexity": 40069.1875,
+            "mlm_perplexity": 40069.1875,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "20500": {
-            "mlm_preplexity": 106437.0312,
+            "mlm_perplexity": 106437.0312,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "20750": {
-            "mlm_preplexity": 65840.2031,
+            "mlm_perplexity": 65840.2031,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "21000": {
-            "mlm_preplexity": 74242.0469,
+            "mlm_perplexity": 74242.0469,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "21250": {
-            "mlm_preplexity": 65262.5117,
+            "mlm_perplexity": 65262.5117,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "21500": {
-            "mlm_preplexity": 56938.2305,
+            "mlm_perplexity": 56938.2305,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "21750": {
-            "mlm_preplexity": 147397.7969,
+            "mlm_perplexity": 147397.7969,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
             "squad_f1": null
         },
         "22000": {
-            "mlm_preplexity": 55973.0586,
+            "mlm_perplexity": 55973.0586,
             "parse-depth": {},
             "parse-distance": {},
             "squad_exact_match": null,
