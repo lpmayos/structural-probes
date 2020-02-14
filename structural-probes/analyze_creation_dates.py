@@ -24,7 +24,7 @@ if __name__ == '__main__':
             if fname == cli_args.file_name:
                 fpath = '/'.join([dirName, fname])
                 checkpoint = float(pattern.findall(fpath)[0].replace('-', '').replace('/', ''))
-                time_str = datetime.fromtimestamp(os.path.getmtime(fpath)).strftime("%m/%d/%Y %H:%M:%S")
+                time_str = datetime.fromtimestamp(os.path.getmtime(fpath)).strftime("%d/%m/%Y %H:%M:%S")
                 results[checkpoint] = {'timestamp': time_str, 'path': fpath}
  
     for file_found in sorted(results.keys()):
