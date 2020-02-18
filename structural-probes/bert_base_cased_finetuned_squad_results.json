@@ -40,7 +40,7 @@
             "squad_f1": 73.36544233999606
         },
         "750": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 79236.4297,
             "parse-depth": {
                 "dev.root_acc": null,
                 "dev.spearmanr-5_50-mean": null
@@ -261,7 +261,7 @@
             "squad_f1": null
         },
         "5000": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 74513.2969,
             "parse-depth": {
                 "dev.root_acc": 0.8123529411764706,
                 "dev.spearmanr-5_50-mean": 0.8591685770605995
@@ -274,7 +274,7 @@
             "squad_f1": 84.93391963829765
         },
         "5250": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 46900.3398,
             "parse-depth": {
                 "dev.root_acc": null,
                 "dev.spearmanr-5_50-mean": null
@@ -287,7 +287,7 @@
             "squad_f1": null
         },
         "5500": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 89870.3359,
             "parse-depth": {
                 "dev.root_acc": 0.7970588235294118,
                 "dev.spearmanr-5_50-mean": 0.8506323139000603
@@ -300,7 +300,7 @@
             "squad_f1": 85.34615207513635
         },
         "5750": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 26320.627,
             "parse-depth": {
                 "dev.root_acc": null,
                 "dev.spearmanr-5_50-mean": null
@@ -313,7 +313,7 @@
             "squad_f1": null
         },
         "6000": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 103054.4297,
             "parse-depth": {
                 "dev.root_acc": 0.7947058823529412,
                 "dev.spearmanr-5_50-mean": 0.8549996183752099
@@ -326,7 +326,7 @@
             "squad_f1": 85.44066185957251
         },
         "6250": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 61007.4414,
             "parse-depth": {
                 "dev.root_acc": null,
                 "dev.spearmanr-5_50-mean": null
@@ -339,7 +339,7 @@
             "squad_f1": null
         },
         "6500": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 78084.7188,
             "parse-depth": {
                 "dev.root_acc": 0.8229411764705883,
                 "dev.spearmanr-5_50-mean": 0.857266536135636
@@ -352,7 +352,7 @@
             "squad_f1": 85.82644491663868
         },
         "6750": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 95013.4609,
             "parse-depth": {
                 "dev.root_acc": null,
                 "dev.spearmanr-5_50-mean": null
@@ -365,7 +365,7 @@
             "squad_f1": null
         },
         "7000": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 49677.4258,
             "parse-depth": {
                 "dev.root_acc": 0.8035294117647059,
                 "dev.spearmanr-5_50-mean": 0.8522755309226339
@@ -378,7 +378,7 @@
             "squad_f1": 86.03391937103578
         },
         "7250": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 77798.7656,
             "parse-depth": {
                 "dev.root_acc": null,
                 "dev.spearmanr-5_50-mean": null
@@ -391,7 +391,7 @@
             "squad_f1": null
         },
         "7500": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 83167.6953,
             "parse-depth": {
                 "dev.root_acc": null,
                 "dev.spearmanr-5_50-mean": null
@@ -404,7 +404,7 @@
             "squad_f1": 86.51972802459528
         },
         "7750": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 27177.457,
             "parse-depth": {
                 "dev.root_acc": null,
                 "dev.spearmanr-5_50-mean": null
@@ -417,20 +417,20 @@
             "squad_f1": null
         },
         "8000": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 54255.5039,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.8241176470588235,
+                "dev.spearmanr-5_50-mean": 0.8621427261847314
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.8088081451864501,
+                "dev.uuas": 0.6909101703971976
             },
             "squad_exact_match": 78.77956480605488,
             "squad_f1": 86.55885962632817
         },
         "8250": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 119713.625,
             "parse-depth": {
                 "dev.root_acc": null,
                 "dev.spearmanr-5_50-mean": null
@@ -443,20 +443,20 @@
             "squad_f1": null
         },
         "8500": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 76032.5156,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.8229411764705883,
+                "dev.spearmanr-5_50-mean": 0.8602263523222274
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.8011709916582489,
+                "dev.uuas": 0.6842605236596806
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 78.94985808893094,
+            "squad_f1": 86.71613779232368
         },
         "8750": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 57732.1055,
             "parse-depth": {
                 "dev.root_acc": null,
                 "dev.spearmanr-5_50-mean": null
@@ -469,20 +469,20 @@
             "squad_f1": null
         },
         "9000": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 28752.1016,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.8005882352941176,
+                "dev.spearmanr-5_50-mean": 0.8525663077293828
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.8048134834725558,
+                "dev.uuas": 0.6831918304340082
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 79.4228949858089,
+            "squad_f1": 87.06869681227354
         },
         "9250": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 144956.8594,
             "parse-depth": {
                 "dev.root_acc": null,
                 "dev.spearmanr-5_50-mean": null
@@ -495,20 +495,20 @@
             "squad_f1": null
         },
         "9500": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 103379.6641,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.79,
+                "dev.spearmanr-5_50-mean": 0.8486422881141974
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.8049796783257434,
+                "dev.uuas": 0.6796592056047023
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 79.29044465468307,
+            "squad_f1": 87.06905209338517
         },
         "9750": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 48245.4453,
             "parse-depth": {
                 "dev.root_acc": null,
                 "dev.spearmanr-5_50-mean": null
@@ -523,15 +523,15 @@
         "10000": {
             "mlm_perplexity": 92846.1172,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.78,
+                "dev.spearmanr-5_50-mean": 0.8516355717144851
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.798157373832868,
+                "dev.uuas": 0.6829543430505255
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 79.51750236518448,
+            "squad_f1": 87.3252464022916
         },
         "10250": {
             "mlm_perplexity": 31971.8184,
@@ -549,15 +549,15 @@
         "10500": {
             "mlm_perplexity": 151225.1562,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.821764705882353,
+                "dev.spearmanr-5_50-mean": 0.8567547313355143
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.8031206433955969,
+                "dev.uuas": 0.6862494804963486
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 80.47303689687796,
+            "squad_f1": 87.80866297936257
         },
         "10750": {
             "mlm_perplexity": 108086.0547,
@@ -575,15 +575,15 @@
         "11000": {
             "mlm_perplexity": 45696.5586,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.8052941176470588,
+                "dev.spearmanr-5_50-mean": 0.8577195580040311
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.8090983499197911,
+                "dev.uuas": 0.6986581962833225
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 80.4162724692526,
+            "squad_f1": 87.93806321137927
         },
         "11250": {
             "mlm_perplexity": 40064.2578,
@@ -601,15 +601,15 @@
         "11500": {
             "mlm_perplexity": 37101.8945,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.8135294117647058,
+                "dev.spearmanr-5_50-mean": 0.853928051039286
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.8004169082804491,
+                "dev.uuas": 0.6813216172890815
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 80.38789025543993,
+            "squad_f1": 87.91017375488734
         },
         "11750": {
             "mlm_perplexity": 55332.8789,
@@ -627,15 +627,15 @@
         "12000": {
             "mlm_perplexity": 89130.8281,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.8041176470588235,
+                "dev.spearmanr-5_50-mean": 0.8544566979234666
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7922211801679009,
+                "dev.uuas": 0.6635991212966811
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 79.93377483443709,
+            "squad_f1": 87.72350452212486
         },
         "12250": {
             "mlm_perplexity": 43927.3477,
@@ -653,15 +653,15 @@
         "12500": {
             "mlm_perplexity": 68285.3594,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.7876470588235294,
+                "dev.spearmanr-5_50-mean": 0.8433812279536075
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7856372074229175,
+                "dev.uuas": 0.6608086445407588
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 80.17029328287606,
+            "squad_f1": 87.86902412172704
         },
         "12750": {
             "mlm_perplexity": 69552.8594,
@@ -679,15 +679,15 @@
         "13000": {
             "mlm_perplexity": 53782.1719,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.7817647058823529,
+                "dev.spearmanr-5_50-mean": 0.8425563717969833
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7891271083320087,
+                "dev.uuas": 0.6626491717627501
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 79.99053926206244,
+            "squad_f1": 87.67745049827896
         },
         "13250": {
             "mlm_perplexity": 50663.3594,
@@ -709,11 +709,11 @@
                 "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7923928178403981,
+                "dev.uuas": 0.6654099625957371
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 80.24597918637653,
+            "squad_f1": 87.7740816696523
         },
         "13750": {
             "mlm_perplexity": 41697.4805,
@@ -738,8 +738,8 @@
                 "dev.spearmanr-5_50-mean": null,
                 "dev.uuas": null
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 80.22705771050141,
+            "squad_f1": 87.88589041876133
         },
         "14250": {
             "mlm_perplexity": 37637.75,
@@ -1186,7 +1186,7 @@
             "squad_f1": null
         },
         "500": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 91554.1172,
             "parse-depth": {
                 "dev.root_acc": 0.8188235294117647,
                 "dev.spearmanr-5_50-mean": 0.8547789883833173
@@ -1199,7 +1199,7 @@
             "squad_f1": 71.6428744396215
         },
         "750": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 64322.0117,
             "parse-depth": {
                 "dev.root_acc": null,
                 "dev.spearmanr-5_50-mean": null
@@ -1407,7 +1407,7 @@
             "squad_f1": 84.48796106571639
         },
         "4750": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 126792.6094,
             "parse-depth": {
                 "dev.root_acc": null,
                 "dev.spearmanr-5_50-mean": null
@@ -1420,7 +1420,7 @@
             "squad_f1": null
         },
         "5000": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 48587.8203,
             "parse-depth": {
                 "dev.root_acc": 0.8017647058823529,
                 "dev.spearmanr-5_50-mean": 0.8466481354521826
@@ -1433,7 +1433,7 @@
             "squad_f1": 84.2225924340262
         },
         "5250": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 64020.1211,
             "parse-depth": {
                 "dev.root_acc": null,
                 "dev.spearmanr-5_50-mean": null
@@ -1446,7 +1446,7 @@
             "squad_f1": null
         },
         "5500": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 45148.0312,
             "parse-depth": {
                 "dev.root_acc": 0.8029411764705883,
                 "dev.spearmanr-5_50-mean": 0.8504911421534193
@@ -1459,7 +1459,7 @@
             "squad_f1": 85.92104340629244
         },
         "5750": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 31757.3359,
             "parse-depth": {
                 "dev.root_acc": null,
                 "dev.spearmanr-5_50-mean": null
@@ -1472,7 +1472,7 @@
             "squad_f1": null
         },
         "6000": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 56396.9453,
             "parse-depth": {
                 "dev.root_acc": 0.7735294117647059,
                 "dev.spearmanr-5_50-mean": 0.8377321841442544
@@ -1485,7 +1485,7 @@
             "squad_f1": 85.95688709984387
         },
         "6250": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 60212.0977,
             "parse-depth": {
                 "dev.root_acc": null,
                 "dev.spearmanr-5_50-mean": null
@@ -1498,7 +1498,7 @@
             "squad_f1": null
         },
         "6500": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 173843.7656,
             "parse-depth": {
                 "dev.root_acc": 0.8135294117647058,
                 "dev.spearmanr-5_50-mean": 0.8532925383919087
@@ -1511,7 +1511,7 @@
             "squad_f1": 86.07588624346971
         },
         "6750": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 37024.168,
             "parse-depth": {
                 "dev.root_acc": null,
                 "dev.spearmanr-5_50-mean": null
@@ -1524,7 +1524,7 @@
             "squad_f1": null
         },
         "7000": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 32651.9414,
             "parse-depth": {
                 "dev.root_acc": 0.7888235294117647,
                 "dev.spearmanr-5_50-mean": 0.8439372214922972
@@ -1537,7 +1537,7 @@
             "squad_f1": 86.65556776900559
         },
         "7250": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 78314.5625,
             "parse-depth": {
                 "dev.root_acc": null,
                 "dev.spearmanr-5_50-mean": null
@@ -1550,7 +1550,7 @@
             "squad_f1": null
         },
         "7500": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 43879.3242,
             "parse-depth": {
                 "dev.root_acc": null,
                 "dev.spearmanr-5_50-mean": null
@@ -1563,7 +1563,7 @@
             "squad_f1": 86.34004814084062
         },
         "7750": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 42481.832,
             "parse-depth": {
                 "dev.root_acc": null,
                 "dev.spearmanr-5_50-mean": null
@@ -1576,7 +1576,7 @@
             "squad_f1": null
         },
         "8000": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 89407.2578,
             "parse-depth": {
                 "dev.root_acc": 0.7770588235294118,
                 "dev.spearmanr-5_50-mean": 0.8351856369048407
@@ -1589,7 +1589,7 @@
             "squad_f1": 86.96326402748316
         },
         "8250": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 97392.4141,
             "parse-depth": {
                 "dev.root_acc": null,
                 "dev.spearmanr-5_50-mean": null
@@ -1602,7 +1602,7 @@
             "squad_f1": null
         },
         "8500": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 38557.9453,
             "parse-depth": {
                 "dev.root_acc": 0.8076470588235294,
                 "dev.spearmanr-5_50-mean": 0.8469025236095331
@@ -1615,7 +1615,7 @@
             "squad_f1": 86.84236184961429
         },
         "8750": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 63374.0312,
             "parse-depth": {
                 "dev.root_acc": null,
                 "dev.spearmanr-5_50-mean": null
@@ -1628,20 +1628,20 @@
             "squad_f1": null
         },
         "9000": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 39226.2227,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.8052941176470588,
+                "dev.spearmanr-5_50-mean": 0.848016226756198
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7983803295365356,
+                "dev.uuas": 0.6794810900670902
             },
             "squad_exact_match": 79.49858088930937,
             "squad_f1": 87.05955695892897
         },
         "9250": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 45077.9023,
             "parse-depth": {
                 "dev.root_acc": null,
                 "dev.spearmanr-5_50-mean": null
@@ -1654,20 +1654,20 @@
             "squad_f1": null
         },
         "9500": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 31941.7988,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.8070588235294117,
+                "dev.spearmanr-5_50-mean": 0.8502159066316107
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7989548459319491,
+                "dev.uuas": 0.6734548477112153
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 79.33774834437087,
+            "squad_f1": 87.17208238452257
         },
         "9750": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 73249.5078,
             "parse-depth": {
                 "dev.root_acc": null,
                 "dev.spearmanr-5_50-mean": null
@@ -1682,15 +1682,15 @@
         "10000": {
             "mlm_perplexity": 59506.2383,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.8064705882352942,
+                "dev.spearmanr-5_50-mean": 0.8423515594953307
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7933061261088126,
+                "dev.uuas": 0.6679332660452414
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 79.51750236518448,
+            "squad_f1": 86.9968422746519
         },
         "10250": {
             "mlm_perplexity": 88096.6172,
@@ -1708,15 +1708,15 @@
         "10500": {
             "mlm_perplexity": 30968.9746,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.7852941176470588,
+                "dev.spearmanr-5_50-mean": 0.8357219444478148
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.784956105008607,
+                "dev.uuas": 0.6669833165113104
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 79.61210974456007,
+            "squad_f1": 87.33694430832466
         },
         "10750": {
             "mlm_perplexity": 40984.9531,
@@ -1734,15 +1734,15 @@
         "11000": {
             "mlm_perplexity": 53425.5586,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.8058823529411765,
+                "dev.spearmanr-5_50-mean": 0.8441326049974897
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7928865647490209,
+                "dev.uuas": 0.6737517069405687
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 79.98107852412488,
+            "squad_f1": 87.53816426420731
         },
         "11250": {
             "mlm_perplexity": 73821.4766,
@@ -1760,15 +1760,15 @@
         "11500": {
             "mlm_perplexity": 77254.1641,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.7752941176470588,
+                "dev.spearmanr-5_50-mean": 0.8322247246121356
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7838434393033201,
+                "dev.uuas": 0.6463516000712463
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 79.82024597918638,
+            "squad_f1": 87.62215076440228
         },
         "11750": {
             "mlm_perplexity": 32245.8457,
@@ -1786,15 +1786,15 @@
         "12000": {
             "mlm_perplexity": 65451.5547,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.7870588235294118,
+                "dev.spearmanr-5_50-mean": 0.835765624597437
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7799425467985609,
+                "dev.uuas": 0.6409487620970136
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 80.28382213812678,
+            "squad_f1": 87.98899062757226
         },
         "12250": {
             "mlm_perplexity": 62213.4336,
@@ -1812,15 +1812,15 @@
         "12500": {
             "mlm_perplexity": 53451.2422,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.7894117647058824,
+                "dev.spearmanr-5_50-mean": 0.8368173430343337
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7848977951303442,
+                "dev.uuas": 0.6450157335391558
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 80.77578051087986,
+            "squad_f1": 88.11705733909196
         },
         "12750": {
             "mlm_perplexity": 65035.6094,
@@ -1838,15 +1838,15 @@
         "13000": {
             "mlm_perplexity": 132566.1406,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.78,
+                "dev.spearmanr-5_50-mean": 0.8373343445554543
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7813080932472897,
+                "dev.uuas": 0.6364365018108413
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 80.64333017975402,
+            "squad_f1": 88.26842774879698
         },
         "13250": {
             "mlm_perplexity": 76029.6172,
@@ -1864,15 +1864,15 @@
         "13500": {
             "mlm_perplexity": 60921.1641,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.7670588235294118,
+                "dev.spearmanr-5_50-mean": 0.8338218003725943
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7813840732334377,
+                "dev.uuas": 0.6362880721961646
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 80.61494796594134,
+            "squad_f1": 88.22697483042776
         },
         "13750": {
             "mlm_perplexity": 72080.2578,
@@ -1890,15 +1890,15 @@
         "14000": {
             "mlm_perplexity": 66688.8359,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.7752941176470588,
+                "dev.spearmanr-5_50-mean": 0.8376288293672066
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7849296630464963,
+                "dev.uuas": 0.6391379207979576
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 80.40681173131505,
+            "squad_f1": 88.14967632590535
         },
         "14250": {
             "mlm_perplexity": 49323.3711,
@@ -1916,15 +1916,15 @@
         "14500": {
             "mlm_perplexity": 40906.1914,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.7629411764705882,
+                "dev.spearmanr-5_50-mean": 0.8316417569071749
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7781404985194934,
+                "dev.uuas": 0.6386035741851214
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 80.59602649006622,
+            "squad_f1": 88.0398218182975
         },
         "14750": {
             "mlm_perplexity": 36621.1719,
@@ -1942,15 +1942,15 @@
         "15000": {
             "mlm_perplexity": 62202.1055,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.7741176470588236,
+                "dev.spearmanr-5_50-mean": 0.8346773628605103
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7836007543675446,
+                "dev.uuas": 0.6424924300896515
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 80.82308420056765,
+            "squad_f1": 88.22491396556552
         },
         "15250": {
             "mlm_perplexity": 42267.6875,
@@ -1968,15 +1968,15 @@
         "15500": {
             "mlm_perplexity": 64322.1953,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.7758823529411765,
+                "dev.spearmanr-5_50-mean": 0.8364312044696476
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7835479332412131,
+                "dev.uuas": 0.6471234340675651
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 80.69063386944181,
+            "squad_f1": 88.3899524045315
         },
         "15750": {
             "mlm_perplexity": 33432.3828,
@@ -1994,15 +1994,15 @@
         "16000": {
             "mlm_perplexity": 106980.3516,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.7647058823529411,
+                "dev.spearmanr-5_50-mean": 0.8320860342048991
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7820406396812325,
+                "dev.uuas": 0.6392269785667637
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 80.32166508987702,
+            "squad_f1": 88.12197701929719
         },
         "16250": {
             "mlm_perplexity": 45535.6875,
@@ -2020,15 +2020,15 @@
         "16500": {
             "mlm_perplexity": 64893.3594,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.79,
+                "dev.spearmanr-5_50-mean": 0.842211814983351
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7865950579377653,
+                "dev.uuas": 0.6480140117556255
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 80.93661305581836,
+            "squad_f1": 88.46422422176701
         },
         "16750": {
             "mlm_perplexity": 33540.6719,
@@ -2046,15 +2046,15 @@
         "17000": {
             "mlm_perplexity": 30923.6426,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.7623529411764706,
+                "dev.spearmanr-5_50-mean": 0.8359976427764725
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7767195268133367,
+                "dev.uuas": 0.6316570682182509
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 81.20151371807,
+            "squad_f1": 88.68891155776167
         },
         "17250": {
             "mlm_perplexity": 21008.6816,
@@ -2072,15 +2072,15 @@
         "17500": {
             "mlm_perplexity": 258266.4688,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.7788235294117647,
+                "dev.spearmanr-5_50-mean": 0.8388090238561242
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.777338982076078,
+                "dev.uuas": 0.6361990144273586
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 81.09744560075686,
+            "squad_f1": 88.5417258954759
         },
         "17750": {
             "mlm_perplexity": 75622.3516,
@@ -2098,15 +2098,15 @@
         "18000": {
             "mlm_perplexity": 55971.1367,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.7770588235294118,
+                "dev.spearmanr-5_50-mean": 0.8380390777977145
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7741646086571644,
+                "dev.uuas": 0.6315383245265095
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 81.44749290444655,
+            "squad_f1": 88.7213112929024
         },
         "18250": {
             "mlm_perplexity": 66069.2188,
@@ -2124,15 +2124,15 @@
         "18500": {
             "mlm_perplexity": 52877.3594,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.7482352941176471,
+                "dev.spearmanr-5_50-mean": 0.8276266939122963
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7749063348171891,
+                "dev.uuas": 0.6352787508163629
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 81.33396404919584,
+            "squad_f1": 88.68571439136542
         },
         "18750": {
             "mlm_perplexity": 43466.9922,
@@ -2150,15 +2150,15 @@
         "19000": {
             "mlm_perplexity": 56710.5703,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.7594117647058823,
+                "dev.spearmanr-5_50-mean": 0.8288738275493008
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7700323732792286,
+                "dev.uuas": 0.6269073205485959
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 81.57048249763481,
+            "squad_f1": 88.81662329239303
         },
         "19250": {
             "mlm_perplexity": 38734.1875,
@@ -2176,15 +2176,15 @@
         "19500": {
             "mlm_perplexity": 49749.8203,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.7458823529411764,
+                "dev.spearmanr-5_50-mean": 0.8256980395469821
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7746622515479603,
+                "dev.uuas": 0.6325773318292466
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 81.77861873226112,
+            "squad_f1": 88.96014632110261
         },
         "19750": {
             "mlm_perplexity": 52946.0352,
@@ -2202,15 +2202,15 @@
         "20000": {
             "mlm_perplexity": 118375.6953,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.7441176470588236,
+                "dev.spearmanr-5_50-mean": 0.8244330008059498
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7720801499072568,
+                "dev.uuas": 0.6278869560054622
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 81.44749290444655,
+            "squad_f1": 88.67323388241151
         },
         "20250": {
             "mlm_perplexity": 77584.9375,
@@ -2228,15 +2228,15 @@
         "20500": {
             "mlm_perplexity": 51310.6445,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.7623529411764706,
+                "dev.spearmanr-5_50-mean": 0.8309764935552318
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7756793015575447,
+                "dev.uuas": 0.6315086386035742
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 81.3907284768212,
+            "squad_f1": 88.71942025444348
         },
         "20750": {
             "mlm_perplexity": 45148.5469,
@@ -2254,15 +2254,15 @@
         "21000": {
             "mlm_perplexity": 55563.6445,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.7717647058823529,
+                "dev.spearmanr-5_50-mean": 0.8329050065203363
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.772390527602378,
+                "dev.uuas": 0.6270260642403372
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 81.68401135288552,
+            "squad_f1": 88.86881988052077
         },
         "21250": {
             "mlm_perplexity": 58430.293,
@@ -2280,15 +2280,15 @@
         "21500": {
             "mlm_perplexity": 69824.4766,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.7776470588235294,
+                "dev.spearmanr-5_50-mean": 0.8353863540522007
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7757474222687789,
+                "dev.uuas": 0.63115240752835
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 81.64616840113528,
+            "squad_f1": 88.92465305508017
         },
         "21750": {
             "mlm_perplexity": 52654.9883,
@@ -2306,15 +2306,15 @@
         "22000": {
             "mlm_perplexity": 47156.7461,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.7694117647058824,
+                "dev.spearmanr-5_50-mean": 0.8336960745390314
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7753080830040282,
+                "dev.uuas": 0.6315086386035742
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 81.60832544938505,
+            "squad_f1": 88.83151770721808
         }
     },
     "run3": {
@@ -2345,7 +2345,7 @@
             "squad_f1": null
         },
         "500": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 48419.6758,
             "parse-depth": {
                 "dev.root_acc": 0.8005882352941176,
                 "dev.spearmanr-5_50-mean": 0.8504484096553651
@@ -2358,7 +2358,7 @@
             "squad_f1": 73.34193938328895
         },
         "750": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 29086.3906,
             "parse-depth": {
                 "dev.root_acc": null,
                 "dev.spearmanr-5_50-mean": null
@@ -2540,7 +2540,7 @@
             "squad_f1": 83.92099008455041
         },
         "4250": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 53642.793,
             "parse-depth": {
                 "dev.root_acc": null,
                 "dev.spearmanr-5_50-mean": null
@@ -2553,7 +2553,7 @@
             "squad_f1": null
         },
         "4500": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 51161.2734,
             "parse-depth": {
                 "dev.root_acc": 0.798235294117647,
                 "dev.spearmanr-5_50-mean": 0.8451945069735601
@@ -2566,7 +2566,7 @@
             "squad_f1": 84.4076383433874
         },
         "4750": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 100720.0938,
             "parse-depth": {
                 "dev.root_acc": null,
                 "dev.spearmanr-5_50-mean": null
@@ -2579,7 +2579,7 @@
             "squad_f1": null
         },
         "5000": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 69396.6875,
             "parse-depth": {
                 "dev.root_acc": 0.8117647058823529,
                 "dev.spearmanr-5_50-mean": 0.8510118935751355
@@ -2592,7 +2592,7 @@
             "squad_f1": 84.7316058727922
         },
         "5250": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 82795.5078,
             "parse-depth": {
                 "dev.root_acc": null,
                 "dev.spearmanr-5_50-mean": null
@@ -2605,7 +2605,7 @@
             "squad_f1": null
         },
         "5500": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 47768.4805,
             "parse-depth": {
                 "dev.root_acc": 0.7929411764705883,
                 "dev.spearmanr-5_50-mean": 0.8404905961883786
@@ -2618,7 +2618,7 @@
             "squad_f1": 85.26904343557634
         },
         "5750": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 223564.7188,
             "parse-depth": {
                 "dev.root_acc": null,
                 "dev.spearmanr-5_50-mean": null
@@ -2631,7 +2631,7 @@
             "squad_f1": null
         },
         "6000": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 56075.8047,
             "parse-depth": {
                 "dev.root_acc": 0.7741176470588236,
                 "dev.spearmanr-5_50-mean": 0.8358276457726784
@@ -2644,7 +2644,7 @@
             "squad_f1": 85.57581669972414
         },
         "6250": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 30247.627,
             "parse-depth": {
                 "dev.root_acc": null,
                 "dev.spearmanr-5_50-mean": null
@@ -2657,7 +2657,7 @@
             "squad_f1": null
         },
         "6500": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 62340.5352,
             "parse-depth": {
                 "dev.root_acc": 0.7752941176470588,
                 "dev.spearmanr-5_50-mean": 0.8431596283866731
@@ -2670,7 +2670,7 @@
             "squad_f1": 86.01091962990954
         },
         "6750": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 93900.9688,
             "parse-depth": {
                 "dev.root_acc": null,
                 "dev.spearmanr-5_50-mean": null
@@ -2683,7 +2683,7 @@
             "squad_f1": null
         },
         "7000": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 37778.6094,
             "parse-depth": {
                 "dev.root_acc": 0.7729411764705882,
                 "dev.spearmanr-5_50-mean": 0.8425336651401897
@@ -2696,7 +2696,7 @@
             "squad_f1": 86.07913208367177
         },
         "7250": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 75705.1875,
             "parse-depth": {
                 "dev.root_acc": null,
                 "dev.spearmanr-5_50-mean": null
@@ -2709,7 +2709,7 @@
             "squad_f1": null
         },
         "7500": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 81854.0156,
             "parse-depth": {
                 "dev.root_acc": 0.7647058823529411,
                 "dev.spearmanr-5_50-mean": 0.8373276916303831
@@ -2722,7 +2722,7 @@
             "squad_f1": 86.26053929156002
         },
         "7750": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 72586.375,
             "parse-depth": {
                 "dev.root_acc": null,
                 "dev.spearmanr-5_50-mean": null
@@ -2735,7 +2735,7 @@
             "squad_f1": null
         },
         "8000": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 90542.7188,
             "parse-depth": {
                 "dev.root_acc": 0.7458823529411764,
                 "dev.spearmanr-5_50-mean": 0.8308656401296363
@@ -2748,7 +2748,7 @@
             "squad_f1": 86.58345806779315
         },
         "8250": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 62099.1484,
             "parse-depth": {
                 "dev.root_acc": null,
                 "dev.spearmanr-5_50-mean": null
@@ -2761,7 +2761,7 @@
             "squad_f1": null
         },
         "8500": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 80647.6484,
             "parse-depth": {
                 "dev.root_acc": 0.76,
                 "dev.spearmanr-5_50-mean": 0.8367663798978578
@@ -2774,7 +2774,7 @@
             "squad_f1": 86.37420327640739
         },
         "8750": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 32859.2695,
             "parse-depth": {
                 "dev.root_acc": null,
                 "dev.spearmanr-5_50-mean": null
@@ -2787,7 +2787,7 @@
             "squad_f1": null
         },
         "9000": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 20008.75,
             "parse-depth": {
                 "dev.root_acc": 0.778235294117647,
                 "dev.spearmanr-5_50-mean": 0.8360629249607455
@@ -2800,7 +2800,7 @@
             "squad_f1": 86.62446247224344
         },
         "9250": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 73354.5781,
             "parse-depth": {
                 "dev.root_acc": null,
                 "dev.spearmanr-5_50-mean": null
@@ -2813,7 +2813,7 @@
             "squad_f1": null
         },
         "9500": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 72881.1719,
             "parse-depth": {
                 "dev.root_acc": 0.7752941176470588,
                 "dev.spearmanr-5_50-mean": 0.8356063917009291
@@ -2826,7 +2826,7 @@
             "squad_f1": 87.09401736149562
         },
         "9750": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 65208.1992,
             "parse-depth": {
                 "dev.root_acc": null,
                 "dev.spearmanr-5_50-mean": null
@@ -3028,7 +3028,7 @@
             },
             "parse-distance": {
                 "dev.spearmanr-5_50-mean": 0.773171447581867,
-                "dev.uuas": null
+                "dev.uuas": 0.6307961764531259
             },
             "squad_exact_match": 79.59318826868495,
             "squad_f1": 87.17298964029953
@@ -3049,15 +3049,15 @@
         "14000": {
             "mlm_perplexity": 53641.0,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.7529411764705882,
+                "dev.spearmanr-5_50-mean": 0.8306883837091624
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7743028313087127,
+                "dev.uuas": 0.6344178590512379
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 79.81078524124882,
+            "squad_f1": 87.52412866323051
         },
         "14250": {
             "mlm_perplexity": 113877.8203,
@@ -3075,15 +3075,15 @@
         "14500": {
             "mlm_perplexity": 124357.8906,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.7482352941176471,
+                "dev.spearmanr-5_50-mean": 0.8274234223860596
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.768902170156702,
+                "dev.uuas": 0.6288962773852639
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 80.65279091769158,
+            "squad_f1": 87.87288081496719
         },
         "14750": {
             "mlm_perplexity": 85501.8047,
@@ -3101,15 +3101,15 @@
         "15000": {
             "mlm_perplexity": 55846.957,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.7476470588235294,
+                "dev.spearmanr-5_50-mean": 0.8248347804128688
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7640720919268447,
+                "dev.uuas": 0.6245324467137683
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 80.32166508987702,
+            "squad_f1": 87.71302530417502
         },
         "15250": {
             "mlm_perplexity": 110751.1172,
@@ -3127,15 +3127,15 @@
         "15500": {
             "mlm_perplexity": 51897.707,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.7411764705882353,
+                "dev.spearmanr-5_50-mean": 0.8239444665549727
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7645965789619528,
+                "dev.uuas": 0.6231668942587425
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 80.70009460737937,
+            "squad_f1": 88.04051447045273
         },
         "15750": {
             "mlm_perplexity": 56957.3477,
@@ -3153,15 +3153,15 @@
         "16000": {
             "mlm_perplexity": 53922.8945,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.758235294117647,
+                "dev.spearmanr-5_50-mean": 0.8290350556718991
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7576768148143812,
+                "dev.uuas": 0.6062459181855964
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 80.52980132450331,
+            "squad_f1": 87.99292591903229
         },
         "16250": {
             "mlm_perplexity": 30048.4668,
@@ -3179,15 +3179,15 @@
         "16500": {
             "mlm_perplexity": 37448.0977,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.7405882352941177,
+                "dev.spearmanr-5_50-mean": 0.8250861094653905
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7585218920561501,
+                "dev.uuas": 0.6065427774149499
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 80.54872280037843,
+            "squad_f1": 88.0703929877004
         },
         "16750": {
             "mlm_perplexity": 37409.1523,
@@ -3205,15 +3205,15 @@
         "17000": {
             "mlm_perplexity": 42207.1875,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.7617647058823529,
+                "dev.spearmanr-5_50-mean": 0.8332675909354061
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7651377331459915,
+                "dev.uuas": 0.6203170456569495
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 80.35950804162725,
+            "squad_f1": 87.99812216680188
         },
         "17250": {
             "mlm_perplexity": 95474.5234,
@@ -3231,15 +3231,15 @@
         "17500": {
             "mlm_perplexity": 37581.3281,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.7429411764705882,
+                "dev.spearmanr-5_50-mean": 0.8280768478195857
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7625744825221537,
+                "dev.uuas": 0.6208513922697857
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 80.6244087038789,
+            "squad_f1": 87.91641797809748
         },
         "17750": {
             "mlm_perplexity": 105522.75,
@@ -3257,15 +3257,15 @@
         "18000": {
             "mlm_perplexity": 115601.7656,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.731764705882353,
+                "dev.spearmanr-5_50-mean": 0.8227617188113006
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7584498397645616,
+                "dev.uuas": 0.6057412574956955
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 80.88930936613056,
+            "squad_f1": 88.27143555287407
         },
         "18250": {
             "mlm_perplexity": 58318.9531,
@@ -3283,15 +3283,15 @@
         "18500": {
             "mlm_perplexity": 56469.4414,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.75,
+                "dev.spearmanr-5_50-mean": 0.8330752574774658
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7646428791787434,
+                "dev.uuas": 0.6113815828534109
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 80.50141911069063,
+            "squad_f1": 88.00388497580724
         },
         "18750": {
             "mlm_perplexity": 74439.5,
@@ -3309,15 +3309,15 @@
         "19000": {
             "mlm_perplexity": 43137.2852,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.7588235294117647,
+                "dev.spearmanr-5_50-mean": 0.834088556823776
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7629454851638837,
+                "dev.uuas": 0.6116190702368937
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 80.79470198675497,
+            "squad_f1": 88.26251364462587
         },
         "19250": {
             "mlm_perplexity": 43047.9805,
@@ -3335,15 +3335,15 @@
         "19500": {
             "mlm_perplexity": 84350.6797,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.7458823529411764,
+                "dev.spearmanr-5_50-mean": 0.8289360317521843
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7577982203175339,
+                "dev.uuas": 0.6061568604167904
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 80.94607379375591,
+            "squad_f1": 88.31109730107494
         },
         "19750": {
             "mlm_perplexity": 70805.9219,
@@ -3361,15 +3361,15 @@
         "20000": {
             "mlm_perplexity": 89247.6094,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.7388235294117647,
+                "dev.spearmanr-5_50-mean": 0.8245578830066261
             },
             "parse-distance": {
                 "dev.spearmanr-5_50-mean": null,
                 "dev.uuas": null
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 81.12582781456953,
+            "squad_f1": 88.45432348250603
         },
         "20250": {
             "mlm_perplexity": 102755.1172,
@@ -3504,7 +3504,7 @@
             "squad_f1": null
         },
         "500": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 67022.8672,
             "parse-depth": {
                 "dev.root_acc": 0.8141176470588235,
                 "dev.spearmanr-5_50-mean": 0.8556860843464634
@@ -3517,7 +3517,7 @@
             "squad_f1": 74.25198535610545
         },
         "750": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 74043.9219,
             "parse-depth": {
                 "dev.root_acc": null,
                 "dev.spearmanr-5_50-mean": null
@@ -3686,7 +3686,7 @@
             "squad_f1": null
         },
         "4000": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 113308.7578,
             "parse-depth": {
                 "dev.root_acc": 0.7929411764705883,
                 "dev.spearmanr-5_50-mean": 0.8435202153798894
@@ -3699,7 +3699,7 @@
             "squad_f1": 84.39328684479811
         },
         "4250": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 28377.7246,
             "parse-depth": {
                 "dev.root_acc": null,
                 "dev.spearmanr-5_50-mean": null
@@ -3712,7 +3712,7 @@
             "squad_f1": null
         },
         "4500": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 40148.75,
             "parse-depth": {
                 "dev.root_acc": 0.7976470588235294,
                 "dev.spearmanr-5_50-mean": 0.8446295580922185
@@ -3725,7 +3725,7 @@
             "squad_f1": 84.32248942508832
         },
         "4750": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 66213.6094,
             "parse-depth": {
                 "dev.root_acc": null,
                 "dev.spearmanr-5_50-mean": null
@@ -3738,7 +3738,7 @@
             "squad_f1": null
         },
         "5000": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 35729.5781,
             "parse-depth": {
                 "dev.root_acc": 0.7964705882352942,
                 "dev.spearmanr-5_50-mean": 0.8433976646307447
@@ -3751,7 +3751,7 @@
             "squad_f1": 85.00499218040054
         },
         "5250": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 53677.7969,
             "parse-depth": {
                 "dev.root_acc": null,
                 "dev.spearmanr-5_50-mean": null
@@ -3764,7 +3764,7 @@
             "squad_f1": null
         },
         "5500": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 58742.2266,
             "parse-depth": {
                 "dev.root_acc": 0.7929411764705883,
                 "dev.spearmanr-5_50-mean": 0.8429033727797581
@@ -3777,7 +3777,7 @@
             "squad_f1": 85.95899014248451
         },
         "5750": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 40833.2656,
             "parse-depth": {
                 "dev.root_acc": null,
                 "dev.spearmanr-5_50-mean": null
@@ -3790,7 +3790,7 @@
             "squad_f1": null
         },
         "6000": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 54402.8555,
             "parse-depth": {
                 "dev.root_acc": 0.7976470588235294,
                 "dev.spearmanr-5_50-mean": 0.845408018732941
@@ -3803,7 +3803,7 @@
             "squad_f1": 85.89137902622564
         },
         "6250": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 40041.7617,
             "parse-depth": {
                 "dev.root_acc": null,
                 "dev.spearmanr-5_50-mean": null
@@ -3816,7 +3816,7 @@
             "squad_f1": null
         },
         "6500": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 84288.2031,
             "parse-depth": {
                 "dev.root_acc": 0.8170588235294117,
                 "dev.spearmanr-5_50-mean": 0.8478147844614123
@@ -3829,7 +3829,7 @@
             "squad_f1": 85.8662279268166
         },
         "6750": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 66497.8672,
             "parse-depth": {
                 "dev.root_acc": null,
                 "dev.spearmanr-5_50-mean": null
@@ -3842,7 +3842,7 @@
             "squad_f1": null
         },
         "7000": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 64831.8125,
             "parse-depth": {
                 "dev.root_acc": 0.8117647058823529,
                 "dev.spearmanr-5_50-mean": 0.8517889995843357
@@ -3855,7 +3855,7 @@
             "squad_f1": 86.28311656464331
         },
         "7250": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 49641.2891,
             "parse-depth": {
                 "dev.root_acc": null,
                 "dev.spearmanr-5_50-mean": null
@@ -3868,7 +3868,7 @@
             "squad_f1": null
         },
         "7500": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 100784.0859,
             "parse-depth": {
                 "dev.root_acc": 0.7994117647058824,
                 "dev.spearmanr-5_50-mean": 0.8472653422735824
@@ -3881,7 +3881,7 @@
             "squad_f1": 86.27732466017834
         },
         "7750": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 62487.9141,
             "parse-depth": {
                 "dev.root_acc": null,
                 "dev.spearmanr-5_50-mean": null
@@ -3894,7 +3894,7 @@
             "squad_f1": null
         },
         "8000": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 71528.5312,
             "parse-depth": {
                 "dev.root_acc": 0.7976470588235294,
                 "dev.spearmanr-5_50-mean": 0.8442374140978464
@@ -3907,7 +3907,7 @@
             "squad_f1": 86.9439366198698
         },
         "8250": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 109111.1562,
             "parse-depth": {
                 "dev.root_acc": null,
                 "dev.spearmanr-5_50-mean": null
@@ -3920,7 +3920,7 @@
             "squad_f1": null
         },
         "8500": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 110363.5391,
             "parse-depth": {
                 "dev.root_acc": 0.7964705882352942,
                 "dev.spearmanr-5_50-mean": 0.8411757531238822
@@ -3933,7 +3933,7 @@
             "squad_f1": 86.78029119424389
         },
         "8750": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 96477.2266,
             "parse-depth": {
                 "dev.root_acc": null,
                 "dev.spearmanr-5_50-mean": null
@@ -3946,7 +3946,7 @@
             "squad_f1": null
         },
         "9000": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 44772.4688,
             "parse-depth": {
                 "dev.root_acc": 0.8041176470588235,
                 "dev.spearmanr-5_50-mean": 0.8455849049042258
@@ -3959,7 +3959,7 @@
             "squad_f1": 86.92580254377303
         },
         "9250": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 71088.3359,
             "parse-depth": {
                 "dev.root_acc": null,
                 "dev.spearmanr-5_50-mean": null
@@ -3972,7 +3972,7 @@
             "squad_f1": null
         },
         "9500": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 130599.9219,
             "parse-depth": {
                 "dev.root_acc": 0.8094117647058824,
                 "dev.spearmanr-5_50-mean": 0.8484707825500637
@@ -3985,7 +3985,7 @@
             "squad_f1": 87.19561605691155
         },
         "9750": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 50729.5469,
             "parse-depth": {
                 "dev.root_acc": null,
                 "dev.spearmanr-5_50-mean": null
@@ -4134,8 +4134,8 @@
                 "dev.spearmanr-5_50-mean": 0.8330709849776534
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7732182810761408,
+                "dev.uuas": 0.645639137920798
             },
             "squad_exact_match": 80.2081362346263,
             "squad_f1": 87.90038540720376
@@ -4156,15 +4156,15 @@
         "13000": {
             "mlm_perplexity": 94333.5078,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.7958823529411765,
+                "dev.spearmanr-5_50-mean": 0.8386181549539369
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7818478733728145,
+                "dev.uuas": 0.6574838211720002
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 80.2554399243141,
+            "squad_f1": 87.93332386071832
         },
         "13250": {
             "mlm_perplexity": 47091.6719,
@@ -4182,15 +4182,15 @@
         "13500": {
             "mlm_perplexity": 63366.8359,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.7858823529411765,
+                "dev.spearmanr-5_50-mean": 0.832548578646241
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7787714326041919,
+                "dev.uuas": 0.6492905064418453
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 80.56764427625355,
+            "squad_f1": 88.0671456050378
         },
         "13750": {
             "mlm_perplexity": 42387.7383,
@@ -4208,15 +4208,15 @@
         "14000": {
             "mlm_perplexity": 60689.9609,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.7911764705882353,
+                "dev.spearmanr-5_50-mean": 0.8348502772623618
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7828195297966399,
+                "dev.uuas": 0.6580181677848365
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 80.6717123935667,
+            "squad_f1": 88.07324320635168
         },
         "14250": {
             "mlm_perplexity": 89984.6562,
@@ -4234,15 +4234,15 @@
         "14500": {
             "mlm_perplexity": 79998.2188,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.7788235294117647,
+                "dev.spearmanr-5_50-mean": 0.8327981488147433
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7798628012326045,
+                "dev.uuas": 0.6527637594252805
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 80.69063386944181,
+            "squad_f1": 88.13025682357197
         },
         "14750": {
             "mlm_perplexity": 32353.6895,
@@ -4260,15 +4260,15 @@
         "15000": {
             "mlm_perplexity": 71022.875,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.8005882352941176,
+                "dev.spearmanr-5_50-mean": 0.8373032842054103
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7755399922493919,
+                "dev.uuas": 0.6455500801519919
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 80.93661305581836,
+            "squad_f1": 88.2766524805362
         },
         "15250": {
             "mlm_perplexity": 45734.3164,
@@ -4286,15 +4286,15 @@
         "15500": {
             "mlm_perplexity": 41331.1055,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.778235294117647,
+                "dev.spearmanr-5_50-mean": 0.831312574097407
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7818005521330105,
+                "dev.uuas": 0.6557620376417502
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 80.68117313150425,
+            "squad_f1": 87.91474831065172
         },
         "15750": {
             "mlm_perplexity": 101731.8828,
@@ -4312,15 +4312,15 @@
         "16000": {
             "mlm_perplexity": 68724.5781,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.7788235294117647,
+                "dev.spearmanr-5_50-mean": 0.8364303188606403
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.786967543146906,
+                "dev.uuas": 0.6598883809297631
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 81.25827814569537,
+            "squad_f1": 88.39718703743237
         },
         "16250": {
             "mlm_perplexity": 92550.2344,
@@ -4338,15 +4338,15 @@
         "16500": {
             "mlm_perplexity": 40328.8398,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.7711764705882352,
+                "dev.spearmanr-5_50-mean": 0.8309041487953968
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7843632394841368,
+                "dev.uuas": 0.6517247521225434
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 81.27719962157049,
+            "squad_f1": 88.38522039209545
         },
         "16750": {
             "mlm_perplexity": 23152.5898,
@@ -4364,15 +4364,15 @@
         "17000": {
             "mlm_perplexity": 42167.5195,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.7741176470588236,
+                "dev.spearmanr-5_50-mean": 0.8327530646961855
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7873157761571674,
+                "dev.uuas": 0.6556136080270736
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 81.07852412488174,
+            "squad_f1": 88.43117681050018
         },
         "17250": {
             "mlm_perplexity": 65886.875,
@@ -4390,15 +4390,15 @@
         "17500": {
             "mlm_perplexity": 46794.0078,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.7829411764705883,
+                "dev.spearmanr-5_50-mean": 0.8398707614842861
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7860054222346967,
+                "dev.uuas": 0.6567713590215519
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 81.10690633869442,
+            "squad_f1": 88.35102117545209
         },
         "17750": {
             "mlm_perplexity": 96140.9688,
@@ -4416,15 +4416,15 @@
         "18000": {
             "mlm_perplexity": 34559.1641,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.78,
+                "dev.spearmanr-5_50-mean": 0.8365523591925117
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7871053251443634,
+                "dev.uuas": 0.6569791604820994
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 81.18259224219489,
+            "squad_f1": 88.49659932971358
         },
         "18250": {
             "mlm_perplexity": 65636.1406,
@@ -4442,15 +4442,15 @@
         "18500": {
             "mlm_perplexity": 57599.457,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.7735294117647059,
+                "dev.spearmanr-5_50-mean": 0.8345515720610033
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7861070190673065,
+                "dev.uuas": 0.6532090482693107
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 81.05960264900662,
+            "squad_f1": 88.44647061554113
         },
         "18750": {
             "mlm_perplexity": 43865.8906,
@@ -4468,15 +4468,15 @@
         "19000": {
             "mlm_perplexity": 28583.2246,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.7758823529411765,
+                "dev.spearmanr-5_50-mean": 0.8360975242480583
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7851583726733073,
+                "dev.uuas": 0.654960517722496
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 81.38126773888364,
+            "squad_f1": 88.55535352205837
         },
         "19250": {
             "mlm_perplexity": 63853.2344,
@@ -4494,15 +4494,15 @@
         "19500": {
             "mlm_perplexity": 54638.5508,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.7794117647058824,
+                "dev.spearmanr-5_50-mean": 0.8367431264617412
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7825308277747152,
+                "dev.uuas": 0.6468265748382117
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 81.14474929044465,
+            "squad_f1": 88.59908505005917
         },
         "19750": {
             "mlm_perplexity": 53057.5391,
@@ -4520,15 +4520,15 @@
         "20000": {
             "mlm_perplexity": 42478.5898,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.7723529411764706,
+                "dev.spearmanr-5_50-mean": 0.8342917790294111
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7834825340561713,
+                "dev.uuas": 0.6510122899720953
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 81.43803216650899,
+            "squad_f1": 88.7640397538941
         },
         "20250": {
             "mlm_perplexity": 49294.6875,
@@ -4546,15 +4546,15 @@
         "20500": {
             "mlm_perplexity": 112402.8594,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.7841176470588235,
+                "dev.spearmanr-5_50-mean": 0.8397016808406071
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7840387567139981,
+                "dev.uuas": 0.6496170515941341
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 81.59886471144749,
+            "squad_f1": 88.79994029274569
         },
         "20750": {
             "mlm_perplexity": 77811.1562,
@@ -4572,15 +4572,15 @@
         "21000": {
             "mlm_perplexity": 34291.9219,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.7741176470588236,
+                "dev.spearmanr-5_50-mean": 0.8338922267632285
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7791077857848723,
+                "dev.uuas": 0.6418393397850739
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 81.69347209082308,
+            "squad_f1": 88.87658345228313
         },
         "21250": {
             "mlm_perplexity": 46643.6836,
@@ -4598,15 +4598,15 @@
         "21500": {
             "mlm_perplexity": 84630.5234,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.7717647058823529,
+                "dev.spearmanr-5_50-mean": 0.8342078025412647
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7794558941570956,
+                "dev.uuas": 0.6438876684676127
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 81.70293282876064,
+            "squad_f1": 88.90624453851306
         },
         "21750": {
             "mlm_perplexity": 64348.8867,
@@ -4624,15 +4624,15 @@
         "22000": {
             "mlm_perplexity": 103234.4453,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.7747058823529411,
+                "dev.spearmanr-5_50-mean": 0.8346984572397235
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7798014275564286,
+                "dev.uuas": 0.6437095529300005
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 81.82592242194892,
+            "squad_f1": 88.9910432160071
         }
     },
     "run5": {
@@ -4663,7 +4663,7 @@
             "squad_f1": null
         },
         "500": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 33444.5,
             "parse-depth": {
                 "dev.root_acc": 0.7964705882352942,
                 "dev.spearmanr-5_50-mean": 0.8462124826248835
@@ -4676,7 +4676,7 @@
             "squad_f1": 73.02804335984929
         },
         "750": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 44487.7695,
             "parse-depth": {
                 "dev.root_acc": null,
                 "dev.spearmanr-5_50-mean": null
@@ -4845,7 +4845,7 @@
             "squad_f1": null
         },
         "4000": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 49819.043,
             "parse-depth": {
                 "dev.root_acc": 0.8188235294117647,
                 "dev.spearmanr-5_50-mean": 0.8469870229525315
@@ -4858,7 +4858,7 @@
             "squad_f1": 84.34019096004833
         },
         "4250": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 60752.2695,
             "parse-depth": {
                 "dev.root_acc": null,
                 "dev.spearmanr-5_50-mean": null
@@ -4871,7 +4871,7 @@
             "squad_f1": null
         },
         "4500": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 45511.375,
             "parse-depth": {
                 "dev.root_acc": 0.8182352941176471,
                 "dev.spearmanr-5_50-mean": 0.846328199914474
@@ -4884,7 +4884,7 @@
             "squad_f1": 84.72210108966094
         },
         "4750": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 66411.6719,
             "parse-depth": {
                 "dev.root_acc": null,
                 "dev.spearmanr-5_50-mean": null
@@ -4897,7 +4897,7 @@
             "squad_f1": null
         },
         "5000": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 18708.4395,
             "parse-depth": {
                 "dev.root_acc": 0.8135294117647058,
                 "dev.spearmanr-5_50-mean": 0.8445853486072782
@@ -4910,7 +4910,7 @@
             "squad_f1": 83.86739797154988
         },
         "5250": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 66566.1406,
             "parse-depth": {
                 "dev.root_acc": null,
                 "dev.spearmanr-5_50-mean": null
@@ -4923,7 +4923,7 @@
             "squad_f1": null
         },
         "5500": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 84787.3281,
             "parse-depth": {
                 "dev.root_acc": 0.7852941176470588,
                 "dev.spearmanr-5_50-mean": 0.8368717843807593
@@ -4936,7 +4936,7 @@
             "squad_f1": 84.65502767423584
         },
         "5750": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 64907.4727,
             "parse-depth": {
                 "dev.root_acc": null,
                 "dev.spearmanr-5_50-mean": null
@@ -4949,7 +4949,7 @@
             "squad_f1": null
         },
         "6000": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 30731.8105,
             "parse-depth": {
                 "dev.root_acc": 0.8005882352941176,
                 "dev.spearmanr-5_50-mean": 0.8432685295083099
@@ -4962,7 +4962,7 @@
             "squad_f1": 85.99620519985776
         },
         "6250": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 36595.582,
             "parse-depth": {
                 "dev.root_acc": null,
                 "dev.spearmanr-5_50-mean": null
@@ -4975,7 +4975,7 @@
             "squad_f1": null
         },
         "6500": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 45660.8398,
             "parse-depth": {
                 "dev.root_acc": 0.8035294117647059,
                 "dev.spearmanr-5_50-mean": 0.8419903680162854
@@ -4988,7 +4988,7 @@
             "squad_f1": 86.43181212738185
         },
         "6750": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 51653.4414,
             "parse-depth": {
                 "dev.root_acc": null,
                 "dev.spearmanr-5_50-mean": null
@@ -5001,7 +5001,7 @@
             "squad_f1": null
         },
         "7000": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 62517.5977,
             "parse-depth": {
                 "dev.root_acc": 0.8058823529411765,
                 "dev.spearmanr-5_50-mean": 0.841052938645638
@@ -5014,7 +5014,7 @@
             "squad_f1": 85.96829374604565
         },
         "7250": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 65616.8047,
             "parse-depth": {
                 "dev.root_acc": null,
                 "dev.spearmanr-5_50-mean": null
@@ -5027,7 +5027,7 @@
             "squad_f1": null
         },
         "7500": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 96931.9844,
             "parse-depth": {
                 "dev.root_acc": 0.7841176470588235,
                 "dev.spearmanr-5_50-mean": 0.8314713303233611
@@ -5040,7 +5040,7 @@
             "squad_f1": 86.51617929513183
         },
         "7750": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 34939.3359,
             "parse-depth": {
                 "dev.root_acc": null,
                 "dev.spearmanr-5_50-mean": null
@@ -5053,7 +5053,7 @@
             "squad_f1": null
         },
         "8000": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 94793.3516,
             "parse-depth": {
                 "dev.root_acc": 0.7935294117647059,
                 "dev.spearmanr-5_50-mean": 0.8370074303927046
@@ -5066,7 +5066,7 @@
             "squad_f1": 87.13874744519467
         },
         "8250": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 50542.6641,
             "parse-depth": {
                 "dev.root_acc": null,
                 "dev.spearmanr-5_50-mean": null
@@ -5079,7 +5079,7 @@
             "squad_f1": null
         },
         "8500": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 81044.0938,
             "parse-depth": {
                 "dev.root_acc": 0.7776470588235294,
                 "dev.spearmanr-5_50-mean": 0.8349450299939841
@@ -5092,7 +5092,7 @@
             "squad_f1": 86.8768086428766
         },
         "8750": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 53428.9688,
             "parse-depth": {
                 "dev.root_acc": null,
                 "dev.spearmanr-5_50-mean": null
@@ -5105,7 +5105,7 @@
             "squad_f1": null
         },
         "9000": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 63315.4297,
             "parse-depth": {
                 "dev.root_acc": 0.7976470588235294,
                 "dev.spearmanr-5_50-mean": 0.83771490677615
@@ -5118,7 +5118,7 @@
             "squad_f1": 86.70268813560077
         },
         "9250": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 124348.2812,
             "parse-depth": {
                 "dev.root_acc": null,
                 "dev.spearmanr-5_50-mean": null
@@ -5131,7 +5131,7 @@
             "squad_f1": null
         },
         "9500": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 122526.2578,
             "parse-depth": {
                 "dev.root_acc": 0.7858823529411765,
                 "dev.spearmanr-5_50-mean": 0.834643596034034
@@ -5144,7 +5144,7 @@
             "squad_f1": 87.22305289105591
         },
         "9750": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 61232.5508,
             "parse-depth": {
                 "dev.root_acc": null,
                 "dev.spearmanr-5_50-mean": null
@@ -5185,12 +5185,12 @@
         "10500": {
             "mlm_perplexity": 81806.8047,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.7976470588235294,
+                "dev.spearmanr-5_50-mean": 0.8413561812794633
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7885679431985559,
+                "dev.uuas": 0.6610758178471768
             },
             "squad_exact_match": 80.0473036896878,
             "squad_f1": 87.27924863586931
@@ -5211,15 +5211,15 @@
         "11000": {
             "mlm_perplexity": 27833.8145,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.7835294117647059,
+                "dev.spearmanr-5_50-mean": 0.8397614740810979
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7922875941225476,
+                "dev.uuas": 0.6648459300599656
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 80.07568590350047,
+            "squad_f1": 87.53557406845955
         },
         "11250": {
             "mlm_perplexity": 37079.0078,
@@ -5237,15 +5237,15 @@
         "11500": {
             "mlm_perplexity": 60988.4766,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.7735294117647059,
+                "dev.spearmanr-5_50-mean": 0.8331849330088962
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7751791025886557,
+                "dev.uuas": 0.6286291040788458
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 80.07568590350047,
+            "squad_f1": 87.63689665797182
         },
         "11750": {
             "mlm_perplexity": 61766.5625,
@@ -5263,15 +5263,15 @@
         "12000": {
             "mlm_perplexity": 183351.375,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.7776470588235294,
+                "dev.spearmanr-5_50-mean": 0.8321649983433117
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7757274175715818,
+                "dev.uuas": 0.6271151220091432
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 79.99053926206244,
+            "squad_f1": 87.53432937529165
         },
         "12250": {
             "mlm_perplexity": 42225.5078,
@@ -5289,15 +5289,15 @@
         "12500": {
             "mlm_perplexity": 24865.6953,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.7817647058823529,
+                "dev.spearmanr-5_50-mean": 0.8303638569260398
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7718329742756144,
+                "dev.uuas": 0.6290743929228759
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 80.12298959318827,
+            "squad_f1": 87.65855274199986
         },
         "12750": {
             "mlm_perplexity": 63575.9727,
@@ -5315,15 +5315,15 @@
         "13000": {
             "mlm_perplexity": 68753.75,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.7629411764705882,
+                "dev.spearmanr-5_50-mean": 0.8253845717982241
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7677675777457141,
+                "dev.uuas": 0.6281838152348157
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 80.12298959318827,
+            "squad_f1": 87.70842768889314
         },
         "13250": {
             "mlm_perplexity": 47803.0234,
@@ -5341,15 +5341,15 @@
         "13500": {
             "mlm_perplexity": 46671.3594,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.7888235294117647,
+                "dev.spearmanr-5_50-mean": 0.8351005933844767
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7758550415218227,
+                "dev.uuas": 0.6360208988897464
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 79.56480605487228,
+            "squad_f1": 87.47654190498356
         },
         "13750": {
             "mlm_perplexity": 38231.5859,
@@ -5367,15 +5367,15 @@
         "14000": {
             "mlm_perplexity": 77690.1484,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.7752941176470588,
+                "dev.spearmanr-5_50-mean": 0.8312694483805767
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7795658563656103,
+                "dev.uuas": 0.6359912129668112
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 80.56764427625355,
+            "squad_f1": 87.80792334694296
         },
         "14250": {
             "mlm_perplexity": 31335.1914,
@@ -5393,15 +5393,15 @@
         "14500": {
             "mlm_perplexity": 48795.1094,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.7841176470588235,
+                "dev.spearmanr-5_50-mean": 0.8371047367199865
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7737486782285224,
+                "dev.uuas": 0.6308555482989966
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 80.24597918637653,
+            "squad_f1": 87.69576611307991
         },
         "14750": {
             "mlm_perplexity": 148712.6094,
@@ -5419,15 +5419,15 @@
         "15000": {
             "mlm_perplexity": 83013.0156,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.7676470588235295,
+                "dev.spearmanr-5_50-mean": 0.8307338489725934
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7691040030763653,
+                "dev.uuas": 0.6267885768568545
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 80.3027436140019,
+            "squad_f1": 87.98863383144113
         },
         "15250": {
             "mlm_perplexity": 35617.75,
@@ -5445,15 +5445,15 @@
         "15500": {
             "mlm_perplexity": 44501.0508,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.7594117647058823,
+                "dev.spearmanr-5_50-mean": 0.8278217460556303
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7638882190092092,
+                "dev.uuas": 0.6239981001009322
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 80.80416272469253,
+            "squad_f1": 88.25643482466702
         },
         "15750": {
             "mlm_perplexity": 58269.918,
@@ -5471,15 +5471,15 @@
         "16000": {
             "mlm_perplexity": 83113.3828,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.7647058823529411,
+                "dev.spearmanr-5_50-mean": 0.8274240040440419
             },
             "parse-distance": {
                 "dev.spearmanr-5_50-mean": null,
                 "dev.uuas": null
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 80.39735099337749,
+            "squad_f1": 88.23081913234246
         },
         "16250": {
             "mlm_perplexity": 54350.6367,
