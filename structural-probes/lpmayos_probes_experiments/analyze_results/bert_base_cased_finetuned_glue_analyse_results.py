@@ -37,9 +37,9 @@ def analyse_results(probe_name, models_path, runs_list, output_file):
                 results_path = checkpoint_path + '/eval_results.txt'
                 probes_path = checkpoint_path + '/structural_probes/' + probe_name
 
-                checkpoint_results = {'task_acc': None,
-                                      'task_f1': None,
-                                      'task_acc_and_f1': None,
+                checkpoint_results = {'acc': None,
+                                      'f1': None,
+                                      'acc_and_f1': None,
                                       'parse-depth': {
                                           'dev.root_acc': None,
                                           'dev.spearmanr-5_50-mean': None
