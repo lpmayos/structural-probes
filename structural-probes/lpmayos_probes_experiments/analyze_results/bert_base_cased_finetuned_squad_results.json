@@ -731,12 +731,12 @@
         "14000": {
             "mlm_perplexity": 81210.2031,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.8241176470588235,
+                "dev.spearmanr-5_50-mean": 0.855672704626354
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7947660855995535,
+                "dev.uuas": 0.6739891943240516
             },
             "squad_exact_match": 80.22705771050141,
             "squad_f1": 87.88589041876133
@@ -757,15 +757,15 @@
         "14500": {
             "mlm_perplexity": 31644.4492,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.7964705882352942,
+                "dev.spearmanr-5_50-mean": 0.8497295056573179
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7870805609356037,
+                "dev.uuas": 0.6606305290031467
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 80.51087984862819,
+            "squad_f1": 88.0565861467093
         },
         "14750": {
             "mlm_perplexity": 65374.4531,
@@ -790,8 +790,8 @@
                 "dev.spearmanr-5_50-mean": null,
                 "dev.uuas": null
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 81.21097445600756,
+            "squad_f1": 88.4097085120253
         },
         "15250": {
             "mlm_perplexity": 29689.584,
@@ -3365,8 +3365,8 @@
                 "dev.spearmanr-5_50-mean": 0.8245578830066261
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7595070867030881,
+                "dev.uuas": 0.6125987056937601
             },
             "squad_exact_match": 81.12582781456953,
             "squad_f1": 88.45432348250603
@@ -3387,15 +3387,15 @@
         "20500": {
             "mlm_perplexity": 70811.7266,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.7452941176470588,
+                "dev.spearmanr-5_50-mean": 0.8258874812127618
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7614522024651734,
+                "dev.uuas": 0.6142611173781393
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 81.01229895931883,
+            "squad_f1": 88.34462786442252
         },
         "20750": {
             "mlm_perplexity": 59856.3867,
@@ -3413,15 +3413,15 @@
         "21000": {
             "mlm_perplexity": 54778.7422,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.7629411764705882,
+                "dev.spearmanr-5_50-mean": 0.8340070581012777
             },
             "parse-distance": {
                 "dev.spearmanr-5_50-mean": null,
                 "dev.uuas": null
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 81.21097445600756,
+            "squad_f1": 88.39013517118221
         },
         "21250": {
             "mlm_perplexity": 84185.0469,
@@ -5475,8 +5475,8 @@
                 "dev.spearmanr-5_50-mean": 0.8274240040440419
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7606615043023709,
+                "dev.uuas": 0.6174078252092857
             },
             "squad_exact_match": 80.39735099337749,
             "squad_f1": 88.23081913234246
@@ -5497,15 +5497,15 @@
         "16500": {
             "mlm_perplexity": 35173.4961,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.7523529411764706,
+                "dev.spearmanr-5_50-mean": 0.8247120795090908
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7635892641547519,
+                "dev.uuas": 0.6174671970551564
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 80.72847682119205,
+            "squad_f1": 88.33545733458142
         },
         "16750": {
             "mlm_perplexity": 34229.875,
@@ -5530,8 +5530,8 @@
                 "dev.spearmanr-5_50-mean": null,
                 "dev.uuas": null
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 80.94607379375591,
+            "squad_f1": 88.37766797298958
         },
         "17250": {
             "mlm_perplexity": 48420.9219,
