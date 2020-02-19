@@ -3,3 +3,4 @@ __pycache__
 example/data/
 example/results/
 .ipynb_checkpoints/
+*.out
