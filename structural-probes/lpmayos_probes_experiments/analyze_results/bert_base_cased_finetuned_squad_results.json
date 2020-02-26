@@ -1095,12 +1095,12 @@
         "21000": {
             "mlm_perplexity": 46821.6406,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.798235294117647,
+                "dev.spearmanr-5_50-mean": 0.8492781210150132
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.790729642703082,
+                "dev.uuas": 0.6624116843792673
             },
             "squad_exact_match": 81.44749290444655,
             "squad_f1": 88.8488341375964
@@ -1121,15 +1121,15 @@
         "21500": {
             "mlm_perplexity": 122785.125,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.808235294117647,
+                "dev.spearmanr-5_50-mean": 0.8550302778731841
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.790868937901729,
+                "dev.uuas": 0.6632132042985216
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 81.70293282876064,
+            "squad_f1": 88.96251598774302
         },
         "21750": {
             "mlm_perplexity": 99216.5625,
@@ -1147,15 +1147,15 @@
         "22000": {
             "mlm_perplexity": 72132.2422,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.8064705882352942,
+                "dev.spearmanr-5_50-mean": 0.8542497313366674
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7903757001974587,
+                "dev.uuas": 0.6627382295315561
             },
-            "squad_exact_match": null,
-            "squad_f1": null
+            "squad_exact_match": 81.56102175969725,
+            "squad_f1": 88.89817172590232
         }
     },
     "run2": {
