@@ -1,0 +1,3492 @@
+{
+    "run1": {
+        "20": {
+            "acc": 0.8909543812419256,
+            "loss": 0.4299787051147885,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "40": {
+            "acc": 0.9428469756395678,
+            "loss": 0.21475294941947573,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "60": {
+            "acc": 0.9523466932782535,
+            "loss": 0.17473787081146996,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "80": {
+            "acc": 0.9576612747259549,
+            "loss": 0.1552341232105853,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "100": {
+            "acc": 0.9590769492600586,
+            "loss": 0.14537805856929886,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "120": {
+            "acc": 0.9619082983282663,
+            "loss": 0.14164887226763226,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "140": {
+            "acc": 0.9619779216660092,
+            "loss": 0.13445393758870305,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "160": {
+            "acc": 0.9633394447152018,
+            "loss": 0.1286071115542972,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "180": {
+            "acc": 0.964801534807801,
+            "loss": 0.12359962505953652,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "200": {
+            "acc": 0.9649021018512072,
+            "loss": 0.1261060627561713,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "220": {
+            "acc": 0.9660779626664191,
+            "loss": 0.12553997255033916,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "240": {
+            "acc": 0.9660083393286764,
+            "loss": 0.12560160647309015,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "260": {
+            "acc": 0.9669211786457487,
+            "loss": 0.12223763722512457,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "280": {
+            "acc": 0.9671068408797295,
+            "loss": 0.12069597213514267,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "300": {
+            "acc": 0.9675245809061864,
+            "loss": 0.11788684236151832,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "320": {
+            "acc": 0.9671145768061454,
+            "loss": 0.1227210650131816,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "340": {
+            "acc": 0.9681202472402083,
+            "loss": 0.11762098900027691,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "360": {
+            "acc": 0.9682904376213574,
+            "loss": 0.12063202906459097,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "380": {
+            "acc": 0.9682827016949415,
+            "loss": 0.12349876879699646,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "400": {
+            "acc": 0.9683136454006049,
+            "loss": 0.12807916607412081,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "420": {
+            "acc": 0.9692032769384298,
+            "loss": 0.12990272370359254,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "440": {
+            "acc": 0.9688474243232998,
+            "loss": 0.12969685895811944,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "460": {
+            "acc": 0.9687700650591412,
+            "loss": 0.139304145756695,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "480": {
+            "acc": 0.9680274161232179,
+            "loss": 0.1436366182825868,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "500": {
+            "acc": 0.968367796885516,
+            "loss": 0.1383404437866476,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "520": {
+            "acc": 0.9692961080554202,
+            "loss": 0.1355005284505231,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "540": {
+            "acc": 0.9691800691591822,
+            "loss": 0.13321740484781683,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "560": {
+            "acc": 0.9694895062158169,
+            "loss": 0.1343649604490825,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "580": {
+            "acc": 0.9695513936271438,
+            "loss": 0.1345120667228623,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "600": {
+            "acc": 0.9685070435610017,
+            "loss": 0.13282299449756033,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "620": {
+            "acc": 0.9688861039553792,
+            "loss": 0.13440067474804226,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "640": {
+            "acc": 0.9692264847176774,
+            "loss": 0.13722046098065754,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "660": {
+            "acc": 0.9699691336536007,
+            "loss": 0.1352907195687294,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "680": {
+            "acc": 0.9697679995667882,
+            "loss": 0.13798462292031635,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "700": {
+            "acc": 0.9698995103158579,
+            "loss": 0.13588447277508084,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "720": {
+            "acc": 0.9702321551517402,
+            "loss": 0.13404724874075444,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "740": {
+            "acc": 0.9702244192253243,
+            "loss": 0.1379445528108922,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "760": {
+            "acc": 0.9698608306837785,
+            "loss": 0.1383328569668626,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "780": {
+            "acc": 0.969713848081877,
+            "loss": 0.1379606555260363,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "800": {
+            "acc": 0.9697447917875405,
+            "loss": 0.1412749806685107,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "820": {
+            "acc": 0.9702166832989084,
+            "loss": 0.142890422324103,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "840": {
+            "acc": 0.9701547958875815,
+            "loss": 0.14282864335155676,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "860": {
+            "acc": 0.9700851725498387,
+            "loss": 0.1471500965574431,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "880": {
+            "acc": 0.9698840384630262,
+            "loss": 0.14887365160716903,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "900": {
+            "acc": 0.9694662984365693,
+            "loss": 0.1502129811320513,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "920": {
+            "acc": 0.9698995103158579,
+            "loss": 0.1472653636620158,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "940": {
+            "acc": 0.9702244192253243,
+            "loss": 0.14602973578231676,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "960": {
+            "acc": 0.9701238521819181,
+            "loss": 0.14607280108427245,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "980": {
+            "acc": 0.9704410251649687,
+            "loss": 0.1475059725935497,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "1000": {
+            "acc": 0.9699613977271848,
+            "loss": 0.1493330607634215,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "1020": {
+            "acc": 0.9699691336536007,
+            "loss": 0.15081991453374188,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "1040": {
+            "acc": 0.9700232851385118,
+            "loss": 0.1506084500560685,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "1060": {
+            "acc": 0.9701625318139974,
+            "loss": 0.1496380509897357,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "1080": {
+            "acc": 0.9700851725498387,
+            "loss": 0.1504694845468279,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "1100": {
+            "acc": 0.9700155492120959,
+            "loss": 0.15250090018860876,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "1120": {
+            "acc": 0.9700232851385118,
+            "loss": 0.151044874525969,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "1140": {
+            "acc": 0.9700542288441752,
+            "loss": 0.15070853595222747,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "1160": {
+            "acc": 0.9700000773592642,
+            "loss": 0.15118406089170586,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        }
+    },
+    "run2": {
+        "20": {
+            "acc": 0.8951859329914054,
+            "loss": 0.41488362044569044,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "40": {
+            "acc": 0.9411528077544926,
+            "loss": 0.21894753203978615,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "60": {
+            "acc": 0.9516349880479937,
+            "loss": 0.1760444398673754,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "80": {
+            "acc": 0.9553404968011944,
+            "loss": 0.1630590200305931,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "100": {
+            "acc": 0.9591001570393063,
+            "loss": 0.14237046218107616,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "120": {
+            "acc": 0.9622022635320693,
+            "loss": 0.13731202394479797,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "140": {
+            "acc": 0.9616684846093744,
+            "loss": 0.1362497912985938,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "160": {
+            "acc": 0.9642290762530267,
+            "loss": 0.13037849667053375,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "180": {
+            "acc": 0.9652192748342577,
+            "loss": 0.12720263530574147,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "200": {
+            "acc": 0.9660470189607556,
+            "loss": 0.1259447080157106,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "220": {
+            "acc": 0.9665034386192919,
+            "loss": 0.12042841563622157,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "240": {
+            "acc": 0.96684381938159,
+            "loss": 0.12418083308471574,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "260": {
+            "acc": 0.9667974038230949,
+            "loss": 0.12090229698353344,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "280": {
+            "acc": 0.9675245809061864,
+            "loss": 0.12306991769444375,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "300": {
+            "acc": 0.9677334509194149,
+            "loss": 0.12246650522426954,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "320": {
+            "acc": 0.9685070435610017,
+            "loss": 0.11549821306788732,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "340": {
+            "acc": 0.9681047753873765,
+            "loss": 0.11826394477652179,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "360": {
+            "acc": 0.9690408224836965,
+            "loss": 0.11873328461060448,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "380": {
+            "acc": 0.9694353547309058,
+            "loss": 0.11807493200259549,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "400": {
+            "acc": 0.9689479913667062,
+            "loss": 0.12247780320190248,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "420": {
+            "acc": 0.9692496924969249,
+            "loss": 0.12857424319973068,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "440": {
+            "acc": 0.9686076106044079,
+            "loss": 0.1374951009121206,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "460": {
+            "acc": 0.9687468572798935,
+            "loss": 0.12944163145527007,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "480": {
+            "acc": 0.9685225154138334,
+            "loss": 0.12721070079576402,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "500": {
+            "acc": 0.9677876024043259,
+            "loss": 0.13406105951539107,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "520": {
+            "acc": 0.968429684296843,
+            "loss": 0.13457125584994042,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "540": {
+            "acc": 0.968893839881795,
+            "loss": 0.13165981156958473,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "560": {
+            "acc": 0.9683368531798525,
+            "loss": 0.13826855999373255,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "580": {
+            "acc": 0.9683910046647636,
+            "loss": 0.13914168377717337,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "600": {
+            "acc": 0.9685921387515762,
+            "loss": 0.13851022714423755,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "620": {
+            "acc": 0.9695204499214803,
+            "loss": 0.1347039303786698,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "640": {
+            "acc": 0.9692883721290043,
+            "loss": 0.13411776993482832,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "660": {
+            "acc": 0.9692264847176774,
+            "loss": 0.13592185789630526,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "680": {
+            "acc": 0.9692264847176774,
+            "loss": 0.13790947580266566,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "700": {
+            "acc": 0.9692342206440933,
+            "loss": 0.1393009496054479,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "720": {
+            "acc": 0.9694895062158169,
+            "loss": 0.14107396903019104,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "740": {
+            "acc": 0.969775735493204,
+            "loss": 0.13940721785738355,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "760": {
+            "acc": 0.969303843981836,
+            "loss": 0.14010993701716265,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "780": {
+            "acc": 0.9694662984365693,
+            "loss": 0.13854508870650853,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "800": {
+            "acc": 0.9698221510516992,
+            "loss": 0.14150157653623158,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "820": {
+            "acc": 0.969481770289401,
+            "loss": 0.14524221970211892,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "840": {
+            "acc": 0.9696055451120549,
+            "loss": 0.14542564010572812,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "860": {
+            "acc": 0.9693966750988264,
+            "loss": 0.1501679052081373,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "880": {
+            "acc": 0.9694895062158169,
+            "loss": 0.15137833776691603,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "900": {
+            "acc": 0.9695823373328073,
+            "loss": 0.15289716245163054,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "920": {
+            "acc": 0.9697370558611247,
+            "loss": 0.1536627538679611,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "940": {
+            "acc": 0.9699072462422738,
+            "loss": 0.14827201958923114,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "960": {
+            "acc": 0.9698144151252833,
+            "loss": 0.15072953251619187,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "980": {
+            "acc": 0.9697525277139564,
+            "loss": 0.15017728309427936,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "1000": {
+            "acc": 0.9695436577007279,
+            "loss": 0.15062729396399052,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "1020": {
+            "acc": 0.9697679995667882,
+            "loss": 0.1509568023657988,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "1040": {
+            "acc": 0.9697447917875405,
+            "loss": 0.15171327308884688,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "1060": {
+            "acc": 0.9700310210649277,
+            "loss": 0.14977979875864492,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "1080": {
+            "acc": 0.9701006444026704,
+            "loss": 0.14935980985562006,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "1100": {
+            "acc": 0.9697989432724516,
+            "loss": 0.15158051332192762,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "1120": {
+            "acc": 0.9697679995667882,
+            "loss": 0.1525898166296501,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "1140": {
+            "acc": 0.9697525277139564,
+            "loss": 0.15210502603579135,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "1160": {
+            "acc": 0.9697215840082929,
+            "loss": 0.15238044280854482,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        }
+    },
+    "run3": {
+        "20": {
+            "acc": 0.8930508173006259,
+            "loss": 0.43363590562154375,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "40": {
+            "acc": 0.9435741527226593,
+            "loss": 0.21160400091182618,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "60": {
+            "acc": 0.9528727362745325,
+            "loss": 0.1703992649203255,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "80": {
+            "acc": 0.9578701447391832,
+            "loss": 0.14952334028387826,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "100": {
+            "acc": 0.9608639482621242,
+            "loss": 0.14216276553888169,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "120": {
+            "acc": 0.9621171683414947,
+            "loss": 0.137972247919866,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "140": {
+            "acc": 0.9634090680529447,
+            "loss": 0.1288615037642774,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "160": {
+            "acc": 0.9647241755436422,
+            "loss": 0.12362078736935343,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "180": {
+            "acc": 0.9652502185399212,
+            "loss": 0.11953062972142584,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "200": {
+            "acc": 0.9663332482381427,
+            "loss": 0.12210484387146102,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "220": {
+            "acc": 0.9661011704456667,
+            "loss": 0.11774978260435755,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "240": {
+            "acc": 0.9668283475287583,
+            "loss": 0.12154013988754106,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "260": {
+            "acc": 0.965675694492794,
+            "loss": 0.12222784373258787,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "280": {
+            "acc": 0.9681202472402083,
+            "loss": 0.12137866309947437,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "300": {
+            "acc": 0.9681434550194559,
+            "loss": 0.11983704782785877,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "320": {
+            "acc": 0.9678185461099894,
+            "loss": 0.1235908293534839,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "340": {
+            "acc": 0.9683600609591002,
+            "loss": 0.12234139791320241,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "360": {
+            "acc": 0.9677721305514942,
+            "loss": 0.11763236485421658,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "380": {
+            "acc": 0.9672925031137104,
+            "loss": 0.12384451698097917,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "400": {
+            "acc": 0.9670991049533136,
+            "loss": 0.12491804748655312,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "420": {
+            "acc": 0.9682440220628621,
+            "loss": 0.13123186068638923,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "440": {
+            "acc": 0.9680970394609606,
+            "loss": 0.13546523020144494,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "460": {
+            "acc": 0.9686462902364873,
+            "loss": 0.12946929758976375,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "480": {
+            "acc": 0.9685611950459128,
+            "loss": 0.13045963047752304,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "500": {
+            "acc": 0.9680119442703861,
+            "loss": 0.13414061045835887,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "520": {
+            "acc": 0.969187805085598,
+            "loss": 0.13202292075942432,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "540": {
+            "acc": 0.9692032769384298,
+            "loss": 0.13412169662732926,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "560": {
+            "acc": 0.9690485584101124,
+            "loss": 0.13571824026959284,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "580": {
+            "acc": 0.9688242165440523,
+            "loss": 0.13446521693988453,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "600": {
+            "acc": 0.9697834714196198,
+            "loss": 0.12904378748129283,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "620": {
+            "acc": 0.9689866709987854,
+            "loss": 0.13498400666174434,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "640": {
+            "acc": 0.9692342206440933,
+            "loss": 0.13595530757355312,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "660": {
+            "acc": 0.9691491254535187,
+            "loss": 0.13340945278723088,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "680": {
+            "acc": 0.9687700650591412,
+            "loss": 0.1410204897087718,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "700": {
+            "acc": 0.9692110128648457,
+            "loss": 0.1400144693279077,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "720": {
+            "acc": 0.9688164806176364,
+            "loss": 0.14781107239070393,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "740": {
+            "acc": 0.9689634632195379,
+            "loss": 0.14165547844909487,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "760": {
+            "acc": 0.9691800691591822,
+            "loss": 0.14309601923302998,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "780": {
+            "acc": 0.9692574284233408,
+            "loss": 0.14008650236896106,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "800": {
+            "acc": 0.9689789350723695,
+            "loss": 0.14690035552022948,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "820": {
+            "acc": 0.9691027098950235,
+            "loss": 0.1456825388447633,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "840": {
+            "acc": 0.9694353547309058,
+            "loss": 0.15217222911970957,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "860": {
+            "acc": 0.9695127139950644,
+            "loss": 0.1503545849450997,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "880": {
+            "acc": 0.9695668654799755,
+            "loss": 0.14993935717003687,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "900": {
+            "acc": 0.9694276188044899,
+            "loss": 0.15136367366427467,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "920": {
+            "acc": 0.9696210169648867,
+            "loss": 0.14846671813182413,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "940": {
+            "acc": 0.9695746014063914,
+            "loss": 0.14987338015011378,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "960": {
+            "acc": 0.9696751684497977,
+            "loss": 0.1513949397300917,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "980": {
+            "acc": 0.9696906403026294,
+            "loss": 0.15357008665090516,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "1000": {
+            "acc": 0.9699381899479372,
+            "loss": 0.14874717492669348,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "1020": {
+            "acc": 0.9697679995667882,
+            "loss": 0.14940125436063798,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "1040": {
+            "acc": 0.9699768695800166,
+            "loss": 0.14894762221309873,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "1060": {
+            "acc": 0.9700155492120959,
+            "loss": 0.15032898711543236,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "1080": {
+            "acc": 0.9697912073460357,
+            "loss": 0.15158562184799285,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "1100": {
+            "acc": 0.9698453588309468,
+            "loss": 0.15258314253555405,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "1120": {
+            "acc": 0.9700232851385118,
+            "loss": 0.15242101778350178,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "1140": {
+            "acc": 0.9700697006970069,
+            "loss": 0.15226038291104257,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "1160": {
+            "acc": 0.9699923414328483,
+            "loss": 0.1526547091466094,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        }
+    },
+    "run4": {
+        "20": {
+            "acc": 0.8935381806648255,
+            "loss": 0.4227942739214216,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "40": {
+            "acc": 0.940487518082728,
+            "loss": 0.21310903463098738,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "60": {
+            "acc": 0.9528727362745325,
+            "loss": 0.17100618294780218,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "80": {
+            "acc": 0.958295620692056,
+            "loss": 0.14578838995288287,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "100": {
+            "acc": 0.9613667834791555,
+            "loss": 0.14107455809911093,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "120": {
+            "acc": 0.9627205706019324,
+            "loss": 0.13311213822591872,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "140": {
+            "acc": 0.9636566176982525,
+            "loss": 0.12952970204845307,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "160": {
+            "acc": 0.9641594529152838,
+            "loss": 0.12787086487052932,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "180": {
+            "acc": 0.9644070025605916,
+            "loss": 0.1262992684921575,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "200": {
+            "acc": 0.9658768285796066,
+            "loss": 0.11984813290219458,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "220": {
+            "acc": 0.9662713608268159,
+            "loss": 0.11667654196184779,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "240": {
+            "acc": 0.9662094734154889,
+            "loss": 0.12012350458710913,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "260": {
+            "acc": 0.9667123086325203,
+            "loss": 0.11632708847404473,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "280": {
+            "acc": 0.9673234468193739,
+            "loss": 0.11409870493743154,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "300": {
+            "acc": 0.9680042083439703,
+            "loss": 0.1156258201670079,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "320": {
+            "acc": 0.9677179790665831,
+            "loss": 0.12064521863228744,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "340": {
+            "acc": 0.967895905374148,
+            "loss": 0.12072639835495798,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "360": {
+            "acc": 0.96777986647791,
+            "loss": 0.11825435963414964,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "380": {
+            "acc": 0.9687391213534777,
+            "loss": 0.12245610595813819,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "400": {
+            "acc": 0.9697602636403723,
+            "loss": 0.11623910368080177,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "420": {
+            "acc": 0.9682981735477733,
+            "loss": 0.12394382361145247,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "440": {
+            "acc": 0.9684606280025064,
+            "loss": 0.12074424503814607,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "460": {
+            "acc": 0.9683910046647636,
+            "loss": 0.1282889528702649,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "480": {
+            "acc": 0.9684451561496747,
+            "loss": 0.1285113670996257,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "500": {
+            "acc": 0.9686540261629032,
+            "loss": 0.12882477958642302,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "520": {
+            "acc": 0.968661762089319,
+            "loss": 0.12953986103336015,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "540": {
+            "acc": 0.9684528920760905,
+            "loss": 0.12994482309099228,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "560": {
+            "acc": 0.9687855369119729,
+            "loss": 0.12486347026886448,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "580": {
+            "acc": 0.9691413895271028,
+            "loss": 0.12703233327539193,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "600": {
+            "acc": 0.9693966750988264,
+            "loss": 0.13121263156571086,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "620": {
+            "acc": 0.9689325195138744,
+            "loss": 0.13646908119202605,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "640": {
+            "acc": 0.9689015758082109,
+            "loss": 0.13474353872949169,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "660": {
+            "acc": 0.9693425236139154,
+            "loss": 0.13415951305438603,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "680": {
+            "acc": 0.9696287528913025,
+            "loss": 0.1300437647021479,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "700": {
+            "acc": 0.9699691336536007,
+            "loss": 0.12993504831360447,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "720": {
+            "acc": 0.9695359217743121,
+            "loss": 0.13175407785271842,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "740": {
+            "acc": 0.9696132810384708,
+            "loss": 0.13268717200983138,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "760": {
+            "acc": 0.9695513936271438,
+            "loss": 0.13842760866123532,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "780": {
+            "acc": 0.9696519606705502,
+            "loss": 0.13618951713636754,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "800": {
+            "acc": 0.9696055451120549,
+            "loss": 0.14209593344657195,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "820": {
+            "acc": 0.9699536618007689,
+            "loss": 0.1391597523220948,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "840": {
+            "acc": 0.9693812032459947,
+            "loss": 0.14688507550292546,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "860": {
+            "acc": 0.9700155492120959,
+            "loss": 0.14405385091427772,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "880": {
+            "acc": 0.9699381899479372,
+            "loss": 0.1463291702999009,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "900": {
+            "acc": 0.9700155492120959,
+            "loss": 0.144573698086398,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "920": {
+            "acc": 0.969419882878074,
+            "loss": 0.1484702103549526,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "940": {
+            "acc": 0.9702708347838196,
+            "loss": 0.14124721028502024,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "960": {
+            "acc": 0.9703481940479782,
+            "loss": 0.14349681180384424,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "980": {
+            "acc": 0.9696210169648867,
+            "loss": 0.14928026396840338,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "1000": {
+            "acc": 0.9703559299743941,
+            "loss": 0.1436708490290339,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "1020": {
+            "acc": 0.9701702677404133,
+            "loss": 0.14495376130891224,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "1040": {
+            "acc": 0.9700774366234228,
+            "loss": 0.14610666873317862,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "1060": {
+            "acc": 0.9708046137065144,
+            "loss": 0.14279939819659507,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "1080": {
+            "acc": 0.9704797047970479,
+            "loss": 0.14546087697621377,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "1100": {
+            "acc": 0.9703481940479782,
+            "loss": 0.1470616181336698,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "1120": {
+            "acc": 0.9702940425630672,
+            "loss": 0.14674478207552244,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "1140": {
+            "acc": 0.9703714018272258,
+            "loss": 0.14664653233355945,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "1160": {
+            "acc": 0.9704332892385528,
+            "loss": 0.1464780450222038,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        }
+    },
+    "run5": {
+        "20": {
+            "acc": 0.8999744714428276,
+            "loss": 0.3925528921305187,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "40": {
+            "acc": 0.9453302080190613,
+            "loss": 0.20043536393888414,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "60": {
+            "acc": 0.9544044497048744,
+            "loss": 0.16900434676143858,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "80": {
+            "acc": 0.9579088243712626,
+            "loss": 0.14893279543944768,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "100": {
+            "acc": 0.9611501775395113,
+            "loss": 0.138509354657597,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "120": {
+            "acc": 0.9618386749905234,
+            "loss": 0.1342983189674597,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "140": {
+            "acc": 0.9637881284473222,
+            "loss": 0.131421878579117,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "160": {
+            "acc": 0.9640666217982935,
+            "loss": 0.12719337311055925,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "180": {
+            "acc": 0.9653121059512482,
+            "loss": 0.12027164010537995,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "200": {
+            "acc": 0.9658690926531907,
+            "loss": 0.12379200094276005,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "220": {
+            "acc": 0.9663023045324793,
+            "loss": 0.12142039241180533,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "240": {
+            "acc": 0.966727780485352,
+            "loss": 0.11791356652975082,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "260": {
+            "acc": 0.9676251479495928,
+            "loss": 0.116387408581518,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "280": {
+            "acc": 0.9678649616684846,
+            "loss": 0.12022268712993651,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "300": {
+            "acc": 0.9677876024043259,
+            "loss": 0.11522117336945874,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "320": {
+            "acc": 0.9675942042439293,
+            "loss": 0.11585831523887695,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "340": {
+            "acc": 0.9685534591194969,
+            "loss": 0.11881655892209401,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "360": {
+            "acc": 0.9684451561496747,
+            "loss": 0.123944250541547,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "380": {
+            "acc": 0.9695591295535597,
+            "loss": 0.12012457971771558,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "400": {
+            "acc": 0.969365731393163,
+            "loss": 0.12136852894983595,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "420": {
+            "acc": 0.9693115799082519,
+            "loss": 0.12339512285377298,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "440": {
+            "acc": 0.9696596965969659,
+            "loss": 0.12235639868156305,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "460": {
+            "acc": 0.9691800691591822,
+            "loss": 0.1293874051244486,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "480": {
+            "acc": 0.96907176618936,
+            "loss": 0.1312687380446328,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "500": {
+            "acc": 0.9695513936271438,
+            "loss": 0.13066268555583463,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "520": {
+            "acc": 0.9691413895271028,
+            "loss": 0.13377923494766628,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "540": {
+            "acc": 0.9692264847176774,
+            "loss": 0.13358088742409432,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "560": {
+            "acc": 0.9692961080554202,
+            "loss": 0.1288738196331357,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "580": {
+            "acc": 0.969187805085598,
+            "loss": 0.13004413507287466,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "600": {
+            "acc": 0.9694276188044899,
+            "loss": 0.13074537677069506,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "620": {
+            "acc": 0.969365731393163,
+            "loss": 0.1379884991735693,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "640": {
+            "acc": 0.9699227180951054,
+            "loss": 0.13163711470625702,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "660": {
+            "acc": 0.9698066791988674,
+            "loss": 0.12937431049252313,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "680": {
+            "acc": 0.9698685666101944,
+            "loss": 0.13225285773949016,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "700": {
+            "acc": 0.9694740343629852,
+            "loss": 0.1392414914591918,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "720": {
+            "acc": 0.9700774366234228,
+            "loss": 0.13267634194048625,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "740": {
+            "acc": 0.9702012114460767,
+            "loss": 0.13582600741868928,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "760": {
+            "acc": 0.9696829043762136,
+            "loss": 0.1388467757238282,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "780": {
+            "acc": 0.9700851725498387,
+            "loss": 0.14126027038409597,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "800": {
+            "acc": 0.9702089473724926,
+            "loss": 0.14247553946361655,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "820": {
+            "acc": 0.9701702677404133,
+            "loss": 0.14320647385385302,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "840": {
+            "acc": 0.9703791377536417,
+            "loss": 0.14666163306387645,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "860": {
+            "acc": 0.9701083803290863,
+            "loss": 0.14643802866339684,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "880": {
+            "acc": 0.9700697006970069,
+            "loss": 0.14747616559976623,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "900": {
+            "acc": 0.970185739593245,
+            "loss": 0.14925661712648378,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "920": {
+            "acc": 0.9702398910781561,
+            "loss": 0.14890700229813184,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "940": {
+            "acc": 0.9705029125762956,
+            "loss": 0.14676393453209174,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "960": {
+            "acc": 0.9704564970178003,
+            "loss": 0.14805436843917483,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "980": {
+            "acc": 0.9700774366234228,
+            "loss": 0.15056929258363588,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "1000": {
+            "acc": 0.9703095144158989,
+            "loss": 0.1500982286201583,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "1020": {
+            "acc": 0.9703559299743941,
+            "loss": 0.1498711702251245,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "1040": {
+            "acc": 0.9703172503423148,
+            "loss": 0.14833693936585435,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "1060": {
+            "acc": 0.9702940425630672,
+            "loss": 0.14802333730317296,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "1080": {
+            "acc": 0.9704874407234638,
+            "loss": 0.1491836759424399,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "1100": {
+            "acc": 0.9704255533121369,
+            "loss": 0.14912410707227766,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "1120": {
+            "acc": 0.9703404581215623,
+            "loss": 0.14885735464474512,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "1140": {
+            "acc": 0.9703095144158989,
+            "loss": 0.14915643336753998,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "1160": {
+            "acc": 0.9702708347838196,
+            "loss": 0.148922606533955,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        }
+    }
+}

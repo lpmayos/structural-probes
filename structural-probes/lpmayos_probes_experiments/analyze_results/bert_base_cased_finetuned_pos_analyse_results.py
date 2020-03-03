@@ -24,9 +24,10 @@ def analyse_results(probe_name, models_path, runs_list, output_file):
                     parts = line.split(' = ')
                     checkpoint = parts[0].split('_')[0]
                     metric = parts[0].split('_')[1]
+                    metric_result = float(parts[1].replace('\n', ''))
                     if not checkpoint in pos_results:
                         pos_results[checkpoint] = {}
-                    pos_results[checkpoint][metric] = parts[1]
+                    pos_results[checkpoint][metric] = metric_result
 
         results[run] = {}
 
@@ -39,9 +40,8 @@ def analyse_results(probe_name, models_path, runs_list, output_file):
             logging.info('Reading results for checkpoint %s' % checkpoint)
 
             probes_path = checkpoint_path + '/structural_probes/' + probe_name
-
-            checkpoint_results = {'acc': pos_results[int(checkpoint)]['acc'],
-                                  'loss': pos_results[int(checkpoint)]['loss'],
+            checkpoint_results = {'acc': pos_results[checkpoint]['accuracy'],
+                                  'loss': pos_results[checkpoint]['loss'],
                                   'parse-depth': {
                                       'dev.root_acc': None,
                                       'dev.spearmanr-5_50-mean': None
