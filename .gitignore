@@ -4,3 +4,5 @@ example/data/
 example/results/
 .ipynb_checkpoints/
 *.out
+lpmayos_tests_KG/*
+tmp.txt
