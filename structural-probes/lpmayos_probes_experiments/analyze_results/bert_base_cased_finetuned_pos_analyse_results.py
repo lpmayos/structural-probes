@@ -29,6 +29,16 @@ def analyse_results(probe_name, models_path, runs_list, output_file):
                         pos_results[checkpoint] = {}
                     pos_results[checkpoint][metric] = metric_result
 
+        # add checkpoint-0 results
+        pos_results['0'] = {}
+        checkpoint_zero_results_path =  models_path + '/' + run + '/results_pos/checkpoint-0/test_results.txt'
+        with open(checkpoint_zero_results_path) as file:
+            for line in file.readlines():
+                parts = line.split(' = ')
+                metric = parts[0]
+                metric_result = float(parts[1].replace('\n', ''))
+                pos_results['0'][metric] = metric_result
+
         results[run] = {}
 
         checkpoints_list = [os.path.join(run_results_path, o) for o in os.listdir(run_results_path) if os.path.isdir(os.path.join(run_results_path, o)) and o.startswith(('checkpoint-'))]

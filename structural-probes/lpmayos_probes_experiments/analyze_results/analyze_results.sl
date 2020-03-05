@@ -1,6 +1,7 @@
 # Copy bert-base-cased probes to checkpoints-0
 
-python copy_probes_checkpoints_zero.py
+python copy_probes_checkpoints_zero.py --models_path /homedtic/lperez/transformers/lpmayos_experiments \
+                                       --probes_checkpoint_zero_path /homedtic/lperez/transformers/lpmayos_experiments/bert_base_cased_finetuned_squad/run0/results/checkpoint-0/structural_probes
 
 
 # SQUAD
