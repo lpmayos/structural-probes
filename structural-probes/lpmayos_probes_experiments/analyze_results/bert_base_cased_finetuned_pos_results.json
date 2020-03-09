@@ -1604,12 +1604,12 @@
             "acc": 0.9681434550194559,
             "loss": 0.11983704782785877,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.841764705882353,
+                "dev.spearmanr-5_50-mean": 0.8211132374445483
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7315557964789315,
+                "dev.uuas": 0.5874547289675236
             }
         },
         "320": {
@@ -1628,12 +1628,12 @@
             "acc": 0.9683600609591002,
             "loss": 0.12234139791320241,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.8411764705882353,
+                "dev.spearmanr-5_50-mean": 0.8198903126141733
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7270825748559061,
+                "dev.uuas": 0.5815472303033902
             }
         },
         "360": {

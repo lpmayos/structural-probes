@@ -2274,12 +2274,12 @@
                 "acc_and_f1": "0.8576388888888888\n",
                 "f1": "0.8819444444444444\n",
                 "parse-depth": {
-                    "dev.root_acc": null,
-                    "dev.spearmanr-5_50-mean": null
+                    "dev.root_acc": 0.7888235294117647,
+                    "dev.spearmanr-5_50-mean": 0.8459985282490289
                 },
                 "parse-distance": {
-                    "dev.spearmanr-5_50-mean": null,
-                    "dev.uuas": null
+                    "dev.spearmanr-5_50-mean": 0.7900782981731573,
+                    "dev.uuas": 0.6511013477409012
                 }
             },
             "180": {
@@ -2300,8 +2300,8 @@
                 "acc_and_f1": "0.8628036538847621\n",
                 "f1": "0.8873720136518771\n",
                 "parse-depth": {
-                    "dev.root_acc": null,
-                    "dev.spearmanr-5_50-mean": null
+                    "dev.root_acc": 0.8070588235294117,
+                    "dev.spearmanr-5_50-mean": 0.8503012019460242
                 },
                 "parse-distance": {
                     "dev.spearmanr-5_50-mean": null,
@@ -8129,12 +8129,12 @@
                 "acc_and_f1": "0.8812619816365654\n",
                 "f1": "0.902229845626072\n",
                 "parse-depth": {
-                    "dev.root_acc": null,
-                    "dev.spearmanr-5_50-mean": null
+                    "dev.root_acc": 0.8111764705882353,
+                    "dev.spearmanr-5_50-mean": 0.8546025051687117
                 },
                 "parse-distance": {
-                    "dev.spearmanr-5_50-mean": null,
-                    "dev.uuas": null
+                    "dev.spearmanr-5_50-mean": 0.8049072581782697,
+                    "dev.uuas": 0.7034376298759129
                 }
             },
             "340": {
@@ -8155,12 +8155,12 @@
                 "acc_and_f1": "0.8830966869506424\n",
                 "f1": "0.903448275862069\n",
                 "parse-depth": {
-                    "dev.root_acc": null,
-                    "dev.spearmanr-5_50-mean": null
+                    "dev.root_acc": 0.8129411764705883,
+                    "dev.spearmanr-5_50-mean": 0.8536459080550284
                 },
                 "parse-distance": {
-                    "dev.spearmanr-5_50-mean": null,
-                    "dev.uuas": null
+                    "dev.spearmanr-5_50-mean": 0.804744486995186,
+                    "dev.uuas": 0.7040016624116844
                 }
             }
         },
