@@ -17,7 +17,7 @@ def analyse_results(probe_name, models_path, runs_list, output_file):
         run_results_path = models_path + '/' + run + '/results_parsing'
 
         results_path = run_results_path + '/eval_results.txt'
-        pos_results = {}
+        parsing_results = {}
         with open(results_path) as file:
             for line in file.readlines():
                 if not line.startswith('./results_parsing'):
@@ -25,19 +25,19 @@ def analyse_results(probe_name, models_path, runs_list, output_file):
                     checkpoint = parts[0].split('_')[0]
                     metric = parts[0].split('_')[1]
                     metric_result = float(parts[1].replace('\n', ''))
-                    if not checkpoint in pos_results:
-                        pos_results[checkpoint] = {}
-                    pos_results[checkpoint][metric] = metric_result
+                    if not checkpoint in parsing_results:
+                        parsing_results[checkpoint] = {}
+                    parsing_results[checkpoint][metric] = metric_result
 
         # add checkpoint-0 results
-        pos_results['0'] = {}
+        parsing_results['0'] = {}
         checkpoint_zero_results_path =  models_path + '/' + run + '/results_parsing/checkpoint-0/test_results.txt'
         with open(checkpoint_zero_results_path) as file:
             for line in file.readlines():
                 parts = line.split(' = ')
                 metric = parts[0]
                 metric_result = float(parts[1].replace('\n', ''))
-                pos_results['0'][metric] = metric_result
+                parsing_results['0'][metric] = metric_result
 
         results[run] = {}
 
@@ -50,8 +50,10 @@ def analyse_results(probe_name, models_path, runs_list, output_file):
             logging.info('Reading results for checkpoint %s' % checkpoint)
 
             probes_path = checkpoint_path + '/structural_probes/' + probe_name
-            checkpoint_results = {'acc': pos_results[checkpoint]['accuracy'],
-                                  'loss': pos_results[checkpoint]['loss'],
+            checkpoint_results = {'uas': parsing_results[checkpoint]['uas'],
+                                  'las': parsing_results[checkpoint]['las'],
+                                  'loss': parsing_results[checkpoint]['loss'],
+                                  'label accuracy score': parsing_results[checkpoint]['label accuracy score'],
                                   'parse-depth': {
                                       'dev.root_acc': None,
                                       'dev.spearmanr-5_50-mean': None
