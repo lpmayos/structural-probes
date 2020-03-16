@@ -23,7 +23,7 @@ fi
 
 # GLUE
 
-analyze_results=0
+analyze_results=1
 
 if [ "$analyze_results" == 1 ]; then
     echo "Analyzing GLUE results"
@@ -35,7 +35,7 @@ fi
 
 # POS Tagging
 
-analyze_results=0
+analyze_results=1
 
 if [ "$analyze_results" == 1 ]; then
     echo "Analyzing POS Tagging results"
