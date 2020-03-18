@@ -221,10 +221,11 @@ def get_glue_run_data(data, run_name):
 
 def plot_figure(traces, x_axis_values, x_axis_text, title, x_axis_label, y_axis_label):
     fig = go.Figure(
-        data = traces
+        data=traces
     )
 
-    fig.layout.update(title_text=title, showlegend = False)
+    # fig.layout.update(title_text=title, showlegend = False)
+    fig.layout.update(showlegend=False, margin=dict(r=0, l=0, b=0, t=0))
 
     fig.update_xaxes(
         ticktext=x_axis_text,
