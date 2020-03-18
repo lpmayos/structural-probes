@@ -1386,12 +1386,12 @@
                 "acc_and_f1": "0.8775799547851832\n",
                 "f1": "0.8585732165206508\n",
                 "parse-depth": {
-                    "dev.root_acc": null,
-                    "dev.spearmanr-5_50-mean": null
+                    "dev.root_acc": 0.741764705882353,
+                    "dev.spearmanr-5_50-mean": 0.8160567292565585
                 },
                 "parse-distance": {
-                    "dev.spearmanr-5_50-mean": null,
-                    "dev.uuas": null
+                    "dev.spearmanr-5_50-mean": 0.7259483005448589,
+                    "dev.uuas": 0.5894436858041916
                 }
             },
             "18500": {
@@ -1412,12 +1412,12 @@
                 "acc_and_f1": "0.882143796695215\n",
                 "f1": "0.8645596685821194\n",
                 "parse-depth": {
-                    "dev.root_acc": null,
-                    "dev.spearmanr-5_50-mean": null
+                    "dev.root_acc": 0.7382352941176471,
+                    "dev.spearmanr-5_50-mean": 0.80617561935354
                 },
                 "parse-distance": {
-                    "dev.spearmanr-5_50-mean": null,
-                    "dev.uuas": null
+                    "dev.spearmanr-5_50-mean": 0.7194432377166637,
+                    "dev.uuas": 0.57032595143383
                 }
             },
             "19500": {
@@ -1438,12 +1438,12 @@
                 "acc_and_f1": "0.8845818298149979\n",
                 "f1": "0.8676548790215367\n",
                 "parse-depth": {
-                    "dev.root_acc": null,
-                    "dev.spearmanr-5_50-mean": null
+                    "dev.root_acc": 0.741764705882353,
+                    "dev.spearmanr-5_50-mean": 0.8142337183602258
                 },
                 "parse-distance": {
-                    "dev.spearmanr-5_50-mean": null,
-                    "dev.uuas": null
+                    "dev.spearmanr-5_50-mean": 0.7328846377990037,
+                    "dev.uuas": 0.5922935344059846
                 }
             },
             "20500": {
@@ -1464,12 +1464,12 @@
                 "acc_and_f1": "0.8841919644447214\n",
                 "f1": "0.8669493506059899\n",
                 "parse-depth": {
-                    "dev.root_acc": null,
-                    "dev.spearmanr-5_50-mean": null
+                    "dev.root_acc": 0.7552941176470588,
+                    "dev.spearmanr-5_50-mean": 0.8060208353249262
                 },
                 "parse-distance": {
-                    "dev.spearmanr-5_50-mean": null,
-                    "dev.uuas": null
+                    "dev.spearmanr-5_50-mean": 0.7153874946627446,
+                    "dev.uuas": 0.5743038651071661
                 }
             },
             "21500": {
@@ -1490,12 +1490,12 @@
                 "acc_and_f1": "0.8849302507235326\n",
                 "f1": "0.8677581022385565\n",
                 "parse-depth": {
-                    "dev.root_acc": null,
-                    "dev.spearmanr-5_50-mean": null
+                    "dev.root_acc": 0.7447058823529412,
+                    "dev.spearmanr-5_50-mean": 0.8105867088757672
                 },
                 "parse-distance": {
-                    "dev.spearmanr-5_50-mean": null,
-                    "dev.uuas": null
+                    "dev.spearmanr-5_50-mean": 0.7159457641706987,
+                    "dev.uuas": 0.5716321320429852
                 }
             },
             "22500": {
@@ -1516,12 +1516,12 @@
                 "acc_and_f1": "0.8808809086326894\n",
                 "f1": "0.8619349560237267\n",
                 "parse-depth": {
-                    "dev.root_acc": null,
-                    "dev.spearmanr-5_50-mean": null
+                    "dev.root_acc": 0.7617647058823529,
+                    "dev.spearmanr-5_50-mean": 0.8144949515875978
                 },
                 "parse-distance": {
-                    "dev.spearmanr-5_50-mean": null,
-                    "dev.uuas": null
+                    "dev.spearmanr-5_50-mean": 0.7463750291095679,
+                    "dev.uuas": 0.6074927269488808
                 }
             },
             "23500": {
@@ -1542,12 +1542,12 @@
                 "acc_and_f1": "0.8842787484840471\n",
                 "f1": "0.8672960574429892\n",
                 "parse-depth": {
-                    "dev.root_acc": null,
-                    "dev.spearmanr-5_50-mean": null
+                    "dev.root_acc": 0.7558823529411764,
+                    "dev.spearmanr-5_50-mean": 0.8081078636295369
                 },
                 "parse-distance": {
-                    "dev.spearmanr-5_50-mean": null,
-                    "dev.uuas": null
+                    "dev.spearmanr-5_50-mean": 0.7347479576459471,
+                    "dev.uuas": 0.5879890755803598
                 }
             },
             "24500": {
@@ -1568,12 +1568,12 @@
                 "acc_and_f1": "0.8863967892200424\n",
                 "f1": "0.8696028784648188\n",
                 "parse-depth": {
-                    "dev.root_acc": null,
-                    "dev.spearmanr-5_50-mean": null
+                    "dev.root_acc": 0.7523529411764706,
+                    "dev.spearmanr-5_50-mean": 0.8066866715944847
                 },
                 "parse-distance": {
-                    "dev.spearmanr-5_50-mean": null,
-                    "dev.uuas": null
+                    "dev.spearmanr-5_50-mean": 0.7332798164258127,
+                    "dev.uuas": 0.5927091373270795
                 }
             },
             "25500": {
@@ -1594,12 +1594,12 @@
                 "acc_and_f1": "0.8865320798931429\n",
                 "f1": "0.8694282458609827\n",
                 "parse-depth": {
-                    "dev.root_acc": null,
-                    "dev.spearmanr-5_50-mean": null
+                    "dev.root_acc": 0.7670588235294118,
+                    "dev.spearmanr-5_50-mean": 0.8095698631293393
                 },
                 "parse-distance": {
-                    "dev.spearmanr-5_50-mean": null,
-                    "dev.uuas": null
+                    "dev.spearmanr-5_50-mean": 0.7389999313060523,
+                    "dev.uuas": 0.5949652674701656
                 }
             },
             "26500": {
@@ -1620,12 +1620,12 @@
                 "acc_and_f1": "0.8838675915345569\n",
                 "f1": "0.8654101768855867\n",
                 "parse-depth": {
-                    "dev.root_acc": null,
-                    "dev.spearmanr-5_50-mean": null
+                    "dev.root_acc": 0.7717647058823529,
+                    "dev.spearmanr-5_50-mean": 0.8134989441955903
                 },
                 "parse-distance": {
-                    "dev.spearmanr-5_50-mean": null,
-                    "dev.uuas": null
+                    "dev.spearmanr-5_50-mean": 0.7467712809784683,
+                    "dev.uuas": 0.6108472362405747
                 }
             },
             "27500": {
@@ -1646,12 +1646,12 @@
                 "acc_and_f1": "0.8848762459820783\n",
                 "f1": "0.8665370578805552\n",
                 "parse-depth": {
-                    "dev.root_acc": null,
-                    "dev.spearmanr-5_50-mean": null
+                    "dev.root_acc": 0.7558823529411764,
+                    "dev.spearmanr-5_50-mean": 0.8067487415907086
                 },
                 "parse-distance": {
-                    "dev.spearmanr-5_50-mean": null,
-                    "dev.uuas": null
+                    "dev.spearmanr-5_50-mean": 0.7449373760873726,
+                    "dev.uuas": 0.6077895861782343
                 }
             },
             "28500": {
@@ -3147,12 +3147,12 @@
                 "acc_and_f1": "0.8715611029387117\n",
                 "f1": "0.8545988321450464\n",
                 "parse-depth": {
-                    "dev.root_acc": null,
-                    "dev.spearmanr-5_50-mean": null
+                    "dev.root_acc": 0.5952941176470589,
+                    "dev.spearmanr-5_50-mean": 0.728083020826638
                 },
                 "parse-distance": {
-                    "dev.spearmanr-5_50-mean": null,
-                    "dev.uuas": null
+                    "dev.spearmanr-5_50-mean": 0.5697466386989811,
+                    "dev.uuas": 0.39375408181440363
                 }
             },
             "16500": {
@@ -3173,12 +3173,12 @@
                 "acc_and_f1": "0.8628715863513665\n",
                 "f1": "0.8403610307289513\n",
                 "parse-depth": {
-                    "dev.root_acc": null,
-                    "dev.spearmanr-5_50-mean": null
+                    "dev.root_acc": 0.5982352941176471,
+                    "dev.spearmanr-5_50-mean": 0.7081833856078668
                 },
                 "parse-distance": {
-                    "dev.spearmanr-5_50-mean": null,
-                    "dev.uuas": null
+                    "dev.spearmanr-5_50-mean": 0.5628045375053544,
+                    "dev.uuas": 0.38947930891171406
                 }
             },
             "17500": {
@@ -3199,12 +3199,12 @@
                 "acc_and_f1": "0.8697843256979805\n",
                 "f1": "0.8510947458802549\n",
                 "parse-depth": {
-                    "dev.root_acc": null,
-                    "dev.spearmanr-5_50-mean": null
+                    "dev.root_acc": 0.5911764705882353,
+                    "dev.spearmanr-5_50-mean": 0.7190583663679443
                 },
                 "parse-distance": {
-                    "dev.spearmanr-5_50-mean": null,
-                    "dev.uuas": null
+                    "dev.spearmanr-5_50-mean": 0.5731730583345166,
+                    "dev.uuas": 0.40307546161610164
                 }
             },
             "18500": {
@@ -3225,12 +3225,12 @@
                 "acc_and_f1": "0.8683508576351631\n",
                 "f1": "0.8482278097546199\n",
                 "parse-depth": {
-                    "dev.root_acc": null,
-                    "dev.spearmanr-5_50-mean": null
+                    "dev.root_acc": 0.5758823529411765,
+                    "dev.spearmanr-5_50-mean": 0.6996476071103092
                 },
                 "parse-distance": {
-                    "dev.spearmanr-5_50-mean": null,
-                    "dev.uuas": null
+                    "dev.spearmanr-5_50-mean": 0.5392897202549051,
+                    "dev.uuas": 0.37368639791011105
                 }
             },
             "19500": {
@@ -3251,12 +3251,12 @@
                 "acc_and_f1": "0.8728569717162638\n",
                 "f1": "0.8550634363833066\n",
                 "parse-depth": {
-                    "dev.root_acc": null,
-                    "dev.spearmanr-5_50-mean": null
+                    "dev.root_acc": 0.5670588235294117,
+                    "dev.spearmanr-5_50-mean": 0.7064088290090977
                 },
                 "parse-distance": {
-                    "dev.spearmanr-5_50-mean": null,
-                    "dev.uuas": null
+                    "dev.spearmanr-5_50-mean": 0.5591593641240428,
+                    "dev.uuas": 0.37956421065130913
                 }
             },
             "20500": {
@@ -3277,12 +3277,12 @@
                 "acc_and_f1": "0.8756241970452425\n",
                 "f1": "0.8581739444243955\n",
                 "parse-depth": {
-                    "dev.root_acc": null,
-                    "dev.spearmanr-5_50-mean": null
+                    "dev.root_acc": 0.5676470588235294,
+                    "dev.spearmanr-5_50-mean": 0.7060796467586912
                 },
                 "parse-distance": {
-                    "dev.spearmanr-5_50-mean": null,
-                    "dev.uuas": null
+                    "dev.spearmanr-5_50-mean": 0.568144454972973,
+                    "dev.uuas": 0.3971085911060975
                 }
             },
             "21500": {
@@ -4429,8 +4429,8 @@
                     "dev.spearmanr-5_50-mean": 0.8602084232487558
                 },
                 "parse-distance": {
-                    "dev.spearmanr-5_50-mean": null,
-                    "dev.uuas": null
+                    "dev.spearmanr-5_50-mean": 0.802417364063407,
+                    "dev.uuas": 0.6940271923054088
                 }
             },
             "310": {
@@ -4451,12 +4451,12 @@
                 "acc_and_f1": "0.8781162464985994\n",
                 "f1": "0.9008403361344538\n",
                 "parse-depth": {
-                    "dev.root_acc": null,
-                    "dev.spearmanr-5_50-mean": null
+                    "dev.root_acc": 0.8070588235294117,
+                    "dev.spearmanr-5_50-mean": 0.8599447100297491
                 },
                 "parse-distance": {
-                    "dev.spearmanr-5_50-mean": null,
-                    "dev.uuas": null
+                    "dev.spearmanr-5_50-mean": 0.8024551367769613,
+                    "dev.uuas": 0.6942349937659562
                 }
             },
             "320": {
@@ -4477,12 +4477,12 @@
                 "acc_and_f1": "0.8877484440875327\n",
                 "f1": "0.9078498293515359\n",
                 "parse-depth": {
-                    "dev.root_acc": null,
-                    "dev.spearmanr-5_50-mean": null
+                    "dev.root_acc": 0.808235294117647,
+                    "dev.spearmanr-5_50-mean": 0.8603358671416467
                 },
                 "parse-distance": {
-                    "dev.spearmanr-5_50-mean": null,
-                    "dev.uuas": null
+                    "dev.spearmanr-5_50-mean": 0.8019088102284446,
+                    "dev.uuas": 0.6930772427714778
                 }
             },
             "330": {
@@ -4503,12 +4503,12 @@
                 "acc_and_f1": "0.8807536446120909\n",
                 "f1": "0.9012131715771231\n",
                 "parse-depth": {
-                    "dev.root_acc": null,
-                    "dev.spearmanr-5_50-mean": null
+                    "dev.root_acc": 0.8035294117647059,
+                    "dev.spearmanr-5_50-mean": 0.8598040104475477
                 },
                 "parse-distance": {
-                    "dev.spearmanr-5_50-mean": null,
-                    "dev.uuas": null
+                    "dev.spearmanr-5_50-mean": 0.8014349693070054,
+                    "dev.uuas": 0.6928100694650596
                 }
             },
             "340": {
@@ -4529,12 +4529,12 @@
                 "acc_and_f1": "0.8785743464052287\n",
                 "f1": "0.8993055555555555\n",
                 "parse-depth": {
-                    "dev.root_acc": null,
-                    "dev.spearmanr-5_50-mean": null
+                    "dev.root_acc": 0.8052941176470588,
+                    "dev.spearmanr-5_50-mean": 0.8597293843324768
                 },
                 "parse-distance": {
-                    "dev.spearmanr-5_50-mean": null,
-                    "dev.uuas": null
+                    "dev.spearmanr-5_50-mean": 0.8017505207937063,
+                    "dev.uuas": 0.6921866650834174
                 }
             }
         },
@@ -5194,12 +5194,12 @@
                 "acc_and_f1": "0.8872096632483815\n",
                 "f1": "0.8711049559798201\n",
                 "parse-depth": {
-                    "dev.root_acc": null,
-                    "dev.spearmanr-5_50-mean": null
+                    "dev.root_acc": 0.7476470588235294,
+                    "dev.spearmanr-5_50-mean": 0.809990163082372
                 },
                 "parse-distance": {
-                    "dev.spearmanr-5_50-mean": null,
-                    "dev.uuas": null
+                    "dev.spearmanr-5_50-mean": 0.7527781033253982,
+                    "dev.uuas": 0.5984978922994716
                 }
             },
             "25500": {
@@ -5220,12 +5220,12 @@
                 "acc_and_f1": "0.8828009695817314\n",
                 "f1": "0.8646125748300469\n",
                 "parse-depth": {
-                    "dev.root_acc": null,
-                    "dev.spearmanr-5_50-mean": null
+                    "dev.root_acc": 0.7435294117647059,
+                    "dev.spearmanr-5_50-mean": 0.8091161377662146
                 },
                 "parse-distance": {
-                    "dev.spearmanr-5_50-mean": null,
-                    "dev.uuas": null
+                    "dev.spearmanr-5_50-mean": 0.7506594191860224,
+                    "dev.uuas": 0.596627679154545
                 }
             },
             "26500": {
@@ -5246,12 +5246,12 @@
                 "acc_and_f1": "0.8866092763660218\n",
                 "f1": "0.8696321070234114\n",
                 "parse-depth": {
-                    "dev.root_acc": null,
-                    "dev.spearmanr-5_50-mean": null
+                    "dev.root_acc": 0.7447058823529412,
+                    "dev.spearmanr-5_50-mean": 0.8073681232519617
                 },
                 "parse-distance": {
-                    "dev.spearmanr-5_50-mean": null,
-                    "dev.uuas": null
+                    "dev.spearmanr-5_50-mean": 0.7506938520823192,
+                    "dev.uuas": 0.5992994122187258
                 }
             },
             "27500": {
@@ -5272,12 +5272,12 @@
                 "acc_and_f1": "0.8880088059977755\n",
                 "f1": "0.8717880794701988\n",
                 "parse-depth": {
-                    "dev.root_acc": null,
-                    "dev.spearmanr-5_50-mean": null
+                    "dev.root_acc": 0.7382352941176471,
+                    "dev.spearmanr-5_50-mean": 0.809754251314102
                 },
                 "parse-distance": {
-                    "dev.spearmanr-5_50-mean": null,
-                    "dev.uuas": null
+                    "dev.spearmanr-5_50-mean": 0.7466835630494189,
+                    "dev.uuas": 0.5949355815472303
                 }
             },
             "28500": {
@@ -5298,12 +5298,12 @@
                 "acc_and_f1": "0.88854960315189\n",
                 "f1": "0.8716329683616578\n",
                 "parse-depth": {
-                    "dev.root_acc": null,
-                    "dev.spearmanr-5_50-mean": null
+                    "dev.root_acc": 0.7388235294117647,
+                    "dev.spearmanr-5_50-mean": 0.8124753231293759
                 },
                 "parse-distance": {
-                    "dev.spearmanr-5_50-mean": null,
-                    "dev.uuas": null
+                    "dev.spearmanr-5_50-mean": 0.7521992768214507,
+                    "dev.uuas": 0.6039601021195748
                 }
             },
             "29500": {
@@ -5324,12 +5324,12 @@
                 "acc_and_f1": "0.8902806236054555\n",
                 "f1": "0.8749713387271119\n",
                 "parse-depth": {
-                    "dev.root_acc": null,
-                    "dev.spearmanr-5_50-mean": null
+                    "dev.root_acc": 0.7429411764705882,
+                    "dev.spearmanr-5_50-mean": 0.8102035127989492
                 },
                 "parse-distance": {
-                    "dev.spearmanr-5_50-mean": null,
-                    "dev.uuas": null
+                    "dev.spearmanr-5_50-mean": 0.7500330106145,
+                    "dev.uuas": 0.6010211957489758
                 }
             },
             "30500": {
