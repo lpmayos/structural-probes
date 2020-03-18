@@ -224,7 +224,7 @@ def plot_figure(traces, x_axis_values, x_axis_text, title, x_axis_label, y_axis_
         data = traces
     )
 
-    fig.layout.update(title_text=title)
+    fig.layout.update(title_text=title, showlegend = False)
 
     fig.update_xaxes(
         ticktext=x_axis_text,
