@@ -240,7 +240,7 @@ def plot_figure(traces, x_axis_values, x_axis_text, title, x_axis_label, y_axis_
     fig.show()
 
 
-def get_min_max_avg_traces(data):
+def get_min_max_avg_traces(data, min_len=None):
 
     y1 = data[0]['y']
     y2 = data[1]['y']
@@ -248,7 +248,8 @@ def get_min_max_avg_traces(data):
     y4 = data[3]['y']
     y5 = data[4]['y']
 
-    min_len = min(len(y1), len(y2), len(y3), len(y4), len(y5))
+    if not min_len:
+        min_len = min(len(y1), len(y2), len(y3), len(y4), len(y5))
 
     y1 = y1[:min_len]
     y2 = y2[:min_len]
@@ -262,7 +263,8 @@ def get_min_max_avg_traces(data):
     lower_bound_data = np.min(data_stack, axis=0)
     avg_data = np.average(data_stack, axis=0)
 
-    x_data = data[0]['x'][:min_len]
+    # x_data = data[0]['x'][:min_len]
+    x_data = data[0]['x']
 
     upper_bound = go.Scatter(
         name='Upper Bound',
@@ -298,11 +300,29 @@ def get_min_max_avg_traces(data):
 
 if __name__ == '__main__':
 
-    with open('bert_base_cased_finetuned_squad_results.json') as json_file:
+    # with open('bert_base_cased_finetuned_squad_results.json') as json_file:
+    #     results = json.load(json_file)
+    #     traces = []
+    #     for run in results:
+    #         x_axis_values, traces_run = get_squad_run_data(results[run], run)
+    #         traces.extend(traces_run)
+    #
+    #     data1 = [a for a in traces if 'distance_uuas' in a['name']]
+    #     data2 = [a for a in traces if 'distance_spearmanr_mean' in a['name']]
+
+    with open('bert_base_cased_finetuned_glue_results.json') as json_file:
         results = json.load(json_file)
+
         traces = []
         for run in results:
-            x_axis_values, traces_run = get_squad_run_data(results[run], run)
-            traces.extend(traces_run)
+
+            if 'QQP' in results[run]:
+                x_axis_values, traces_run = get_glue_run_data(results[run]['QQP'], run)
+                traces.extend(traces_run)
+
+    x_axis_values = [a for i, a in enumerate(x_axis_values) if i % 2 == 0]
+
+    data = [a for a in traces if 'distance_uuas' in a['name']]
+    data = get_min_max_avg_traces(data)
 
     print('babau')
