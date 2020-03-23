@@ -34,7 +34,6 @@ def get_squad_run_data(data, run_name):
         mlm_perplexity.append(data[checkpoint]['mlm_perplexity'])
 
     x_axis_values = [int(a) for a in data.keys()]
-    # x_axis_values = [0, 250, 2000, 3750, 5500, 7250, 9000, 11000, 12750, 14500, 16500, 18250, 20000, 22000]
 
     x_clean, y_clean = remove_empty_values(x_axis_values, squad_f1)
     trace_squad_f1 = go.Scatter(x=x_clean, y=y_clean, mode='lines', name='squad_f1_' + run_name)
@@ -58,7 +57,7 @@ def get_squad_run_data(data, run_name):
     x_clean, y_clean = remove_empty_values(x_axis_values, squad_exact_match)
     trace_squad_exact_match = go.Scatter(x=x_clean, y=y_clean, mode='lines', name='squad_exact_match_' + run_name)
 
-    traces = [trace_squad_f1, trace_mlm_perplexity, trace_depth_root_acc, trace_distance_uuas]
+    traces = [trace_squad_f1, trace_mlm_perplexity, trace_depth_root_acc, trace_distance_uuas, trace_depth_spearmanr_mean, trace_distance_spearmanr_mean]
     # data = [trace_squad_f1, trace_mlm_perplexity, trace_depth_root_acc, trace_distance_uuas, trace_depth_spearmanr_mean, trace_distance_spearmanr_mean, trace_squad_exact_match]
 
     return x_axis_values, traces
@@ -104,7 +103,7 @@ def get_pos_run_data(data, run_name):
     trace_distance_spearmanr_mean = go.Scatter(x=x_clean, y=y_clean, mode='lines',
                                                name='distance_spearmanr_mean_' + run_name)
 
-    traces = [trace_pos_acc, trace_pos_loss, trace_depth_root_acc, trace_distance_uuas]
+    traces = [trace_pos_acc, trace_pos_loss, trace_depth_root_acc, trace_distance_uuas, trace_depth_spearmanr_mean, trace_distance_spearmanr_mean]
     # TODO we could returns and plot all traces
 
     return x_axis_values, traces
@@ -161,8 +160,7 @@ def get_parsing_run_data(data, run_name):
     trace_distance_spearmanr_mean = go.Scatter(x=x_clean, y=y_clean, mode='lines',
                                                name='distance_spearmanr_mean_' + run_name)
 
-    traces = [trace_parsing_uas, trace_parsing_las, trace_parsing_loss, trace_parsing_label_accuracy_score,
-              trace_depth_root_acc, trace_distance_uuas]
+    traces = [trace_parsing_uas, trace_parsing_las, trace_parsing_loss, trace_parsing_label_accuracy_score, trace_depth_root_acc, trace_distance_uuas, trace_depth_spearmanr_mean, trace_distance_spearmanr_mean]
     # TODO we could returns and plot all traces
 
     return x_axis_values, traces
@@ -190,7 +188,6 @@ def get_glue_run_data(data, run_name):
         glue_acc_and_f1.append(data[checkpoint]['acc_and_f1'])
 
     x_axis_values = [int(a) for a in data.keys()]
-    # x_axis_values = [0, 250, 2000, 3750, 5500, 7250, 9000, 11000, 12750, 14500, 16500, 18250, 20000, 22000]
 
     x_clean, y_clean = remove_empty_values(x_axis_values, glue_acc)
     trace_glue_acc = go.Scatter(x=x_clean, y=y_clean.astype(np.float), mode='lines', name='glue_acc_' + run_name)
@@ -213,13 +210,13 @@ def get_glue_run_data(data, run_name):
     x_clean, y_clean = remove_empty_values(x_axis_values, distance_spearmanr_mean)
     trace_distance_spearmanr_mean = go.Scatter(x=x_clean, y=y_clean.astype(np.float), mode='lines', name='distance_spearmanr_mean_' + run_name)
 
-    traces = [trace_glue_acc, trace_glue_f1, trace_glue_acc_and_f1, trace_depth_root_acc, trace_distance_uuas]
+    traces = [trace_glue_acc, trace_glue_f1, trace_glue_acc_and_f1, trace_depth_root_acc, trace_distance_uuas, trace_depth_spearmanr_mean, trace_distance_spearmanr_mean]
     # TODO we could returns and plot all traces
 
     return x_axis_values, traces
 
 
-def plot_figure(traces, x_axis_values, x_axis_text, title, x_axis_label, y_axis_label):
+def plot_figure(traces, x_axis_values, x_axis_text, title, x_axis_label, y_axis_label, y_axis_values=None):
     fig = go.Figure(
         data=traces
     )
@@ -232,6 +229,11 @@ def plot_figure(traces, x_axis_values, x_axis_text, title, x_axis_label, y_axis_
         tickvals=x_axis_values,
         title_text=x_axis_label
     )
+
+    if y_axis_values:
+        fig.update_yaxes(
+            range=y_axis_values,
+        )
 
     fig.update_yaxes(title_text=y_axis_label)
 
@@ -296,21 +298,11 @@ def get_min_max_avg_traces(data):
 
 if __name__ == '__main__':
 
-    with open('bert_base_cased_finetuned_glue_results.json') as json_file:
+    with open('bert_base_cased_finetuned_squad_results.json') as json_file:
         results = json.load(json_file)
-
-        traces_mrpc = []
-        traces_qqp = []
+        traces = []
         for run in results:
+            x_axis_values, traces_run = get_squad_run_data(results[run], run)
+            traces.extend(traces_run)
 
-            if 'MRPC' in results[run]:
-                x_axis_values_mrpc, traces_run = get_glue_run_data(results[run]['MRPC'], run)
-                traces_mrpc.extend(traces_run)
-
-            if 'QQP' in results[run]:
-                x_axis_values_qqp, traces_run = get_glue_run_data(results[run]['QQP'], run)
-                traces_qqp.extend(traces_run)
-
-    data = [a for a in traces_qqp if 'glue_f1' in a['name']]
-    data = get_min_max_avg_traces(data)
     print('babau')
