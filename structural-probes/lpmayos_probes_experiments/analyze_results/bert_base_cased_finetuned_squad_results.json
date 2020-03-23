@@ -315,12 +315,12 @@
         "6000": {
             "mlm_perplexity": 103054.4297,
             "parse-depth": {
-                "dev.root_acc": 0.7947058823529412,
-                "dev.spearmanr-5_50-mean": 0.8549996183752099
+                "dev.root_acc": 0.8247058823529412,
+                "dev.spearmanr-5_50-mean": 0.8604834999480119
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.804952844871658,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.8050481500349306,
+                "dev.uuas": 0.6877634625660511
             },
             "squad_exact_match": 77.41721854304636,
             "squad_f1": 85.44066185957251
@@ -2945,12 +2945,12 @@
         "12000": {
             "mlm_perplexity": 59499.6523,
             "parse-depth": {
-                "dev.root_acc": 0.7823529411764706,
-                "dev.spearmanr-5_50-mean": 0.8364845743832324
+                "dev.root_acc": 0.7523529411764706,
+                "dev.spearmanr-5_50-mean": 0.8302132050353694
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7694684415568463,
+                "dev.uuas": 0.6294603099210354
             },
             "squad_exact_match": 79.8864711447493,
             "squad_f1": 87.27030095651065
@@ -3923,11 +3923,11 @@
             "mlm_perplexity": 110363.5391,
             "parse-depth": {
                 "dev.root_acc": 0.7964705882352942,
-                "dev.spearmanr-5_50-mean": 0.8411757531238822
+                "dev.spearmanr-5_50-mean": 0.8405330022606412
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.7927107119667154,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7927729921647225,
+                "dev.uuas": 0.6806388410615686
             },
             "squad_exact_match": 78.77010406811732,
             "squad_f1": 86.78029119424389
@@ -5133,12 +5133,12 @@
         "9500": {
             "mlm_perplexity": 122526.2578,
             "parse-depth": {
-                "dev.root_acc": 0.7858823529411765,
-                "dev.spearmanr-5_50-mean": 0.834643596034034
+                "dev.root_acc": 0.7988235294117647,
+                "dev.spearmanr-5_50-mean": 0.837196883453261
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.7819645445133818,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.7819457345995842,
+                "dev.uuas": 0.6497951671317461
             },
             "squad_exact_match": 79.38505203405866,
             "squad_f1": 87.22305289105591

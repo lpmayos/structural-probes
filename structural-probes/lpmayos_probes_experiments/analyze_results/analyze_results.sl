@@ -10,7 +10,7 @@ fi
 
 # SQUAD
 
-analyze_results=0
+analyze_results=1
 
 if [ "$analyze_results" == 1 ]; then
     echo "Analyzing SQuAD results"
@@ -23,7 +23,7 @@ fi
 
 # GLUE
 
-analyze_results=1
+analyze_results=0
 
 if [ "$analyze_results" == 1 ]; then
     echo "Analyzing GLUE results"
@@ -35,7 +35,7 @@ fi
 
 # POS Tagging
 
-analyze_results=1
+analyze_results=0
 
 if [ "$analyze_results" == 1 ]; then
     echo "Analyzing POS Tagging results"
@@ -47,7 +47,7 @@ fi
 
 # Parsing
 
-analyze_results=1
+analyze_results=0
 
 if [ "$analyze_results" == 1 ]; then
     echo "Analyzing parsing results"
