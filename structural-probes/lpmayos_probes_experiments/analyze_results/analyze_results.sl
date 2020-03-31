@@ -10,7 +10,7 @@ fi
 
 # SQUAD
 
-analyze_results=1
+analyze_results=0
 
 if [ "$analyze_results" == 1 ]; then
     echo "Analyzing SQuAD results"
@@ -57,3 +57,14 @@ if [ "$analyze_results" == 1 ]; then
                                                                 --output_file bert_base_cased_finetuned_parsing_results.json
 fi
 
+# Parsing new
+
+analyze_results=1
+
+if [ "$analyze_results" == 1 ]; then
+    echo "Analyzing new parsing results"
+    python bert_base_cased_finetuned_parsing_analyse_results.py --probe_name naacl_19_ptb \
+                                                                --models_path /homedtic/lperez/transformers/lpmayos_experiments/bert_base_cased_finetuned_parsing_new \
+                                                                --runs run1 run2 run3 run4 run5 \
+                                                                --output_file bert_base_cased_finetuned_parsing_new_results.json
+fi
