@@ -28,11 +28,14 @@ def convert_raw_to_bert_hdf5(vocab_path, model_weights_path, probes_input_paths,
     hdf5_files_paths = []
 
     if not model_to_load:
-        vocab = Vocabulary.from_files(vocab_path)
-        bert_model = BertModel.from_pretrained(bert_type)
-        model = SrlBert(vocab, bert_model)
+        model = BertModel.from_pretrained(bert_type)
         with open(model_weights_path, 'rb') as f:
             model.load_state_dict(torch.load(f))
+        # vocab = Vocabulary.from_files(vocab_path)
+        # bert_model = BertModel.from_pretrained(bert_type)
+        # model = SrlBert(vocab, bert_model)
+        # with open(model_weights_path, 'rb') as f:
+        #     model.load_state_dict(torch.load(f))
     else:
         logging.info("ATTENTION!! Provided model name to load: %s" % model_to_load)
         # model = BertModel.from_pretrained(model_to_load)  # TODO load SrlBert base model
