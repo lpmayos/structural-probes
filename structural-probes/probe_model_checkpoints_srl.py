@@ -130,13 +130,10 @@ def execute_probe(seed, configuration, probes_path_hdf5, ptb_path, results_dir, 
         torch.backends.cudnn.benchmark = False
 
         yaml_args = yaml.load(open(config_file))
-        setup_new_experiment_dir(cli_args, yaml_args, cli_
-        args.results_dir)
+        setup_new_experiment_dir(cli_args, yaml_args, cli_args.results_dir)
         device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
         yaml_args['device'] = device
-        execute_experiment(yaml_args, train_probe=cli_
-        args.train_probe, report_results=cli_
-        args.report_results)
+        execute_experiment(yaml_args, train_probe=cli_args.train_probe, report_results=cli_args.report_results)
     else:
         logging.info('ATTENTION: syntactic probes results folder %s already exists; skipping probing' % results_dir)
 
