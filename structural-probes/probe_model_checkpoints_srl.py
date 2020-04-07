@@ -207,7 +207,7 @@ if __name__ == '__main__':
     parser.add_argument("--parse_distance_yaml", default=None, type=str, required=True, help="/home/lpmayos/hd/code/structural-probes/example/config/naacl19/bert-base/ptb-pad-BERTbase7.yaml")
     parser.add_argument("--parse_depth_yaml", default=None, type=str, required=True, help="/home/lpmayos/hd/code/structural-probes/example/config/naacl19/bert-base/ptb-prd-BERTbase7.yaml")
     parser.add_argument("--checkpoints_path", default=None, type=str, required=True, help="/Users/lpmayos/code/bert_finetuned_srl/runs/run_local/output")
-    parser.add_argument("--bert_type", default="base", type=str, required=False, help="i.e. bert-base-cased")
+    parser.add_argument("--bert_type", default="bert-base-cased", type=str, required=False, help="i.e. bert-base-cased")
     parser.add_argument("--model_to_load", default=None, type=str, required=False, help="If provided, we load this model instead of the models in the checkpoints")
     parser.add_argument("--seed", type=int, required=True, help="sets all random seeds for (within-machine) reproducibility")
 
