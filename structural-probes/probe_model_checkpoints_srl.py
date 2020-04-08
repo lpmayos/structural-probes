@@ -1,5 +1,6 @@
 from __future__ import print_function
 
+import collections
 from argparse import ArgumentParser
 import logging
 import os
@@ -11,13 +12,9 @@ import numpy as np
 import yaml
 
 from transformers import (
-    BertForQuestionAnswering, # TODO lpmayos I use normal BertModel to generate hdf5 files; maybe for other use cases I need this other model (seems to work loading one into the other)
     BertModel,
     BertTokenizer,
 )
-
-from allennlp.data import Vocabulary
-from allennlp.models import SrlBert
 
 from run_experiment import setup_new_experiment_dir, execute_experiment
 
@@ -28,14 +25,23 @@ def convert_raw_to_bert_hdf5(vocab_path, model_weights_path, probes_input_paths,
     hdf5_files_paths = []
 
     if not model_to_load:
+
         model = BertModel.from_pretrained(bert_type)
         with open(model_weights_path, 'rb') as f:
-            model.load_state_dict(torch.load(f), strict=False)
-        # vocab = Vocabulary.from_files(vocab_path)
-        # bert_model = BertModel.from_pretrained(bert_type)
-        # model = SrlBert(vocab, bert_model)
-        # with open(model_weights_path, 'rb') as f:
-        #     model.load_state_dict(torch.load(f))
+
+            # load params and rename SrlBert keys to match BertModel
+            state_dict = torch.load(f)
+            new_state_dict = collections.OrderedDict()
+            for key in state_dict.keys():
+                new_key = key.replace('bert_model.', '')
+                new_state_dict[new_key] = state_dict[key]
+
+            # remove SrlBert specific params
+            new_state_dict.pop('tag_projection_layer.weight')
+            new_state_dict.pop('tag_projection_layer.bias')
+
+            model.load_state_dict(new_state_dict)
+
     else:
         logging.info("ATTENTION!! Provided model name to load: %s" % model_to_load)
         # model = BertModel.from_pretrained(model_to_load)  # TODO load SrlBert base model
