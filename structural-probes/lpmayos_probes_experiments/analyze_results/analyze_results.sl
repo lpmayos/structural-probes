@@ -56,3 +56,16 @@ if [ "$analyze_results" == 1 ]; then
                                                                 --runs run1 run2 run3 run4 run5 \
                                                                 --output_file bert_base_cased_finetuned_parsing_results.json
 fi
+
+
+# SRL
+
+analyze_results=1
+
+if [ "$analyze_results" == 1 ]; then
+    echo "Analyzing SRL results"
+    python bert_base_cased_finetuned_srl_analyse_results.py --probe_name naacl_19_ptb \
+                                                            --models_path /homedtic/lperez/bert_finetuned_srl \
+                                                            --runs run1 run2 run3 run4 run5 \
+                                                            --output_file bert_base_cased_finetuned_srl_results.json
+fi
