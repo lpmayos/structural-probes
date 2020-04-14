@@ -17,11 +17,13 @@ def analyse_results(probe_name, models_path, runs_list, output_file):
         # load checkpoints results
 
         run_results_path = models_path + '/runs/' + run + '/output/eval_results.json'
-        run_results = json.load(run_results_path)
+        with open(run_results_path) as json_file:
+            run_results = json.load(json_file)
 
         # add checkpoint-0 SRL results
 
-        run_results['bert-base-cased'] = json.load(models_path + '/run0/results0/eval_results0.json')
+        with open(models_path + '/run0/results0/eval_results0.json') as json_file:
+            run_results['bert-base-cased'] = json.load(json_file)
 
         # add checkpoint-0 probes results
         # We simply copy the results from another task (i.e. parsing)
