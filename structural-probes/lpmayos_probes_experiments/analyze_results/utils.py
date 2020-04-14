@@ -109,6 +109,62 @@ def get_pos_run_data(data, run_name):
     return x_axis_values, traces
 
 
+def get_srl_run_data(data, run_name):
+    """ reads the data from a given run and creates a trace for each variable
+    """
+
+    depth_root_acc = []
+    depth_spearmanr_mean = []
+    distance_uuas = []
+    distance_spearmanr_mean = []
+    srl_f1_measure_overall = []
+    srl_precision_overall = []
+    srl_recall_overall = []
+    srl_loss = []
+
+    for checkpoint in data:
+        depth_root_acc.append(data[checkpoint]['parse-depth']['dev.root_acc'])
+        depth_spearmanr_mean.append(data[checkpoint]['parse-depth']['dev.spearmanr-5_50-mean'])
+        distance_uuas.append(data[checkpoint]['parse-distance']['dev.uuas'])
+        distance_spearmanr_mean.append(data[checkpoint]['parse-distance']['dev.spearmanr-5_50-mean'])
+        srl_f1_measure_overall.append(data[checkpoint]['f1-measure-overall'])
+        srl_precision_overall.append(data[checkpoint]['precision-overall'])
+        srl_recall_overall.append(data[checkpoint]['recall-overall'])
+        srl_loss.append(data[checkpoint]['loss'])
+
+    x_axis_values = [a for a in range(len(data.keys()))]
+
+    x_clean, y_clean = remove_empty_values(x_axis_values, srl_f1_measure_overall)
+    trace_srl_f1_measure_overall = go.Scatter(x=x_clean, y=y_clean, mode='lines', name='srl_f1_measure_overall_' + run_name)
+
+    x_clean, y_clean = remove_empty_values(x_axis_values, srl_precision_overall)
+    trace_srl_precision_overall = go.Scatter(x=x_clean, y=y_clean, mode='lines', name='srl_precision_overall_' + run_name)
+
+    x_clean, y_clean = remove_empty_values(x_axis_values, srl_recall_overall)
+    trace_srl_recall_overall = go.Scatter(x=x_clean, y=y_clean, mode='lines', name='srl_recall_overall_' + run_name)
+
+    x_clean, y_clean = remove_empty_values(x_axis_values, srl_loss)
+    trace_srl_loss = go.Scatter(x=x_clean, y=y_clean, mode='lines', name='srl_loss_' + run_name)
+
+    x_clean, y_clean = remove_empty_values(x_axis_values, depth_root_acc)
+    trace_depth_root_acc = go.Scatter(x=x_clean, y=y_clean, mode='lines', name='depth_root_acc_' + run_name)
+
+    x_clean, y_clean = remove_empty_values(x_axis_values, distance_uuas)
+    trace_distance_uuas = go.Scatter(x=x_clean, y=y_clean, mode='lines', name='distance_uuas_' + run_name)
+
+    x_clean, y_clean = remove_empty_values(x_axis_values, depth_spearmanr_mean)
+    trace_depth_spearmanr_mean = go.Scatter(x=x_clean, y=y_clean, mode='lines', name='depth_spearmanr_mean_' + run_name)
+
+    x_clean, y_clean = remove_empty_values(x_axis_values, distance_spearmanr_mean)
+    trace_distance_spearmanr_mean = go.Scatter(x=x_clean, y=y_clean, mode='lines',
+                                               name='distance_spearmanr_mean_' + run_name)
+
+    traces = [trace_srl_f1_measure_overall, trace_srl_precision_overall, trace_srl_recall_overall, trace_srl_loss, trace_depth_root_acc, trace_distance_uuas, trace_depth_spearmanr_mean, trace_distance_spearmanr_mean]
+    # TODO we could returns and plot all traces
+
+    return x_axis_values, traces
+
+
 def get_parsing_run_data(data, run_name):
     """ reads the data from a given run and creates a trace for each variable
     """
