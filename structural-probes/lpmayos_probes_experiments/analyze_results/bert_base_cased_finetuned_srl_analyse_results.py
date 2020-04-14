@@ -22,13 +22,14 @@ def analyse_results(probe_name, models_path, runs_list, output_file):
 
         # add checkpoint-0 SRL results
 
-        with open(models_path + '/run0/results0/eval_results0.json') as json_file:
+        with open(models_path + '/runs/run0/results0/eval_results0.json') as json_file:
             run_results['bert-base-cased'] = json.load(json_file)
 
         # add checkpoint-0 probes results
         # We simply copy the results from another task (i.e. parsing)
 
-        parsing_results = json.load('bert_base_cased_finetuned_parsing_results.json')
+        with open('bert_base_cased_finetuned_parsing_results.json') as json_file:
+            parsing_results = json.load(json_file)
 
         run_results['bert-base-cased']['parse-depth'] = parsing_results['run1']['0']['parse-depth']
         run_results['bert-base-cased']['parse-distance'] = parsing_results['run1']['0']['parse-distance']
@@ -37,7 +38,11 @@ def analyse_results(probe_name, models_path, runs_list, output_file):
 
         for checkpoint in run_results:
 
-            checkpoint_path = checkpoint.split('.th')[0].split('/')[1]
+            checkpoint_path = checkpoint
+            if '.th' in checkpoint_path:
+                checkpoint_path = checkpoint.split('.th')[0]
+            if '/' in checkpoint_path:
+                checkpoint_path = checkpoint_path.split('/')[1]
 
             logging.info('Reading results for checkpoint %s' % checkpoint_path)
 

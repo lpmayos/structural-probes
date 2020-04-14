@@ -1,0 +1,2532 @@
+{
+    "run1": {
+        "bert-base-cased": {
+            "f1-measure-overall": 0.0008392728573819608,
+            "loss": 4.6788000636344975,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.0004822604059310686,
+            "recall-overall": 0.0032315742851987336
+        },
+        "output/model_state_epoch_0.2020-04-09-15-46-02.th": {
+            "f1-measure-overall": 0.6856911293916913,
+            "loss": 0.39957357132378624,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.6776560297321543,
+            "recall-overall": 0.6939190630074966
+        },
+        "output/model_state_epoch_0.2020-04-09-15-51-02.th": {
+            "f1-measure-overall": 0.740343970830191,
+            "loss": 0.30684603807703403,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.728346269225275,
+            "recall-overall": 0.7527435573563426
+        },
+        "output/model_state_epoch_0.2020-04-09-15-56-02.th": {
+            "f1-measure-overall": 0.7718630865630342,
+            "loss": 0.2715419834300582,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.7748809681259092,
+            "recall-overall": 0.7688686209215728
+        },
+        "output/model_state_epoch_0.2020-04-09-16-01-02.th": {
+            "f1-measure-overall": 0.7769188425914346,
+            "loss": 0.25969494088455686,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.7562433993911909,
+            "recall-overall": 0.7987565820770657
+        },
+        "output/model_state_epoch_0.2020-04-09-16-06-02.th": {
+            "f1-measure-overall": 0.7943499145159477,
+            "loss": 0.23672752133021804,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.788520907077858,
+            "recall-overall": 0.8002657436721838
+        },
+        "output/model_state_epoch_0.2020-04-09-16-11-03.th": {
+            "f1-measure-overall": 0.7897770790502182,
+            "loss": 0.24024118703380554,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.776548181501094,
+            "recall-overall": 0.8034645100966191
+        },
+        "output/model_state_epoch_0.2020-04-09-16-16-03.th": {
+            "f1-measure-overall": 0.805144652441369,
+            "loss": 0.22875846890677165,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8031601456017499,
+            "recall-overall": 0.8071389905021243
+        },
+        "output/model_state_epoch_0.2020-04-09-16-21-03.th": {
+            "f1-measure-overall": 0.8037039437440765,
+            "loss": 0.22703702940151713,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.7939655862344938,
+            "recall-overall": 0.8136841587244303
+        },
+        "output/model_state_epoch_0.2020-04-09-16-26-03.th": {
+            "f1-measure-overall": 0.811796624617781,
+            "loss": 0.21585331083013515,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8112712975098296,
+            "recall-overall": 0.8123226325027476
+        },
+        "output/model_state_epoch_0.2020-04-09-16-31-03.th": {
+            "f1-measure-overall": 0.8073051036435496,
+            "loss": 0.21780216644359093,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8011047939010209,
+            "recall-overall": 0.8136021390725218
+        },
+        "output/model_state_epoch_0.2020-04-09-16-36-03.th": {
+            "f1-measure-overall": 0.8143640671144796,
+            "loss": 0.21336737939309897,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8056701610184457,
+            "recall-overall": 0.8232476501369728
+        },
+        "output/model_state_epoch_0.th": {
+            "f1-measure-overall": 0.8100828173996445,
+            "loss": 0.21431310137116075,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.7944455834345282,
+            "recall-overall": 0.8263479929791178
+        },
+        "output/model_state_epoch_1.2020-04-09-17-07-34.th": {
+            "f1-measure-overall": 0.815850025431684,
+            "loss": 0.21915514509900214,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.803275039745628,
+            "recall-overall": 0.8288249864667574
+        },
+        "output/model_state_epoch_1.2020-04-09-17-12-34.th": {
+            "f1-measure-overall": 0.8145029503392591,
+            "loss": 0.21946284071270278,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.7996901773576555,
+            "recall-overall": 0.8298748380111874
+        },
+        "output/model_state_epoch_1.2020-04-09-17-17-34.th": {
+            "f1-measure-overall": 0.8171715781890674,
+            "loss": 0.22071105688420048,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8065247955010225,
+            "recall-overall": 0.8281032135299617
+        },
+        "output/model_state_epoch_1.2020-04-09-17-22-34.th": {
+            "f1-measure-overall": 0.8193607662348779,
+            "loss": 0.21151011833662617,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8123004997581815,
+            "recall-overall": 0.8265448401436984
+        },
+        "output/model_state_epoch_1.2020-04-09-17-27-34.th": {
+            "f1-measure-overall": 0.819298046158044,
+            "loss": 0.21835272197851116,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.811260674482559,
+            "recall-overall": 0.8274962681058382
+        },
+        "output/model_state_epoch_1.2020-04-09-17-32-34.th": {
+            "f1-measure-overall": 0.817398473874756,
+            "loss": 0.21431839567494043,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8057401475673694,
+            "recall-overall": 0.8293991240301176
+        },
+        "output/model_state_epoch_1.2020-04-09-17-37-34.th": {
+            "f1-measure-overall": 0.8183012046238901,
+            "loss": 0.2177630635611823,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8088850425501226,
+            "recall-overall": 0.8279391742261446
+        },
+        "output/model_state_epoch_1.2020-04-09-17-42-35.th": {
+            "f1-measure-overall": 0.826013431112651,
+            "loss": 0.2039476454510307,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8188500411045021,
+            "recall-overall": 0.8333032594609668
+        },
+        "output/model_state_epoch_1.2020-04-09-17-47-35.th": {
+            "f1-measure-overall": 0.8252045773155045,
+            "loss": 0.20736221944403718,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8200579935526721,
+            "recall-overall": 0.8304161677137842
+        },
+        "output/model_state_epoch_1.2020-04-09-17-52-35.th": {
+            "f1-measure-overall": 0.8224649293655968,
+            "loss": 0.20539059955469544,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8240835282105332,
+            "recall-overall": 0.8208526763012418
+        },
+        "output/model_state_epoch_1.2020-04-09-17-57-35.th": {
+            "f1-measure-overall": 0.8227801157709235,
+            "loss": 0.20665415878257434,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8089795012445107,
+            "recall-overall": 0.8370597595183806
+        },
+        "output/model_state_epoch_1.th": {
+            "f1-measure-overall": 0.8249936707309603,
+            "loss": 0.20092331748929945,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8214715545002115,
+            "recall-overall": 0.8285461196502683
+        },
+        "output/model_state_epoch_2.2020-04-09-18-28-08.th": {
+            "f1-measure-overall": 0.8260416327327904,
+            "loss": 0.21568255993234597,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8202565222313876,
+            "recall-overall": 0.8319089253785207
+        },
+        "output/model_state_epoch_2.2020-04-09-18-33-08.th": {
+            "f1-measure-overall": 0.8252427973505129,
+            "loss": 0.21607262533239244,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8177791379421429,
+            "recall-overall": 0.8328439494102787
+        },
+        "output/model_state_epoch_2.2020-04-09-18-38-08.th": {
+            "f1-measure-overall": 0.8255957205381248,
+            "loss": 0.21590359426379893,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.815953475704513,
+            "recall-overall": 0.8354685782713538
+        },
+        "output/model_state_epoch_2.2020-04-09-18-43-08.th": {
+            "f1-measure-overall": 0.823777512038992,
+            "loss": 0.21638757354829186,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8116968934605034,
+            "recall-overall": 0.8362231590689129
+        },
+        "output/model_state_epoch_2.2020-04-09-18-48-08.th": {
+            "f1-measure-overall": 0.8245151906916113,
+            "loss": 0.21755190240700661,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8124492428223379,
+            "recall-overall": 0.8369449320057085
+        },
+        "output/model_state_epoch_2.2020-04-09-18-53-08.th": {
+            "f1-measure-overall": 0.8262207379812914,
+            "loss": 0.21931366832574054,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.826553060152351,
+            "recall-overall": 0.8258886829284297
+        },
+        "output/model_state_epoch_2.2020-04-09-18-58-08.th": {
+            "f1-measure-overall": 0.8254660592549015,
+            "loss": 0.21621284564504847,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8131056760498385,
+            "recall-overall": 0.838208034645101
+        },
+        "output/model_state_epoch_2.2020-04-09-19-03-09.th": {
+            "f1-measure-overall": 0.8241430338904426,
+            "loss": 0.20993444166063313,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8127013492392587,
+            "recall-overall": 0.8359114843916602
+        },
+        "output/model_state_epoch_2.2020-04-09-19-08-09.th": {
+            "f1-measure-overall": 0.8268514452088832,
+            "loss": 0.21990816747483433,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8199429004629256,
+            "recall-overall": 0.8338773970243271
+        },
+        "output/model_state_epoch_2.2020-04-09-19-13-09.th": {
+            "f1-measure-overall": 0.8289852213509059,
+            "loss": 0.21027117733516712,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8307606134989539,
+            "recall-overall": 0.827217401289349
+        },
+        "output/model_state_epoch_2.2020-04-09-19-18-09.th": {
+            "f1-measure-overall": 0.8268956115294229,
+            "loss": 0.20760122930195227,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8181978770214065,
+            "recall-overall": 0.8357802529486065
+        },
+        "output/model_state_epoch_2.th": {
+            "f1-measure-overall": 0.828442566332078,
+            "loss": 0.20510469439365797,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8208844654878088,
+            "recall-overall": 0.8361411394170043
+        }
+    },
+    "run2": {
+        "bert-base-cased": {
+            "f1-measure-overall": 0.0008392728573819608,
+            "loss": 4.6788000636344975,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.0004822604059310686,
+            "recall-overall": 0.0032315742851987336
+        },
+        "output/model_state_epoch_0.2020-04-07-10-08-13.th": {
+            "f1-measure-overall": 0.6785340835532041,
+            "loss": 0.4091673875180333,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.6866486386616726,
+            "recall-overall": 0.6706090779350733
+        },
+        "output/model_state_epoch_0.2020-04-07-10-13-14.th": {
+            "f1-measure-overall": 0.7363162537085541,
+            "loss": 0.32350839939438897,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.7202152190622598,
+            "recall-overall": 0.7531536556158855
+        },
+        "output/model_state_epoch_0.2020-04-07-10-18-14.th": {
+            "f1-measure-overall": 0.7583231270462105,
+            "loss": 0.2818997862650552,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.7405334417310278,
+            "recall-overall": 0.7769885664605239
+        },
+        "output/model_state_epoch_0.2020-04-07-10-23-14.th": {
+            "f1-measure-overall": 0.779147945825337,
+            "loss": 0.2542711567852135,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.7678181789223884,
+            "recall-overall": 0.7908170797723134
+        },
+        "output/model_state_epoch_0.2020-04-07-10-28-14.th": {
+            "f1-measure-overall": 0.7801542805202246,
+            "loss": 0.2505386220415609,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.7653966349947915,
+            "recall-overall": 0.7954921999311035
+        },
+        "output/model_state_epoch_0.2020-04-07-10-33-14.th": {
+            "f1-measure-overall": 0.7925350373973794,
+            "loss": 0.24155390944731162,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.7798437549620503,
+            "recall-overall": 0.8056462328373878
+        },
+        "output/model_state_epoch_0.2020-04-07-10-38-14.th": {
+            "f1-measure-overall": 0.7987306099047456,
+            "loss": 0.2342577739133511,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.7865549158688253,
+            "recall-overall": 0.8112891848886993
+        },
+        "output/model_state_epoch_0.2020-04-07-10-43-14.th": {
+            "f1-measure-overall": 0.8015188735288423,
+            "loss": 0.22841761752298037,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.7848596808427011,
+            "recall-overall": 0.8189006085858171
+        },
+        "output/model_state_epoch_0.2020-04-07-10-48-14.th": {
+            "f1-measure-overall": 0.80313427672698,
+            "loss": 0.22295809157333588,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.7880395314325408,
+            "recall-overall": 0.8188185889339086
+        },
+        "output/model_state_epoch_0.2020-04-07-10-53-14.th": {
+            "f1-measure-overall": 0.8039022658317233,
+            "loss": 0.22508583263394522,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.7910969237854749,
+            "recall-overall": 0.8171289841045914
+        },
+        "output/model_state_epoch_0.2020-04-07-10-58-14.th": {
+            "f1-measure-overall": 0.8112478430291876,
+            "loss": 0.21807199819784584,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8014117421089698,
+            "recall-overall": 0.8213283902823116
+        },
+        "output/model_state_epoch_0.2020-04-07-11-03-14.th": {
+            "f1-measure-overall": 0.8145874619362448,
+            "loss": 0.21074879311651162,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8003260886771247,
+            "recall-overall": 0.8293663161693542
+        },
+        "output/model_state_epoch_0.th": {
+            "f1-measure-overall": 0.8100828173996445,
+            "loss": 0.2143131024141984,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.7944455834345282,
+            "recall-overall": 0.8263479929791178
+        },
+        "output/model_state_epoch_1.2020-04-07-11-41-40.th": {
+            "f1-measure-overall": 0.8168209927035459,
+            "loss": 0.2176501295955492,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8146220489141962,
+            "recall-overall": 0.819031840028871
+        },
+        "output/model_state_epoch_1.2020-04-07-11-46-40.th": {
+            "f1-measure-overall": 0.8156080648688432,
+            "loss": 0.21742616874477103,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8056426833952118,
+            "recall-overall": 0.8258230672069028
+        },
+        "output/model_state_epoch_1.2020-04-07-11-51-40.th": {
+            "f1-measure-overall": 0.8149068726595825,
+            "loss": 0.22318495111964423,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8071118262268705,
+            "recall-overall": 0.8228539558078115
+        },
+        "output/model_state_epoch_1.2020-04-07-11-56-40.th": {
+            "f1-measure-overall": 0.8114388845410051,
+            "loss": 0.2235108145694924,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.7906039432937552,
+            "recall-overall": 0.8334016830432571
+        },
+        "output/model_state_epoch_1.2020-04-07-12-01-40.th": {
+            "f1-measure-overall": 0.8222947262879703,
+            "loss": 0.20963280250409574,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.823940182482954,
+            "recall-overall": 0.8206558291366611
+        },
+        "output/model_state_epoch_1.2020-04-07-12-06-40.th": {
+            "f1-measure-overall": 0.8183432096563188,
+            "loss": 0.21042667714072405,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8089201576973621,
+            "recall-overall": 0.8279883860172897
+        },
+        "output/model_state_epoch_1.2020-04-07-12-11-40.th": {
+            "f1-measure-overall": 0.8218760637348957,
+            "loss": 0.21521758537949542,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8122386864237084,
+            "recall-overall": 0.8317448860747035
+        },
+        "output/model_state_epoch_1.2020-04-07-12-16-41.th": {
+            "f1-measure-overall": 0.8199283884160085,
+            "loss": 0.20641361735072314,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8081641757751505,
+            "recall-overall": 0.8320401568215744
+        },
+        "output/model_state_epoch_1.2020-04-07-12-21-41.th": {
+            "f1-measure-overall": 0.8219809576555751,
+            "loss": 0.2101447181326519,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.816283283186127,
+            "recall-overall": 0.8277587309919456
+        },
+        "output/model_state_epoch_1.2020-04-07-12-26-41.th": {
+            "f1-measure-overall": 0.8250655284064129,
+            "loss": 0.208801624685911,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8164065009314576,
+            "recall-overall": 0.8339102048850905
+        },
+        "output/model_state_epoch_1.2020-04-07-12-31-41.th": {
+            "f1-measure-overall": 0.825228640631152,
+            "loss": 0.2019676821113389,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8151585955253977,
+            "recall-overall": 0.8355505979232624
+        },
+        "output/model_state_epoch_1.th": {
+            "f1-measure-overall": 0.8249936707309603,
+            "loss": 0.20092331692137017,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8214715545002115,
+            "recall-overall": 0.8285461196502683
+        },
+        "output/model_state_epoch_2.2020-04-07-13-05-26.th": {
+            "f1-measure-overall": 0.8249187591115534,
+            "loss": 0.2141327286780898,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8191744039338746,
+            "recall-overall": 0.8307442463214186
+        },
+        "output/model_state_epoch_2.2020-04-07-13-10-26.th": {
+            "f1-measure-overall": 0.8248082152859021,
+            "loss": 0.21809509648289796,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8164373875032142,
+            "recall-overall": 0.833352471252112
+        },
+        "output/model_state_epoch_2.2020-04-07-13-15-26.th": {
+            "f1-measure-overall": 0.8244567670384438,
+            "loss": 0.21428465696371407,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8104133986151384,
+            "recall-overall": 0.8389954233034235
+        },
+        "output/model_state_epoch_2.2020-04-07-13-20-26.th": {
+            "f1-measure-overall": 0.8218951625846128,
+            "loss": 0.21469154700708257,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8045278157452357,
+            "recall-overall": 0.8400288709174718
+        },
+        "output/model_state_epoch_2.2020-04-07-13-25-27.th": {
+            "f1-measure-overall": 0.8264175184380573,
+            "loss": 0.21756362499970594,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8193750201554387,
+            "recall-overall": 0.8335821262774561
+        },
+        "output/model_state_epoch_2.2020-04-07-13-30-27.th": {
+            "f1-measure-overall": 0.8245642533421634,
+            "loss": 0.22044038923883888,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8166052669680346,
+            "recall-overall": 0.8326799101064615
+        },
+        "output/model_state_epoch_2.2020-04-07-13-35-27.th": {
+            "f1-measure-overall": 0.8258768587134041,
+            "loss": 0.21622073098281988,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8165028776632413,
+            "recall-overall": 0.8354685782713538
+        },
+        "output/model_state_epoch_2.2020-04-07-13-40-27.th": {
+            "f1-measure-overall": 0.8249824198384551,
+            "loss": 0.2104036286875757,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8131712291660027,
+            "recall-overall": 0.8371417791702892
+        },
+        "output/model_state_epoch_2.2020-04-07-13-45-27.th": {
+            "f1-measure-overall": 0.8258578174609071,
+            "loss": 0.21041153682409683,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8116515926694439,
+            "recall-overall": 0.8405702006200686
+        },
+        "output/model_state_epoch_2.2020-04-07-13-50-27.th": {
+            "f1-measure-overall": 0.8281198043810987,
+            "loss": 0.21693408738105383,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8189605389797883,
+            "recall-overall": 0.8374862617083053
+        },
+        "output/model_state_epoch_2.2020-04-07-13-55-27.th": {
+            "f1-measure-overall": 0.827645901210928,
+            "loss": 0.20751707152058202,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8240057233911092,
+            "recall-overall": 0.8313183838847787
+        },
+        "output/model_state_epoch_2.th": {
+            "f1-measure-overall": 0.828442566332078,
+            "loss": 0.20510469407693213,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8208844654878088,
+            "recall-overall": 0.8361411394170043
+        }
+    },
+    "run3": {
+        "bert-base-cased": {
+            "f1-measure-overall": 0.0008392728573819608,
+            "loss": 4.6788000636344975,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.0004822604059310686,
+            "recall-overall": 0.0032315742851987336
+        },
+        "output/model_state_epoch_0.2020-04-08-19-31-46.th": {
+            "f1-measure-overall": 0.723862998315503,
+            "loss": 0.3443462617310398,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.7082515814092201,
+            "recall-overall": 0.7401781466839454
+        },
+        "output/model_state_epoch_0.2020-04-08-19-36-47.th": {
+            "f1-measure-overall": 0.7643056330172395,
+            "loss": 0.27774049988194827,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.7430634091930162,
+            "recall-overall": 0.7867981168287922
+        },
+        "output/model_state_epoch_0.2020-04-08-19-41-47.th": {
+            "f1-measure-overall": 0.780185361711622,
+            "loss": 0.2604191577084986,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.7623833677750642,
+            "recall-overall": 0.7988386017289743
+        },
+        "output/model_state_epoch_0.2020-04-08-19-46-47.th": {
+            "f1-measure-overall": 0.791567882085316,
+            "loss": 0.24089435196153994,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.775934329110733,
+            "recall-overall": 0.8078443595085383
+        },
+        "output/model_state_epoch_0.2020-04-08-19-51-47.th": {
+            "f1-measure-overall": 0.7988810962013527,
+            "loss": 0.23376921411971172,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.7898323019206721,
+            "recall-overall": 0.8081396302554092
+        },
+        "output/model_state_epoch_0.2020-04-08-19-56-47.th": {
+            "f1-measure-overall": 0.7994486560991919,
+            "loss": 0.2338301111500063,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.781511946729338,
+            "recall-overall": 0.8182280474401666
+        },
+        "output/model_state_epoch_0.2020-04-08-20-01-47.th": {
+            "f1-measure-overall": 0.8006588731988434,
+            "loss": 0.2272433135386532,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.7810486575872452,
+            "recall-overall": 0.8212791784911665
+        },
+        "output/model_state_epoch_0.2020-04-08-20-06-47.th": {
+            "f1-measure-overall": 0.8071823598955314,
+            "loss": 0.2280871555515719,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.7816966343937298,
+            "recall-overall": 0.8343859188661603
+        },
+        "output/model_state_epoch_0.2020-04-08-20-11-47.th": {
+            "f1-measure-overall": 0.8133362903821486,
+            "loss": 0.21189172000977177,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8145339080648877,
+            "recall-overall": 0.8121421892685488
+        },
+        "output/model_state_epoch_0.2020-04-08-20-16-47.th": {
+            "f1-measure-overall": 0.8145121487462382,
+            "loss": 0.2090936082086421,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8036466981734577,
+            "recall-overall": 0.8256754318334673
+        },
+        "output/model_state_epoch_0.2020-04-08-20-21-47.th": {
+            "f1-measure-overall": 0.8209792379350104,
+            "loss": 0.20449503400193023,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8172361106596014,
+            "recall-overall": 0.824756811732091
+        },
+        "output/model_state_epoch_0.th": {
+            "f1-measure-overall": 0.8202059785600433,
+            "loss": 0.20364299970065874,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8098070251171119,
+            "recall-overall": 0.8308754777644723
+        },
+        "output/model_state_epoch_1.2020-04-08-20-55-51.th": {
+            "f1-measure-overall": 0.8199941509065595,
+            "loss": 0.21180096324501357,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8122475255492073,
+            "recall-overall": 0.8278899624349995
+        },
+        "output/model_state_epoch_1.2020-04-08-21-00-51.th": {
+            "f1-measure-overall": 0.8215008827768909,
+            "loss": 0.21086343755825632,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8113032489242238,
+            "recall-overall": 0.8319581371696658
+        },
+        "output/model_state_epoch_1.2020-04-08-21-05-51.th": {
+            "f1-measure-overall": 0.8206758468515823,
+            "loss": 0.2136544881557632,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8177154582763337,
+            "recall-overall": 0.8236577483965158
+        },
+        "output/model_state_epoch_1.2020-04-08-21-10-51.th": {
+            "f1-measure-overall": 0.8161358262791718,
+            "loss": 0.21215365156358,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8031669896127823,
+            "recall-overall": 0.8295303554731713
+        },
+        "output/model_state_epoch_1.2020-04-08-21-15-51.th": {
+            "f1-measure-overall": 0.8175738661694472,
+            "loss": 0.21608017480196134,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.80812127427729,
+            "recall-overall": 0.8272502091501124
+        },
+        "output/model_state_epoch_1.2020-04-08-21-20-51.th": {
+            "f1-measure-overall": 0.8250827741212554,
+            "loss": 0.20646513166285638,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8106439561831191,
+            "recall-overall": 0.8400452748478535
+        },
+        "output/model_state_epoch_1.2020-04-08-21-25-53.th": {
+            "f1-measure-overall": 0.8258562076583311,
+            "loss": 0.20612360477893116,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8208972156494116,
+            "recall-overall": 0.8308754777644723
+        },
+        "output/model_state_epoch_1.2020-04-08-21-30-53.th": {
+            "f1-measure-overall": 0.825042004529134,
+            "loss": 0.2089678643844309,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.816564910025707,
+            "recall-overall": 0.8336969537901281
+        },
+        "output/model_state_epoch_1.2020-04-08-21-35-53.th": {
+            "f1-measure-overall": 0.8235313310601976,
+            "loss": 0.20560260412689838,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8190417471159931,
+            "recall-overall": 0.8280704056691983
+        },
+        "output/model_state_epoch_1.2020-04-08-21-40-53.th": {
+            "f1-measure-overall": 0.8280251662536989,
+            "loss": 0.20019244899926156,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8227815298900281,
+            "recall-overall": 0.8333360673217303
+        },
+        "output/model_state_epoch_1.2020-04-08-21-45-54.th": {
+            "f1-measure-overall": 0.8254448888384622,
+            "loss": 0.20615764177364498,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8149409300912825,
+            "recall-overall": 0.8362231590689129
+        },
+        "output/model_state_epoch_1.th": {
+            "f1-measure-overall": 0.8297889810328757,
+            "loss": 0.2023522283806846,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8306893093754624,
+            "recall-overall": 0.8288906021882844
+        },
+        "output/model_state_epoch_2.2020-04-08-22-19-38.th": {
+            "f1-measure-overall": 0.8240901844313203,
+            "loss": 0.21564446286682284,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8132507027855865,
+            "recall-overall": 0.8352225193156281
+        },
+        "output/model_state_epoch_2.2020-04-08-22-24-38.th": {
+            "f1-measure-overall": 0.8253911863968367,
+            "loss": 0.21754120333576632,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8127136565277535,
+            "recall-overall": 0.8384704975312085
+        },
+        "output/model_state_epoch_2.2020-04-08-22-29-38.th": {
+            "f1-measure-overall": 0.8285025526975304,
+            "loss": 0.21132965833432715,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8199768644966421,
+            "recall-overall": 0.8372073948918161
+        },
+        "output/model_state_epoch_2.2020-04-08-22-34-38.th": {
+            "f1-measure-overall": 0.8248467419060701,
+            "loss": 0.2181439494133474,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8103868557680132,
+            "recall-overall": 0.8398320237528912
+        },
+        "output/model_state_epoch_2.2020-04-08-22-39-38.th": {
+            "f1-measure-overall": 0.8261514157248255,
+            "loss": 0.21471171798245836,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8161475173672248,
+            "recall-overall": 0.8364036023031118
+        },
+        "output/model_state_epoch_2.2020-04-08-22-44-39.th": {
+            "f1-measure-overall": 0.8334571458892371,
+            "loss": 0.20763907511231283,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8295631825273011,
+            "recall-overall": 0.837387838126015
+        },
+        "output/model_state_epoch_2.2020-04-08-22-49-39.th": {
+            "f1-measure-overall": 0.8281217174899712,
+            "loss": 0.20916372457498766,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.815990191238993,
+            "recall-overall": 0.8406194124112137
+        },
+        "output/model_state_epoch_2.2020-04-08-22-54-39.th": {
+            "f1-measure-overall": 0.830580485396773,
+            "loss": 0.20966380195461773,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8196556350626119,
+            "recall-overall": 0.8418004953986975
+        },
+        "output/model_state_epoch_2.2020-04-08-22-59-39.th": {
+            "f1-measure-overall": 0.8322395573680228,
+            "loss": 0.20434114868970324,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8292778266393042,
+            "recall-overall": 0.8352225193156281
+        },
+        "output/model_state_epoch_2.2020-04-08-23-04-39.th": {
+            "f1-measure-overall": 0.8315109102395379,
+            "loss": 0.2070146951061117,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8212668597302443,
+            "recall-overall": 0.8420137464936599
+        },
+        "output/model_state_epoch_2.2020-04-08-23-09-39.th": {
+            "f1-measure-overall": 0.8296464482646273,
+            "loss": 0.2078566042879237,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8203467021600731,
+            "recall-overall": 0.8391594626072407
+        },
+        "output/model_state_epoch_2.th": {
+            "f1-measure-overall": 0.8295685894328148,
+            "loss": 0.20275733533723736,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8173004982568968,
+            "recall-overall": 0.8422105936582405
+        }
+    },
+    "run4": {
+        "bert-base-cased": {
+            "f1-measure-overall": 0.0008392728573819608,
+            "loss": 4.6788000636344975,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.0004822604059310686,
+            "recall-overall": 0.0032315742851987336
+        },
+        "output/model_state_epoch_0.2020-04-07-18-29-35.th": {
+            "f1-measure-overall": 0.7248494502189686,
+            "loss": 0.3399220596479377,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.7182708413864193,
+            "recall-overall": 0.7315496793031611
+        },
+        "output/model_state_epoch_0.2020-04-07-18-34-35.th": {
+            "f1-measure-overall": 0.7621548907820909,
+            "loss": 0.2813748273282854,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.7444741658454175,
+            "recall-overall": 0.7806958547267926
+        },
+        "output/model_state_epoch_0.2020-04-07-18-39-35.th": {
+            "f1-measure-overall": 0.7831201920319335,
+            "loss": 0.2508375771105691,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.7822166213871886,
+            "recall-overall": 0.7840258525942816
+        },
+        "output/model_state_epoch_0.2020-04-07-18-44-35.th": {
+            "f1-measure-overall": 0.7906924460431155,
+            "loss": 0.24431542036525394,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.7743893808093358,
+            "recall-overall": 0.8076967241351027
+        },
+        "output/model_state_epoch_0.2020-04-07-18-49-35.th": {
+            "f1-measure-overall": 0.8013905658694994,
+            "loss": 0.23233219164515656,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.7918868710163032,
+            "recall-overall": 0.8111251455848821
+        },
+        "output/model_state_epoch_0.2020-04-07-18-54-35.th": {
+            "f1-measure-overall": 0.797058870747594,
+            "loss": 0.2336726146027284,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.7804203278997752,
+            "recall-overall": 0.8144223355916077
+        },
+        "output/model_state_epoch_0.2020-04-07-18-59-36.th": {
+            "f1-measure-overall": 0.8080018843251261,
+            "loss": 0.22768008374230775,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8002091377091377,
+            "recall-overall": 0.8159479011171077
+        },
+        "output/model_state_epoch_0.2020-04-07-19-04-36.th": {
+            "f1-measure-overall": 0.8054793633840153,
+            "loss": 0.23067928608833974,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.7947469263931023,
+            "recall-overall": 0.8165056347500861
+        },
+        "output/model_state_epoch_0.2020-04-07-19-09-36.th": {
+            "f1-measure-overall": 0.8067948144836337,
+            "loss": 0.2218041805380498,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.7995618133195863,
+            "recall-overall": 0.8141598727055003
+        },
+        "output/model_state_epoch_0.2020-04-07-19-14-36.th": {
+            "f1-measure-overall": 0.8067766227322063,
+            "loss": 0.2109462136987247,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.7876339885621426,
+            "recall-overall": 0.8268729187513328
+        },
+        "output/model_state_epoch_0.2020-04-07-19-19-36.th": {
+            "f1-measure-overall": 0.8136916769700808,
+            "loss": 0.21148702379039422,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8070350947962889,
+            "recall-overall": 0.8204589819720806
+        },
+        "output/model_state_epoch_0.2020-04-07-19-24-36.th": {
+            "f1-measure-overall": 0.8193030445267617,
+            "loss": 0.20303168666390395,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8085456433192237,
+            "recall-overall": 0.8303505519922574
+        },
+        "output/model_state_epoch_0.th": {
+            "f1-measure-overall": 0.8217070634868562,
+            "loss": 0.20284624094625994,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8138404852697463,
+            "recall-overall": 0.829727202637752
+        },
+        "output/model_state_epoch_1.2020-04-07-20-11-06.th": {
+            "f1-measure-overall": 0.8209788394131656,
+            "loss": 0.20767406457963647,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.812240114309567,
+            "recall-overall": 0.8299076458719509
+        },
+        "output/model_state_epoch_1.2020-04-07-20-16-06.th": {
+            "f1-measure-overall": 0.8207946998359438,
+            "loss": 0.20840420901654316,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8125874125874126,
+            "recall-overall": 0.8291694690047735
+        },
+        "output/model_state_epoch_1.2020-04-07-20-21-06.th": {
+            "f1-measure-overall": 0.8232630605189626,
+            "loss": 0.20730156131650934,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8145905930338991,
+            "recall-overall": 0.8321221764734831
+        },
+        "output/model_state_epoch_1.2020-04-07-20-26-07.th": {
+            "f1-measure-overall": 0.8155954479884098,
+            "loss": 0.20912646322215137,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.7973330826242968,
+            "recall-overall": 0.8347139974737947
+        },
+        "output/model_state_epoch_1.2020-04-07-20-31-07.th": {
+            "f1-measure-overall": 0.8218244233400033,
+            "loss": 0.2103949578372204,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8113729377158204,
+            "recall-overall": 0.8325486786634078
+        },
+        "output/model_state_epoch_1.2020-04-07-20-36-07.th": {
+            "f1-measure-overall": 0.8203585570618144,
+            "loss": 0.20446864457183292,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8068563995177359,
+            "recall-overall": 0.8343203031446335
+        },
+        "output/model_state_epoch_1.2020-04-07-20-41-08.th": {
+            "f1-measure-overall": 0.8257369151628472,
+            "loss": 0.2039927582611474,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8220585605358566,
+            "recall-overall": 0.8294483358212628
+        },
+        "output/model_state_epoch_1.2020-04-07-20-46-08.th": {
+            "f1-measure-overall": 0.8264794056308156,
+            "loss": 0.20141705231228618,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8209286141994789,
+            "recall-overall": 0.8321057725431014
+        },
+        "output/model_state_epoch_1.2020-04-07-20-51-08.th": {
+            "f1-measure-overall": 0.823732091632283,
+            "loss": 0.2058949601422442,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8162039422829168,
+            "recall-overall": 0.8314004035366874
+        },
+        "output/model_state_epoch_1.2020-04-07-20-56-08.th": {
+            "f1-measure-overall": 0.8292999310875498,
+            "loss": 0.20785599983918407,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8198416260579636,
+            "recall-overall": 0.8389790193730418
+        },
+        "output/model_state_epoch_1.2020-04-07-21-01-08.th": {
+            "f1-measure-overall": 0.8240984055844348,
+            "loss": 0.20296065829751184,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8101494524303849,
+            "recall-overall": 0.8385361132527354
+        },
+        "output/model_state_epoch_1.2020-04-07-21-06-08.th": {
+            "f1-measure-overall": 0.826315533271624,
+            "loss": 0.203174235724676,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8174550941457855,
+            "recall-overall": 0.8353701546890635
+        },
+        "output/model_state_epoch_1.th": {
+            "f1-measure-overall": 0.8270172433296742,
+            "loss": 0.20297345932991928,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8149274646878035,
+            "recall-overall": 0.8394711372844934
+        },
+        "output/model_state_epoch_2.2020-04-07-21-49-28.th": {
+            "f1-measure-overall": 0.8316946495067116,
+            "loss": 0.2086367267708676,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8280835840312221,
+            "recall-overall": 0.8353373468283001
+        },
+        "output/model_state_epoch_2.2020-04-07-21-54-28.th": {
+            "f1-measure-overall": 0.827833014865384,
+            "loss": 0.21428336072185988,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8173373623035477,
+            "recall-overall": 0.8386017289742622
+        },
+        "output/model_state_epoch_2.2020-04-07-21-59-28.th": {
+            "f1-measure-overall": 0.8287748826670484,
+            "loss": 0.21084418332756255,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8178029032721698,
+            "recall-overall": 0.8400452748478535
+        },
+        "output/model_state_epoch_2.2020-04-07-22-04-29.th": {
+            "f1-measure-overall": 0.8281315832117472,
+            "loss": 0.21030647717954323,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8182007396852335,
+            "recall-overall": 0.8383064582273912
+        },
+        "output/model_state_epoch_2.2020-04-07-22-09-29.th": {
+            "f1-measure-overall": 0.8304731641279971,
+            "loss": 0.20696668138700777,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8208974358974359,
+            "recall-overall": 0.8402749298731976
+        },
+        "output/model_state_epoch_2.2020-04-07-22-14-29.th": {
+            "f1-measure-overall": 0.8280647022024572,
+            "loss": 0.2087148211745082,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8203006792647201,
+            "recall-overall": 0.8359771001131872
+        },
+        "output/model_state_epoch_2.2020-04-07-22-19-29.th": {
+            "f1-measure-overall": 0.8312474504364353,
+            "loss": 0.2073395321356747,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8268759434498206,
+            "recall-overall": 0.8356654254359345
+        },
+        "output/model_state_epoch_2.2020-04-07-22-24-29.th": {
+            "f1-measure-overall": 0.8282210579246528,
+            "loss": 0.2099617415736594,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8190801610600446,
+            "recall-overall": 0.8375682813602139
+        },
+        "output/model_state_epoch_2.2020-04-07-22-29-29.th": {
+            "f1-measure-overall": 0.8285365004573695,
+            "loss": 0.21287241144751648,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8179609322548674,
+            "recall-overall": 0.8393891176325847
+        },
+        "output/model_state_epoch_2.2020-04-07-22-34-29.th": {
+            "f1-measure-overall": 0.8303741384968322,
+            "loss": 0.2010847106541538,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8306603851015283,
+            "recall-overall": 0.8300880891061498
+        },
+        "output/model_state_epoch_2.2020-04-07-22-39-29.th": {
+            "f1-measure-overall": 0.8323316869023079,
+            "loss": 0.20376400869693848,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8231519507186859,
+            "recall-overall": 0.8417184757467889
+        },
+        "output/model_state_epoch_2.2020-04-07-22-44-29.th": {
+            "f1-measure-overall": 0.8279061424820542,
+            "loss": 0.20798381698536503,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8229945050491952,
+            "recall-overall": 0.8328767572710422
+        },
+        "output/model_state_epoch_2.th": {
+            "f1-measure-overall": 0.8314916678835762,
+            "loss": 0.20386947119062634,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8225757259579113,
+            "recall-overall": 0.840603008480832
+        }
+    },
+    "run5": {
+        "bert-base-cased": {
+            "f1-measure-overall": 0.0008392728573819608,
+            "loss": 4.6788000636344975,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.0004822604059310686,
+            "recall-overall": 0.0032315742851987336
+        },
+        "output/model_state_epoch_0.2020-04-07-18-29-29.th": {
+            "f1-measure-overall": 0.7445886747395691,
+            "loss": 0.2934418517879668,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.7325850901701804,
+            "recall-overall": 0.7569921753252079
+        },
+        "output/model_state_epoch_0.2020-04-07-18-34-29.th": {
+            "f1-measure-overall": 0.7807649711891383,
+            "loss": 0.25446385492091855,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.7643019875873989,
+            "recall-overall": 0.7979527894883615
+        },
+        "output/model_state_epoch_0.2020-04-07-18-39-29.th": {
+            "f1-measure-overall": 0.7956180058350238,
+            "loss": 0.23845697940822455,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.7883971137739982,
+            "recall-overall": 0.8029723921851676
+        },
+        "output/model_state_epoch_0.2020-04-07-18-44-29.th": {
+            "f1-measure-overall": 0.8038592453710283,
+            "loss": 0.22942601420447487,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.7889341672984584,
+            "recall-overall": 0.8193599186365053
+        },
+        "output/model_state_epoch_0.2020-04-07-18-49-29.th": {
+            "f1-measure-overall": 0.805624043187445,
+            "loss": 0.2226435703539079,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.7916673264818128,
+            "recall-overall": 0.8200816915733009
+        },
+        "output/model_state_epoch_0.2020-04-07-18-54-29.th": {
+            "f1-measure-overall": 0.8101530748825277,
+            "loss": 0.2200096180630278,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8013705225317755,
+            "recall-overall": 0.8191302636111613
+        },
+        "output/model_state_epoch_0.2020-04-07-18-59-29.th": {
+            "f1-measure-overall": 0.8137274801288786,
+            "loss": 0.20866193557515417,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8055716306584362,
+            "recall-overall": 0.8220501632191073
+        },
+        "output/model_state_epoch_0.2020-04-07-19-04-29.th": {
+            "f1-measure-overall": 0.8129599741768383,
+            "loss": 0.20926079930517377,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8000603567401007,
+            "recall-overall": 0.8262823772575909
+        },
+        "output/model_state_epoch_0.th": {
+            "f1-measure-overall": 0.8150439491571225,
+            "loss": 0.21101236919590394,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.7987433268767421,
+            "recall-overall": 0.8320237528911927
+        },
+        "output/model_state_epoch_1.2020-04-07-19-43-28.th": {
+            "f1-measure-overall": 0.8203060346925362,
+            "loss": 0.21116041410823772,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8115358065914308,
+            "recall-overall": 0.8292678925870639
+        },
+        "output/model_state_epoch_1.2020-04-07-19-48-28.th": {
+            "f1-measure-overall": 0.8226659313565969,
+            "loss": 0.20833231504477348,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8135476316507065,
+            "recall-overall": 0.8319909450304293
+        },
+        "output/model_state_epoch_1.2020-04-07-19-53-28.th": {
+            "f1-measure-overall": 0.8207270190919062,
+            "loss": 0.21296719540763762,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8116688323146767,
+            "recall-overall": 0.8299896655238596
+        },
+        "output/model_state_epoch_1.2020-04-07-19-58-28.th": {
+            "f1-measure-overall": 0.8279241064088153,
+            "loss": 0.20505362639334584,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8298205428208889,
+            "recall-overall": 0.8260363183018651
+        },
+        "output/model_state_epoch_1.2020-04-07-20-03-28.th": {
+            "f1-measure-overall": 0.8228412437559499,
+            "loss": 0.20649343272589848,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8162273835079168,
+            "recall-overall": 0.8295631633339348
+        },
+        "output/model_state_epoch_1.2020-04-07-20-08-28.th": {
+            "f1-measure-overall": 0.8275647532662652,
+            "loss": 0.2046163420898883,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.825982514911349,
+            "recall-overall": 0.8291530650743918
+        },
+        "output/model_state_epoch_1.2020-04-07-20-13-28.th": {
+            "f1-measure-overall": 0.8254289414049354,
+            "loss": 0.2050354667076779,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8146296266713525,
+            "recall-overall": 0.8365184298157838
+        },
+        "output/model_state_epoch_1.2020-04-07-20-18-29.th": {
+            "f1-measure-overall": 0.8247431008853634,
+            "loss": 0.1981515338216061,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.812520892029989,
+            "recall-overall": 0.8373386263348699
+        },
+        "output/model_state_epoch_1.th": {
+            "f1-measure-overall": 0.8288007531305549,
+            "loss": 0.19829943770977282,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8201676892929423,
+            "recall-overall": 0.837617493151359
+        },
+        "output/model_state_epoch_2.2020-04-07-20-53-26.th": {
+            "f1-measure-overall": 0.8283835057884573,
+            "loss": 0.20499007448810344,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8172429205376242,
+            "recall-overall": 0.8398320237528912
+        },
+        "output/model_state_epoch_2.2020-04-07-20-58-26.th": {
+            "f1-measure-overall": 0.8277008039488296,
+            "loss": 0.21755240613471208,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.822029510742946,
+            "recall-overall": 0.8334508948344024
+        },
+        "output/model_state_epoch_2.2020-04-07-21-03-26.th": {
+            "f1-measure-overall": 0.8318094105960304,
+            "loss": 0.20278832834283442,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8257783956804293,
+            "recall-overall": 0.8379291678286117
+        },
+        "output/model_state_epoch_2.2020-04-07-21-08-26.th": {
+            "f1-measure-overall": 0.8269501583243971,
+            "loss": 0.20883725549559645,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8207568510858325,
+            "recall-overall": 0.83323764373944
+        },
+        "output/model_state_epoch_2.2020-04-07-21-13-26.th": {
+            "f1-measure-overall": 0.8274082010323841,
+            "loss": 0.20870506498162203,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8188872644313416,
+            "recall-overall": 0.8361083315562409
+        },
+        "output/model_state_epoch_2.2020-04-07-21-18-26.th": {
+            "f1-measure-overall": 0.8275951732823619,
+            "loss": 0.20747849766939686,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8199793894113101,
+            "recall-overall": 0.8353537507586818
+        },
+        "output/model_state_epoch_2.2020-04-07-21-23-26.th": {
+            "f1-measure-overall": 0.8308498148649369,
+            "loss": 0.2101371878993246,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8316623385161566,
+            "recall-overall": 0.8300388773150047
+        },
+        "output/model_state_epoch_2.2020-04-07-21-28-26.th": {
+            "f1-measure-overall": 0.8295045264284518,
+            "loss": 0.2145539769414573,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8204926582684747,
+            "recall-overall": 0.8387165564869342
+        },
+        "output/model_state_epoch_2.th": {
+            "f1-measure-overall": 0.8319357235589966,
+            "loss": 0.20643487480718375,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "precision-overall": 0.8282230531620874,
+            "recall-overall": 0.8356818293663162
+        }
+    }
+}
