@@ -23,7 +23,17 @@ def convert_raw_to_bert_hdf5(model_path, probes_input_paths, probes_path_hdf5, b
     hdf5_files_paths = []
 
     if not model_to_load:
-        model = BertModel.from_pretrained(model_path)
+        # Load a trained model that you have fine-tuned
+        model_state_dict = torch.load(model_path)
+        model = BertModel.from_pretrained(state_dict=model_state_dict)
+        # model = MyBertForTokenClassification.from_pretrained(args.bert_model,
+        #                                                      state_dict=model_state_dict,
+        #                                                      num_labels=num_labels,
+        #                                                      finetune=not args.not_finetune,
+        #                                                      use_bilstms=args.use_bilstms)
+        device = torch.device("cuda", -1)
+        model.to(device)
+
     else:
         logging.info("ATTENTION!! Provided model name to load: %s" % model_to_load)
         # model = BertModel.from_pretrained(model_to_load)  # TODO
