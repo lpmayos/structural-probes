@@ -147,7 +147,7 @@ def execute_probe(seed, configuration, probes_path_hdf5, ptb_path, results_dir, 
         logging.info('ATTENTION: syntactic probes results folder %s already exists; skipping probing' % results_dir)
 
 
-def structural_probing(seed, probe_name, ptb_path, probes_input_paths, parse_distance_yaml, parse_depth_yaml, checkpoints_path, bert_type, model_to_load):
+def structural_probing(seed, probe_name, ptb_path, probes_input_paths, parse_distance_yaml, parse_depth_yaml, checkpoints_path, bert_type, model_to_load, model_partial_name):
     """ traverses the given path looking for prediction files and computes the results
     """
 
@@ -161,7 +161,7 @@ def structural_probing(seed, probe_name, ptb_path, probes_input_paths, parse_dis
 
     for (root, dirs, files) in os.walk(checkpoints_path):
         for file in files:
-            if file.startswith('model_state'):
+            if file.startswith(model_partial_name):
 
                 model_weights_path = checkpoints_path + '/' + file
                 logging.info('Evaluating %s' % model_weights_path)
@@ -219,6 +219,7 @@ if __name__ == '__main__':
     parser.add_argument("--bert_type", default="bert-base-cased", type=str, required=False, help="i.e. bert-base-cased")
     parser.add_argument("--model_to_load", default=None, type=str, required=False, help="If provided, we load this model instead of the models in the checkpoints")
     parser.add_argument("--seed", type=int, required=True, help="sets all random seeds for (within-machine) reproducibility")
+    parser.add_argument("--model_partial_name", default="model_state", type=str, required=False, help="'model_state' for srl, 'pytorch_model' for parsing_as_pretraining")
 
     args = parser.parse_args()
     structural_probing(args.seed,
@@ -229,4 +230,5 @@ if __name__ == '__main__':
                        args.parse_depth_yaml,
                        args.checkpoints_path,
                        args.bert_type,
-                       args.model_to_load)
+                       args.model_to_load,
+                       args.model_partial_name)
