@@ -36,9 +36,9 @@ def convert_raw_to_bert_hdf5(vocab_path, model_weights_path, probes_input_paths,
                 new_key = key.replace('bert_model.', '')
                 new_state_dict[new_key] = state_dict[key]
 
-            # remove SrlBert specific params
-            new_state_dict.pop('tag_projection_layer.weight')
-            new_state_dict.pop('tag_projection_layer.bias')
+            # # remove SrlBert specific params
+            # new_state_dict.pop('tag_projection_layer.weight')
+            # new_state_dict.pop('tag_projection_layer.bias')
 
             model.load_state_dict(new_state_dict)
 
@@ -219,7 +219,7 @@ if __name__ == '__main__':
     parser.add_argument("--bert_type", default="bert-base-cased", type=str, required=False, help="i.e. bert-base-cased")
     parser.add_argument("--model_to_load", default=None, type=str, required=False, help="If provided, we load this model instead of the models in the checkpoints")
     parser.add_argument("--seed", type=int, required=True, help="sets all random seeds for (within-machine) reproducibility")
-    parser.add_argument("--model_partial_name", default="model_state", type=str, required=False, help="'model_state' for srl, 'pytorch_model' for parsing_as_pretraining")
+    parser.add_argument("--model_partial_name", default="model_state", type=str, required=False, help="'pytorch_model' for parsing_as_pretraining")
 
     args = parser.parse_args()
     structural_probing(args.seed,
