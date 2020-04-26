@@ -163,7 +163,7 @@ def structural_probing(seed, probe_name, ptb_path, probes_input_paths, parse_dis
         for file in files:
             if file.startswith(model_partial_name):
 
-                model_weights_path = checkpoints_path + '/' + file
+                model_weights_path = root + '/' + file
                 logging.info('Evaluating %s' % model_weights_path)
 
                 checkpoint_path = model_weights_path.split('.th')[0]
