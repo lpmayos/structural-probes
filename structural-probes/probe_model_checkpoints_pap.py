@@ -11,10 +11,8 @@ import numpy as np
 
 import yaml
 
-from transformers import (
-    BertModel,
-    BertTokenizer,
-)
+from pytorch_pretrained_bert import BertModel
+from pytorch_pretrained_bert.tokenization import BertTokenizer
 
 from run_experiment import setup_new_experiment_dir, execute_experiment
 
