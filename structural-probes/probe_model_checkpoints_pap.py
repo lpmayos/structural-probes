@@ -32,7 +32,7 @@ def convert_raw_to_bert_hdf5(model_path, probes_input_paths, probes_path_hdf5, b
         #                                                      num_labels=num_labels,
         #                                                      finetune=not args.not_finetune,
         #                                                      use_bilstms=args.use_bilstms)
-        device = torch.device("cuda", -1)
+        device = torch.device('cuda:0')
         model.to(device)
 
     else:
