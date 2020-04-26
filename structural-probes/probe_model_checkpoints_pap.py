@@ -17,32 +17,16 @@ from pytorch_pretrained_bert.tokenization import BertTokenizer
 from run_experiment import setup_new_experiment_dir, execute_experiment
 
 
-def convert_raw_to_bert_hdf5(vocab_path, model_weights_path, probes_input_paths, probes_path_hdf5, bert_type, model_to_load):
+def convert_raw_to_bert_hdf5(model_path, probes_input_paths, probes_path_hdf5, bert_type, model_to_load):
     """ Copied from scripts/convert_raw_to_bert.py
     """
     hdf5_files_paths = []
 
     if not model_to_load:
-
-        model = BertModel.from_pretrained(bert_type)
-        with open(model_weights_path, 'rb') as f:
-
-            # load params and rename SrlBert keys to match BertModel
-            state_dict = torch.load(f)
-            new_state_dict = collections.OrderedDict()
-            for key in state_dict.keys():
-                new_key = key.replace('bert_model.', '')
-                new_state_dict[new_key] = state_dict[key]
-
-            # # remove SrlBert specific params
-            # new_state_dict.pop('tag_projection_layer.weight')
-            # new_state_dict.pop('tag_projection_layer.bias')
-
-            model.load_state_dict(new_state_dict)
-
+        model = BertModel.from_pretrained(model_path)
     else:
         logging.info("ATTENTION!! Provided model name to load: %s" % model_to_load)
-        # model = BertModel.from_pretrained(model_to_load)  # TODO load SrlBert base model
+        # model = BertModel.from_pretrained(model_to_load)  # TODO
 
     # Load pre-trained model tokenizer (vocabulary)
     # Crucially, do not do basic tokenization; PTB is tokenized. Just do wordpiece tokenization.
@@ -179,7 +163,7 @@ def structural_probing(seed, probe_name, ptb_path, probes_input_paths, parse_dis
 
                     # 1. Generate hdf5 file with model
 
-                    hdf5_files_paths = convert_raw_to_bert_hdf5(vocab_path, model_path, probes_input_paths, probes_path_hdf5, bert_type, model_to_load)
+                    hdf5_files_paths = convert_raw_to_bert_hdf5(model_path, probes_input_paths, probes_path_hdf5, bert_type, model_to_load)
 
                     # 2. Execute probes using the generated hdf5 files (copied from structural-probes/run_experiment.py)
 
