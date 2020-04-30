@@ -15,7 +15,7 @@ def analyse_results(probe_name, models_path, runs_list, output_file):
     for run in runs_list:
 
         # load checkpoints results
-        run_output_path = models_path + run + '/output/'
+        run_output_path = models_path + '/' + run + '/output/'
 
         run_results_path = run_output_path + 'eval_results.json'
         with open(run_results_path) as json_file:
