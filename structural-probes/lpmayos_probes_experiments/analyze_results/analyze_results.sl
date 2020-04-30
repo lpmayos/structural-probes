@@ -60,7 +60,7 @@ fi
 
 # SRL
 
-analyze_results=1
+analyze_results=0
 
 if [ "$analyze_results" == 1 ]; then
     echo "Analyzing SRL results"
@@ -68,4 +68,18 @@ if [ "$analyze_results" == 1 ]; then
                                                             --models_path /homedtic/lperez/bert_finetuned_srl \
                                                             --runs run1 run2 run3 run4 run5 \
                                                             --output_file bert_base_cased_finetuned_srl_results.json
+fi
+
+
+
+# Parsing as Pretraining: Constituent Parsing
+
+analyze_results=1
+
+if [ "$analyze_results" == 1 ]; then
+    echo "Analyzing PAP Constituents results"
+    python bert_base_cased_finetuned_pap_analyse_results.py --probe_name naacl_19_ptb \
+                                                            --models_path /homedtic/lperez/parsing-as-pretraining/runs_constituency_parsing \
+                                                            --runs run1 run2 run3 run4 run5 \
+                                                            --output_file bert_base_cased_finetuned_pap_constituents_results.json
 fi
