@@ -33,8 +33,8 @@ def analyse_results(probe_name, models_path, runs_list, output_file):
         with open('bert_base_cased_finetuned_parsing_results.json') as json_file:
             parsing_results = json.load(json_file)
 
-        run_results['bert-base-cased']['parse-depth'] = parsing_results['run1']['0']['parse-depth']
-        run_results['bert-base-cased']['parse-distance'] = parsing_results['run1']['0']['parse-distance']
+        run_results['output/checkpoint-0/bert-base-cased']['parse-depth'] = parsing_results['run1']['0']['parse-depth']
+        run_results['output/checkpoint-0/bert-base-cased']['parse-distance'] = parsing_results['run1']['0']['parse-distance']
 
         # add probes results for all checkpoints
 
