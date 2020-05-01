@@ -1,18 +1,16 @@
 {
     "run1": {
-        "bert-base-cased": {
-            "checkpoint_0": {
-                "acc": 0.00012380986480036452,
-                "eval_score": 1.5465856263822233,
-                "loss": 0.0
-            },
+        "output/checkpoint-0/bert-base-cased": {
+            "acc": 0.00012380986480036452,
+            "eval_score": 1.5465856263822233,
+            "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.8411764705882353,
-                "dev.spearmanr-5_50-mean": 0.8627648152866605
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8035446230461999,
-                "dev.uuas": 0.7266223356884165
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-1199/pytorch_model.bin": {
@@ -407,19 +405,17 @@
         }
     },
     "run2": {
-        "bert-base-cased": {
-            "checkpoint_0": {
-                "acc": 0.00012380986480036452,
-                "eval_score": 1.5465856263822233,
-                "loss": 0.0
-            },
+        "output/checkpoint-0/bert-base-cased": {
+            "acc": 0.00012380986480036452,
+            "eval_score": 1.5465856263822233,
+            "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.8411764705882353,
-                "dev.spearmanr-5_50-mean": 0.8627648152866605
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8035446230461999,
-                "dev.uuas": 0.7266223356884165
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-1199/pytorch_model.bin": {
@@ -814,19 +810,17 @@
         }
     },
     "run3": {
-        "bert-base-cased": {
-            "checkpoint_0": {
-                "acc": 0.00012380986480036452,
-                "eval_score": 1.5465856263822233,
-                "loss": 0.0
-            },
+        "output/checkpoint-0/bert-base-cased": {
+            "acc": 0.00012380986480036452,
+            "eval_score": 1.5465856263822233,
+            "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.8411764705882353,
-                "dev.spearmanr-5_50-mean": 0.8627648152866605
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8035446230461999,
-                "dev.uuas": 0.7266223356884165
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-1199/pytorch_model.bin": {
@@ -1003,12 +997,12 @@
             "eval_score": 87.06180704819928,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.9482352941176471,
+                "dev.spearmanr-5_50-mean": 0.9045070039853331
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.8751672731691985,
+                "dev.uuas": 0.839428842842724
             }
         },
         "output/checkpoint-4409/pytorch_model.bin": {
@@ -1107,12 +1101,12 @@
             "eval_score": 87.76112028902716,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.95,
+                "dev.spearmanr-5_50-mean": 0.907059931171377
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.8785244346868971,
+                "dev.uuas": 0.8380929763106335
             }
         },
         "output/checkpoint-6179/pytorch_model.bin": {
@@ -1221,19 +1215,17 @@
         }
     },
     "run4": {
-        "bert-base-cased": {
-            "checkpoint_0": {
-                "acc": 0.00012380986480036452,
-                "eval_score": 1.5465856263822233,
-                "loss": 0.0
-            },
+        "output/checkpoint-0/bert-base-cased": {
+            "acc": 0.00012380986480036452,
+            "eval_score": 1.5465856263822233,
+            "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.8411764705882353,
-                "dev.spearmanr-5_50-mean": 0.8627648152866605
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8035446230461999,
-                "dev.uuas": 0.7266223356884165
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-1199/pytorch_model.bin": {
@@ -1605,12 +1597,12 @@
             "eval_score": 88.21659000401321,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.9464705882352941,
+                "dev.spearmanr-5_50-mean": 0.9080326358936649
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.8815972176197846,
+                "dev.uuas": 0.8421599477527756
             }
         },
         "output/checkpoint-959/pytorch_model.bin": {
@@ -1628,19 +1620,17 @@
         }
     },
     "run5": {
-        "bert-base-cased": {
-            "checkpoint_0": {
-                "acc": 0.00012380986480036452,
-                "eval_score": 1.5465856263822233,
-                "loss": 0.0
-            },
+        "output/checkpoint-0/bert-base-cased": {
+            "acc": 0.00012380986480036452,
+            "eval_score": 1.5465856263822233,
+            "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.8411764705882353,
-                "dev.spearmanr-5_50-mean": 0.8627648152866605
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8035446230461999,
-                "dev.uuas": 0.7266223356884165
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-1199/pytorch_model.bin": {
