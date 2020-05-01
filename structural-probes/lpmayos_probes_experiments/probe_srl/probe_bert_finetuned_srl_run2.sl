@@ -20,4 +20,4 @@ python probe_model_checkpoints_srl.py --probe_name naacl_19_ptb \
                                       --parse_distance_yaml /homedtic/lperez/structural-probes/example/config/naacl19/bert-base/ptb-pad-BERTbase7.yaml \
                                       --parse_depth_yaml /homedtic/lperez/structural-probes/example/config/naacl19/bert-base/ptb-prd-BERTbase7.yaml \
                                       --checkpoints_path /homedtic/lperez/bert_finetuned_srl/runs/run2/output \
-                                      --seed 10
+                                      --seed 20
