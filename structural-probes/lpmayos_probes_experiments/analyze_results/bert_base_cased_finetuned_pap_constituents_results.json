@@ -419,393 +419,393 @@
             }
         },
         "output/checkpoint-1199/pytorch_model.bin": {
-            "acc": 0.8712686091987175,
-            "eval_score": 83.02723831978655,
+            "acc": 0.8720562476418324,
+            "eval_score": 83.39433037652752,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.951764705882353,
-                "dev.spearmanr-5_50-mean": 0.9064276955809245
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8757695543831787,
-                "dev.uuas": 0.8371430267767025
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-1439/pytorch_model.bin": {
-            "acc": 0.8766430592880722,
-            "eval_score": 83.96195778241707,
+            "acc": 0.8785002714346684,
+            "eval_score": 84.04861315907927,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9452941176470588,
-                "dev.spearmanr-5_50-mean": 0.9062650287905183
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8754595246926967,
-                "dev.uuas": 0.8426942943656118
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-1679/pytorch_model.bin": {
-            "acc": 0.8820666971981571,
-            "eval_score": 84.33253892104366,
+            "acc": 0.8821171340358979,
+            "eval_score": 84.39972134066105,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.95,
-                "dev.spearmanr-5_50-mean": 0.907209371289629
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8795924295888122,
-                "dev.uuas": 0.8483049338003918
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-1919/pytorch_model.bin": {
-            "acc": 0.8868707836147497,
-            "eval_score": 84.90434728816443,
+            "acc": 0.8862157194947162,
+            "eval_score": 84.99025341130604,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9405882352941176,
-                "dev.spearmanr-5_50-mean": 0.906596514394802
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8755092075744481,
-                "dev.uuas": 0.8397257020720774
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-2159/pytorch_model.bin": {
-            "acc": 0.8878743373951633,
-            "eval_score": 85.23385266278585,
+            "acc": 0.8881156451785907,
+            "eval_score": 85.14869859729976,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.95,
-                "dev.spearmanr-5_50-mean": 0.9083505542673569
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8779554135142706,
-                "dev.uuas": 0.8445941934334739
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-239/pytorch_model.bin": {
-            "acc": 0.6781809424886498,
-            "eval_score": 57.18971771014036,
+            "acc": 0.6510123136512995,
+            "eval_score": 57.49712676238729,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9217647058823529,
-                "dev.spearmanr-5_50-mean": 0.8878940159472684
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8591483403013132,
-                "dev.uuas": 0.8421005759069049
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-2399/pytorch_model.bin": {
-            "acc": 0.8922951166988288,
-            "eval_score": 85.83450644307968,
+            "acc": 0.8901066693105074,
+            "eval_score": 85.54440728353771,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9476470588235294,
-                "dev.spearmanr-5_50-mean": 0.9088038549162482
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8806207956170544,
-                "dev.uuas": 0.8463159769637238
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-2729/pytorch_model.bin": {
-            "acc": 0.8943795770016157,
-            "eval_score": 85.90425942210086,
+            "acc": 0.8926432430227325,
+            "eval_score": 85.9487021013597,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.951764705882353,
-                "dev.spearmanr-5_50-mean": 0.909460856930475
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.879738536452347,
-                "dev.uuas": 0.8438520453600903
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-2969/pytorch_model.bin": {
-            "acc": 0.8961160826556585,
-            "eval_score": 86.31025957972805,
+            "acc": 0.89506841859026,
+            "eval_score": 86.18962211639558,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9505882352941176,
-                "dev.spearmanr-5_50-mean": 0.9098378473724332
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8818865203722631,
-                "dev.uuas": 0.8469690672683013
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-3209/pytorch_model.bin": {
-            "acc": 0.8976833770434732,
-            "eval_score": 86.64594832784452,
+            "acc": 0.896446996857113,
+            "eval_score": 86.3290004482295,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9488235294117647,
-                "dev.spearmanr-5_50-mean": 0.9113357958471385
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8818712234875501,
-                "dev.uuas": 0.8462862910407885
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-3449/pytorch_model.bin": {
-            "acc": 0.8988051083445082,
-            "eval_score": 86.61711183764112,
+            "acc": 0.8977841008522266,
+            "eval_score": 86.59124629080117,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9458823529411765,
-                "dev.spearmanr-5_50-mean": 0.909393111466223
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8807795272235588,
-                "dev.uuas": 0.8424568069821291
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-3689/pytorch_model.bin": {
-            "acc": 0.8996636821086882,
-            "eval_score": 86.91800799395052,
+            "acc": 0.8968480204973024,
+            "eval_score": 86.676364086534,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9452941176470588,
-                "dev.spearmanr-5_50-mean": 0.9099169374489964
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8814351861288579,
-                "dev.uuas": 0.8435551861307368
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-3929/pytorch_model.bin": {
-            "acc": 0.9004228104002344,
-            "eval_score": 86.82036473694777,
+            "acc": 0.8999226795091845,
+            "eval_score": 86.78662921695114,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9470588235294117,
-                "dev.spearmanr-5_50-mean": 0.9088944467520556
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8808504188998805,
-                "dev.uuas": 0.8440301608977023
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-4169/pytorch_model.bin": {
-            "acc": 0.9003664470323414,
-            "eval_score": 87.21377287114954,
+            "acc": 0.9002692924469595,
+            "eval_score": 86.93369568574164,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9458823529411765,
-                "dev.spearmanr-5_50-mean": 0.9097030714940024
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.88091884771947,
-                "dev.uuas": 0.8409725108353618
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-4409/pytorch_model.bin": {
-            "acc": 0.9023553092640919,
-            "eval_score": 87.3712971395934,
+            "acc": 0.9006905926630576,
+            "eval_score": 87.00040122218451,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9476470588235294,
-                "dev.spearmanr-5_50-mean": 0.9095379291908704
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8799021765119229,
-                "dev.uuas": 0.8407350234518791
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-4649/pytorch_model.bin": {
-            "acc": 0.9019089032757013,
-            "eval_score": 87.08284498180247,
+            "acc": 0.9021402058412461,
+            "eval_score": 87.20456649182353,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9452941176470588,
-                "dev.spearmanr-5_50-mean": 0.9088755137065445
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8797842730964239,
-                "dev.uuas": 0.8404084782995903
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-479/pytorch_model.bin": {
-            "acc": 0.802699541066765,
-            "eval_score": 74.9279267986964,
+            "acc": 0.7969387935298318,
+            "eval_score": 74.88215488215488,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9423529411764706,
-                "dev.spearmanr-5_50-mean": 0.8974799529244283
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8652400494304772,
-                "dev.uuas": 0.8439707890518316
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-4889/pytorch_model.bin": {
-            "acc": 0.9045137317684644,
-            "eval_score": 87.44484556758925,
+            "acc": 0.902701803567657,
+            "eval_score": 87.2166761815124,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9429411764705883,
-                "dev.spearmanr-5_50-mean": 0.910292609371839
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8812767965250714,
-                "dev.uuas": 0.8426349225197411
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-5219/pytorch_model.bin": {
-            "acc": 0.9048536927038257,
-            "eval_score": 87.50597929236038,
+            "acc": 0.9054786057688127,
+            "eval_score": 87.67220609130784,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9435294117647058,
-                "dev.spearmanr-5_50-mean": 0.9104769458324237
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8805286810712427,
-                "dev.uuas": 0.8429020958261593
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-5459/pytorch_model.bin": {
-            "acc": 0.9054822864769936,
-            "eval_score": 87.62189853104555,
+            "acc": 0.9045116422265497,
+            "eval_score": 87.58596176729665,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9452941176470588,
-                "dev.spearmanr-5_50-mean": 0.9105141730308588
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8813432755702627,
-                "dev.uuas": 0.8434067565160601
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-5699/pytorch_model.bin": {
-            "acc": 0.9061677915274471,
-            "eval_score": 87.72449546380301,
+            "acc": 0.9061602340682076,
+            "eval_score": 87.76825357671434,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9447058823529412,
-                "dev.spearmanr-5_50-mean": 0.9102365996720386
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8816215618661067,
-                "dev.uuas": 0.8443270201270557
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-5939/pytorch_model.bin": {
-            "acc": 0.9061797168459323,
-            "eval_score": 87.80570547417116,
+            "acc": 0.9067121114658504,
+            "eval_score": 87.91761872414006,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9423529411764706,
-                "dev.spearmanr-5_50-mean": 0.9097009898533541
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8807699587890198,
-                "dev.uuas": 0.8418334026004869
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-6179/pytorch_model.bin": {
-            "acc": 0.9045479174921427,
-            "eval_score": 87.63691339360093,
+            "acc": 0.9065977333389121,
+            "eval_score": 87.92388236926921,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9447058823529412,
-                "dev.spearmanr-5_50-mean": 0.9098990620453747
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8816204716131574,
-                "dev.uuas": 0.8425161788279998
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-6419/pytorch_model.bin": {
-            "acc": 0.9065079973458058,
-            "eval_score": 87.95816364309515,
+            "acc": 0.9066738993996057,
+            "eval_score": 87.94560256568398,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9458823529411765,
-                "dev.spearmanr-5_50-mean": 0.9101867473856811
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8813357633193399,
-                "dev.uuas": 0.8427536662114825
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-6659/pytorch_model.bin": {
-            "acc": 0.9069816639503984,
-            "eval_score": 87.97421503917093,
+            "acc": 0.9075485620135085,
+            "eval_score": 87.99135735782083,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9464705882352941,
-                "dev.spearmanr-5_50-mean": 0.9102761924532226
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8822118928497381,
-                "dev.uuas": 0.8428427239802886
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-6899/pytorch_model.bin": {
-            "acc": 0.9067675517784765,
-            "eval_score": 87.92917296480243,
+            "acc": 0.9076879112774882,
+            "eval_score": 87.99210169073181,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9452941176470588,
-                "dev.spearmanr-5_50-mean": 0.9103353963047559
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.882112442249667,
-                "dev.uuas": 0.8420708899839696
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-7139/pytorch_model.bin": {
-            "acc": 0.9092831646565763,
-            "eval_score": 88.19592239597792,
+            "acc": 0.9076478330085388,
+            "eval_score": 88.05479705650947,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9488235294117647,
-                "dev.spearmanr-5_50-mean": 0.9102613224668492
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8819428657870547,
-                "dev.uuas": 0.8424864929050644
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-719/pytorch_model.bin": {
-            "acc": 0.8389351887104421,
-            "eval_score": 79.07538809531187,
+            "acc": 0.8439227379048407,
+            "eval_score": 79.82539263355754,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9405882352941176,
-                "dev.spearmanr-5_50-mean": 0.8997986888906928
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8680292037106474,
-                "dev.uuas": 0.8398741316867542
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-7379/pytorch_model.bin": {
-            "acc": 0.9092372768020064,
-            "eval_score": 88.18521146312122,
+            "acc": 0.9078397333325521,
+            "eval_score": 88.10919185687848,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9452941176470588,
-                "dev.spearmanr-5_50-mean": 0.9104632561408333
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8820924172709824,
-                "dev.uuas": 0.8422490055215817
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-959/pytorch_model.bin": {
-            "acc": 0.8609808098954312,
-            "eval_score": 81.89013035381751,
+            "acc": 0.8614747328622993,
+            "eval_score": 82.09415006424248,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9411764705882353,
-                "dev.spearmanr-5_50-mean": 0.9029986201343089
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8711071964782905,
-                "dev.uuas": 0.8371727126996378
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         }
     },
@@ -824,77 +824,77 @@
             }
         },
         "output/checkpoint-1199/pytorch_model.bin": {
-            "acc": 0.8720634258829979,
-            "eval_score": 83.34573874209156,
+            "acc": 0.8713031490333601,
+            "eval_score": 83.19957859511047,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9470588235294117,
-                "dev.spearmanr-5_50-mean": 0.9045613713242912
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8721269554047516,
-                "dev.uuas": 0.8417740307546162
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-1439/pytorch_model.bin": {
-            "acc": 0.8753373540095065,
-            "eval_score": 83.8492868536385,
+            "acc": 0.8755473067831194,
+            "eval_score": 83.97493563296833,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9458823529411765,
-                "dev.spearmanr-5_50-mean": 0.9018917453129541
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8722068781392415,
-                "dev.uuas": 0.8427536662114825
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-1679/pytorch_model.bin": {
-            "acc": 0.8816856028965057,
-            "eval_score": 84.78223898826549,
+            "acc": 0.8827330075346268,
+            "eval_score": 84.39281288723667,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9505882352941176,
-                "dev.spearmanr-5_50-mean": 0.9045461036332831
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8744038693348746,
-                "dev.uuas": 0.8444754497417325
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-1919/pytorch_model.bin": {
-            "acc": 0.8872734292689177,
-            "eval_score": 84.99713892454493,
+            "acc": 0.8847028785157908,
+            "eval_score": 84.72342800446484,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9535294117647058,
-                "dev.spearmanr-5_50-mean": 0.9045207611315406
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8738152021496256,
-                "dev.uuas": 0.8453066555839222
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-2159/pytorch_model.bin": {
-            "acc": 0.8880093889049229,
-            "eval_score": 85.34473411094072,
+            "acc": 0.8890497888889438,
+            "eval_score": 85.34998295789049,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9494117647058824,
-                "dev.spearmanr-5_50-mean": 0.9062150040781616
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.876636124475236,
-                "dev.uuas": 0.8469096954224307
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-239/pytorch_model.bin": {
-            "acc": 0.6665510161394864,
-            "eval_score": 57.574438587158035,
+            "acc": 0.6547957447125152,
+            "eval_score": 58.382523746638874,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9176470588235294,
-                "dev.spearmanr-5_50-mean": 0.8922081265719011
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
                 "dev.spearmanr-5_50-mean": null,
@@ -902,315 +902,315 @@
             }
         },
         "output/checkpoint-2399/pytorch_model.bin": {
-            "acc": 0.89152364512096,
-            "eval_score": 85.5820576717693,
+            "acc": 0.8904323534964131,
+            "eval_score": 85.53054662379421,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.95,
-                "dev.spearmanr-5_50-mean": 0.9045106123907644
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8748029502397486,
-                "dev.uuas": 0.8405272219913317
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-2729/pytorch_model.bin": {
-            "acc": 0.8934471853380375,
-            "eval_score": 86.02711801587546,
+            "acc": 0.8945673785013833,
+            "eval_score": 85.95276369481884,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9494117647058824,
-                "dev.spearmanr-5_50-mean": 0.9051632985910857
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.873993010358803,
-                "dev.uuas": 0.8427239802885472
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-2969/pytorch_model.bin": {
-            "acc": 0.8950018282649387,
-            "eval_score": 86.30170842472737,
+            "acc": 0.8950232267723148,
+            "eval_score": 86.21025760037129,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.951764705882353,
-                "dev.spearmanr-5_50-mean": 0.9057175704292638
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8759086817432891,
-                "dev.uuas": 0.8435848720536722
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-3209/pytorch_model.bin": {
-            "acc": 0.8968273708856705,
-            "eval_score": 86.47445311896112,
+            "acc": 0.8946967725897755,
+            "eval_score": 86.08914950567048,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9494117647058824,
-                "dev.spearmanr-5_50-mean": 0.9051130480313183
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8742985759246134,
-                "dev.uuas": 0.8407053375289438
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-3449/pytorch_model.bin": {
-            "acc": 0.8970660174385028,
-            "eval_score": 86.65750505689977,
+            "acc": 0.8974055805270593,
+            "eval_score": 86.5577015262336,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9535294117647058,
-                "dev.spearmanr-5_50-mean": 0.9064574399494978
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.874555426261022,
-                "dev.uuas": 0.8388054384610818
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-3689/pytorch_model.bin": {
-            "acc": 0.8981373305264726,
-            "eval_score": 86.6732508255918,
+            "acc": 0.8984513659704734,
+            "eval_score": 86.63672700896646,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.95,
-                "dev.spearmanr-5_50-mean": 0.9072783855115519
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.878070225760317,
-                "dev.uuas": 0.8419224603692929
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-3929/pytorch_model.bin": {
-            "acc": 0.8999667362561083,
-            "eval_score": 86.90555357943737,
+            "acc": 0.8987554645410414,
+            "eval_score": 86.72331221999075,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9482352941176471,
-                "dev.spearmanr-5_50-mean": 0.9066013237970871
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8757622089712807,
-                "dev.uuas": 0.8371727126996378
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-4169/pytorch_model.bin": {
-            "acc": 0.9018406871889888,
-            "eval_score": 87.06180704819928,
+            "acc": 0.9008182181447298,
+            "eval_score": 87.0122252408002,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9482352941176471,
-                "dev.spearmanr-5_50-mean": 0.9045070039853331
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8751672731691985,
-                "dev.uuas": 0.839428842842724
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-4409/pytorch_model.bin": {
-            "acc": 0.9010349895513386,
-            "eval_score": 87.25979748009586,
+            "acc": 0.9014040736309747,
+            "eval_score": 86.94725790513834,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9470588235294117,
-                "dev.spearmanr-5_50-mean": 0.9070909754124953
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8754898806665589,
-                "dev.uuas": 0.8379742326188921
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-4649/pytorch_model.bin": {
-            "acc": 0.9036962102500133,
-            "eval_score": 87.47065365130359,
+            "acc": 0.9005271526309756,
+            "eval_score": 87.15677043942642,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9458823529411765,
-                "dev.spearmanr-5_50-mean": 0.9081860140918883
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8785680364940781,
-                "dev.uuas": 0.8380039185418274
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-479/pytorch_model.bin": {
-            "acc": 0.7995586042349785,
-            "eval_score": 74.47486871717929,
+            "acc": 0.8025391511408994,
+            "eval_score": 75.56716021201082,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.94,
-                "dev.spearmanr-5_50-mean": 0.8968532138148302
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8695991434819652,
-                "dev.uuas": 0.8402006768390429
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-4889/pytorch_model.bin": {
-            "acc": 0.9031170999710588,
-            "eval_score": 87.2719971581695,
+            "acc": 0.9015330572651216,
+            "eval_score": 87.21458365518306,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9476470588235294,
-                "dev.spearmanr-5_50-mean": 0.9077660998190602
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8782927754444911,
-                "dev.uuas": 0.8420708899839696
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-5219/pytorch_model.bin": {
-            "acc": 0.9046315345355895,
-            "eval_score": 87.4826319202149,
+            "acc": 0.9031806973716578,
+            "eval_score": 87.46872586872585,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9470588235294117,
-                "dev.spearmanr-5_50-mean": 0.9064683208543878
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8784367511198162,
-                "dev.uuas": 0.8407647093748145
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-5459/pytorch_model.bin": {
-            "acc": 0.905119043536203,
-            "eval_score": 87.5710051864658,
+            "acc": 0.9040350629367667,
+            "eval_score": 87.68291740709265,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9511764705882353,
-                "dev.spearmanr-5_50-mean": 0.9064031316947319
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8778221965245171,
-                "dev.uuas": 0.8391913554592412
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-5699/pytorch_model.bin": {
-            "acc": 0.9060842335687317,
-            "eval_score": 87.64107393741025,
+            "acc": 0.904336933674213,
+            "eval_score": 87.47587356978522,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.951764705882353,
-                "dev.spearmanr-5_50-mean": 0.9075317124117163
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8783105123561623,
-                "dev.uuas": 0.8391319836133705
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-5939/pytorch_model.bin": {
-            "acc": 0.905176666528463,
-            "eval_score": 87.76112028902716,
+            "acc": 0.9045701572214944,
+            "eval_score": 87.80931811169393,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.95,
-                "dev.spearmanr-5_50-mean": 0.907059931171377
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8785244346868971,
-                "dev.uuas": 0.8380929763106335
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-6179/pytorch_model.bin": {
-            "acc": 0.9066932170351891,
-            "eval_score": 88.0043249922768,
+            "acc": 0.906418814431382,
+            "eval_score": 87.9060870638324,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9464705882352941,
-                "dev.spearmanr-5_50-mean": 0.9081078576897188
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8775354380643696,
-                "dev.uuas": 0.8385085792317283
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-6419/pytorch_model.bin": {
-            "acc": 0.9072899308716528,
-            "eval_score": 88.02555042969774,
+            "acc": 0.9056412096682175,
+            "eval_score": 87.80374913214534,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9488235294117647,
-                "dev.spearmanr-5_50-mean": 0.9067951076095827
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8778035189517936,
-                "dev.uuas": 0.8369055393932198
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-6659/pytorch_model.bin": {
-            "acc": 0.906570588526336,
-            "eval_score": 87.8938025777572,
+            "acc": 0.9069748312491857,
+            "eval_score": 87.98852082144013,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9464705882352941,
-                "dev.spearmanr-5_50-mean": 0.9070848824984692
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8786585381329818,
-                "dev.uuas": 0.8378851748500861
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-6899/pytorch_model.bin": {
-            "acc": 0.9067501851236555,
-            "eval_score": 87.9917248193664,
+            "acc": 0.9074884568522451,
+            "eval_score": 88.03752449429881,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9494117647058824,
-                "dev.spearmanr-5_50-mean": 0.9075522073431495
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8781317909591537,
-                "dev.uuas": 0.8384195214629223
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-7139/pytorch_model.bin": {
-            "acc": 0.9075594203348702,
-            "eval_score": 88.04602665350444,
+            "acc": 0.9074917344685219,
+            "eval_score": 87.9886458301194,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9476470588235294,
-                "dev.spearmanr-5_50-mean": 0.906926734442779
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8784297840855287,
-                "dev.uuas": 0.8380336044647628
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-719/pytorch_model.bin": {
-            "acc": 0.8412411166518836,
-            "eval_score": 79.52009710097568,
+            "acc": 0.8435955568444885,
+            "eval_score": 80.24596944110623,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9394117647058824,
-                "dev.spearmanr-5_50-mean": 0.8964964212081729
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8690307550867852,
-                "dev.uuas": 0.8388648103069525
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-7379/pytorch_model.bin": {
-            "acc": 0.9078838992868679,
-            "eval_score": 88.10519654900992,
+            "acc": 0.9068126914260682,
+            "eval_score": 87.91558030824295,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9458823529411765,
-                "dev.spearmanr-5_50-mean": 0.9081147369469957
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8779407143490591,
-                "dev.uuas": 0.8375883156207327
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-959/pytorch_model.bin": {
-            "acc": 0.8611931511102507,
-            "eval_score": 81.98379938549394,
+            "acc": 0.8630555129548468,
+            "eval_score": 82.39898127154706,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.94,
-                "dev.spearmanr-5_50-mean": 0.9018504892459621
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.873329046605397,
-                "dev.uuas": 0.8422193195986464
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         }
     },
@@ -1229,177 +1229,177 @@
             }
         },
         "output/checkpoint-1199/pytorch_model.bin": {
-            "acc": 0.8712640664402586,
-            "eval_score": 83.08515408761268,
+            "acc": 0.8719426284508326,
+            "eval_score": 83.35188965175976,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9429411764705883,
-                "dev.spearmanr-5_50-mean": 0.9019595186477657
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8765426588293539,
-                "dev.uuas": 0.8467315798848186
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-1439/pytorch_model.bin": {
-            "acc": 0.8745366746679709,
-            "eval_score": 83.3426564733669,
+            "acc": 0.8785326575141045,
+            "eval_score": 84.42601389512123,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9458823529411765,
-                "dev.spearmanr-5_50-mean": 0.9039682643352037
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8779927543534107,
-                "dev.uuas": 0.8412693700647154
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-1679/pytorch_model.bin": {
-            "acc": 0.8816952665519056,
-            "eval_score": 84.26795622926936,
+            "acc": 0.8843802967287294,
+            "eval_score": 84.76407843867902,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.95,
-                "dev.spearmanr-5_50-mean": 0.9034004539054578
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8753940504443305,
-                "dev.uuas": 0.8430505254408359
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-1919/pytorch_model.bin": {
-            "acc": 0.8851902111766174,
-            "eval_score": 84.94470431523189,
+            "acc": 0.8879069701293891,
+            "eval_score": 85.29142839431556,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9476470588235294,
-                "dev.spearmanr-5_50-mean": 0.9033478964586434
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8774500064308401,
-                "dev.uuas": 0.8423380632903877
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-2159/pytorch_model.bin": {
-            "acc": 0.8884529976809886,
-            "eval_score": 85.47919733477958,
+            "acc": 0.8891670004345169,
+            "eval_score": 85.1590761524905,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9482352941176471,
-                "dev.spearmanr-5_50-mean": 0.9045427120388524
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8761143427822198,
-                "dev.uuas": 0.8427239802885472
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-239/pytorch_model.bin": {
-            "acc": 0.6983619009946859,
-            "eval_score": 59.82154279135217,
+            "acc": 0.6907472089244219,
+            "eval_score": 58.77232574634083,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9170588235294118,
-                "dev.spearmanr-5_50-mean": 0.8897167220753545
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8634199815471837,
-                "dev.uuas": 0.8464347206554652
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-2399/pytorch_model.bin": {
-            "acc": 0.8912581837370575,
-            "eval_score": 85.92730085073471,
+            "acc": 0.8911015099343457,
+            "eval_score": 85.82472632815882,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9488235294117647,
-                "dev.spearmanr-5_50-mean": 0.9049534365376453
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8792162491586377,
-                "dev.uuas": 0.8435551861307368
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-2729/pytorch_model.bin": {
-            "acc": 0.8946494900518861,
-            "eval_score": 86.08134399802354,
+            "acc": 0.8930210532962507,
+            "eval_score": 85.97786549028713,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9441176470588235,
-                "dev.spearmanr-5_50-mean": 0.9042158659459736
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.876882543529427,
-                "dev.uuas": 0.8422786914445171
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-2969/pytorch_model.bin": {
-            "acc": 0.8959806001517233,
-            "eval_score": 86.31481338381887,
+            "acc": 0.8958515629442897,
+            "eval_score": 86.33631545604845,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9441176470588235,
-                "dev.spearmanr-5_50-mean": 0.9048478599912336
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.878061789494781,
-                "dev.uuas": 0.8413881137564567
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-3209/pytorch_model.bin": {
-            "acc": 0.8967155287459546,
-            "eval_score": 86.63707095237358,
+            "acc": 0.8978895640327735,
+            "eval_score": 86.56070257900922,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9447058823529412,
-                "dev.spearmanr-5_50-mean": 0.9056241408690832
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.880052563204841,
-                "dev.uuas": 0.8444160778958618
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-3449/pytorch_model.bin": {
-            "acc": 0.8986400196934282,
-            "eval_score": 86.86350285979286,
+            "acc": 0.8984566821135128,
+            "eval_score": 86.68117888626433,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9441176470588235,
-                "dev.spearmanr-5_50-mean": 0.9078929775284648
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8792993688520724,
-                "dev.uuas": 0.8386866947693403
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-3689/pytorch_model.bin": {
-            "acc": 0.8992184020464359,
-            "eval_score": 86.70066450316799,
+            "acc": 0.9007715556582915,
+            "eval_score": 86.96606292884961,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9458823529411765,
-                "dev.spearmanr-5_50-mean": 0.9064978217078511
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8802639383993995,
-                "dev.uuas": 0.8450097963545686
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-3929/pytorch_model.bin": {
-            "acc": 0.8998995946324384,
-            "eval_score": 87.01248591668853,
+            "acc": 0.901548738846924,
+            "eval_score": 87.00875553977052,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9423529411764706,
-                "dev.spearmanr-5_50-mean": 0.9064204727899445
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8800138656686712,
-                "dev.uuas": 0.8442676482811851
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-4169/pytorch_model.bin": {
-            "acc": 0.9008071529797296,
-            "eval_score": 87.03229587587526,
+            "acc": 0.902705713511937,
+            "eval_score": 87.2498341228571,
             "loss": 0.0,
             "parse-depth": {
                 "dev.root_acc": null,
@@ -1411,73 +1411,73 @@
             }
         },
         "output/checkpoint-4409/pytorch_model.bin": {
-            "acc": 0.9023921126566221,
-            "eval_score": 87.29193045304345,
+            "acc": 0.9027838203786951,
+            "eval_score": 87.1220916732457,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9458823529411765,
-                "dev.spearmanr-5_50-mean": 0.9087521961823274
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.878858126218803,
-                "dev.uuas": 0.8410318826812325
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-4649/pytorch_model.bin": {
-            "acc": 0.9036337093209647,
-            "eval_score": 87.56077608162131,
+            "acc": 0.9032311036130123,
+            "eval_score": 87.26239557758528,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9494117647058824,
-                "dev.spearmanr-5_50-mean": 0.9085526755875162
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8807279363866248,
-                "dev.uuas": 0.8441192186665083
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-479/pytorch_model.bin": {
-            "acc": 0.8051064180644207,
-            "eval_score": 74.90837327318862,
+            "acc": 0.8020747810745944,
+            "eval_score": 75.01595256252627,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9352941176470588,
-                "dev.spearmanr-5_50-mean": 0.8969136248287457
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8707097453879311,
-                "dev.uuas": 0.8504126343288013
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-4889/pytorch_model.bin": {
-            "acc": 0.9046765029099925,
-            "eval_score": 87.6511746443631,
+            "acc": 0.9024687622381047,
+            "eval_score": 87.36874613959235,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9482352941176471,
-                "dev.spearmanr-5_50-mean": 0.9083951830437271
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.879535705304258,
-                "dev.uuas": 0.8442676482811851
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-5219/pytorch_model.bin": {
-            "acc": 0.9049406754507346,
-            "eval_score": 87.7772461374616,
+            "acc": 0.9054152787477606,
+            "eval_score": 87.70575337389211,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9464705882352941,
-                "dev.spearmanr-5_50-mean": 0.9089464214003228
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8796646040194721,
-                "dev.uuas": 0.8412693700647154
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-5459/pytorch_model.bin": {
-            "acc": 0.9044995223410619,
-            "eval_score": 87.88294608304167,
+            "acc": 0.9050475409782368,
+            "eval_score": 87.69038470441185,
             "loss": 0.0,
             "parse-depth": {
                 "dev.root_acc": null,
@@ -1489,21 +1489,21 @@
             }
         },
         "output/checkpoint-5699/pytorch_model.bin": {
-            "acc": 0.9055078038478507,
-            "eval_score": 87.83153734523111,
+            "acc": 0.9046418371964767,
+            "eval_score": 87.73827685574716,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9476470588235294,
-                "dev.spearmanr-5_50-mean": 0.9096314930254239
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8810395423245497,
-                "dev.uuas": 0.8397553879950128
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-5939/pytorch_model.bin": {
-            "acc": 0.9056300357800071,
-            "eval_score": 87.9544472563422,
+            "acc": 0.9069288323422909,
+            "eval_score": 87.8927084939109,
             "loss": 0.0,
             "parse-depth": {
                 "dev.root_acc": null,
@@ -1515,34 +1515,34 @@
             }
         },
         "output/checkpoint-6179/pytorch_model.bin": {
-            "acc": 0.9050041356637134,
-            "eval_score": 87.85516953991944,
+            "acc": 0.9068300385098467,
+            "eval_score": 87.95535480290441,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9482352941176471,
-                "dev.spearmanr-5_50-mean": 0.9084635844192007
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.880132520580528,
-                "dev.uuas": 0.8403194205307843
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-6419/pytorch_model.bin": {
-            "acc": 0.9061535228456077,
-            "eval_score": 88.07064672008399,
+            "acc": 0.9060059783764532,
+            "eval_score": 87.94742039002715,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9482352941176471,
-                "dev.spearmanr-5_50-mean": 0.9081745220410208
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8809290044266153,
-                "dev.uuas": 0.8416552870628747
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-6659/pytorch_model.bin": {
-            "acc": 0.9063738051600658,
-            "eval_score": 88.05640843657908,
+            "acc": 0.9071578217428903,
+            "eval_score": 87.99802563588408,
             "loss": 0.0,
             "parse-depth": {
                 "dev.root_acc": null,
@@ -1554,68 +1554,68 @@
             }
         },
         "output/checkpoint-6899/pytorch_model.bin": {
-            "acc": 0.9073796175328487,
-            "eval_score": 88.10578124758922,
+            "acc": 0.9075130711608257,
+            "eval_score": 88.06456092706034,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9447058823529412,
-                "dev.spearmanr-5_50-mean": 0.9083367675781673
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8817799157381485,
-                "dev.uuas": 0.8427536662114825
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-7139/pytorch_model.bin": {
-            "acc": 0.9079697620885115,
-            "eval_score": 88.23819961102707,
+            "acc": 0.9078749715143806,
+            "eval_score": 88.00135752190545,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9458823529411765,
-                "dev.spearmanr-5_50-mean": 0.9083338005741454
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8816320299162351,
-                "dev.uuas": 0.842367749213323
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-719/pytorch_model.bin": {
-            "acc": 0.8429920047727304,
-            "eval_score": 79.55890347130543,
+            "acc": 0.8430339594380825,
+            "eval_score": 79.70299341542007,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9405882352941176,
-                "dev.spearmanr-5_50-mean": 0.897122042623593
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8739439574881918,
-                "dev.uuas": 0.8452769696609868
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-7379/pytorch_model.bin": {
-            "acc": 0.9077365381956429,
-            "eval_score": 88.21659000401321,
+            "acc": 0.9078801422018218,
+            "eval_score": 88.09218950064022,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9464705882352941,
-                "dev.spearmanr-5_50-mean": 0.9080326358936649
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8815972176197846,
-                "dev.uuas": 0.8421599477527756
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-959/pytorch_model.bin": {
-            "acc": 0.8591523058459518,
-            "eval_score": 81.64812628177242,
+            "acc": 0.8633016193966189,
+            "eval_score": 81.80198050488927,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9447058823529412,
-                "dev.spearmanr-5_50-mean": 0.9009182837405397
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8738411570785211,
-                "dev.uuas": 0.8422193195986464
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         }
     },
@@ -1634,393 +1634,393 @@
             }
         },
         "output/checkpoint-1199/pytorch_model.bin": {
-            "acc": 0.8700253424518324,
-            "eval_score": 83.05835010060362,
+            "acc": 0.8700991238194955,
+            "eval_score": 83.10766847405111,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9494117647058824,
-                "dev.spearmanr-5_50-mean": 0.9065410297724064
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8761196154086069,
-                "dev.uuas": 0.84685032357656
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-1439/pytorch_model.bin": {
-            "acc": 0.8760791968255632,
-            "eval_score": 83.90866789308517,
+            "acc": 0.8753707932205735,
+            "eval_score": 83.53488372093024,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9458823529411765,
-                "dev.spearmanr-5_50-mean": 0.903261029274357
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8769178534568967,
-                "dev.uuas": 0.8418037166775515
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-1679/pytorch_model.bin": {
-            "acc": 0.8814898951027406,
-            "eval_score": 84.35542494779986,
+            "acc": 0.8807335011190224,
+            "eval_score": 84.38250096786682,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9494117647058824,
-                "dev.spearmanr-5_50-mean": 0.9059333319323133
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8786624551934696,
-                "dev.uuas": 0.8426646084426764
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-1919/pytorch_model.bin": {
-            "acc": 0.8847111211289281,
-            "eval_score": 85.08357473703778,
+            "acc": 0.8848455515995398,
+            "eval_score": 84.95265254250424,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9505882352941176,
-                "dev.spearmanr-5_50-mean": 0.9063368349808997
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8783771910986,
-                "dev.uuas": 0.8438223594371549
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-2159/pytorch_model.bin": {
-            "acc": 0.8873760625486065,
-            "eval_score": 84.99945846420448,
+            "acc": 0.8876830516370375,
+            "eval_score": 85.36090143988591,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9494117647058824,
-                "dev.spearmanr-5_50-mean": 0.9069815086182054
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8787660006363339,
-                "dev.uuas": 0.8421302618298403
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-239/pytorch_model.bin": {
-            "acc": 0.6530882382919129,
-            "eval_score": 60.95787322359353,
+            "acc": 0.6507693105544688,
+            "eval_score": 58.68938650112439,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9158823529411765,
-                "dev.spearmanr-5_50-mean": 0.887688747377294
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8599814740108108,
-                "dev.uuas": 0.8394585287656593
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-2399/pytorch_model.bin": {
-            "acc": 0.8910318039665099,
-            "eval_score": 85.66559246405552,
+            "acc": 0.8914370154238558,
+            "eval_score": 85.89523234387822,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9482352941176471,
-                "dev.spearmanr-5_50-mean": 0.9069464834943554
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8774757605334689,
-                "dev.uuas": 0.8426052365968058
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-2729/pytorch_model.bin": {
-            "acc": 0.8960335829702796,
-            "eval_score": 86.31913776597388,
+            "acc": 0.8937860164598938,
+            "eval_score": 86.11433433898043,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9494117647058824,
-                "dev.spearmanr-5_50-mean": 0.9077665525431794
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8770930284690229,
-                "dev.uuas": 0.8418927744463576
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-2969/pytorch_model.bin": {
-            "acc": 0.8939556733133688,
-            "eval_score": 86.19602509813619,
+            "acc": 0.8933806650392747,
+            "eval_score": 86.20540272921373,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9482352941176471,
-                "dev.spearmanr-5_50-mean": 0.9072954200980685
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8780123040548571,
-                "dev.uuas": 0.8432880128243188
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-3209/pytorch_model.bin": {
-            "acc": 0.8971470109759334,
-            "eval_score": 86.6453437166829,
+            "acc": 0.8957996091394425,
+            "eval_score": 86.49182655943689,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9452941176470588,
-                "dev.spearmanr-5_50-mean": 0.9066993336795394
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8782041817475694,
-                "dev.uuas": 0.8433770705931247
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-3449/pytorch_model.bin": {
-            "acc": 0.896887862673006,
-            "eval_score": 86.60689441953934,
+            "acc": 0.8972844800091815,
+            "eval_score": 86.65121310462062,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9476470588235294,
-                "dev.spearmanr-5_50-mean": 0.9071307109385032
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8808812956163472,
-                "dev.uuas": 0.8467315798848186
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-3689/pytorch_model.bin": {
-            "acc": 0.8994897077007707,
-            "eval_score": 86.97735528247932,
+            "acc": 0.8983611516895674,
+            "eval_score": 86.79070485601791,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9494117647058824,
-                "dev.spearmanr-5_50-mean": 0.908795092164234
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8799140303286705,
-                "dev.uuas": 0.84296146767203
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-3929/pytorch_model.bin": {
-            "acc": 0.9012992902988771,
-            "eval_score": 87.14493246375916,
+            "acc": 0.8999920218970091,
+            "eval_score": 86.96403766013273,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9511764705882353,
-                "dev.spearmanr-5_50-mean": 0.9076161297853942
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8811999568785565,
-                "dev.uuas": 0.843911417205961
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-4169/pytorch_model.bin": {
-            "acc": 0.9006548349926959,
-            "eval_score": 87.0840610172635,
+            "acc": 0.9000812580800936,
+            "eval_score": 87.00207052133872,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9494117647058824,
-                "dev.spearmanr-5_50-mean": 0.9066436107354187
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8798337558502761,
-                "dev.uuas": 0.8432583269013834
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-4409/pytorch_model.bin": {
-            "acc": 0.9029485299704552,
-            "eval_score": 87.24235359508408,
+            "acc": 0.9017212814177559,
+            "eval_score": 87.18700793479269,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9470588235294117,
-                "dev.spearmanr-5_50-mean": 0.9069713322331138
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8799748204130488,
-                "dev.uuas": 0.8456925725820815
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-4649/pytorch_model.bin": {
-            "acc": 0.9029200712526863,
-            "eval_score": 87.479569494557,
+            "acc": 0.9021342900563768,
+            "eval_score": 87.38655306538249,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9470588235294117,
-                "dev.spearmanr-5_50-mean": 0.9079514667310794
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8805411404438033,
-                "dev.uuas": 0.8458410021967583
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-479/pytorch_model.bin": {
-            "acc": 0.7979261921172007,
-            "eval_score": 74.4652594409637,
+            "acc": 0.8017524009457289,
+            "eval_score": 74.66579107838079,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9464705882352941,
-                "dev.spearmanr-5_50-mean": 0.9014204851631394
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8761078365992773,
-                "dev.uuas": 0.8509172950187022
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-4889/pytorch_model.bin": {
-            "acc": 0.903869685622442,
-            "eval_score": 87.48726812555942,
+            "acc": 0.9043160909935813,
+            "eval_score": 87.61975285787014,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9511764705882353,
-                "dev.spearmanr-5_50-mean": 0.9082204133441338
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8805795147131971,
-                "dev.uuas": 0.845039482277504
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-5219/pytorch_model.bin": {
-            "acc": 0.9048498038764208,
-            "eval_score": 87.70094726773426,
+            "acc": 0.9047207103650233,
+            "eval_score": 87.61370293854644,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9464705882352941,
-                "dev.spearmanr-5_50-mean": 0.907871569263785
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.880335957203586,
-                "dev.uuas": 0.8438223594371549
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-5459/pytorch_model.bin": {
-            "acc": 0.905987976368552,
-            "eval_score": 87.75658128094013,
+            "acc": 0.9028555477229768,
+            "eval_score": 87.58702665987434,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9505882352941176,
-                "dev.spearmanr-5_50-mean": 0.9072526698319262
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.88013348299382,
-                "dev.uuas": 0.8437926735142196
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-5699/pytorch_model.bin": {
-            "acc": 0.9052493202433112,
-            "eval_score": 87.81592898532857,
+            "acc": 0.9053814498010091,
+            "eval_score": 87.91958743785318,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9470588235294117,
-                "dev.spearmanr-5_50-mean": 0.9081449989387187
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8816572014528478,
-                "dev.uuas": 0.84512854004631
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-5939/pytorch_model.bin": {
-            "acc": 0.9062239833679444,
-            "eval_score": 87.93901611011667,
+            "acc": 0.9066597783230215,
+            "eval_score": 87.86685810445711,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9511764705882353,
-                "dev.spearmanr-5_50-mean": 0.909125551755304
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8816220043239301,
-                "dev.uuas": 0.8449207385857627
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-6179/pytorch_model.bin": {
-            "acc": 0.9070971312627116,
-            "eval_score": 88.04589193190229,
+            "acc": 0.906215759290624,
+            "eval_score": 87.84040238840974,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9511764705882353,
-                "dev.spearmanr-5_50-mean": 0.908726670924677
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.881224492428266,
-                "dev.uuas": 0.8450691682004393
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-6419/pytorch_model.bin": {
-            "acc": 0.907518331696198,
-            "eval_score": 88.01801384968923,
+            "acc": 0.9061886924288844,
+            "eval_score": 87.90954525822175,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9505882352941176,
-                "dev.spearmanr-5_50-mean": 0.9087970385294826
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.881709136809,
-                "dev.uuas": 0.8442379623582498
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-6659/pytorch_model.bin": {
-            "acc": 0.9078069773629708,
-            "eval_score": 88.13925163040966,
+            "acc": 0.9069640880882044,
+            "eval_score": 88.07874477374763,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.95,
-                "dev.spearmanr-5_50-mean": 0.9083097477190749
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8806138879386597,
-                "dev.uuas": 0.845039482277504
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-6899/pytorch_model.bin": {
-            "acc": 0.9082588504548973,
-            "eval_score": 88.21505177229449,
+            "acc": 0.9063439654267793,
+            "eval_score": 87.9708758831333,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9482352941176471,
-                "dev.spearmanr-5_50-mean": 0.9082742231624422
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8805267550714035,
-                "dev.uuas": 0.8440301608977023
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-7139/pytorch_model.bin": {
-            "acc": 0.907769299974437,
-            "eval_score": 88.1582802596882,
+            "acc": 0.9070983895469719,
+            "eval_score": 88.11203928168862,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9511764705882353,
-                "dev.spearmanr-5_50-mean": 0.9077615461946305
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8802441618161904,
-                "dev.uuas": 0.844178590512379
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-719/pytorch_model.bin": {
-            "acc": 0.8393580466528283,
-            "eval_score": 80.0935752242552,
+            "acc": 0.8378995922988046,
+            "eval_score": 79.42766592095451,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9382352941176471,
-                "dev.spearmanr-5_50-mean": 0.9032414349273097
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.872789924515025,
-                "dev.uuas": 0.8407053375289438
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-7379/pytorch_model.bin": {
-            "acc": 0.9080395738063581,
-            "eval_score": 88.21987106326539,
+            "acc": 0.9070777633397974,
+            "eval_score": 88.14019498951006,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.95,
-                "dev.spearmanr-5_50-mean": 0.908293744517942
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8806049790121346,
-                "dev.uuas": 0.8434067565160601
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         },
         "output/checkpoint-959/pytorch_model.bin": {
-            "acc": 0.8572007370727402,
-            "eval_score": 81.79550349401137,
+            "acc": 0.8585954862710868,
+            "eval_score": 81.50472157396102,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": 0.9358823529411765,
-                "dev.spearmanr-5_50-mean": 0.900448823059783
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": 0.8736311557127481,
-                "dev.uuas": 0.8380632903876981
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
             }
         }
     }
