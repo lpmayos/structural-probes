@@ -165,6 +165,57 @@ def get_srl_run_data(data, run_name):
     return x_axis_values, traces
 
 
+def get_pap_constituents_run_data(data, run_name):
+    """ reads the data from a given run and creates a trace for each variable
+    """
+
+    depth_root_acc = []
+    depth_spearmanr_mean = []
+    distance_uuas = []
+    distance_spearmanr_mean = []
+    pap_acc = []
+    pap_eval_score = []
+    pap_loss = []
+
+    for checkpoint in data:
+        depth_root_acc.append(data[checkpoint]['parse-depth']['dev.root_acc'])
+        depth_spearmanr_mean.append(data[checkpoint]['parse-depth']['dev.spearmanr-5_50-mean'])
+        distance_uuas.append(data[checkpoint]['parse-distance']['dev.uuas'])
+        distance_spearmanr_mean.append(data[checkpoint]['parse-distance']['dev.spearmanr-5_50-mean'])
+        pap_acc.append(data[checkpoint]['acc'])
+        pap_eval_score.append(data[checkpoint]['eval_score'])
+        pap_loss.append(data[checkpoint]['loss'])
+
+    x_axis_values = [a for a in range(len(data.keys()))]
+
+    x_clean, y_clean = remove_empty_values(x_axis_values, pap_acc)
+    trace_pap_acc = go.Scatter(x=x_clean, y=y_clean, mode='lines', name='pap_acc_' + run_name)
+
+    x_clean, y_clean = remove_empty_values(x_axis_values, pap_eval_score)
+    trace_pap_eval_score = go.Scatter(x=x_clean, y=y_clean, mode='lines', name='pap_eval_score_' + run_name)
+
+    x_clean, y_clean = remove_empty_values(x_axis_values, pap_loss)
+    trace_pap_loss = go.Scatter(x=x_clean, y=y_clean, mode='lines', name='pap_loss_' + run_name)
+
+    x_clean, y_clean = remove_empty_values(x_axis_values, depth_root_acc)
+    trace_depth_root_acc = go.Scatter(x=x_clean, y=y_clean, mode='lines', name='depth_root_acc_' + run_name)
+
+    x_clean, y_clean = remove_empty_values(x_axis_values, distance_uuas)
+    trace_distance_uuas = go.Scatter(x=x_clean, y=y_clean, mode='lines', name='distance_uuas_' + run_name)
+
+    x_clean, y_clean = remove_empty_values(x_axis_values, depth_spearmanr_mean)
+    trace_depth_spearmanr_mean = go.Scatter(x=x_clean, y=y_clean, mode='lines', name='depth_spearmanr_mean_' + run_name)
+
+    x_clean, y_clean = remove_empty_values(x_axis_values, distance_spearmanr_mean)
+    trace_distance_spearmanr_mean = go.Scatter(x=x_clean, y=y_clean, mode='lines',
+                                               name='distance_spearmanr_mean_' + run_name)
+
+    traces = [trace_pap_acc, trace_pap_eval_score, trace_pap_loss, trace_depth_root_acc, trace_distance_uuas, trace_depth_spearmanr_mean, trace_distance_spearmanr_mean]
+    # TODO we could returns and plot all traces
+
+    return x_axis_values, traces
+
+
 def get_parsing_run_data(data, run_name):
     """ reads the data from a given run and creates a trace for each variable
     """
