@@ -25,7 +25,7 @@ def analyse_results(probe_name, models_path, runs_list, output_file):
 
         with open(models_path + '/run0/output/eval_results.json') as json_file:
             base_results = json.load(json_file)
-            run_results[0] = base_results['checkpoint_0']
+            run_results['output/checkpoint-0/bert-base-cased'] = base_results['checkpoint_0']
 
         # add checkpoint-0 probes results
         # We simply copy the results from another task (i.e. parsing)
@@ -33,8 +33,8 @@ def analyse_results(probe_name, models_path, runs_list, output_file):
         with open('bert_base_cased_finetuned_parsing_results.json') as json_file:
             parsing_results = json.load(json_file)
 
-        run_results[0]['parse-depth'] = parsing_results['run1']['0']['parse-depth']
-        run_results[0]['parse-distance'] = parsing_results['run1']['0']['parse-distance']
+        run_results['output/checkpoint-0/bert-base-cased']['parse-depth'] = parsing_results['run1']['0']['parse-depth']
+        run_results['output/checkpoint-0/bert-base-cased']['parse-distance'] = parsing_results['run1']['0']['parse-distance']
 
         # replace keys with numbers
         run_results_new = {}
