@@ -84,13 +84,6 @@ def analyse_results(probe_name, models_path, runs_list, output_file):
                 else:
                     logging.info('File %s does not exists yet' % dev_spearman_file)
 
-            # replace keys with numbers
-            run_results_new = {}
-            for checkpoint in run_results:
-                checkpoint_name = int(checkpoint.split('/')[1].replace('checkpoint-', ''))
-                run_results_new[checkpoint_name] = run_results[checkpoint]
-            run_results = run_results_new
-
             results[run] = run_results
 
     with open(output_file, 'w') as outfile:
