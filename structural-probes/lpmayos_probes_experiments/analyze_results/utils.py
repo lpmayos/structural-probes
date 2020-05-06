@@ -177,7 +177,13 @@ def get_pap_constituents_run_data(data, run_name):
     pap_eval_score = []
     pap_loss = []
 
+    new_data = {}
     for checkpoint in data:
+        new_checkpoint = int(checkpoint.split('/')[1].replace('checkpoint-', ''))
+        new_data[new_checkpoint] = data[checkpoint]
+    data = new_data
+
+    for checkpoint in sorted(data):
         depth_root_acc.append(data[checkpoint]['parse-depth']['dev.root_acc'])
         depth_spearmanr_mean.append(data[checkpoint]['parse-depth']['dev.spearmanr-5_50-mean'])
         distance_uuas.append(data[checkpoint]['parse-distance']['dev.uuas'])
@@ -406,5 +412,12 @@ def get_min_max_avg_traces(data, min_len=None):
 
 
 if __name__ == '__main__':
+
+    with open('bert_base_cased_finetuned_pap_constituents_results.json') as json_file:
+        results = json.load(json_file)
+        traces = []
+        for run in results:
+            x_axis_values, traces_run = get_pap_constituents_run_data(results[run], run)
+            traces.extend(traces_run)
 
     print('babau')
