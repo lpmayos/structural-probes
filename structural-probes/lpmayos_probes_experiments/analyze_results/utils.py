@@ -407,29 +407,4 @@ def get_min_max_avg_traces(data, min_len=None):
 
 if __name__ == '__main__':
 
-    # with open('bert_base_cased_finetuned_squad_results.json') as json_file:
-    #     results = json.load(json_file)
-    #     traces = []
-    #     for run in results:
-    #         x_axis_values, traces_run = get_squad_run_data(results[run], run)
-    #         traces.extend(traces_run)
-    #
-    #     data1 = [a for a in traces if 'distance_uuas' in a['name']]
-    #     data2 = [a for a in traces if 'distance_spearmanr_mean' in a['name']]
-
-    with open('bert_base_cased_finetuned_glue_results.json') as json_file:
-        results = json.load(json_file)
-
-        traces = []
-        for run in results:
-
-            if 'QQP' in results[run]:
-                x_axis_values, traces_run = get_glue_run_data(results[run]['QQP'], run)
-                traces.extend(traces_run)
-
-    x_axis_values = [a for i, a in enumerate(x_axis_values) if i % 2 == 0]
-
-    data = [a for a in traces if 'distance_uuas' in a['name']]
-    data = get_min_max_avg_traces(data)
-
     print('babau')
