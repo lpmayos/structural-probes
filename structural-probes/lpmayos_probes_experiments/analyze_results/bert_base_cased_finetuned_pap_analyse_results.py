@@ -37,10 +37,11 @@ def analyse_results(probe_name, models_path, runs_list, output_file):
         run_results[0]['parse-distance'] = parsing_results['run1']['0']['parse-distance']
 
         # replace keys with numbers
+        run_results_new = {}
         for checkpoint in run_results:
             checkpoint_name = int(checkpoint.split('/')[1].replace('checkpoint-', ''))
-            run_results[checkpoint_name] = run_results[checkpoint]
-            run_results.pop(checkpoint)
+            run_results_new[checkpoint_name] = run_results[checkpoint]
+        run_results = run_results_new
 
         # add probes results for all checkpoints
 
