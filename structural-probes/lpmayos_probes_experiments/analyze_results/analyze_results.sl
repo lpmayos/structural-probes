@@ -83,3 +83,32 @@ if [ "$analyze_results" == 1 ]; then
                                                             --runs run1 run2 run3 run4 run5 \
                                                             --output_file bert_base_cased_finetuned_pap_constituents_results.json
 fi
+
+
+
+# Parsing multilingual
+
+analyze_results=1
+
+if [ "$analyze_results" == 1 ]; then
+    echo "Analyzing parsing results"
+    python bert_base_cased_finetuned_parsing_analyse_results.py --probe_name naacl_19_ptb \
+                                                                --models_path /homedtic/lperez/transformers/lpmayos_experiments/bert_base_cased_finetuned_parsing_multilingual \
+                                                                --runs run1 run2 run3 run4 run5 \
+                                                                --output_file bert_base_cased_finetuned_parsing_multilingual_results.json
+fi
+
+
+
+
+# Parsing ptb sd
+
+analyze_results=1
+
+if [ "$analyze_results" == 1 ]; then
+    echo "Analyzing parsing results"
+    python bert_base_cased_finetuned_parsing_analyse_results.py --probe_name naacl_19_ptb \
+                                                                --models_path /homedtic/lperez/transformers/lpmayos_experiments/bert_base_cased_finetuned_parsing_ptb_sd \
+                                                                --runs run1 run2 run3 run4 run5 \
+                                                                --output_file bert_base_cased_finetuned_parsing_ptb_results.json
+fi
