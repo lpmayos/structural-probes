@@ -1,6 +1,7 @@
 import json
 import numpy as np
 import plotly.graph_objs as go
+import matplotlib.pyplot as plt
 
 
 def remove_empty_values(x, y):
@@ -10,6 +11,21 @@ def remove_empty_values(x, y):
     x = np.delete(x, empty_indexes)
     y = np.delete(y, empty_indexes)
     return x, y
+
+
+def get_run_data(data, run_name, task, glue_task_name):
+    if task == 'pos':
+        return get_pos_run_data(data, run_name)
+    elif task == 'parsing':
+        return get_parsing_run_data(data, run_name)
+    elif task == 'constituent_parsing':
+        return get_pap_constituents_run_data(data, run_name)
+    elif task == 'squad':
+        return get_squad_run_data(data, run_name)
+    elif task == 'glue':
+        return get_glue_run_data(data[glue_task_name], run_name)
+    elif task == 'srl':
+        return get_srl_run_data(data, run_name)
 
 
 def get_squad_run_data(data, run_name):
@@ -329,13 +345,13 @@ def get_glue_run_data(data, run_name):
     return x_axis_values, traces
 
 
-def plot_figure(traces, x_axis_values, x_axis_text, title, x_axis_label, y_axis_label, y_axis_values=None):
+def plot_figure(figure_name, traces, x_axis_values, x_axis_text, title, x_axis_label, y_axis_label, y_axis_values=None, show_legend=False):
     fig = go.Figure(
         data=traces
     )
 
     # fig.layout.update(title_text=title, showlegend = False)
-    fig.layout.update(showlegend=False, margin=dict(r=0, l=0, b=0, t=0))
+    fig.layout.update(showlegend=show_legend, margin=dict(r=0, l=0, b=0, t=0))
 
     fig.update_xaxes(
         ticktext=x_axis_text,
@@ -350,10 +366,13 @@ def plot_figure(traces, x_axis_values, x_axis_text, title, x_axis_label, y_axis_
 
     fig.update_yaxes(title_text=y_axis_label)
 
+    # requires: conda install -c plotly plotly-orca
+    fig.write_image('/Users/lpmayos/Downloads/%s' % figure_name)
+
     fig.show()
 
 
-def get_min_max_avg_traces(data, min_len=None):
+def get_min_max_avg_traces(data, min_len=None, task_name=None, task_color=None):
 
     y1 = data[0]['y']
     y2 = data[1]['y']
@@ -390,11 +409,11 @@ def get_min_max_avg_traces(data, min_len=None):
         fill='tonexty')
 
     trace = go.Scatter(
-        name='Average',
+        name=task_name if task_name else 'Average',
         x=x_data,
         y=avg_data,
         mode='lines',
-        line=dict(color='rgb(31, 119, 180)'),
+        line=dict(color=task_color) if task_color else dict(color='rgb(31, 119, 180)'),
         fillcolor='rgba(68, 68, 68, 0.3)',
         fill='tonexty')
 
@@ -411,13 +430,73 @@ def get_min_max_avg_traces(data, min_len=None):
     return traces
 
 
-if __name__ == '__main__':
 
-    with open('bert_base_cased_finetuned_pap_constituents_results.json') as json_file:
+
+
+
+
+
+
+
+
+
+
+
+
+
+def load_traces(file_path, task, glue_task_name=None):
+    with open(file_path) as json_file:
         results = json.load(json_file)
         traces = []
         for run in results:
-            x_axis_values, traces_run = get_pap_constituents_run_data(results[run], run)
+            x_axis_values, traces_run = get_run_data(results[run], run, task, glue_task_name)
             traces.extend(traces_run)
 
-    print('babau')
+    # x_axis_values = [a for i, a in enumerate(x_axis_values) if i%2 == 0]
+
+    return traces, x_axis_values
+
+
+
+if __name__ == '__main__':
+
+    t_pos, x_pos = load_traces('bert_base_cased_finetuned_pos_results.json', 'pos')
+    t_pars, x_pars = load_traces('bert_base_cased_finetuned_parsing_results.json', 'parsing')
+    t_pars_mul, x_pars_mul = load_traces('bert_base_cased_finetuned_parsing_multilingual_results.json', 'parsing')
+    t_pars_ptb, x_pars_ptb = load_traces('bert_base_cased_finetuned_parsing_ptb_results.json', 'parsing')
+    t_pars_const, x_pars_const = load_traces('bert_base_cased_finetuned_pap_constituents_results.json',
+                                             'constituent_parsing')
+    t_squad, x_squad = load_traces('bert_base_cased_finetuned_squad_results.json', 'squad')
+    t_qqpt, x_qqpt = load_traces('bert_base_cased_finetuned_glue_results.json', 'glue', 'QQP')
+    t_mrpc, x_mrpc = load_traces('bert_base_cased_finetuned_glue_results.json', 'glue', 'MRPC')
+    t_srl, x_srl = load_traces('bert_base_cased_finetuned_srl_results.json', 'srl')
+
+    # all_data = [('PoS Tagging', t_pos, x_pos),
+    #             ('Dependency parsing EN UD EWT', t_pars, x_pars),
+    #             ('Dependency parsing UD multilingual', t_pars_mul, x_pars_mul),
+    #             ('Dependency parsing PTB SD', t_pars_ptb, x_pars_ptb),
+    #             ('Constituent parsing', t_pars_const, x_pars_const),
+    #             ('SQuAD', t_squad, x_squad),
+    #             ('QQPT', t_qqpt, x_qqpt),
+    #             ('MRPC', t_mrpc, x_mrpc),
+    #             ('SRL', t_srl, x_srl)]
+
+    all_data = [('PoS Tagging', t_pos, x_pos),
+                ('Dependency parsing EN UD EWT', t_pars, x_pars)]
+
+    title = "..."
+    x_axis_label = 'Finetuning checkpoints'
+    y_axis_label = 'UUAS'
+    y_axis_values = [0.5, 0.92]
+
+    colors = {
+        'PoS Tagging': 'rgb(31, 119, 180)',
+        'Dependency parsing EN UD EWT': 'rgb(119, 31, 180)'
+    }
+
+    data = []
+    for task_name, traces, x_axis_values in all_data:
+        data += get_min_max_avg_traces([a for a in traces if 'distance_uuas' in a['name']], None, task_name, colors[task_name])
+
+    image_name = 'babau.png'
+    plot_figure(image_name, data, x_axis_values, x_axis_values, title, x_axis_label, y_axis_label, y_axis_values, show_legend=True)
