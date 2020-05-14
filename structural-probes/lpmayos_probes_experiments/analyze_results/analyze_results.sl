@@ -47,7 +47,7 @@ fi
 
 # Parsing
 
-analyze_results=0
+analyze_results=1
 
 if [ "$analyze_results" == 1 ]; then
     echo "Analyzing parsing results"
@@ -60,7 +60,7 @@ fi
 
 # SRL
 
-analyze_results=0
+analyze_results=1
 
 if [ "$analyze_results" == 1 ]; then
     echo "Analyzing SRL results"

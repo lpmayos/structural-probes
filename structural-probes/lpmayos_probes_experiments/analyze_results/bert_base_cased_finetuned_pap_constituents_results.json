@@ -1,16 +1,16 @@
 {
     "run1": {
-        "output/checkpoint-0/bert-base-cased": {
+        "output/checkpoint-0/pytorch_model.bin": {
             "acc": 0.00012380986480036452,
             "eval_score": 1.5465856263822233,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.8411764705882353,
+                "dev.spearmanr-5_50-mean": 0.8627648152866605
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.8035446230461999,
+                "dev.uuas": 0.7266223356884165
             }
         },
         "output/checkpoint-1199/pytorch_model.bin": {
@@ -405,17 +405,17 @@
         }
     },
     "run2": {
-        "output/checkpoint-0/bert-base-cased": {
+        "output/checkpoint-0/pytorch_model.bin": {
             "acc": 0.00012380986480036452,
             "eval_score": 1.5465856263822233,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.8411764705882353,
+                "dev.spearmanr-5_50-mean": 0.8627648152866605
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.8035446230461999,
+                "dev.uuas": 0.7266223356884165
             }
         },
         "output/checkpoint-1199/pytorch_model.bin": {
@@ -810,17 +810,17 @@
         }
     },
     "run3": {
-        "output/checkpoint-0/bert-base-cased": {
+        "output/checkpoint-0/pytorch_model.bin": {
             "acc": 0.00012380986480036452,
             "eval_score": 1.5465856263822233,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.8411764705882353,
+                "dev.spearmanr-5_50-mean": 0.8627648152866605
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.8035446230461999,
+                "dev.uuas": 0.7266223356884165
             }
         },
         "output/checkpoint-1199/pytorch_model.bin": {
@@ -1215,17 +1215,17 @@
         }
     },
     "run4": {
-        "output/checkpoint-0/bert-base-cased": {
+        "output/checkpoint-0/pytorch_model.bin": {
             "acc": 0.00012380986480036452,
             "eval_score": 1.5465856263822233,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.8411764705882353,
+                "dev.spearmanr-5_50-mean": 0.8627648152866605
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.8035446230461999,
+                "dev.uuas": 0.7266223356884165
             }
         },
         "output/checkpoint-1199/pytorch_model.bin": {
@@ -1620,17 +1620,17 @@
         }
     },
     "run5": {
-        "output/checkpoint-0/bert-base-cased": {
+        "output/checkpoint-0/pytorch_model.bin": {
             "acc": 0.00012380986480036452,
             "eval_score": 1.5465856263822233,
             "loss": 0.0,
             "parse-depth": {
-                "dev.root_acc": null,
-                "dev.spearmanr-5_50-mean": null
+                "dev.root_acc": 0.8411764705882353,
+                "dev.spearmanr-5_50-mean": 0.8627648152866605
             },
             "parse-distance": {
-                "dev.spearmanr-5_50-mean": null,
-                "dev.uuas": null
+                "dev.spearmanr-5_50-mean": 0.8035446230461999,
+                "dev.uuas": 0.7266223356884165
             }
         },
         "output/checkpoint-1199/pytorch_model.bin": {
