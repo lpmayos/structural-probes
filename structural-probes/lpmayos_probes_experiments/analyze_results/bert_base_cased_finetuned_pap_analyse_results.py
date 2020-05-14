@@ -27,15 +27,6 @@ def analyse_results(probe_name, models_path, runs_list, output_file):
             base_results = json.load(json_file)
             run_results['output/checkpoint-0/pytorch_model.bin'] = base_results['checkpoint_0']
 
-        # add checkpoint-0 probes results
-        # We simply copy the results from another task (i.e. parsing)
-
-        with open('bert_base_cased_finetuned_parsing_results.json') as json_file:
-            parsing_results = json.load(json_file)
-
-        run_results['output/checkpoint-0/pytorch_model.bin']['parse-depth'] = parsing_results['run1']['0']['parse-depth']
-        run_results['output/checkpoint-0/pytorch_model.bin']['parse-distance'] = parsing_results['run1']['0']['parse-distance']
-
         # add probes results for all checkpoints
 
         for checkpoint in run_results:
@@ -83,6 +74,17 @@ def analyse_results(probe_name, models_path, runs_list, output_file):
                         run_results[checkpoint]['parse-distance']['dev.spearmanr-5_50-mean'] = float(result)
                 else:
                     logging.info('File %s does not exists yet' % dev_spearman_file)
+
+            # add checkpoint-0 probes results
+            # We simply copy the results from another task (i.e. parsing)
+
+            with open('bert_base_cased_finetuned_parsing_results.json') as json_file:
+                parsing_results = json.load(json_file)
+
+            run_results['output/checkpoint-0/pytorch_model.bin']['parse-depth'] = parsing_results['run1']['0'][
+                'parse-depth']
+            run_results['output/checkpoint-0/pytorch_model.bin']['parse-distance'] = parsing_results['run1']['0'][
+                'parse-distance']
 
             results[run] = run_results
 

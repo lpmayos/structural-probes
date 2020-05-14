@@ -39,16 +39,6 @@ def analyse_results(probe_name, models_path, runs_list, output_file):
                 metric_result = float(parts[1].replace('\n', ''))
                 parsing_results['0'][metric] = metric_result
 
-        # add checkpoint-0 probes results
-        # We simply copy the results from another task (i.e. parsing UD EN EWT)
-
-        with open('bert_base_cased_finetuned_parsing_results.json') as json_file:
-            parsing_results_ud = json.load(json_file)
-
-        parsing_results['0']['parse-depth'] = parsing_results_ud['run1']['0']['parse-depth']
-        parsing_results['0']['parse-distance'] = parsing_results_ud['run1']['0']['parse-distance']
-
-
         results[run] = {}
 
         checkpoints_list = [os.path.join(run_results_path, o) for o in os.listdir(run_results_path) if os.path.isdir(os.path.join(run_results_path, o)) and o.startswith(('checkpoint-'))]
@@ -106,6 +96,16 @@ def analyse_results(probe_name, models_path, runs_list, output_file):
                 logging.info('File %s does not exists yet' % dev_spearman_file)
 
             results[run][int(checkpoint)] = checkpoint_results
+
+        # add checkpoint-0 probes results
+        # We simply copy the results from another task (i.e. parsing UD EN EWT)
+
+        with open('bert_base_cased_finetuned_parsing_results.json') as json_file:
+            parsing_results_ud = json.load(json_file)
+
+        parsing_results[run]['0']['parse-depth'] = parsing_results_ud['run1']['0']['parse-depth']
+        parsing_results[run]['0']['parse-distance'] = parsing_results_ud['run1']['0']['parse-distance']
+
 
     with open(output_file, 'w') as outfile:
         json.dump(results, outfile, indent=4, sort_keys=True)
