@@ -345,13 +345,15 @@ def get_glue_run_data(data, run_name):
     return x_axis_values, traces
 
 
-def plot_figure(figure_name, traces, x_axis_values, x_axis_text, title, x_axis_label, y_axis_label, y_axis_values=None, show_legend=False):
+def plot_figure(figure_name, traces, x_axis_values, x_axis_text, title, x_axis_label, y_axis_label, y_axis_values=None, show_legend=False, legend_dict=None):
     fig = go.Figure(
         data=traces
     )
 
-    # fig.layout.update(title_text=title, showlegend = False)
     fig.layout.update(showlegend=show_legend, margin=dict(r=0, l=0, b=0, t=0))
+
+    if legend_dict:
+        fig.update_layout(legend=legend_dict)
 
     fig.update_xaxes(
         ticktext=x_axis_text,
@@ -372,7 +374,7 @@ def plot_figure(figure_name, traces, x_axis_values, x_axis_text, title, x_axis_l
     fig.show()
 
 
-def get_min_max_avg_traces(data, min_len=None, task_name=None, task_color=None):
+def get_min_max_avg_traces(data, task_name=None, dash_type='solid', task_color=None, max_values=None):
 
     y1 = data[0]['y']
     y2 = data[1]['y']
@@ -380,14 +382,14 @@ def get_min_max_avg_traces(data, min_len=None, task_name=None, task_color=None):
     y4 = data[3]['y']
     y5 = data[4]['y']
 
-    if not min_len:
-        min_len = min(len(y1), len(y2), len(y3), len(y4), len(y5))
+    if not max_values:
+        max_values = min(len(y1), len(y2), len(y3), len(y4), len(y5))
 
-    y1 = y1[:min_len]
-    y2 = y2[:min_len]
-    y3 = y3[:min_len]
-    y4 = y4[:min_len]
-    y5 = y5[:min_len]
+    y1 = y1[:max_values]
+    y2 = y2[:max_values]
+    y3 = y3[:max_values]
+    y4 = y4[:max_values]
+    y5 = y5[:max_values]
 
     data_stack = np.stack((y1, y2, y3, y4, y5), axis=0)
 
@@ -395,8 +397,8 @@ def get_min_max_avg_traces(data, min_len=None, task_name=None, task_color=None):
     lower_bound_data = np.min(data_stack, axis=0)
     avg_data = np.average(data_stack, axis=0)
 
-    # x_data = data[0]['x'][:min_len]
-    x_data = data[0]['x']
+    # x_data = data[0]['x']
+    x_data = [a for a in range(31)]
 
     upper_bound = go.Scatter(
         name='Upper Bound',
@@ -406,14 +408,15 @@ def get_min_max_avg_traces(data, min_len=None, task_name=None, task_color=None):
         marker=dict(color="#444"),
         line=dict(width=0),
         fillcolor='rgba(68, 68, 68, 0.3)',
-        fill='tonexty')
+        fill='tonexty',
+        showlegend=False)
 
     trace = go.Scatter(
         name=task_name if task_name else 'Average',
         x=x_data,
         y=avg_data,
         mode='lines',
-        line=dict(color=task_color) if task_color else dict(color='rgb(31, 119, 180)'),
+        line=dict(color=task_color, dash=dash_type) if task_color else dict(color='rgb(31, 119, 180)'),
         fillcolor='rgba(68, 68, 68, 0.3)',
         fill='tonexty')
 
@@ -423,80 +426,52 @@ def get_min_max_avg_traces(data, min_len=None, task_name=None, task_color=None):
         y=lower_bound_data,
         marker=dict(color="#444"),
         line=dict(width=0),
-        mode='lines')
+        mode='lines',
+        showlegend=False)
 
     # Trace order can be important with continuous error bars
     traces = [lower_bound, trace, upper_bound]
     return traces
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-def load_traces(file_path, task, glue_task_name=None):
-    with open(file_path) as json_file:
-        results = json.load(json_file)
-        traces = []
-        for run in results:
-            x_axis_values, traces_run = get_run_data(results[run], run, task, glue_task_name)
-            traces.extend(traces_run)
-
-    # x_axis_values = [a for i, a in enumerate(x_axis_values) if i%2 == 0]
-
-    return traces, x_axis_values
-
-
-
 if __name__ == '__main__':
 
-    t_pos, x_pos = load_traces('bert_base_cased_finetuned_pos_results.json', 'pos')
-    t_pars, x_pars = load_traces('bert_base_cased_finetuned_parsing_results.json', 'parsing')
-    t_pars_mul, x_pars_mul = load_traces('bert_base_cased_finetuned_parsing_multilingual_results.json', 'parsing')
-    t_pars_ptb, x_pars_ptb = load_traces('bert_base_cased_finetuned_parsing_ptb_results.json', 'parsing')
-    t_pars_const, x_pars_const = load_traces('bert_base_cased_finetuned_pap_constituents_results.json',
+    def load_traces(max_values, file_path, task, glue_task_name=None):
+        with open(file_path) as json_file:
+            results = json.load(json_file)
+            traces = []
+            for run in results:
+                x_axis_values, traces_run = get_run_data(results[run], run, task, glue_task_name)
+
+                for trace in traces_run:
+
+                    # if we have more than 55 elements, we reduce to half to have 'max_values'
+                    if len(trace['x']) > 55:
+                        trace['x'] = [a for i,a in enumerate(trace['x']) if i%2==1]
+
+                    # if we have less than 'max_values', we add "fake" data to be able to stack data and display traces
+                    # (for some runs, two or three values are missing)
+                    elif len(trace['x']) < max_values:
+                        missing_position = max_values - len(trace['x'])
+
+
+
+                traces.extend(traces_run)
+
+        return traces, x_axis_values
+
+
+    max_values = 27
+    x_axis_values = [a for a in range(max_values)]
+
+    t_pos, x_pos = load_traces(max_values, 'bert_base_cased_finetuned_pos_results.json', 'pos')
+    t_pars, x_pars = load_traces(max_values, 'bert_base_cased_finetuned_parsing_results.json', 'parsing')
+    t_pars_mul, x_pars_mul = load_traces(max_values, 'bert_base_cased_finetuned_parsing_multilingual_results.json',
+                                         'parsing')
+    t_pars_ptb, x_pars_ptb = load_traces(max_values, 'bert_base_cased_finetuned_parsing_ptb_results.json', 'parsing')
+    t_pars_const, x_pars_const = load_traces(max_values, 'bert_base_cased_finetuned_pap_constituents_results.json',
                                              'constituent_parsing')
-    t_squad, x_squad = load_traces('bert_base_cased_finetuned_squad_results.json', 'squad')
-    t_qqpt, x_qqpt = load_traces('bert_base_cased_finetuned_glue_results.json', 'glue', 'QQP')
-    t_mrpc, x_mrpc = load_traces('bert_base_cased_finetuned_glue_results.json', 'glue', 'MRPC')
-    t_srl, x_srl = load_traces('bert_base_cased_finetuned_srl_results.json', 'srl')
-
-    # all_data = [('PoS Tagging', t_pos, x_pos),
-    #             ('Dependency parsing EN UD EWT', t_pars, x_pars),
-    #             ('Dependency parsing UD multilingual', t_pars_mul, x_pars_mul),
-    #             ('Dependency parsing PTB SD', t_pars_ptb, x_pars_ptb),
-    #             ('Constituent parsing', t_pars_const, x_pars_const),
-    #             ('SQuAD', t_squad, x_squad),
-    #             ('QQPT', t_qqpt, x_qqpt),
-    #             ('MRPC', t_mrpc, x_mrpc),
-    #             ('SRL', t_srl, x_srl)]
-
-    all_data = [('PoS Tagging', t_pos, x_pos),
-                ('Dependency parsing EN UD EWT', t_pars, x_pars)]
-
-    title = "..."
-    x_axis_label = 'Finetuning checkpoints'
-    y_axis_label = 'UUAS'
-    y_axis_values = [0.5, 0.92]
-
-    colors = {
-        'PoS Tagging': 'rgb(31, 119, 180)',
-        'Dependency parsing EN UD EWT': 'rgb(119, 31, 180)'
-    }
-
-    data = []
-    for task_name, traces, x_axis_values in all_data:
-        data += get_min_max_avg_traces([a for a in traces if 'distance_uuas' in a['name']], None, task_name, colors[task_name])
-
-    image_name = 'babau.png'
-    plot_figure(image_name, data, x_axis_values, x_axis_values, title, x_axis_label, y_axis_label, y_axis_values, show_legend=True)
+    t_squad, x_squad = load_traces(max_values, 'bert_base_cased_finetuned_squad_results.json', 'squad')
+    t_qqpt, x_qqpt = load_traces(max_values, 'bert_base_cased_finetuned_glue_results.json', 'glue', 'QQP')
+    t_mrpc, x_mrpc = load_traces(max_values, 'bert_base_cased_finetuned_glue_results.json', 'glue', 'MRPC')
+    t_srl, x_srl = load_traces(max_values, 'bert_base_cased_finetuned_srl_results.json', 'srl')
