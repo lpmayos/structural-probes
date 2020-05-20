@@ -473,7 +473,7 @@ def _plot_figure(figure_name, traces, x_axis_values, x_axis_label, y_axis_label,
 
 
 def create_figure(data, traces_name, image_name, legend_dict, y_axis_label, y_axis_range, colors, dash_types=None):
-    x_axis_label = 'Finetuning checkpoints'
+    x_axis_label = 'Fine-tuning checkpoints'
 
     data_to_plot = []
     for task_name, traces, x_axis_values in data:
@@ -487,7 +487,7 @@ def create_figure(data, traces_name, image_name, legend_dict, y_axis_label, y_ax
 
 
 def create_figure_list(data, traces_name, y_axis_label, y_axis_range):
-    x_axis_label = 'Finetuning checkpoints'
+    x_axis_label = 'Fine-tuning checkpoints'
 
     for task_name, traces, x_axis_values in data:
         print(task_name)
@@ -498,7 +498,7 @@ def create_figure_list(data, traces_name, y_axis_label, y_axis_range):
 
 
 def plot_tasks_performance(data, all_possible_measures):
-    x_axis_label = 'Finetuning checkpoints'
+    x_axis_label = 'Fine-tuning checkpoints'
 
     for task_name, traces, x_axis_values in data:
         for measure in all_possible_measures:
