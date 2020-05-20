@@ -1,7 +1,6 @@
 import json
 import numpy as np
 import plotly.graph_objs as go
-import matplotlib.pyplot as plt
 
 
 def remove_empty_values(x, y):
@@ -13,22 +12,57 @@ def remove_empty_values(x, y):
     return x, y
 
 
-def get_run_data(data, run_name, task, glue_task_name):
+def _fix_results(results):
+    """
+    Due to some random issues with the HPC, some runs got stuck and did not finish.
+    We mock that missing data with data from other runs just to be able to plot results.
+    """
+
+    # remove checkpoints not probed
+    new_results = {}
+    for run in results:
+        new_results[run] = {}
+        for checkpoint in results[run]:
+            if results[run][checkpoint]['parse-depth']['dev.root_acc'] is not None:
+                new_results[run][checkpoint] = results[run][checkpoint]
+
+    # downsize to 30 checkpoints
+    for run in new_results:
+        if len(new_results[run].keys()) != 30:
+            print('babau')
+
+
+    return new_results
+
+
+def load_traces(file_path, task, glue_task_name=None):
+    with open(file_path) as json_file:
+        results = json.load(json_file)
+        results = _fix_results(results)
+        traces = []
+        for run in results:
+            x_axis_values, traces_run = _get_run_data(results[run], run, task, glue_task_name)
+            traces.extend(traces_run)
+
+    return traces, x_axis_values
+
+
+def _get_run_data(data, run_name, task, glue_task_name):
     if task == 'pos':
-        return get_pos_run_data(data, run_name)
+        return _get_pos_run_data(data, run_name)
     elif task == 'parsing':
-        return get_parsing_run_data(data, run_name)
+        return _get_parsing_run_data(data, run_name)
     elif task == 'constituent_parsing':
-        return get_pap_constituents_run_data(data, run_name)
+        return _get_pap_constituents_run_data(data, run_name)
     elif task == 'squad':
-        return get_squad_run_data(data, run_name)
+        return _get_squad_run_data(data, run_name)
     elif task == 'glue':
-        return get_glue_run_data(data[glue_task_name], run_name)
+        return _get_glue_run_data(data[glue_task_name], run_name)
     elif task == 'srl':
-        return get_srl_run_data(data, run_name)
+        return _get_srl_run_data(data, run_name)
 
 
-def get_squad_run_data(data, run_name):
+def _get_squad_run_data(data, run_name):
     """ reads the data from a given run and creates a trace for each variable (squad_f1, depth_root_acc, etc)
     """
 
@@ -79,7 +113,7 @@ def get_squad_run_data(data, run_name):
     return x_axis_values, traces
 
 
-def get_pos_run_data(data, run_name):
+def _get_pos_run_data(data, run_name):
     """ reads the data from a given run and creates a trace for each variable
     """
 
@@ -125,7 +159,7 @@ def get_pos_run_data(data, run_name):
     return x_axis_values, traces
 
 
-def get_srl_run_data(data, run_name):
+def _get_srl_run_data(data, run_name):
     """ reads the data from a given run and creates a trace for each variable
     """
 
@@ -181,7 +215,7 @@ def get_srl_run_data(data, run_name):
     return x_axis_values, traces
 
 
-def get_pap_constituents_run_data(data, run_name):
+def _get_pap_constituents_run_data(data, run_name):
     """ reads the data from a given run and creates a trace for each variable
     """
 
@@ -238,7 +272,7 @@ def get_pap_constituents_run_data(data, run_name):
     return x_axis_values, traces
 
 
-def get_parsing_run_data(data, run_name):
+def _get_parsing_run_data(data, run_name):
     """ reads the data from a given run and creates a trace for each variable
     """
 
@@ -295,7 +329,7 @@ def get_parsing_run_data(data, run_name):
     return x_axis_values, traces
 
 
-def get_glue_run_data(data, run_name):
+def _get_glue_run_data(data, run_name):
     """ reads the data from a given run and creates a trace for each variable (squad_f1, depth_root_acc, etc)
     """
 
@@ -345,10 +379,12 @@ def get_glue_run_data(data, run_name):
     return x_axis_values, traces
 
 
-def plot_figure(figure_name, traces, x_axis_values, x_axis_text, title, x_axis_label, y_axis_label, y_axis_values=None, show_legend=False, legend_dict=None):
+def _plot_figure(figure_name, traces, x_axis_values, x_axis_label, y_axis_label, y_axis_values=None, legend_dict=None):
     fig = go.Figure(
         data=traces
     )
+
+    show_legend = False if not legend_dict else True
 
     fig.layout.update(showlegend=show_legend, margin=dict(r=0, l=0, b=0, t=0))
 
@@ -356,7 +392,7 @@ def plot_figure(figure_name, traces, x_axis_values, x_axis_text, title, x_axis_l
         fig.update_layout(legend=legend_dict)
 
     fig.update_xaxes(
-        ticktext=x_axis_text,
+        ticktext=x_axis_values,
         tickvals=x_axis_values,
         title_text=x_axis_label
     )
@@ -374,22 +410,53 @@ def plot_figure(figure_name, traces, x_axis_values, x_axis_text, title, x_axis_l
     fig.show()
 
 
-def get_min_max_avg_traces(data, task_name=None, dash_type='solid', task_color=None, max_values=None):
+def create_figure(data, traces_name, traces_style, image_name, legend_dict, y_axis_label, y_axis_range, colors, dash_types):
+    x_axis_label = 'Finetuning checkpoints'
+
+    data_to_plot = []
+    for task_name, traces, x_axis_values in data:
+        traces_to_plot = [a for a in traces if traces_name in a['name']]
+        style = 'solid' if not traces_style else dash_types[task_name]
+        data_to_plot += _get_min_max_avg_traces(traces_to_plot, task_name, style, colors[task_name])
+
+    image_name = image_name
+
+    _plot_figure(image_name, data_to_plot, x_axis_values, x_axis_label, y_axis_label, y_axis_range, legend_dict=legend_dict)
+
+
+def create_figure_list(data, traces_name, y_axis_label, y_axis_range):
+    x_axis_label = 'Finetuning checkpoints'
+
+    for task_name, traces, x_axis_values in data:
+        print(task_name)
+        traces_to_plot = [a for a in traces if traces_name in a['name']]
+        data_to_plot = _get_min_max_avg_traces(traces_to_plot, task_name, 'solid')
+        image_name = task_name.replace(' ', '_') + '_' + traces_name + '.png'
+        _plot_figure(image_name, data_to_plot, x_axis_values, x_axis_label, y_axis_label, y_axis_range, None)
+
+
+def plot_tasks_performance(data, all_possible_measures):
+    x_axis_label = 'Finetuning checkpoints'
+
+    for task_name, traces, x_axis_values in data:
+        for measure in all_possible_measures:
+            data = [a for a in traces if measure in a['name']]
+            if data:
+                print('%s: %s' % (task_name, measure))
+                data = _get_min_max_avg_traces(data, task_name, 'solid')
+                y_axis_label = measure
+                image_name = '%s_%s.png' % (task_name.replace(' ', '_'), measure)
+
+                _plot_figure(image_name, data, x_axis_values, x_axis_label, y_axis_label, None, None)
+
+
+def _get_min_max_avg_traces(data, task_name=None, dash_type='solid', task_color=None):
 
     y1 = data[0]['y']
     y2 = data[1]['y']
     y3 = data[2]['y']
     y4 = data[3]['y']
     y5 = data[4]['y']
-
-    if not max_values:
-        max_values = min(len(y1), len(y2), len(y3), len(y4), len(y5))
-
-    y1 = y1[:max_values]
-    y2 = y2[:max_values]
-    y3 = y3[:max_values]
-    y4 = y4[:max_values]
-    y5 = y5[:max_values]
 
     data_stack = np.stack((y1, y2, y3, y4, y5), axis=0)
 
@@ -436,42 +503,10 @@ def get_min_max_avg_traces(data, task_name=None, dash_type='solid', task_color=N
 
 if __name__ == '__main__':
 
-    def load_traces(max_values, file_path, task, glue_task_name=None):
-        with open(file_path) as json_file:
-            results = json.load(json_file)
-            traces = []
-            for run in results:
-                x_axis_values, traces_run = get_run_data(results[run], run, task, glue_task_name)
+    file_path = 'bert_base_cased_finetuned_pos_results.json'
+    with open(file_path) as json_file:
+        results = json.load(json_file)
+        new_results = _fix_results(results)
+        with open('babau.json', 'w') as outfile:
+            json.dump(new_results, outfile, indent=4, sort_keys=True)
 
-                for trace in traces_run:
-
-                    # if we have more than 55 elements, we reduce to half to have 'max_values'
-                    if len(trace['x']) > 55:
-                        trace['x'] = [a for i,a in enumerate(trace['x']) if i%2==1]
-
-                    # if we have less than 'max_values', we add "fake" data to be able to stack data and display traces
-                    # (for some runs, two or three values are missing)
-                    elif len(trace['x']) < max_values:
-                        missing_position = max_values - len(trace['x'])
-
-
-
-                traces.extend(traces_run)
-
-        return traces, x_axis_values
-
-
-    max_values = 27
-    x_axis_values = [a for a in range(max_values)]
-
-    t_pos, x_pos = load_traces(max_values, 'bert_base_cased_finetuned_pos_results.json', 'pos')
-    t_pars, x_pars = load_traces(max_values, 'bert_base_cased_finetuned_parsing_results.json', 'parsing')
-    t_pars_mul, x_pars_mul = load_traces(max_values, 'bert_base_cased_finetuned_parsing_multilingual_results.json',
-                                         'parsing')
-    t_pars_ptb, x_pars_ptb = load_traces(max_values, 'bert_base_cased_finetuned_parsing_ptb_results.json', 'parsing')
-    t_pars_const, x_pars_const = load_traces(max_values, 'bert_base_cased_finetuned_pap_constituents_results.json',
-                                             'constituent_parsing')
-    t_squad, x_squad = load_traces(max_values, 'bert_base_cased_finetuned_squad_results.json', 'squad')
-    t_qqpt, x_qqpt = load_traces(max_values, 'bert_base_cased_finetuned_glue_results.json', 'glue', 'QQP')
-    t_mrpc, x_mrpc = load_traces(max_values, 'bert_base_cased_finetuned_glue_results.json', 'glue', 'MRPC')
-    t_srl, x_srl = load_traces(max_values, 'bert_base_cased_finetuned_srl_results.json', 'srl')
