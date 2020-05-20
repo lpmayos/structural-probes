@@ -30,13 +30,13 @@ if [ "$analyze_results" == 1 ]; then
     python bert_base_cased_finetuned_glue_analyse_results.py --probe_name naacl_19_ptb \
                                                               --models_path /homedtic/lperez/transformers/lpmayos_experiments/bert_base_cased_finetuned_glue \
                                                               --runs run1 run2 run3 run4 run5 \
-                                                              --output_file bert_base_cased_finetuned_glue_results.json \
+                                                              --output_file bert_base_cased_finetuned_mrpc_results.json \
                                                               --task_name MRPC
 
     python bert_base_cased_finetuned_glue_analyse_results.py --probe_name naacl_19_ptb \
                                                               --models_path /homedtic/lperez/transformers/lpmayos_experiments/bert_base_cased_finetuned_glue \
                                                               --runs run1 run2 run3 run4 run5 \
-                                                              --output_file bert_base_cased_finetuned_glue_results.json \
+                                                              --output_file bert_base_cased_finetuned_qqp_results.json \
                                                               --task_name QQP
 
 fi
@@ -55,7 +55,7 @@ fi
 
 # Parsing
 
-analyze_results=1
+analyze_results=0
 
 if [ "$analyze_results" == 1 ]; then
     echo "Analyzing parsing results"
@@ -68,7 +68,7 @@ fi
 
 # SRL
 
-analyze_results=1
+analyze_results=0
 
 if [ "$analyze_results" == 1 ]; then
     echo "Analyzing SRL results"
@@ -82,7 +82,7 @@ fi
 
 # Parsing as Pretraining: Constituent Parsing
 
-analyze_results=1
+analyze_results=0
 
 if [ "$analyze_results" == 1 ]; then
     echo "Analyzing PAP Constituents results"
@@ -96,7 +96,7 @@ fi
 
 # Parsing multilingual
 
-analyze_results=1
+analyze_results=0
 
 if [ "$analyze_results" == 1 ]; then
     echo "Analyzing parsing results"
@@ -111,7 +111,7 @@ fi
 
 # Parsing ptb sd
 
-analyze_results=1
+analyze_results=0
 
 if [ "$analyze_results" == 1 ]; then
     echo "Analyzing parsing results"

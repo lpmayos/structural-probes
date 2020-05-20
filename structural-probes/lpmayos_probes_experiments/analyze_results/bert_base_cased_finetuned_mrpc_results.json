@@ -1,0 +1,4562 @@
+{
+    "run1": {
+        "0": {
+            "acc": "0.31862745098039214\n",
+            "acc_and_f1": "0.18000338066260987\n",
+            "f1": "0.04137931034482759\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8411764705882353,
+                "dev.spearmanr-5_50-mean": 0.8627648152866605
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8035446230461999,
+                "dev.uuas": 0.7266223356884165
+            }
+        },
+        "5": {
+            "acc": "0.678921568627451\n",
+            "acc_and_f1": "0.7438403463575212\n",
+            "f1": "0.8087591240875913\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8364705882352941,
+                "dev.spearmanr-5_50-mean": 0.8620478433954012
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7990172037643469,
+                "dev.uuas": 0.7192305408775159
+            }
+        },
+        "10": {
+            "acc": "0.6838235294117647\n",
+            "acc_and_f1": "0.7469191284761327\n",
+            "f1": "0.8100147275405007\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "15": {
+            "acc": "0.6838235294117647\n",
+            "acc_and_f1": "0.7463562091503269\n",
+            "f1": "0.8088888888888889\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8364705882352941,
+                "dev.spearmanr-5_50-mean": 0.8629531486823111
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8007306305508703,
+                "dev.uuas": 0.7191117971857746
+            }
+        },
+        "20": {
+            "acc": "0.7083333333333334\n",
+            "acc_and_f1": "0.7630487493619194\n",
+            "f1": "0.8177641653905053\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "25": {
+            "acc": "0.7083333333333334\n",
+            "acc_and_f1": "0.7506884057971015\n",
+            "f1": "0.7930434782608695\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8429411764705882,
+                "dev.spearmanr-5_50-mean": 0.8641645408465577
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8088365727927098,
+                "dev.uuas": 0.7262364186902571
+            }
+        },
+        "30": {
+            "acc": "0.7524509803921569\n",
+            "acc_and_f1": "0.7933026658939437\n",
+            "f1": "0.8341543513957307\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "35": {
+            "acc": "0.7573529411764706\n",
+            "acc_and_f1": "0.7952026088681678\n",
+            "f1": "0.8330522765598651\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8364705882352941,
+                "dev.spearmanr-5_50-mean": 0.8613703385540473
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8105257242619386,
+                "dev.uuas": 0.7304815056700112
+            }
+        },
+        "40": {
+            "acc": "0.7573529411764706\n",
+            "acc_and_f1": "0.7916817429959682\n",
+            "f1": "0.8260105448154658\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "45": {
+            "acc": "0.7450980392156863\n",
+            "acc_and_f1": "0.790788013318535\n",
+            "f1": "0.8364779874213837\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8364705882352941,
+                "dev.spearmanr-5_50-mean": 0.8607542292201635
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8067646302027118,
+                "dev.uuas": 0.7274238556076709
+            }
+        },
+        "50": {
+            "acc": "0.7450980392156863\n",
+            "acc_and_f1": "0.7912990196078431\n",
+            "f1": "0.8375\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "55": {
+            "acc": "0.7745098039215687\n",
+            "acc_and_f1": "0.8140064943174722\n",
+            "f1": "0.8535031847133757\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8329411764705882,
+                "dev.spearmanr-5_50-mean": 0.8599322725095091
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8032968519832547,
+                "dev.uuas": 0.7254348987710028
+            }
+        },
+        "60": {
+            "acc": "0.7990196078431373\n",
+            "acc_and_f1": "0.8322966891674703\n",
+            "f1": "0.8655737704918033\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "65": {
+            "acc": "0.8357843137254902\n",
+            "acc_and_f1": "0.8608223101847213\n",
+            "f1": "0.8858603066439524\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8358823529411765,
+                "dev.spearmanr-5_50-mean": 0.8603525372415837
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.800536107138055,
+                "dev.uuas": 0.7243068336994597
+            }
+        },
+        "70": {
+            "acc": "0.8333333333333334\n",
+            "acc_and_f1": "0.8572261072261073\n",
+            "f1": "0.8811188811188811\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "75": {
+            "acc": "0.8284313725490197\n",
+            "acc_and_f1": "0.8525959679646506\n",
+            "f1": "0.8767605633802817\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8388235294117647,
+                "dev.spearmanr-5_50-mean": 0.8624460039919388
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7985778908480551,
+                "dev.uuas": 0.7227631657068219
+            }
+        },
+        "80": {
+            "acc": "0.8014705882352942\n",
+            "acc_and_f1": "0.8348816355810618\n",
+            "f1": "0.8682926829268293\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "85": {
+            "acc": "0.8186274509803921\n",
+            "acc_and_f1": "0.8389715201670023\n",
+            "f1": "0.8593155893536123\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8376470588235294,
+                "dev.spearmanr-5_50-mean": 0.8626847929584066
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7967407462781771,
+                "dev.uuas": 0.7255536424627441
+            }
+        },
+        "90": {
+            "acc": "0.8382352941176471\n",
+            "acc_and_f1": "0.8639337005705292\n",
+            "f1": "0.8896321070234114\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "95": {
+            "acc": "0.8259803921568627\n",
+            "acc_and_f1": "0.8548887230833413\n",
+            "f1": "0.88379705400982\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8352941176470589,
+                "dev.spearmanr-5_50-mean": 0.8609634601605308
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7941980191018514,
+                "dev.uuas": 0.7213382414059253
+            }
+        },
+        "100": {
+            "acc": "0.8161764705882353\n",
+            "acc_and_f1": "0.8469136839074944\n",
+            "f1": "0.8776508972267536\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "105": {
+            "acc": "0.8357843137254902\n",
+            "acc_and_f1": "0.8581773618538324\n",
+            "f1": "0.8805704099821747\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8370588235294117,
+                "dev.spearmanr-5_50-mean": 0.8608160035478242
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7964534587758334,
+                "dev.uuas": 0.7196164578756754
+            }
+        },
+        "110": {
+            "acc": "0.8112745098039216\n",
+            "acc_and_f1": "0.8334046094985837\n",
+            "f1": "0.8555347091932459\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "115": {
+            "acc": "0.8235294117647058\n",
+            "acc_and_f1": "0.845830639948287\n",
+            "f1": "0.8681318681318682\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8294117647058824,
+                "dev.spearmanr-5_50-mean": 0.862364606536321
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7978114598340507,
+                "dev.uuas": 0.7148073383601496
+            }
+        },
+        "120": {
+            "acc": "0.8333333333333334\n",
+            "acc_and_f1": "0.8609289617486339\n",
+            "f1": "0.8885245901639344\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "125": {
+            "acc": "0.8259803921568627\n",
+            "acc_and_f1": "0.8490262321144674\n",
+            "f1": "0.872072072072072\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8341176470588235,
+                "dev.spearmanr-5_50-mean": 0.8608086978738858
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7963161180047366,
+                "dev.uuas": 0.7080092620079558
+            }
+        },
+        "130": {
+            "acc": "0.821078431372549\n",
+            "acc_and_f1": "0.844296021493897\n",
+            "f1": "0.8675136116152451\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "135": {
+            "acc": "0.8455882352941176\n",
+            "acc_and_f1": "0.8680115089514067\n",
+            "f1": "0.8904347826086957\n",
+            "parse-depth": {
+                "dev.root_acc": 0.83,
+                "dev.spearmanr-5_50-mean": 0.8623101343049252
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7997652081478672,
+                "dev.uuas": 0.7147776524372143
+            }
+        },
+        "140": {
+            "acc": "0.8504901960784313\n",
+            "acc_and_f1": "0.8696895424836601\n",
+            "f1": "0.8888888888888888\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "145": {
+            "acc": "0.8406862745098039\n",
+            "acc_and_f1": "0.8640173140313319\n",
+            "f1": "0.8873483535528597\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8347058823529412,
+                "dev.spearmanr-5_50-mean": 0.8606982798969867
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8024816059959435,
+                "dev.uuas": 0.7139167606720893
+            }
+        },
+        "150": {
+            "acc": "0.8333333333333334\n",
+            "acc_and_f1": "0.8552948255114321\n",
+            "f1": "0.8772563176895307\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "155": {
+            "acc": "0.8382352941176471\n",
+            "acc_and_f1": "0.8591176470588235\n",
+            "f1": "0.88\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8264705882352941,
+                "dev.spearmanr-5_50-mean": 0.8585182977006207
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7995673957431861,
+                "dev.uuas": 0.7105622513803954
+            }
+        },
+        "160": {
+            "acc": "0.8357843137254902\n",
+            "acc_and_f1": "0.8623366013071896\n",
+            "f1": "0.888888888888889\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "165": {
+            "acc": "0.8627450980392157\n",
+            "acc_and_f1": "0.8822497420020641\n",
+            "f1": "0.9017543859649123\n",
+            "parse-depth": {
+                "dev.root_acc": 0.83,
+                "dev.spearmanr-5_50-mean": 0.8583793626567904
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.797918386956049,
+                "dev.uuas": 0.7078014605474084
+            }
+        },
+        "170": {
+            "acc": "0.8529411764705882\n",
+            "acc_and_f1": "0.8749241964827168\n",
+            "f1": "0.8969072164948454\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "175": {
+            "acc": "0.8480392156862745\n",
+            "acc_and_f1": "0.8709374160623153\n",
+            "f1": "0.8938356164383561\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8364705882352941,
+                "dev.spearmanr-5_50-mean": 0.8597169760852417
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8014067835788232,
+                "dev.uuas": 0.7109184824556195
+            }
+        },
+        "180": {
+            "acc": "0.8529411764705882\n",
+            "acc_and_f1": "0.8747464503042597\n",
+            "f1": "0.896551724137931\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "185": {
+            "acc": "0.8602941176470589\n",
+            "acc_and_f1": "0.8797045809474233\n",
+            "f1": "0.8991150442477877\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8441176470588235,
+                "dev.spearmanr-5_50-mean": 0.8607241143999612
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8032109344014886,
+                "dev.uuas": 0.7164103781986582
+            }
+        },
+        "190": {
+            "acc": "0.8553921568627451\n",
+            "acc_and_f1": "0.8760323306205144\n",
+            "f1": "0.8966725043782837\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "195": {
+            "acc": "0.8725490196078431\n",
+            "acc_and_f1": "0.8900111646081921\n",
+            "f1": "0.907473309608541\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8435294117647059,
+                "dev.spearmanr-5_50-mean": 0.8612693665611184
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8051800081115629,
+                "dev.uuas": 0.7196164578756754
+            }
+        },
+        "200": {
+            "acc": "0.8676470588235294\n",
+            "acc_and_f1": "0.8866207322089674\n",
+            "f1": "0.9055944055944055\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "205": {
+            "acc": "0.8578431372549019\n",
+            "acc_and_f1": "0.8752178649237472\n",
+            "f1": "0.8925925925925926\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8347058823529412,
+                "dev.spearmanr-5_50-mean": 0.8606444788548476
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8049150392825869,
+                "dev.uuas": 0.7185774505729383
+            }
+        },
+        "210": {
+            "acc": "0.8676470588235294\n",
+            "acc_and_f1": "0.8843729799612152\n",
+            "f1": "0.901098901098901\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "215": {
+            "acc": "0.8602941176470589\n",
+            "acc_and_f1": "0.8814291101055808\n",
+            "f1": "0.9025641025641027\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8329411764705882,
+                "dev.spearmanr-5_50-mean": 0.8608217185885023
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8028118456638195,
+                "dev.uuas": 0.7146885946684083
+            }
+        },
+        "220": {
+            "acc": "0.8333333333333334\n",
+            "acc_and_f1": "0.8605610561056106\n",
+            "f1": "0.8877887788778879\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "225": {
+            "acc": "0.8700980392156863\n",
+            "acc_and_f1": "0.888962063086104\n",
+            "f1": "0.9078260869565218\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8329411764705882,
+                "dev.spearmanr-5_50-mean": 0.8614806906025131
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8014656069564264,
+                "dev.uuas": 0.7139464465950246
+            }
+        },
+        "230": {
+            "acc": "0.8578431372549019\n",
+            "acc_and_f1": "0.8763853367433929\n",
+            "f1": "0.894927536231884\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "235": {
+            "acc": "0.8651960784313726\n",
+            "acc_and_f1": "0.8852658533292836\n",
+            "f1": "0.9053356282271946\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8329411764705882,
+                "dev.spearmanr-5_50-mean": 0.8605972281437115
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8024236813989079,
+                "dev.uuas": 0.7131152407528351
+            }
+        },
+        "240": {
+            "acc": "0.8553921568627451\n",
+            "acc_and_f1": "0.8781162464985994\n",
+            "f1": "0.9008403361344538\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "245": {
+            "acc": "0.8431372549019608\n",
+            "acc_and_f1": "0.8684124812715783\n",
+            "f1": "0.893687707641196\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8335294117647059,
+                "dev.spearmanr-5_50-mean": 0.8603356771066342
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8020960691945567,
+                "dev.uuas": 0.7106809950721368
+            }
+        },
+        "250": {
+            "acc": "0.875\n",
+            "acc_and_f1": "0.8926845342706502\n",
+            "f1": "0.9103690685413005\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "255": {
+            "acc": "0.8725490196078431\n",
+            "acc_and_f1": "0.8903381140442043\n",
+            "f1": "0.9081272084805654\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8352941176470589,
+                "dev.spearmanr-5_50-mean": 0.8617015489941181
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8030002781317696,
+                "dev.uuas": 0.7102950780739773
+            }
+        },
+        "260": {
+            "acc": "0.8774509803921569\n",
+            "acc_and_f1": "0.8947114056890362\n",
+            "f1": "0.9119718309859154\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "265": {
+            "acc": "0.8725490196078431\n",
+            "acc_and_f1": "0.8919059091213277\n",
+            "f1": "0.9112627986348123\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8276470588235294,
+                "dev.spearmanr-5_50-mean": 0.8613633632551817
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8022351110244949,
+                "dev.uuas": 0.7067327673217361
+            }
+        },
+        "270": {
+            "acc": "0.8799019607843137\n",
+            "acc_and_f1": "0.8979269666700298\n",
+            "f1": "0.915951972555746\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "275": {
+            "acc": "0.8799019607843137\n",
+            "acc_and_f1": "0.8970438000068679\n",
+            "f1": "0.9141856392294221\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8347058823529412,
+                "dev.spearmanr-5_50-mean": 0.8618042050077273
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8014569878451768,
+                "dev.uuas": 0.7060203051712878
+            }
+        },
+        "280": {
+            "acc": "0.8602941176470589\n",
+            "acc_and_f1": "0.8791631590024204\n",
+            "f1": "0.8980322003577819\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "285": {
+            "acc": "0.875\n",
+            "acc_and_f1": "0.8926845342706502\n",
+            "f1": "0.9103690685413005\n",
+            "parse-depth": {
+                "dev.root_acc": 0.83,
+                "dev.spearmanr-5_50-mean": 0.8614649824483761
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8017992953990658,
+                "dev.uuas": 0.7067030813988007
+            }
+        },
+        "290": {
+            "acc": "0.8799019607843137\n",
+            "acc_and_f1": "0.897342284739983\n",
+            "f1": "0.9147826086956522\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "295": {
+            "acc": "0.8774509803921569\n",
+            "acc_and_f1": "0.8951714832274373\n",
+            "f1": "0.9128919860627178\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8247058823529412,
+                "dev.spearmanr-5_50-mean": 0.861336541357017
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.801187865911951,
+                "dev.uuas": 0.706554651784124
+            }
+        },
+        "300": {
+            "acc": "0.8676470588235294\n",
+            "acc_and_f1": "0.886455108359133\n",
+            "f1": "0.9052631578947367\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "305": {
+            "acc": "0.8725490196078431\n",
+            "acc_and_f1": "0.8908199643493762\n",
+            "f1": "0.9090909090909091\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8211764705882353,
+                "dev.spearmanr-5_50-mean": 0.8599852078075195
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8014695689789907,
+                "dev.uuas": 0.7056343881731283
+            }
+        },
+        "310": {
+            "acc": "0.8700980392156863\n",
+            "acc_and_f1": "0.888962063086104\n",
+            "f1": "0.9078260869565218\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "315": {
+            "acc": "0.875\n",
+            "acc_and_f1": "0.893458549222798\n",
+            "f1": "0.911917098445596\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8282352941176471,
+                "dev.spearmanr-5_50-mean": 0.8606316793620957
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8014052629495355,
+                "dev.uuas": 0.7046250667933266
+            }
+        },
+        "320": {
+            "acc": "0.8700980392156863\n",
+            "acc_and_f1": "0.8891218099024705\n",
+            "f1": "0.9081455805892548\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "325": {
+            "acc": "0.875\n",
+            "acc_and_f1": "0.8931521739130435\n",
+            "f1": "0.9113043478260869\n",
+            "parse-depth": {
+                "dev.root_acc": 0.83,
+                "dev.spearmanr-5_50-mean": 0.8603807461909867
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8013132075542772,
+                "dev.uuas": 0.7041797779492964
+            }
+        },
+        "330": {
+            "acc": "0.875\n",
+            "acc_and_f1": "0.8931521739130435\n",
+            "f1": "0.9113043478260869\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "335": {
+            "acc": "0.875\n",
+            "acc_and_f1": "0.8931521739130435\n",
+            "f1": "0.9113043478260869\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8276470588235294,
+                "dev.spearmanr-5_50-mean": 0.8599629846220064
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8010513899781723,
+                "dev.uuas": 0.7035860594905896
+            }
+        },
+        "340": {
+            "acc": "0.875\n",
+            "acc_and_f1": "0.8931521739130435\n",
+            "f1": "0.9113043478260869\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "345": {
+            "acc": "0.875\n",
+            "acc_and_f1": "0.8931521739130435\n",
+            "f1": "0.9113043478260869\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8276470588235294,
+                "dev.spearmanr-5_50-mean": 0.8608280458979488
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8012466469991628,
+                "dev.uuas": 0.7041204061034257
+            }
+        }
+    },
+    "run2": {
+        "0": {
+            "acc": "0.31862745098039214\n",
+            "acc_and_f1": "0.18000338066260987\n",
+            "f1": "0.04137931034482759\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8411764705882353,
+                "dev.spearmanr-5_50-mean": 0.8627648152866605
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8035446230461999,
+                "dev.uuas": 0.7266223356884165
+            }
+        },
+        "5": {
+            "acc": "0.6838235294117647\n",
+            "acc_and_f1": "0.7480253018237863\n",
+            "f1": "0.8122270742358079\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8323529411764706,
+                "dev.spearmanr-5_50-mean": 0.8591324897336999
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7994533288984206,
+                "dev.uuas": 0.7100575906904946
+            }
+        },
+        "10": {
+            "acc": "0.6838235294117647\n",
+            "acc_and_f1": "0.7480253018237863\n",
+            "f1": "0.8122270742358079\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "15": {
+            "acc": "0.6911764705882353\n",
+            "acc_and_f1": "0.7534829721362228\n",
+            "f1": "0.8157894736842105\n",
+            "parse-depth": {
+                "dev.root_acc": 0.84,
+                "dev.spearmanr-5_50-mean": 0.8607702962560958
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8020975127188643,
+                "dev.uuas": 0.7079498901620851
+            }
+        },
+        "20": {
+            "acc": "0.6985294117647058\n",
+            "acc_and_f1": "0.7565045248868778\n",
+            "f1": "0.8144796380090498\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "25": {
+            "acc": "0.7009803921568627\n",
+            "acc_and_f1": "0.7602535096878988\n",
+            "f1": "0.8195266272189349\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8364705882352941,
+                "dev.spearmanr-5_50-mean": 0.8585123952030255
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8001218748716298,
+                "dev.uuas": 0.7084248649290507
+            }
+        },
+        "30": {
+            "acc": "0.7034313725490197\n",
+            "acc_and_f1": "0.7582071855017123\n",
+            "f1": "0.8129829984544049\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "35": {
+            "acc": "0.7083333333333334\n",
+            "acc_and_f1": "0.7630487493619194\n",
+            "f1": "0.8177641653905053\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8288235294117647,
+                "dev.spearmanr-5_50-mean": 0.8587199028088865
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8013200340906622,
+                "dev.uuas": 0.7100279047675592
+            }
+        },
+        "40": {
+            "acc": "0.6985294117647058\n",
+            "acc_and_f1": "0.7533208681288428\n",
+            "f1": "0.8081123244929797\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "45": {
+            "acc": "0.7156862745098039\n",
+            "acc_and_f1": "0.7618166471886769\n",
+            "f1": "0.8079470198675498\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8235294117647058,
+                "dev.spearmanr-5_50-mean": 0.8565890776577064
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8050449647522634,
+                "dev.uuas": 0.7129074392922876
+            }
+        },
+        "50": {
+            "acc": "0.6911764705882353\n",
+            "acc_and_f1": "0.7529411764705882\n",
+            "f1": "0.8147058823529413\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "55": {
+            "acc": "0.696078431372549\n",
+            "acc_and_f1": "0.7563232393549135\n",
+            "f1": "0.8165680473372782\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8258823529411765,
+                "dev.spearmanr-5_50-mean": 0.8553218499229831
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8007509720435783,
+                "dev.uuas": 0.707415543549249
+            }
+        },
+        "60": {
+            "acc": "0.7254901960784313\n",
+            "acc_and_f1": "0.7765912518853695\n",
+            "f1": "0.8276923076923076\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "65": {
+            "acc": "0.7132352941176471\n",
+            "acc_and_f1": "0.7691737008704826\n",
+            "f1": "0.8251121076233183\n",
+            "parse-depth": {
+                "dev.root_acc": 0.82,
+                "dev.spearmanr-5_50-mean": 0.8506711602611411
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7975668651710108,
+                "dev.uuas": 0.702161135189693
+            }
+        },
+        "70": {
+            "acc": "0.7475490196078431\n",
+            "acc_and_f1": "0.7877978820910668\n",
+            "f1": "0.8280467445742905\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "75": {
+            "acc": "0.7647058823529411\n",
+            "acc_and_f1": "0.8059198201573623\n",
+            "f1": "0.8471337579617835\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8141176470588235,
+                "dev.spearmanr-5_50-mean": 0.8506412320293549
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8021567927276757,
+                "dev.uuas": 0.7043578934869085
+            }
+        },
+        "80": {
+            "acc": "0.7598039215686274\n",
+            "acc_and_f1": "0.8030994529473231\n",
+            "f1": "0.8463949843260188\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "85": {
+            "acc": "0.7450980392156863\n",
+            "acc_and_f1": "0.7841136454581833\n",
+            "f1": "0.8231292517006803\n",
+            "parse-depth": {
+                "dev.root_acc": 0.808235294117647,
+                "dev.spearmanr-5_50-mean": 0.8486110274507747
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7977882799967261,
+                "dev.uuas": 0.6903758237843615
+            }
+        },
+        "90": {
+            "acc": "0.7156862745098039\n",
+            "acc_and_f1": "0.7712759730757975\n",
+            "f1": "0.8268656716417911\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "95": {
+            "acc": "0.7696078431372549\n",
+            "acc_and_f1": "0.8082566902982693\n",
+            "f1": "0.8469055374592835\n",
+            "parse-depth": {
+                "dev.root_acc": 0.7852941176470588,
+                "dev.spearmanr-5_50-mean": 0.8410021294019848
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7827905105246085,
+                "dev.uuas": 0.6608086445407588
+            }
+        },
+        "100": {
+            "acc": "0.7720588235294118\n",
+            "acc_and_f1": "0.8104196556671449\n",
+            "f1": "0.848780487804878\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "105": {
+            "acc": "0.7965686274509803\n",
+            "acc_and_f1": "0.8292327330266549\n",
+            "f1": "0.8618968386023296\n",
+            "parse-depth": {
+                "dev.root_acc": 0.7888235294117647,
+                "dev.spearmanr-5_50-mean": 0.8433191496598973
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7856682633908797,
+                "dev.uuas": 0.6591165469334441
+            }
+        },
+        "110": {
+            "acc": "0.821078431372549\n",
+            "acc_and_f1": "0.8461653179790434\n",
+            "f1": "0.8712522045855379\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "115": {
+            "acc": "0.8235294117647058\n",
+            "acc_and_f1": "0.8490469358475097\n",
+            "f1": "0.8745644599303136\n",
+            "parse-depth": {
+                "dev.root_acc": 0.7847058823529411,
+                "dev.spearmanr-5_50-mean": 0.8455131840957565
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7866457790155406,
+                "dev.uuas": 0.6554948643353322
+            }
+        },
+        "120": {
+            "acc": "0.8014705882352942\n",
+            "acc_and_f1": "0.8319746829122141\n",
+            "f1": "0.8624787775891342\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "125": {
+            "acc": "0.8088235294117647\n",
+            "acc_and_f1": "0.8352628285356696\n",
+            "f1": "0.8617021276595744\n",
+            "parse-depth": {
+                "dev.root_acc": 0.7847058823529411,
+                "dev.spearmanr-5_50-mean": 0.8411235111602181
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7802992858788044,
+                "dev.uuas": 0.6422846286291041
+            }
+        },
+        "130": {
+            "acc": "0.8112745098039216\n",
+            "acc_and_f1": "0.8367642674243222\n",
+            "f1": "0.8622540250447228\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "135": {
+            "acc": "0.7867647058823529\n",
+            "acc_and_f1": "0.824224960254372\n",
+            "f1": "0.861685214626391\n",
+            "parse-depth": {
+                "dev.root_acc": 0.7941176470588235,
+                "dev.spearmanr-5_50-mean": 0.8457283360326359
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7932612652896678,
+                "dev.uuas": 0.6669833165113104
+            }
+        },
+        "140": {
+            "acc": "0.8333333333333334\n",
+            "acc_and_f1": "0.8572261072261073\n",
+            "f1": "0.8811188811188811\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "145": {
+            "acc": "0.8284313725490197\n",
+            "acc_and_f1": "0.85126604598674\n",
+            "f1": "0.8741007194244604\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8052941176470588,
+                "dev.spearmanr-5_50-mean": 0.845562934214485
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7986346305794889,
+                "dev.uuas": 0.6765421836964911
+            }
+        },
+        "150": {
+            "acc": "0.8161764705882353\n",
+            "acc_and_f1": "0.8444210026964944\n",
+            "f1": "0.8726655348047537\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "155": {
+            "acc": "0.8161764705882353\n",
+            "acc_and_f1": "0.8458991805677494\n",
+            "f1": "0.8756218905472636\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8,
+                "dev.spearmanr-5_50-mean": 0.8472354546649702
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7952489391797397,
+                "dev.uuas": 0.6694769340378792
+            }
+        },
+        "160": {
+            "acc": "0.8382352941176471\n",
+            "acc_and_f1": "0.8626107977437552\n",
+            "f1": "0.8869863013698631\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "165": {
+            "acc": "0.8431372549019608\n",
+            "acc_and_f1": "0.8648310387984981\n",
+            "f1": "0.8865248226950355\n",
+            "parse-depth": {
+                "dev.root_acc": 0.7952941176470588,
+                "dev.spearmanr-5_50-mean": 0.8456294025631861
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7910745576092009,
+                "dev.uuas": 0.6569791604820994
+            }
+        },
+        "170": {
+            "acc": "0.8308823529411765\n",
+            "acc_and_f1": "0.8595254552388216\n",
+            "f1": "0.8881685575364668\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "175": {
+            "acc": "0.8333333333333334\n",
+            "acc_and_f1": "0.8576388888888888\n",
+            "f1": "0.8819444444444444\n",
+            "parse-depth": {
+                "dev.root_acc": 0.7888235294117647,
+                "dev.spearmanr-5_50-mean": 0.8459985282490289
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7900782981731573,
+                "dev.uuas": 0.6511013477409012
+            }
+        },
+        "180": {
+            "acc": "0.8357843137254902\n",
+            "acc_and_f1": "0.8621517242504323\n",
+            "f1": "0.8885191347753744\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "185": {
+            "acc": "0.8382352941176471\n",
+            "acc_and_f1": "0.8628036538847621\n",
+            "f1": "0.8873720136518771\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8070588235294117,
+                "dev.spearmanr-5_50-mean": 0.8503012019460242
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7991652309349095,
+                "dev.uuas": 0.6650834174434483
+            }
+        },
+        "190": {
+            "acc": "0.8357843137254902\n",
+            "acc_and_f1": "0.8596312872975278\n",
+            "f1": "0.8834782608695653\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "195": {
+            "acc": "0.8431372549019608\n",
+            "acc_and_f1": "0.8658194985311198\n",
+            "f1": "0.8885017421602788\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8017647058823529,
+                "dev.spearmanr-5_50-mean": 0.8510748466444703
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8013100619658348,
+                "dev.uuas": 0.6686457281956896
+            }
+        },
+        "200": {
+            "acc": "0.8480392156862745\n",
+            "acc_and_f1": "0.8707550030321407\n",
+            "f1": "0.8934707903780068\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "205": {
+            "acc": "0.8529411764705882\n",
+            "acc_and_f1": "0.8747464503042597\n",
+            "f1": "0.896551724137931\n",
+            "parse-depth": {
+                "dev.root_acc": 0.7988235294117647,
+                "dev.spearmanr-5_50-mean": 0.8488323649465908
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7984259728063132,
+                "dev.uuas": 0.6604227275425993
+            }
+        },
+        "210": {
+            "acc": "0.8382352941176471\n",
+            "acc_and_f1": "0.8650192864030858\n",
+            "f1": "0.8918032786885245\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "215": {
+            "acc": "0.8431372549019608\n",
+            "acc_and_f1": "0.8671468587434974\n",
+            "f1": "0.891156462585034\n",
+            "parse-depth": {
+                "dev.root_acc": 0.7964705882352942,
+                "dev.spearmanr-5_50-mean": 0.8477096673688761
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.796337272546846,
+                "dev.uuas": 0.6557026657958795
+            }
+        },
+        "220": {
+            "acc": "0.8529411764705882\n",
+            "acc_and_f1": "0.8721227621483376\n",
+            "f1": "0.8913043478260869\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "225": {
+            "acc": "0.8504901960784313\n",
+            "acc_and_f1": "0.8731083459024636\n",
+            "f1": "0.8957264957264958\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8023529411764706,
+                "dev.spearmanr-5_50-mean": 0.8489533528921697
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7929742655193184,
+                "dev.uuas": 0.6498248530546815
+            }
+        },
+        "230": {
+            "acc": "0.8529411764705882\n",
+            "acc_and_f1": "0.8761350177654954\n",
+            "f1": "0.8993288590604027\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "235": {
+            "acc": "0.8480392156862745\n",
+            "acc_and_f1": "0.8731999357119897\n",
+            "f1": "0.8983606557377048\n",
+            "parse-depth": {
+                "dev.root_acc": 0.7929411764705883,
+                "dev.spearmanr-5_50-mean": 0.8471165816981064
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7918467911091374,
+                "dev.uuas": 0.6488452175978151
+            }
+        },
+        "240": {
+            "acc": "0.8529411764705882\n",
+            "acc_and_f1": "0.8757949125596185\n",
+            "f1": "0.8986486486486487\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "245": {
+            "acc": "0.8529411764705882\n",
+            "acc_and_f1": "0.8761350177654954\n",
+            "f1": "0.8993288590604027\n",
+            "parse-depth": {
+                "dev.root_acc": 0.7917647058823529,
+                "dev.spearmanr-5_50-mean": 0.8441674501812567
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.786229737596305,
+                "dev.uuas": 0.6369708484236775
+            }
+        },
+        "250": {
+            "acc": "0.8480392156862745\n",
+            "acc_and_f1": "0.872864492331586\n",
+            "f1": "0.8976897689768976\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "255": {
+            "acc": "0.8602941176470589\n",
+            "acc_and_f1": "0.8814291101055808\n",
+            "f1": "0.9025641025641027\n",
+            "parse-depth": {
+                "dev.root_acc": 0.788235294117647,
+                "dev.spearmanr-5_50-mean": 0.845084820419592
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7863133649498503,
+                "dev.uuas": 0.6351896930475569
+            }
+        },
+        "260": {
+            "acc": "0.8700980392156863\n",
+            "acc_and_f1": "0.8883118062039631\n",
+            "f1": "0.9065255731922399\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "265": {
+            "acc": "0.8651960784313726\n",
+            "acc_and_f1": "0.8855894922071392\n",
+            "f1": "0.905982905982906\n",
+            "parse-depth": {
+                "dev.root_acc": 0.7888235294117647,
+                "dev.spearmanr-5_50-mean": 0.8461086642021393
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7898195319952783,
+                "dev.uuas": 0.6409190761740783
+            }
+        },
+        "270": {
+            "acc": "0.8529411764705882\n",
+            "acc_and_f1": "0.8769656377402446\n",
+            "f1": "0.900990099009901\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "275": {
+            "acc": "0.8553921568627451\n",
+            "acc_and_f1": "0.877611188787909\n",
+            "f1": "0.8998302207130731\n",
+            "parse-depth": {
+                "dev.root_acc": 0.7994117647058824,
+                "dev.spearmanr-5_50-mean": 0.8485696787896874
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7935810736006872,
+                "dev.uuas": 0.647717152526272
+            }
+        },
+        "280": {
+            "acc": "0.8799019607843137\n",
+            "acc_and_f1": "0.8964341065022812\n",
+            "f1": "0.9129662522202486\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "285": {
+            "acc": "0.8602941176470589\n",
+            "acc_and_f1": "0.8786099882991172\n",
+            "f1": "0.8969258589511754\n",
+            "parse-depth": {
+                "dev.root_acc": 0.7823529411764706,
+                "dev.spearmanr-5_50-mean": 0.8462327284493625
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7893598071130485,
+                "dev.uuas": 0.6397019533337291
+            }
+        },
+        "290": {
+            "acc": "0.8627450980392157\n",
+            "acc_and_f1": "0.8827614379084967\n",
+            "f1": "0.9027777777777778\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "295": {
+            "acc": "0.8529411764705882\n",
+            "acc_and_f1": "0.8764705882352941\n",
+            "f1": "0.9000000000000001\n",
+            "parse-depth": {
+                "dev.root_acc": 0.7935294117647059,
+                "dev.spearmanr-5_50-mean": 0.8473822118658145
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7941805263490757,
+                "dev.uuas": 0.6499139108234875
+            }
+        },
+        "300": {
+            "acc": "0.8529411764705882\n",
+            "acc_and_f1": "0.8761350177654954\n",
+            "f1": "0.8993288590604027\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "305": {
+            "acc": "0.8504901960784313\n",
+            "acc_and_f1": "0.8725680686782484\n",
+            "f1": "0.8946459412780656\n",
+            "parse-depth": {
+                "dev.root_acc": 0.7888235294117647,
+                "dev.spearmanr-5_50-mean": 0.8458013091598187
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.792870659954348,
+                "dev.uuas": 0.6464406578400522
+            }
+        },
+        "310": {
+            "acc": "0.8627450980392157\n",
+            "acc_and_f1": "0.8824215000685589\n",
+            "f1": "0.9020979020979022\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "315": {
+            "acc": "0.8578431372549019\n",
+            "acc_and_f1": "0.8785743464052287\n",
+            "f1": "0.8993055555555555\n",
+            "parse-depth": {
+                "dev.root_acc": 0.7847058823529411,
+                "dev.spearmanr-5_50-mean": 0.8452846657810953
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7922227985095233,
+                "dev.uuas": 0.6459953689960221
+            }
+        },
+        "320": {
+            "acc": "0.8504901960784313\n",
+            "acc_and_f1": "0.8727494009652054\n",
+            "f1": "0.8950086058519794\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "325": {
+            "acc": "0.8480392156862745\n",
+            "acc_and_f1": "0.8718310556545851\n",
+            "f1": "0.8956228956228957\n",
+            "parse-depth": {
+                "dev.root_acc": 0.7852941176470588,
+                "dev.spearmanr-5_50-mean": 0.8464072910419421
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7935300941744524,
+                "dev.uuas": 0.6487858457519444
+            }
+        },
+        "330": {
+            "acc": "0.8529411764705882\n",
+            "acc_and_f1": "0.8763033641550265\n",
+            "f1": "0.8996655518394648\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "335": {
+            "acc": "0.8504901960784313\n",
+            "acc_and_f1": "0.8741563208197851\n",
+            "f1": "0.897822445561139\n",
+            "parse-depth": {
+                "dev.root_acc": 0.7864705882352941,
+                "dev.spearmanr-5_50-mean": 0.8454958481111913
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7934927918413478,
+                "dev.uuas": 0.6488452175978151
+            }
+        },
+        "340": {
+            "acc": "0.8480392156862745\n",
+            "acc_and_f1": "0.8720061850243452\n",
+            "f1": "0.895973154362416\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "345": {
+            "acc": "0.8480392156862745\n",
+            "acc_and_f1": "0.8718310556545851\n",
+            "f1": "0.8956228956228957\n",
+            "parse-depth": {
+                "dev.root_acc": 0.7847058823529411,
+                "dev.spearmanr-5_50-mean": 0.8454301608790757
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7928330082183999,
+                "dev.uuas": 0.648488986522591
+            }
+        }
+    },
+    "run3": {
+        "0": {
+            "acc": "0.31862745098039214\n",
+            "acc_and_f1": "0.18000338066260987\n",
+            "f1": "0.04137931034482759\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8411764705882353,
+                "dev.spearmanr-5_50-mean": 0.8627648152866605
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8035446230461999,
+                "dev.uuas": 0.7266223356884165
+            }
+        },
+        "5": {
+            "acc": "0.696078431372549\n",
+            "acc_and_f1": "0.7499379498634897\n",
+            "f1": "0.8037974683544306\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8341176470588235,
+                "dev.spearmanr-5_50-mean": 0.8626982355018353
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8030506636828671,
+                "dev.uuas": 0.7230897108591106
+            }
+        },
+        "10": {
+            "acc": "0.6985294117647058\n",
+            "acc_and_f1": "0.7570608078313783\n",
+            "f1": "0.8155922038980509\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "15": {
+            "acc": "0.6985294117647058\n",
+            "acc_and_f1": "0.7455547564725721\n",
+            "f1": "0.7925801011804383\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8282352941176471,
+                "dev.spearmanr-5_50-mean": 0.8635507620531967
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8065903187238088,
+                "dev.uuas": 0.7231787686279166
+            }
+        },
+        "20": {
+            "acc": "0.7181372549019608\n",
+            "acc_and_f1": "0.772079217466109\n",
+            "f1": "0.8260211800302572\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "25": {
+            "acc": "0.7352941176470589\n",
+            "acc_and_f1": "0.770524756665256\n",
+            "f1": "0.8057553956834532\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8241176470588235,
+                "dev.spearmanr-5_50-mean": 0.8631559185843546
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.809883906174274,
+                "dev.uuas": 0.7284628629104078
+            }
+        },
+        "30": {
+            "acc": "0.7475490196078431\n",
+            "acc_and_f1": "0.7934312960753724\n",
+            "f1": "0.8393135725429016\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "35": {
+            "acc": "0.7303921568627451\n",
+            "acc_and_f1": "0.7813546150167384\n",
+            "f1": "0.8323170731707318\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8335294117647059,
+                "dev.spearmanr-5_50-mean": 0.8612926918268823
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8094056632925867,
+                "dev.uuas": 0.7247818084664253
+            }
+        },
+        "40": {
+            "acc": "0.7475490196078431\n",
+            "acc_and_f1": "0.7860402678959149\n",
+            "f1": "0.8245315161839865\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "45": {
+            "acc": "0.7769607843137255\n",
+            "acc_and_f1": "0.8144966523194643\n",
+            "f1": "0.8520325203252033\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8294117647058824,
+                "dev.spearmanr-5_50-mean": 0.8595876206223758
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8069490167817477,
+                "dev.uuas": 0.7216351006352788
+            }
+        },
+        "50": {
+            "acc": "0.7647058823529411\n",
+            "acc_and_f1": "0.8054298642533937\n",
+            "f1": "0.8461538461538463\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "55": {
+            "acc": "0.7647058823529411\n",
+            "acc_and_f1": "0.8078187796857874\n",
+            "f1": "0.8509316770186337\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8229411764705883,
+                "dev.spearmanr-5_50-mean": 0.8575656699561239
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8060451764901121,
+                "dev.uuas": 0.7185774505729383
+            }
+        },
+        "60": {
+            "acc": "0.7843137254901961\n",
+            "acc_and_f1": "0.8188235294117647\n",
+            "f1": "0.8533333333333334\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "65": {
+            "acc": "0.803921568627451\n",
+            "acc_and_f1": "0.8357356187508116\n",
+            "f1": "0.8675496688741722\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8176470588235294,
+                "dev.spearmanr-5_50-mean": 0.8589483774672245
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8058717650179544,
+                "dev.uuas": 0.7172118981179125
+            }
+        },
+        "70": {
+            "acc": "0.7818627450980392\n",
+            "acc_and_f1": "0.8077538024555617\n",
+            "f1": "0.8336448598130841\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "75": {
+            "acc": "0.8014705882352942\n",
+            "acc_and_f1": "0.8344505150669106\n",
+            "f1": "0.867430441898527\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8247058823529412,
+                "dev.spearmanr-5_50-mean": 0.8615744292078061
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8078792356688775,
+                "dev.uuas": 0.7174196995784599
+            }
+        },
+        "80": {
+            "acc": "0.821078431372549\n",
+            "acc_and_f1": "0.8459374457747701\n",
+            "f1": "0.8707964601769912\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "85": {
+            "acc": "0.8284313725490197\n",
+            "acc_and_f1": "0.8546918767507002\n",
+            "f1": "0.8809523809523808\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8211764705882353,
+                "dev.spearmanr-5_50-mean": 0.8608359800309341
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8043580678902688,
+                "dev.uuas": 0.7118684319895505
+            }
+        },
+        "90": {
+            "acc": "0.8357843137254902\n",
+            "acc_and_f1": "0.8583894925643436\n",
+            "f1": "0.8809946714031971\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "95": {
+            "acc": "0.8308823529411765\n",
+            "acc_and_f1": "0.8519052648683783\n",
+            "f1": "0.8729281767955801\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8205882352941176,
+                "dev.spearmanr-5_50-mean": 0.8589454130440103
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8009539539929603,
+                "dev.uuas": 0.7047734964080034
+            }
+        },
+        "100": {
+            "acc": "0.8382352941176471\n",
+            "acc_and_f1": "0.8606070087609512\n",
+            "f1": "0.8829787234042553\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "105": {
+            "acc": "0.8137254901960784\n",
+            "acc_and_f1": "0.8426735559088501\n",
+            "f1": "0.8716216216216217\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8152941176470588,
+                "dev.spearmanr-5_50-mean": 0.859164990382311
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8019210045565138,
+                "dev.uuas": 0.7051000415602922
+            }
+        },
+        "110": {
+            "acc": "0.8161764705882353\n",
+            "acc_and_f1": "0.8458991805677494\n",
+            "f1": "0.8756218905472636\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "115": {
+            "acc": "0.8308823529411765\n",
+            "acc_and_f1": "0.8572624243626625\n",
+            "f1": "0.8836424957841484\n",
+            "parse-depth": {
+                "dev.root_acc": 0.821764705882353,
+                "dev.spearmanr-5_50-mean": 0.8597835117190467
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7998230352524761,
+                "dev.uuas": 0.7034079439529775
+            }
+        },
+        "120": {
+            "acc": "0.8651960784313726\n",
+            "acc_and_f1": "0.8837525685229688\n",
+            "f1": "0.9023090586145649\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "125": {
+            "acc": "0.8700980392156863\n",
+            "acc_and_f1": "0.8881463647405865\n",
+            "f1": "0.9061946902654867\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8170588235294117,
+                "dev.spearmanr-5_50-mean": 0.8573690268878021
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8002684541161172,
+                "dev.uuas": 0.7018939618832749
+            }
+        },
+        "130": {
+            "acc": "0.8455882352941176\n",
+            "acc_and_f1": "0.8698529411764706\n",
+            "f1": "0.8941176470588236\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "135": {
+            "acc": "0.8553921568627451\n",
+            "acc_and_f1": "0.8758507357248699\n",
+            "f1": "0.8963093145869947\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8188235294117647,
+                "dev.spearmanr-5_50-mean": 0.8602209967296607
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8043060773432444,
+                "dev.uuas": 0.7035563735676542
+            }
+        },
+        "140": {
+            "acc": "0.8504901960784313\n",
+            "acc_and_f1": "0.8682357522448232\n",
+            "f1": "0.8859813084112149\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "145": {
+            "acc": "0.8235294117647058\n",
+            "acc_and_f1": "0.8533231474407945\n",
+            "f1": "0.8831168831168831\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8123529411764706,
+                "dev.spearmanr-5_50-mean": 0.8620519028128192
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8080245611106187,
+                "dev.uuas": 0.7051594134061628
+            }
+        },
+        "150": {
+            "acc": "0.8235294117647058\n",
+            "acc_and_f1": "0.8529411764705882\n",
+            "f1": "0.8823529411764706\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "155": {
+            "acc": "0.8480392156862745\n",
+            "acc_and_f1": "0.8663987899992711\n",
+            "f1": "0.8847583643122676\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8194117647058824,
+                "dev.spearmanr-5_50-mean": 0.8616420850051388
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8072150637723321,
+                "dev.uuas": 0.7036751172593956
+            }
+        },
+        "160": {
+            "acc": "0.8431372549019608\n",
+            "acc_and_f1": "0.8642209572000843\n",
+            "f1": "0.8853046594982079\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "165": {
+            "acc": "0.8308823529411765\n",
+            "acc_and_f1": "0.8591605891948949\n",
+            "f1": "0.8874388254486133\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8117647058823529,
+                "dev.spearmanr-5_50-mean": 0.8602161769258236
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8050901683458571,
+                "dev.uuas": 0.7028439114172059
+            }
+        },
+        "170": {
+            "acc": "0.8284313725490197\n",
+            "acc_and_f1": "0.8538708586883029\n",
+            "f1": "0.8793103448275862\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "175": {
+            "acc": "0.8382352941176471\n",
+            "acc_and_f1": "0.859765129073212\n",
+            "f1": "0.8812949640287768\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8047058823529412,
+                "dev.spearmanr-5_50-mean": 0.8583722099382856
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8032590400009587,
+                "dev.uuas": 0.7029032832630766
+            }
+        },
+        "180": {
+            "acc": "0.8382352941176471\n",
+            "acc_and_f1": "0.8612229102167183\n",
+            "f1": "0.8842105263157894\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "185": {
+            "acc": "0.8333333333333334\n",
+            "acc_and_f1": "0.8568075117370892\n",
+            "f1": "0.8802816901408451\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8088235294117647,
+                "dev.spearmanr-5_50-mean": 0.8587450206997262
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8036659942670469,
+                "dev.uuas": 0.7059906192483524
+            }
+        },
+        "190": {
+            "acc": "0.8406862745098039\n",
+            "acc_and_f1": "0.8611445944498017\n",
+            "f1": "0.8816029143897995\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "195": {
+            "acc": "0.8357843137254902\n",
+            "acc_and_f1": "0.8604307503447348\n",
+            "f1": "0.8850771869639793\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8111764705882353,
+                "dev.spearmanr-5_50-mean": 0.8586264174802025
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8024530734261563,
+                "dev.uuas": 0.705782817787805
+            }
+        },
+        "200": {
+            "acc": "0.8406862745098039\n",
+            "acc_and_f1": "0.8628210133610967\n",
+            "f1": "0.8849557522123894\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "205": {
+            "acc": "0.8455882352941176\n",
+            "acc_and_f1": "0.8691314259945886\n",
+            "f1": "0.8926746166950595\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8147058823529412,
+                "dev.spearmanr-5_50-mean": 0.8586117038749925
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8038554822760547,
+                "dev.uuas": 0.7087514100813395
+            }
+        },
+        "210": {
+            "acc": "0.8431372549019608\n",
+            "acc_and_f1": "0.8682352941176471\n",
+            "f1": "0.8933333333333334\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "215": {
+            "acc": "0.8382352941176471\n",
+            "acc_and_f1": "0.863562091503268\n",
+            "f1": "0.8888888888888888\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8141176470588235,
+                "dev.spearmanr-5_50-mean": 0.8584879640206953
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8033396636803761,
+                "dev.uuas": 0.7073561717033783
+            }
+        },
+        "220": {
+            "acc": "0.8431372549019608\n",
+            "acc_and_f1": "0.8667741069030352\n",
+            "f1": "0.8904109589041096\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "225": {
+            "acc": "0.8406862745098039\n",
+            "acc_and_f1": "0.8651648690036287\n",
+            "f1": "0.8896434634974534\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8147058823529412,
+                "dev.spearmanr-5_50-mean": 0.8602055626144617
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8015163833939793,
+                "dev.uuas": 0.7067624532446714
+            }
+        },
+        "230": {
+            "acc": "0.8235294117647058\n",
+            "acc_and_f1": "0.8521620568757304\n",
+            "f1": "0.880794701986755\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "235": {
+            "acc": "0.8308823529411765\n",
+            "acc_and_f1": "0.8584163830821585\n",
+            "f1": "0.8859504132231406\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8152941176470588,
+                "dev.spearmanr-5_50-mean": 0.8607037314631237
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8018030552078769,
+                "dev.uuas": 0.705782817787805
+            }
+        },
+        "240": {
+            "acc": "0.8480392156862745\n",
+            "acc_and_f1": "0.8705713319810683\n",
+            "f1": "0.8931034482758621\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "245": {
+            "acc": "0.8455882352941176\n",
+            "acc_and_f1": "0.8682013966765216\n",
+            "f1": "0.8908145580589255\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8188235294117647,
+                "dev.spearmanr-5_50-mean": 0.8604504072321397
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8020795015918555,
+                "dev.uuas": 0.7040610342575551
+            }
+        },
+        "250": {
+            "acc": "0.8480392156862745\n",
+            "acc_and_f1": "0.8711185839523523\n",
+            "f1": "0.89419795221843\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "255": {
+            "acc": "0.8480392156862745\n",
+            "acc_and_f1": "0.8716547429782724\n",
+            "f1": "0.8952702702702703\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8158823529411765,
+                "dev.spearmanr-5_50-mean": 0.8606684314188489
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8029095628635774,
+                "dev.uuas": 0.7028735973401413
+            }
+        },
+        "260": {
+            "acc": "0.8431372549019608\n",
+            "acc_and_f1": "0.8678773522831952\n",
+            "f1": "0.8926174496644296\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "265": {
+            "acc": "0.8553921568627451\n",
+            "acc_and_f1": "0.8779490295274939\n",
+            "f1": "0.9005059021922428\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8111764705882353,
+                "dev.spearmanr-5_50-mean": 0.8598950123504755
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.802748816624676,
+                "dev.uuas": 0.6998456332007362
+            }
+        },
+        "270": {
+            "acc": "0.8651960784313726\n",
+            "acc_and_f1": "0.8855894922071392\n",
+            "f1": "0.905982905982906\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "275": {
+            "acc": "0.8676470588235294\n",
+            "acc_and_f1": "0.8877484440875327\n",
+            "f1": "0.9078498293515359\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8076470588235294,
+                "dev.spearmanr-5_50-mean": 0.8597108145273095
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8029022835781074,
+                "dev.uuas": 0.697411387520038
+            }
+        },
+        "280": {
+            "acc": "0.8651960784313726\n",
+            "acc_and_f1": "0.8859087353107628\n",
+            "f1": "0.9066213921901529\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "285": {
+            "acc": "0.8700980392156863\n",
+            "acc_and_f1": "0.8895944741532977\n",
+            "f1": "0.9090909090909091\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8052941176470588,
+                "dev.spearmanr-5_50-mean": 0.8598847206912305
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8025260842330362,
+                "dev.uuas": 0.6943834233806329
+            }
+        },
+        "290": {
+            "acc": "0.8725490196078431\n",
+            "acc_and_f1": "0.8916009702850212\n",
+            "f1": "0.9106529209621993\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "295": {
+            "acc": "0.8700980392156863\n",
+            "acc_and_f1": "0.8894380041173096\n",
+            "f1": "0.9087779690189328\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8041176470588235,
+                "dev.spearmanr-5_50-mean": 0.8596455730886987
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8019592390931404,
+                "dev.uuas": 0.6931959864632191
+            }
+        },
+        "300": {
+            "acc": "0.8676470588235294\n",
+            "acc_and_f1": "0.8871107266435986\n",
+            "f1": "0.9065743944636677\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "305": {
+            "acc": "0.8700980392156863\n",
+            "acc_and_f1": "0.8894380041173096\n",
+            "f1": "0.9087779690189328\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8129411764705883,
+                "dev.spearmanr-5_50-mean": 0.8602084232487558
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.802417364063407,
+                "dev.uuas": 0.6940271923054088
+            }
+        },
+        "310": {
+            "acc": "0.8627450980392157\n",
+            "acc_and_f1": "0.8839149219009638\n",
+            "f1": "0.9050847457627118\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "315": {
+            "acc": "0.8553921568627451\n",
+            "acc_and_f1": "0.8781162464985994\n",
+            "f1": "0.9008403361344538\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8070588235294117,
+                "dev.spearmanr-5_50-mean": 0.8599447100297491
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8024551367769613,
+                "dev.uuas": 0.6942349937659562
+            }
+        },
+        "320": {
+            "acc": "0.8553921568627451\n",
+            "acc_and_f1": "0.8781162464985994\n",
+            "f1": "0.9008403361344538\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "325": {
+            "acc": "0.8676470588235294\n",
+            "acc_and_f1": "0.8877484440875327\n",
+            "f1": "0.9078498293515359\n",
+            "parse-depth": {
+                "dev.root_acc": 0.808235294117647,
+                "dev.spearmanr-5_50-mean": 0.8603358671416467
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8019088102284446,
+                "dev.uuas": 0.6930772427714778
+            }
+        },
+        "330": {
+            "acc": "0.8651960784313726\n",
+            "acc_and_f1": "0.8852658533292836\n",
+            "f1": "0.9053356282271946\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "335": {
+            "acc": "0.8602941176470589\n",
+            "acc_and_f1": "0.8807536446120909\n",
+            "f1": "0.9012131715771231\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8035294117647059,
+                "dev.spearmanr-5_50-mean": 0.8598040104475477
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8014349693070054,
+                "dev.uuas": 0.6928100694650596
+            }
+        },
+        "340": {
+            "acc": "0.8578431372549019\n",
+            "acc_and_f1": "0.8785743464052287\n",
+            "f1": "0.8993055555555555\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "345": {
+            "acc": "0.8578431372549019\n",
+            "acc_and_f1": "0.8785743464052287\n",
+            "f1": "0.8993055555555555\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8052941176470588,
+                "dev.spearmanr-5_50-mean": 0.8597293843324768
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8017505207937063,
+                "dev.uuas": 0.6921866650834174
+            }
+        }
+    },
+    "run4": {
+        "0": {
+            "acc": "0.31862745098039214\n",
+            "acc_and_f1": "0.18000338066260987\n",
+            "f1": "0.04137931034482759\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8411764705882353,
+                "dev.spearmanr-5_50-mean": 0.8627648152866605
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8035446230461999,
+                "dev.uuas": 0.7266223356884165
+            }
+        },
+        "5": {
+            "acc": "0.6862745098039216\n",
+            "acc_and_f1": "0.7498427942605613\n",
+            "f1": "0.8134110787172011\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8311764705882353,
+                "dev.spearmanr-5_50-mean": 0.8594117510846692
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8003163440403762,
+                "dev.uuas": 0.7212788695600546
+            }
+        },
+        "10": {
+            "acc": "0.6862745098039216\n",
+            "acc_and_f1": "0.7498427942605613\n",
+            "f1": "0.8134110787172011\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "15": {
+            "acc": "0.6862745098039216\n",
+            "acc_and_f1": "0.7498427942605613\n",
+            "f1": "0.8134110787172011\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8003615048150007,
+                "dev.uuas": 0.7188743098022917
+            }
+        },
+        "20": {
+            "acc": "0.7156862745098039\n",
+            "acc_and_f1": "0.7715336134453781\n",
+            "f1": "0.8273809523809522\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "25": {
+            "acc": "0.7475490196078431\n",
+            "acc_and_f1": "0.7883682079797093\n",
+            "f1": "0.8291873963515755\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8364705882352941,
+                "dev.spearmanr-5_50-mean": 0.8594996575423408
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7994337259974075,
+                "dev.uuas": 0.7194383423380633
+            }
+        },
+        "30": {
+            "acc": "0.7205882352941176\n",
+            "acc_and_f1": "0.7741913986138262\n",
+            "f1": "0.8277945619335348\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "35": {
+            "acc": "0.7720588235294118\n",
+            "acc_and_f1": "0.8096747319617503\n",
+            "f1": "0.8472906403940887\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8364705882352941,
+                "dev.spearmanr-5_50-mean": 0.8593048230667419
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8012081849403946,
+                "dev.uuas": 0.7226444220150805
+            }
+        },
+        "40": {
+            "acc": "0.7622549019607843\n",
+            "acc_and_f1": "0.7985039416107158\n",
+            "f1": "0.8347529812606472\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "45": {
+            "acc": "0.7622549019607843\n",
+            "acc_and_f1": "0.8012262977678716\n",
+            "f1": "0.8401976935749589\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8470588235294118,
+                "dev.spearmanr-5_50-mean": 0.859901307141884
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.798321358342445,
+                "dev.uuas": 0.7237428011636882
+            }
+        },
+        "50": {
+            "acc": "0.7549019607843137\n",
+            "acc_and_f1": "0.8000515995872033\n",
+            "f1": "0.8452012383900929\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "55": {
+            "acc": "0.7696078431372549\n",
+            "acc_and_f1": "0.8072461657930499\n",
+            "f1": "0.8448844884488449\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8482352941176471,
+                "dev.spearmanr-5_50-mean": 0.8578784216401173
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7930221118334645,
+                "dev.uuas": 0.715104197589503
+            }
+        },
+        "60": {
+            "acc": "0.7647058823529411\n",
+            "acc_and_f1": "0.8078187796857874\n",
+            "f1": "0.8509316770186337\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "65": {
+            "acc": "0.8088235294117647\n",
+            "acc_and_f1": "0.838310069790628\n",
+            "f1": "0.8677966101694915\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8323529411764706,
+                "dev.spearmanr-5_50-mean": 0.8568848884337134
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7923539937491596,
+                "dev.uuas": 0.7100279047675592
+            }
+        },
+        "70": {
+            "acc": "0.8137254901960784\n",
+            "acc_and_f1": "0.8401960784313726\n",
+            "f1": "0.8666666666666667\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "75": {
+            "acc": "0.7941176470588235\n",
+            "acc_and_f1": "0.8297511312217195\n",
+            "f1": "0.8653846153846155\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8164705882352942,
+                "dev.spearmanr-5_50-mean": 0.8532285143423265
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.786002488834872,
+                "dev.uuas": 0.6991628569732233
+            }
+        },
+        "80": {
+            "acc": "0.8112745098039216\n",
+            "acc_and_f1": "0.8374956619816067\n",
+            "f1": "0.863716814159292\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "85": {
+            "acc": "0.7696078431372549\n",
+            "acc_and_f1": "0.8111362099698813\n",
+            "f1": "0.8526645768025078\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8247058823529412,
+                "dev.spearmanr-5_50-mean": 0.8570366115247793
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7906475607790485,
+                "dev.uuas": 0.7027845395713352
+            }
+        },
+        "90": {
+            "acc": "0.7892156862745098\n",
+            "acc_and_f1": "0.8256975867269984\n",
+            "f1": "0.8621794871794871\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "95": {
+            "acc": "0.8137254901960784\n",
+            "acc_and_f1": "0.8346193990904346\n",
+            "f1": "0.8555133079847907\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8358823529411765,
+                "dev.spearmanr-5_50-mean": 0.8590352880690633
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7959593638586508,
+                "dev.uuas": 0.7090482693106929
+            }
+        },
+        "100": {
+            "acc": "0.8382352941176471\n",
+            "acc_and_f1": "0.8628036538847621\n",
+            "f1": "0.8873720136518771\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "105": {
+            "acc": "0.8235294117647058\n",
+            "acc_and_f1": "0.8519640414305256\n",
+            "f1": "0.8803986710963455\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8329411764705882,
+                "dev.spearmanr-5_50-mean": 0.8575094921331177
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7925270490766608,
+                "dev.uuas": 0.7034673157988481
+            }
+        },
+        "110": {
+            "acc": "0.8259803921568627\n",
+            "acc_and_f1": "0.8453711484593837\n",
+            "f1": "0.8647619047619046\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "115": {
+            "acc": "0.8235294117647058\n",
+            "acc_and_f1": "0.8529411764705882\n",
+            "f1": "0.8823529411764706\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8252941176470588,
+                "dev.spearmanr-5_50-mean": 0.8558802571186505
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7900007825052388,
+                "dev.uuas": 0.6993409725108354
+            }
+        },
+        "120": {
+            "acc": "0.8431372549019608\n",
+            "acc_and_f1": "0.8654282765737875\n",
+            "f1": "0.8877192982456141\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "125": {
+            "acc": "0.8357843137254902\n",
+            "acc_and_f1": "0.8581773618538324\n",
+            "f1": "0.8805704099821747\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8270588235294117,
+                "dev.spearmanr-5_50-mean": 0.857356797824765
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7915823210315777,
+                "dev.uuas": 0.7008846405034732
+            }
+        },
+        "130": {
+            "acc": "0.8480392156862745\n",
+            "acc_and_f1": "0.8714772349617813\n",
+            "f1": "0.8949152542372881\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "135": {
+            "acc": "0.8431372549019608\n",
+            "acc_and_f1": "0.8642209572000843\n",
+            "f1": "0.8853046594982079\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8247058823529412,
+                "dev.spearmanr-5_50-mean": 0.858262113018402
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7932587520012363,
+                "dev.uuas": 0.6999940628154129
+            }
+        },
+        "140": {
+            "acc": "0.8529411764705882\n",
+            "acc_and_f1": "0.8752760489861473\n",
+            "f1": "0.8976109215017065\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "145": {
+            "acc": "0.8382352941176471\n",
+            "acc_and_f1": "0.8644818854694196\n",
+            "f1": "0.890728476821192\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8264705882352941,
+                "dev.spearmanr-5_50-mean": 0.8580796427231655
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7941119433759031,
+                "dev.uuas": 0.6942943656118269
+            }
+        },
+        "150": {
+            "acc": "0.8382352941176471\n",
+            "acc_and_f1": "0.8629951980792316\n",
+            "f1": "0.8877551020408163\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "155": {
+            "acc": "0.8480392156862745\n",
+            "acc_and_f1": "0.8700126392020222\n",
+            "f1": "0.89198606271777\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8335294117647059,
+                "dev.spearmanr-5_50-mean": 0.8583078511911608
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7921610367077505,
+                "dev.uuas": 0.6948583981475984
+            }
+        },
+        "160": {
+            "acc": "0.8406862745098039\n",
+            "acc_and_f1": "0.8645969966031009\n",
+            "f1": "0.8885077186963979\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "165": {
+            "acc": "0.8504901960784313\n",
+            "acc_and_f1": "0.8718300367432437\n",
+            "f1": "0.893169877408056\n",
+            "parse-depth": {
+                "dev.root_acc": 0.831764705882353,
+                "dev.spearmanr-5_50-mean": 0.8583858071825022
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7910197917444561,
+                "dev.uuas": 0.690168022323814
+            }
+        },
+        "170": {
+            "acc": "0.8333333333333334\n",
+            "acc_and_f1": "0.8609289617486339\n",
+            "f1": "0.8885245901639344\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "175": {
+            "acc": "0.8284313725490197\n",
+            "acc_and_f1": "0.8570261437908497\n",
+            "f1": "0.8856209150326797\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8276470588235294,
+                "dev.spearmanr-5_50-mean": 0.8593847892310287
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7901209650109178,
+                "dev.uuas": 0.6879415781036633
+            }
+        },
+        "180": {
+            "acc": "0.8553921568627451\n",
+            "acc_and_f1": "0.8737655482668387\n",
+            "f1": "0.8921389396709324\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "185": {
+            "acc": "0.8627450980392157\n",
+            "acc_and_f1": "0.879520697167756\n",
+            "f1": "0.8962962962962964\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8294117647058824,
+                "dev.spearmanr-5_50-mean": 0.8589145430393069
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7917537944961837,
+                "dev.uuas": 0.6920976073146115
+            }
+        },
+        "190": {
+            "acc": "0.8504901960784313\n",
+            "acc_and_f1": "0.873984593837535\n",
+            "f1": "0.8974789915966387\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "195": {
+            "acc": "0.8431372549019608\n",
+            "acc_and_f1": "0.8678773522831952\n",
+            "f1": "0.8926174496644296\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8305882352941176,
+                "dev.spearmanr-5_50-mean": 0.8600167027352572
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7928603069529553,
+                "dev.uuas": 0.6896039897880425
+            }
+        },
+        "200": {
+            "acc": "0.8774509803921569\n",
+            "acc_and_f1": "0.8945558788886578\n",
+            "f1": "0.9116607773851589\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "205": {
+            "acc": "0.8651960784313726\n",
+            "acc_and_f1": "0.8837525685229688\n",
+            "f1": "0.9023090586145649\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8270588235294117,
+                "dev.spearmanr-5_50-mean": 0.8588985130545114
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7929603451269907,
+                "dev.uuas": 0.6913257733182925
+            }
+        },
+        "210": {
+            "acc": "0.8602941176470589\n",
+            "acc_and_f1": "0.8812619816365654\n",
+            "f1": "0.902229845626072\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "215": {
+            "acc": "0.8529411764705882\n",
+            "acc_and_f1": "0.8742057798729248\n",
+            "f1": "0.8954703832752613\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8294117647058824,
+                "dev.spearmanr-5_50-mean": 0.8602553026873055
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7933193958223815,
+                "dev.uuas": 0.6920085495458054
+            }
+        },
+        "220": {
+            "acc": "0.8602941176470589\n",
+            "acc_and_f1": "0.8798825085589792\n",
+            "f1": "0.8994708994708994\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "225": {
+            "acc": "0.8480392156862745\n",
+            "acc_and_f1": "0.8714772349617813\n",
+            "f1": "0.8949152542372881\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8247058823529412,
+                "dev.spearmanr-5_50-mean": 0.8594878121493635
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.792215590016081,
+                "dev.uuas": 0.6888024698687882
+            }
+        },
+        "230": {
+            "acc": "0.8553921568627451\n",
+            "acc_and_f1": "0.8767461647871584\n",
+            "f1": "0.8981001727115717\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "235": {
+            "acc": "0.8676470588235294\n",
+            "acc_and_f1": "0.886288318144159\n",
+            "f1": "0.9049295774647886\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8252941176470588,
+                "dev.spearmanr-5_50-mean": 0.8591155571837257
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7912512855265935,
+                "dev.uuas": 0.6849729858101289
+            }
+        },
+        "240": {
+            "acc": "0.8529411764705882\n",
+            "acc_and_f1": "0.8756231306081754\n",
+            "f1": "0.8983050847457628\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "245": {
+            "acc": "0.8602941176470589\n",
+            "acc_and_f1": "0.8817599620493359\n",
+            "f1": "0.9032258064516129\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8241176470588235,
+                "dev.spearmanr-5_50-mean": 0.8586814436025554
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7907191349267321,
+                "dev.uuas": 0.6817372202101764
+            }
+        },
+        "250": {
+            "acc": "0.8651960784313726\n",
+            "acc_and_f1": "0.8847719522591646\n",
+            "f1": "0.9043478260869565\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "255": {
+            "acc": "0.8700980392156863\n",
+            "acc_and_f1": "0.8886392122523266\n",
+            "f1": "0.9071803852889667\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8182352941176471,
+                "dev.spearmanr-5_50-mean": 0.8564705752604211
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7897657213336357,
+                "dev.uuas": 0.6795701478358962
+            }
+        },
+        "260": {
+            "acc": "0.8700980392156863\n",
+            "acc_and_f1": "0.8895944741532977\n",
+            "f1": "0.9090909090909091\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "265": {
+            "acc": "0.8676470588235294\n",
+            "acc_and_f1": "0.8875906526994359\n",
+            "f1": "0.9075342465753423\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8170588235294117,
+                "dev.spearmanr-5_50-mean": 0.8558128983275656
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7894291219221548,
+                "dev.uuas": 0.6804310396010212
+            }
+        },
+        "270": {
+            "acc": "0.8578431372549019\n",
+            "acc_and_f1": "0.8794335140199425\n",
+            "f1": "0.901023890784983\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "275": {
+            "acc": "0.8553921568627451\n",
+            "acc_and_f1": "0.8777806808002389\n",
+            "f1": "0.9001692047377327\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8164705882352942,
+                "dev.spearmanr-5_50-mean": 0.8552712217144891
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7894524343984739,
+                "dev.uuas": 0.6797482633735082
+            }
+        },
+        "280": {
+            "acc": "0.8602941176470589\n",
+            "acc_and_f1": "0.8812619816365654\n",
+            "f1": "0.902229845626072\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "285": {
+            "acc": "0.8627450980392157\n",
+            "acc_and_f1": "0.8830966869506424\n",
+            "f1": "0.903448275862069\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8158823529411765,
+                "dev.spearmanr-5_50-mean": 0.8555960787383554
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7890542811776314,
+                "dev.uuas": 0.6786201983019652
+            }
+        },
+        "290": {
+            "acc": "0.8627450980392157\n",
+            "acc_and_f1": "0.8827614379084967\n",
+            "f1": "0.9027777777777778\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "295": {
+            "acc": "0.8700980392156863\n",
+            "acc_and_f1": "0.8886392122523266\n",
+            "f1": "0.9071803852889667\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8135294117647058,
+                "dev.spearmanr-5_50-mean": 0.8538004551989637
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7895439718247136,
+                "dev.uuas": 0.678174909457935
+            }
+        },
+        "300": {
+            "acc": "0.8725490196078431\n",
+            "acc_and_f1": "0.8904998619165976\n",
+            "f1": "0.9084507042253521\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "305": {
+            "acc": "0.8627450980392157\n",
+            "acc_and_f1": "0.8825920612147299\n",
+            "f1": "0.902439024390244\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8111764705882353,
+                "dev.spearmanr-5_50-mean": 0.8530474818982386
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7890670259702507,
+                "dev.uuas": 0.6784717686872885
+            }
+        },
+        "310": {
+            "acc": "0.8651960784313726\n",
+            "acc_and_f1": "0.8847719522591646\n",
+            "f1": "0.9043478260869565\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "315": {
+            "acc": "0.8627450980392157\n",
+            "acc_and_f1": "0.8825920612147299\n",
+            "f1": "0.902439024390244\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8123529411764706,
+                "dev.spearmanr-5_50-mean": 0.8536487995958997
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7895760253579335,
+                "dev.uuas": 0.6776702487680342
+            }
+        },
+        "320": {
+            "acc": "0.8602941176470589\n",
+            "acc_and_f1": "0.8805818414322251\n",
+            "f1": "0.9008695652173914\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "325": {
+            "acc": "0.8578431372549019\n",
+            "acc_and_f1": "0.8787485582468281\n",
+            "f1": "0.8996539792387542\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8135294117647058,
+                "dev.spearmanr-5_50-mean": 0.8534142221677012
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7894330320798167,
+                "dev.uuas": 0.6772843317698747
+            }
+        },
+        "330": {
+            "acc": "0.8651960784313726\n",
+            "acc_and_f1": "0.8854282278949316\n",
+            "f1": "0.9056603773584906\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "335": {
+            "acc": "0.8700980392156863\n",
+            "acc_and_f1": "0.8897498743086978\n",
+            "f1": "0.9094017094017094\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8111764705882353,
+                "dev.spearmanr-5_50-mean": 0.8528176059611093
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7895082416932047,
+                "dev.uuas": 0.6776999346909696
+            }
+        },
+        "340": {
+            "acc": "0.8700980392156863\n",
+            "acc_and_f1": "0.8897498743086978\n",
+            "f1": "0.9094017094017094\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "345": {
+            "acc": "0.8651960784313726\n",
+            "acc_and_f1": "0.8857496576143234\n",
+            "f1": "0.9063032367972743\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8135294117647058,
+                "dev.spearmanr-5_50-mean": 0.8528927181728205
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.7894878712888488,
+                "dev.uuas": 0.6770765303093274
+            }
+        }
+    },
+    "run5": {
+        "0": {
+            "acc": "0.31862745098039214\n",
+            "acc_and_f1": "0.18000338066260987\n",
+            "f1": "0.04137931034482759\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8411764705882353,
+                "dev.spearmanr-5_50-mean": 0.8627648152866605
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8035446230461999,
+                "dev.uuas": 0.7266223356884165
+            }
+        },
+        "5": {
+            "acc": "0.6838235294117647\n",
+            "acc_and_f1": "0.7480253018237863\n",
+            "f1": "0.8122270742358079\n",
+            "parse-depth": {
+                "dev.root_acc": 0.84,
+                "dev.spearmanr-5_50-mean": 0.8628877592811458
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8082209034002052,
+                "dev.uuas": 0.7290268954461794
+            }
+        },
+        "10": {
+            "acc": "0.6887254901960784\n",
+            "acc_and_f1": "0.7516620151710319\n",
+            "f1": "0.8145985401459854\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "15": {
+            "acc": "0.6887254901960784\n",
+            "acc_and_f1": "0.737640056022409\n",
+            "f1": "0.7865546218487395\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8388235294117647,
+                "dev.spearmanr-5_50-mean": 0.8614001362224656
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8120330005029438,
+                "dev.uuas": 0.7287003502938907
+            }
+        },
+        "20": {
+            "acc": "0.7205882352941176\n",
+            "acc_and_f1": "0.7662347117064647\n",
+            "f1": "0.8118811881188119\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "25": {
+            "acc": "0.6740196078431373\n",
+            "acc_and_f1": "0.7048030444782287\n",
+            "f1": "0.7355864811133201\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8364705882352941,
+                "dev.spearmanr-5_50-mean": 0.86037882577274
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8127739116340804,
+                "dev.uuas": 0.7256130143086148
+            }
+        },
+        "30": {
+            "acc": "0.7132352941176471\n",
+            "acc_and_f1": "0.7689115001322868\n",
+            "f1": "0.8245877061469266\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "35": {
+            "acc": "0.7058823529411765\n",
+            "acc_and_f1": "0.7641837800208842\n",
+            "f1": "0.8224852071005917\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8270588235294117,
+                "dev.spearmanr-5_50-mean": 0.8580033640995363
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8089937352461037,
+                "dev.uuas": 0.7202398622573176
+            }
+        },
+        "40": {
+            "acc": "0.7573529411764706\n",
+            "acc_and_f1": "0.8004774184555339\n",
+            "f1": "0.8436018957345972\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "45": {
+            "acc": "0.7254901960784313\n",
+            "acc_and_f1": "0.7781529530241099\n",
+            "f1": "0.8308157099697885\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8229411764705883,
+                "dev.spearmanr-5_50-mean": 0.8571699249061594
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8087246360409861,
+                "dev.uuas": 0.7174196995784599
+            }
+        },
+        "50": {
+            "acc": "0.7549019607843137\n",
+            "acc_and_f1": "0.7975787759193134\n",
+            "f1": "0.840255591054313\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "55": {
+            "acc": "0.7671568627450981\n",
+            "acc_and_f1": "0.8006813982137357\n",
+            "f1": "0.8342059336823735\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8223529411764706,
+                "dev.spearmanr-5_50-mean": 0.857842148729466
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8132859352702851,
+                "dev.uuas": 0.7231490827049813
+            }
+        },
+        "60": {
+            "acc": "0.7720588235294118\n",
+            "acc_and_f1": "0.8054401569986747\n",
+            "f1": "0.8388214904679375\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "65": {
+            "acc": "0.7769607843137255\n",
+            "acc_and_f1": "0.8170518207282913\n",
+            "f1": "0.8571428571428571\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8364705882352941,
+                "dev.spearmanr-5_50-mean": 0.8595537082185123
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8134257608941309,
+                "dev.uuas": 0.72347562785727
+            }
+        },
+        "70": {
+            "acc": "0.8357843137254902\n",
+            "acc_and_f1": "0.8577485302918295\n",
+            "f1": "0.8797127468581688\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "75": {
+            "acc": "0.8161764705882353\n",
+            "acc_and_f1": "0.8467134398767691\n",
+            "f1": "0.8772504091653027\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8358823529411765,
+                "dev.spearmanr-5_50-mean": 0.8582685159171323
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8069157839630224,
+                "dev.uuas": 0.714926082051891
+            }
+        },
+        "80": {
+            "acc": "0.8308823529411765\n",
+            "acc_and_f1": "0.8521384241770102\n",
+            "f1": "0.8733944954128441\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "85": {
+            "acc": "0.8308823529411765\n",
+            "acc_and_f1": "0.8562645040863688\n",
+            "f1": "0.881646655231561\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8364705882352941,
+                "dev.spearmanr-5_50-mean": 0.8612039308476716
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8081600892022461,
+                "dev.uuas": 0.7158166597399513
+            }
+        },
+        "90": {
+            "acc": "0.8235294117647058\n",
+            "acc_and_f1": "0.8509538950715421\n",
+            "f1": "0.8783783783783784\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "95": {
+            "acc": "0.8161764705882353\n",
+            "acc_and_f1": "0.845483894726505\n",
+            "f1": "0.8747913188647747\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8329411764705882,
+                "dev.spearmanr-5_50-mean": 0.861239116163382
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8066017559071059,
+                "dev.uuas": 0.7130558689069643
+            }
+        },
+        "100": {
+            "acc": "0.8333333333333334\n",
+            "acc_and_f1": "0.8582474226804124\n",
+            "f1": "0.8831615120274915\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "105": {
+            "acc": "0.8014705882352942\n",
+            "acc_and_f1": "0.8269648023143683\n",
+            "f1": "0.8524590163934426\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8247058823529412,
+                "dev.spearmanr-5_50-mean": 0.8586413623660775
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8080405893670298,
+                "dev.uuas": 0.7170634685032358
+            }
+        },
+        "110": {
+            "acc": "0.821078431372549\n",
+            "acc_and_f1": "0.8479320115696364\n",
+            "f1": "0.8747855917667238\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "115": {
+            "acc": "0.8137254901960784\n",
+            "acc_and_f1": "0.8417942519473542\n",
+            "f1": "0.8698630136986301\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8329411764705882,
+                "dev.spearmanr-5_50-mean": 0.8571914884358344
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8108552155103332,
+                "dev.uuas": 0.7236834293178175
+            }
+        },
+        "120": {
+            "acc": "0.8308823529411765\n",
+            "acc_and_f1": "0.8535022177632274\n",
+            "f1": "0.8761220825852782\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "125": {
+            "acc": "0.8308823529411765\n",
+            "acc_and_f1": "0.8566677522797876\n",
+            "f1": "0.8824531516183987\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8323529411764706,
+                "dev.spearmanr-5_50-mean": 0.8628666179344276
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8120579838718988,
+                "dev.uuas": 0.7206257792554771
+            }
+        },
+        "130": {
+            "acc": "0.8284313725490197\n",
+            "acc_and_f1": "0.8550940646528882\n",
+            "f1": "0.8817567567567567\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "135": {
+            "acc": "0.8308823529411765\n",
+            "acc_and_f1": "0.8545946156240274\n",
+            "f1": "0.8783068783068784\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8294117647058824,
+                "dev.spearmanr-5_50-mean": 0.8625633779579175
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8130349689135162,
+                "dev.uuas": 0.7201211185655763
+            }
+        },
+        "140": {
+            "acc": "0.8382352941176471\n",
+            "acc_and_f1": "0.8628036538847621\n",
+            "f1": "0.8873720136518771\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "145": {
+            "acc": "0.8406862745098039\n",
+            "acc_and_f1": "0.8638213981244671\n",
+            "f1": "0.8869565217391304\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8282352941176471,
+                "dev.spearmanr-5_50-mean": 0.8624345116935789
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8104870886362164,
+                "dev.uuas": 0.7161728908151754
+            }
+        },
+        "150": {
+            "acc": "0.8431372549019608\n",
+            "acc_and_f1": "0.8658194985311198\n",
+            "f1": "0.8885017421602788\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "155": {
+            "acc": "0.8529411764705882\n",
+            "acc_and_f1": "0.87251375370292\n",
+            "f1": "0.8920863309352518\n",
+            "parse-depth": {
+                "dev.root_acc": 0.821764705882353,
+                "dev.spearmanr-5_50-mean": 0.858508752387488
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8072158392251639,
+                "dev.uuas": 0.7122246630647747
+            }
+        },
+        "160": {
+            "acc": "0.8578431372549019\n",
+            "acc_and_f1": "0.8778652305992819\n",
+            "f1": "0.8978873239436619\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "165": {
+            "acc": "0.8504901960784313\n",
+            "acc_and_f1": "0.8734624155264822\n",
+            "f1": "0.896434634974533\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8158823529411765,
+                "dev.spearmanr-5_50-mean": 0.8538970077269055
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8027703364303124,
+                "dev.uuas": 0.703971976488749
+            }
+        },
+        "170": {
+            "acc": "0.8504901960784313\n",
+            "acc_and_f1": "0.8734624155264822\n",
+            "f1": "0.896434634974533\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "175": {
+            "acc": "0.8357843137254902\n",
+            "acc_and_f1": "0.8617782540151739\n",
+            "f1": "0.8877721943048577\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8105882352941176,
+                "dev.spearmanr-5_50-mean": 0.8525831175726699
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8045242397844224,
+                "dev.uuas": 0.7075046013180549
+            }
+        },
+        "180": {
+            "acc": "0.8406862745098039\n",
+            "acc_and_f1": "0.8630239132690114\n",
+            "f1": "0.8853615520282188\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "185": {
+            "acc": "0.8406862745098039\n",
+            "acc_and_f1": "0.8630239132690114\n",
+            "f1": "0.8853615520282188\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8123529411764706,
+                "dev.spearmanr-5_50-mean": 0.8522191730772607
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8045002813762864,
+                "dev.uuas": 0.7066140236299947
+            }
+        },
+        "190": {
+            "acc": "0.8504901960784313\n",
+            "acc_and_f1": "0.8731083459024636\n",
+            "f1": "0.8957264957264958\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "195": {
+            "acc": "0.8529411764705882\n",
+            "acc_and_f1": "0.8723189636865576\n",
+            "f1": "0.8916967509025271\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8252941176470588,
+                "dev.spearmanr-5_50-mean": 0.8567089523548443
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8057249828907682,
+                "dev.uuas": 0.7113934572225851
+            }
+        },
+        "200": {
+            "acc": "0.8504901960784313\n",
+            "acc_and_f1": "0.873984593837535\n",
+            "f1": "0.8974789915966387\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "205": {
+            "acc": "0.8382352941176471\n",
+            "acc_and_f1": "0.8644818854694196\n",
+            "f1": "0.890728476821192\n",
+            "parse-depth": {
+                "dev.root_acc": 0.83,
+                "dev.spearmanr-5_50-mean": 0.8567621363182539
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8064494094493059,
+                "dev.uuas": 0.7109481683785549
+            }
+        },
+        "210": {
+            "acc": "0.8602941176470589\n",
+            "acc_and_f1": "0.8805818414322251\n",
+            "f1": "0.9008695652173914\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "215": {
+            "acc": "0.8578431372549019\n",
+            "acc_and_f1": "0.8775031289111389\n",
+            "f1": "0.8971631205673759\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8229411764705883,
+                "dev.spearmanr-5_50-mean": 0.8571059891676647
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8065366006809961,
+                "dev.uuas": 0.7133824140592531
+            }
+        },
+        "220": {
+            "acc": "0.8504901960784313\n",
+            "acc_and_f1": "0.8727494009652054\n",
+            "f1": "0.8950086058519794\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "225": {
+            "acc": "0.8627450980392157\n",
+            "acc_and_f1": "0.8829296424452133\n",
+            "f1": "0.903114186851211\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8211764705882353,
+                "dev.spearmanr-5_50-mean": 0.8560652385170585
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8069837073114374,
+                "dev.uuas": 0.7142136199014427
+            }
+        },
+        "230": {
+            "acc": "0.8578431372549019\n",
+            "acc_and_f1": "0.8771358543417367\n",
+            "f1": "0.8964285714285715\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "235": {
+            "acc": "0.8578431372549019\n",
+            "acc_and_f1": "0.8782222679281503\n",
+            "f1": "0.8986013986013986\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8194117647058824,
+                "dev.spearmanr-5_50-mean": 0.8556160693354684
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8068969174319368,
+                "dev.uuas": 0.7125215222941281
+            }
+        },
+        "240": {
+            "acc": "0.8480392156862745\n",
+            "acc_and_f1": "0.8709374160623153\n",
+            "f1": "0.8938356164383561\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "245": {
+            "acc": "0.8627450980392157\n",
+            "acc_and_f1": "0.8829296424452133\n",
+            "f1": "0.903114186851211\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8188235294117647,
+                "dev.spearmanr-5_50-mean": 0.8550762261570665
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.806595576736151,
+                "dev.uuas": 0.7114528290684557
+            }
+        },
+        "250": {
+            "acc": "0.8627450980392157\n",
+            "acc_and_f1": "0.8802776585086589\n",
+            "f1": "0.8978102189781021\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "255": {
+            "acc": "0.8431372549019608\n",
+            "acc_and_f1": "0.8618671349136671\n",
+            "f1": "0.8805970149253732\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8147058823529412,
+                "dev.spearmanr-5_50-mean": 0.8530406922071687
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8056472456531338,
+                "dev.uuas": 0.7101169625363652
+            }
+        },
+        "260": {
+            "acc": "0.8602941176470589\n",
+            "acc_and_f1": "0.8791631590024204\n",
+            "f1": "0.8980322003577819\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "265": {
+            "acc": "0.8455882352941176\n",
+            "acc_and_f1": "0.8696743874615613\n",
+            "f1": "0.893760539629005\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8094117647058824,
+                "dev.spearmanr-5_50-mean": 0.8542506479242497
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8044291165329333,
+                "dev.uuas": 0.7049516119456154
+            }
+        },
+        "270": {
+            "acc": "0.8455882352941176\n",
+            "acc_and_f1": "0.8696743874615613\n",
+            "f1": "0.893760539629005\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "275": {
+            "acc": "0.8480392156862745\n",
+            "acc_and_f1": "0.8714772349617813\n",
+            "f1": "0.8949152542372881\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8070588235294117,
+                "dev.spearmanr-5_50-mean": 0.8527910674183398
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8037346220639282,
+                "dev.uuas": 0.7030517128777534
+            }
+        },
+        "280": {
+            "acc": "0.8578431372549019\n",
+            "acc_and_f1": "0.8792640343808756\n",
+            "f1": "0.9006849315068494\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "285": {
+            "acc": "0.8529411764705882\n",
+            "acc_and_f1": "0.8752760489861473\n",
+            "f1": "0.8976109215017065\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8076470588235294,
+                "dev.spearmanr-5_50-mean": 0.852679233339439
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8032585957869817,
+                "dev.uuas": 0.7024283084961112
+            }
+        },
+        "290": {
+            "acc": "0.8553921568627451\n",
+            "acc_and_f1": "0.8770957353781993\n",
+            "f1": "0.8987993138936535\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "295": {
+            "acc": "0.8529411764705882\n",
+            "acc_and_f1": "0.8754501800720287\n",
+            "f1": "0.8979591836734693\n",
+            "parse-depth": {
+                "dev.root_acc": 0.81,
+                "dev.spearmanr-5_50-mean": 0.8534262088590779
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8038307846914726,
+                "dev.uuas": 0.7042391497951671
+            }
+        },
+        "300": {
+            "acc": "0.8480392156862745\n",
+            "acc_and_f1": "0.8714772349617813\n",
+            "f1": "0.8949152542372881\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "305": {
+            "acc": "0.8504901960784313\n",
+            "acc_and_f1": "0.8734624155264822\n",
+            "f1": "0.896434634974533\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8194117647058824,
+                "dev.spearmanr-5_50-mean": 0.8542796954194515
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8049882896380405,
+                "dev.uuas": 0.704832868253874
+            }
+        },
+        "310": {
+            "acc": "0.8578431372549019\n",
+            "acc_and_f1": "0.8794335140199425\n",
+            "f1": "0.901023890784983\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "315": {
+            "acc": "0.8553921568627451\n",
+            "acc_and_f1": "0.8772687280040221\n",
+            "f1": "0.8991452991452993\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8094117647058824,
+                "dev.spearmanr-5_50-mean": 0.8549439378903915
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.805541454884155,
+                "dev.uuas": 0.7053375289437749
+            }
+        },
+        "320": {
+            "acc": "0.8504901960784313\n",
+            "acc_and_f1": "0.8732859838995224\n",
+            "f1": "0.8960817717206134\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "325": {
+            "acc": "0.8529411764705882\n",
+            "acc_and_f1": "0.8754501800720287\n",
+            "f1": "0.8979591836734693\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8135294117647058,
+                "dev.spearmanr-5_50-mean": 0.8538851271444162
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8052070497101489,
+                "dev.uuas": 0.7044469512557145
+            }
+        },
+        "330": {
+            "acc": "0.8553921568627451\n",
+            "acc_and_f1": "0.8772687280040221\n",
+            "f1": "0.8991452991452993\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "335": {
+            "acc": "0.8602941176470589\n",
+            "acc_and_f1": "0.8812619816365654\n",
+            "f1": "0.902229845626072\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8111764705882353,
+                "dev.spearmanr-5_50-mean": 0.8546025051687117
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8049072581782697,
+                "dev.uuas": 0.7034376298759129
+            }
+        },
+        "340": {
+            "acc": "0.8627450980392157\n",
+            "acc_and_f1": "0.8830966869506424\n",
+            "f1": "0.903448275862069\n",
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            }
+        },
+        "345": {
+            "acc": "0.8627450980392157\n",
+            "acc_and_f1": "0.8830966869506424\n",
+            "f1": "0.903448275862069\n",
+            "parse-depth": {
+                "dev.root_acc": 0.8129411764705883,
+                "dev.spearmanr-5_50-mean": 0.8536459080550284
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.804744486995186,
+                "dev.uuas": 0.7040016624116844
+            }
+        }
+    }
+}
