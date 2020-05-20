@@ -12,33 +12,96 @@ def remove_empty_values(x, y):
     return x, y
 
 
-def _fix_results(results):
+def _fix_results(file_path):
     """
-    Due to some random issues with the HPC, some runs got stuck and did not finish.
-    We mock that missing data with data from other runs just to be able to plot results.
+    To unify results, we keep 30 checkpoints
     """
 
-    # remove checkpoints not probed
-    new_results = {}
-    for run in results:
-        new_results[run] = {}
-        for checkpoint in results[run]:
-            if results[run][checkpoint]['parse-depth']['dev.root_acc'] is not None:
-                new_results[run][checkpoint] = results[run][checkpoint]
+    def _get_checkpoint_name(checkpoint, i):
 
-    # downsize to 30 checkpoints
-    for run in new_results:
-        if len(new_results[run].keys()) != 30:
-            print('babau')
+        if 'output/checkpoint-' in checkpoint:
+            new_checkpoint_name = int(checkpoint.split('/')[1].replace('checkpoint-', ''))
+        elif 'output/model_state_epoch_' in checkpoint:
+            new_checkpoint_name = i
+        elif checkpoint == 'bert-base-cased':
+            new_checkpoint_name = 0
+        else:
+            new_checkpoint_name = int(checkpoint)
 
+        return new_checkpoint_name
 
-    return new_results
+    max_checkpoints = 30
+
+    with open(file_path) as json_file:
+        results = json.load(json_file)
+
+        # 1. Let's assume that run1 is correct.
+
+        # 1. remove checkpoints not probed from run1
+        num_added = 0
+        new_results = {}
+        new_results['run1'] = {}
+        for i, checkpoint in enumerate(results['run1']):
+            new_checkpoint_name = _get_checkpoint_name(checkpoint, i)
+            if results['run1'][checkpoint]['parse-depth']['dev.root_acc'] is not None:
+                new_results['run1'][new_checkpoint_name] = results['run1'][checkpoint]
+                num_added += 1
+                if num_added == max_checkpoints:
+                    break
+
+        # 2. remove not wanted checkpoints from other runs
+
+        for run in results:
+            if run != 'run1':
+                new_results[run] = {}
+                for i, checkpoint in enumerate(results[run]):
+                    new_checkpoint_name = _get_checkpoint_name(checkpoint, i)
+                    if new_checkpoint_name in new_results['run1']:
+                        new_results[run][new_checkpoint_name] = results[run][checkpoint]
+
+        # 3. enforce same length (only 2 checkpoits are missing from SRL run5)
+
+        for run in new_results:
+            if new_results[run].keys() != new_results['run1'].keys():
+                print('run %s of file_path %s is missing keys. We fix it by copying them from run1.' % (run, file_path))
+                for checkpoint in new_results['run1']:
+                    if checkpoint not in new_results[run]:
+                        new_results[run][checkpoint] = new_results['run1'][checkpoint]
+
+        # 4. enforce float numbers, not strings, for metrics
+        for run in new_results:
+            for checkpoint in new_results[run]:
+                for metric in new_results[run][checkpoint]:
+                    value = new_results[run][checkpoint][metric]
+                    if isinstance(value, str) and '\n' in value:
+                        new_results[run][checkpoint][metric] = float(value.replace('\n', ''))
+
+        # 5. copy null values form other runs
+
+        for run in new_results:
+            for checkpoint in new_results[run]:
+                if checkpoint != 0:
+                    for metric in new_results[run][checkpoint]:
+
+                        value = new_results[run][checkpoint][metric]
+                        if value is None or (metric == 'parse-depth' and value['dev.root_acc'] is None) \
+                                         or (metric == 'parse-distance' and value['dev.uuas'] is None):
+
+                            copy_from = 'run1' if run != 'run1' else 'run2'
+                            print('file_path %s; run %s; checkpoint %s; metric %s is null; we copy it from %s.' % (
+                            file_path, run, checkpoint, metric, copy_from))
+                            new_results[run][checkpoint][metric] = new_results[copy_from][checkpoint][metric]
+
+        # 6. save new results
+
+        new_file_path = file_path.replace('.json', '_fixed.json')
+        with open(new_file_path, 'w') as outfile:
+            json.dump(new_results, outfile, indent=4, sort_keys=True)
 
 
 def load_traces(file_path, task, glue_task_name=None):
     with open(file_path) as json_file:
         results = json.load(json_file)
-        results = _fix_results(results)
         traces = []
         for run in results:
             x_axis_values, traces_run = _get_run_data(results[run], run, task, glue_task_name)
@@ -56,8 +119,10 @@ def _get_run_data(data, run_name, task, glue_task_name):
         return _get_pap_constituents_run_data(data, run_name)
     elif task == 'squad':
         return _get_squad_run_data(data, run_name)
-    elif task == 'glue':
-        return _get_glue_run_data(data[glue_task_name], run_name)
+    elif task == 'mrpc':
+        return _get_glue_run_data(data, run_name)
+    elif task == 'qqp':
+        return _get_glue_run_data(data, run_name)
     elif task == 'srl':
         return _get_srl_run_data(data, run_name)
 
@@ -227,13 +292,7 @@ def _get_pap_constituents_run_data(data, run_name):
     pap_eval_score = []
     pap_loss = []
 
-    new_data = {}
     for checkpoint in data:
-        new_checkpoint = int(checkpoint.split('/')[1].replace('checkpoint-', ''))
-        new_data[new_checkpoint] = data[checkpoint]
-    data = new_data
-
-    for checkpoint in sorted(data):
         depth_root_acc.append(data[checkpoint]['parse-depth']['dev.root_acc'])
         depth_spearmanr_mean.append(data[checkpoint]['parse-depth']['dev.spearmanr-5_50-mean'])
         distance_uuas.append(data[checkpoint]['parse-distance']['dev.uuas'])
@@ -380,6 +439,9 @@ def _get_glue_run_data(data, run_name):
 
 
 def _plot_figure(figure_name, traces, x_axis_values, x_axis_label, y_axis_label, y_axis_values=None, legend_dict=None):
+
+    x_axis_values = [a for a in range(30)]  # TODO we could pass this as a parameter
+
     fig = go.Figure(
         data=traces
     )
@@ -410,13 +472,13 @@ def _plot_figure(figure_name, traces, x_axis_values, x_axis_label, y_axis_label,
     fig.show()
 
 
-def create_figure(data, traces_name, traces_style, image_name, legend_dict, y_axis_label, y_axis_range, colors, dash_types):
+def create_figure(data, traces_name, image_name, legend_dict, y_axis_label, y_axis_range, colors, dash_types=None):
     x_axis_label = 'Finetuning checkpoints'
 
     data_to_plot = []
     for task_name, traces, x_axis_values in data:
         traces_to_plot = [a for a in traces if traces_name in a['name']]
-        style = 'solid' if not traces_style else dash_types[task_name]
+        style = 'solid' if not dash_types else dash_types[task_name]
         data_to_plot += _get_min_max_avg_traces(traces_to_plot, task_name, style, colors[task_name])
 
     image_name = image_name
@@ -503,10 +565,113 @@ def _get_min_max_avg_traces(data, task_name=None, dash_type='solid', task_color=
 
 if __name__ == '__main__':
 
-    file_path = 'bert_base_cased_finetuned_pos_results.json'
-    with open(file_path) as json_file:
-        results = json.load(json_file)
-        new_results = _fix_results(results)
-        with open('babau.json', 'w') as outfile:
-            json.dump(new_results, outfile, indent=4, sort_keys=True)
+    # Generate tractable results for all taks
+    _fix_results('bert_base_cased_finetuned_pos_results.json')
+    _fix_results('bert_base_cased_finetuned_squad_results.json')
+    _fix_results('bert_base_cased_finetuned_mrpc_results.json')
+    _fix_results('bert_base_cased_finetuned_qqp_results.json')
+    _fix_results('bert_base_cased_finetuned_parsing_results.json')
+    _fix_results('bert_base_cased_finetuned_parsing_multilingual_results.json')
+    _fix_results('bert_base_cased_finetuned_parsing_ptb_results.json')
+    _fix_results('bert_base_cased_finetuned_pap_constituents_results.json')
+    _fix_results('bert_base_cased_finetuned_srl_results.json')
+
+    # t_pos, x_pos = load_traces('bert_base_cased_finetuned_pos_results_fixed.json', 'pos')
+    # t_pars, x_pars = load_traces('bert_base_cased_finetuned_parsing_results_fixed.json', 'parsing')
+    # t_pars_mul, x_pars_mul = load_traces('bert_base_cased_finetuned_parsing_multilingual_results_fixed.json', 'parsing')
+    # t_pars_ptb, x_pars_ptb = load_traces('bert_base_cased_finetuned_parsing_ptb_results_fixed.json', 'parsing')
+    # t_pars_const, x_pars_const = load_traces('bert_base_cased_finetuned_pap_constituents_results_fixed.json',
+    #                                          'constituent_parsing')
+    # t_squad, x_squad = load_traces('bert_base_cased_finetuned_squad_results_fixed.json', 'squad')
+    # t_qqpt, x_qqpt = load_traces('bert_base_cased_finetuned_qqp_results_fixed.json', 'qqp')
+    # t_mrpc, x_mrpc = load_traces('bert_base_cased_finetuned_mrpc_results_fixed.json', 'mrpc')
+    # t_srl, x_srl = load_traces('bert_base_cased_finetuned_srl_results_fixed.json', 'srl')
+    #
+    # all_data = [('PoS Tagging', t_pos, x_pos),
+    #             ('Dependency parsing; EN UD EWT', t_pars, x_pars),
+    #             ('Dependency parsing; UD multilingual', t_pars_mul, x_pars_mul),
+    #             ('Dependency parsing; PTB SD', t_pars_ptb, x_pars_ptb),
+    #             ('Constituent parsing', t_pars_const, x_pars_const),
+    #             ('Question Answering', t_squad, x_squad),
+    #             ('Paraphrasing; QQPT', t_qqpt, x_qqpt),
+    #             ('Paraphrasing; MRPC', t_mrpc, x_mrpc),
+    #             ('Semantic Role Labeling', t_srl, x_srl)]
+    #
+    # syntactic_data = [('PoS Tagging', t_pos, x_pos),
+    #                   ('Dependency parsing; EN UD EWT', t_pars, x_pars),
+    #                   ('Dependency parsing; UD multilingual', t_pars_mul, x_pars_mul),
+    #                   ('Dependency parsing; PTB SD', t_pars_ptb, x_pars_ptb),
+    #                   ('Constituent parsing', t_pars_const, x_pars_const)]
+    #
+    # semantic_data = [('Question Answering', t_squad, x_squad),
+    #                  ('Paraphrasing; QQPT', t_qqpt, x_qqpt),
+    #                  ('Paraphrasing; MRPC', t_mrpc, x_mrpc),
+    #                  ('Semantic Role Labeling', t_srl, x_srl)]
+    #
+    # colors = {
+    #     'PoS Tagging': '#1f77b4',
+    #     'Dependency parsing; EN UD EWT': '#ff7f0e',
+    #     'Dependency parsing; UD multilingual': '#2ca02c',
+    #     'Dependency parsing; PTB SD': '#d62728',
+    #     'Constituent parsing': '#9467bd',
+    #     'Question Answering': '#8c564b',
+    #     'Paraphrasing; QQPT': 'rgb(180, 238, 62)',
+    #     'Paraphrasing; MRPC': 'rgb(238, 62, 180)',
+    #     'Semantic Role Labeling': 'rgb(238, 31, 90)'}
+    #
+    # dash_types = {
+    #     'PoS Tagging': 'dashdot',
+    #     'Dependency parsing; EN UD EWT': 'solid',
+    #     'Dependency parsing; UD multilingual': 'dot',
+    #     'Dependency parsing; PTB SD': 'dash',
+    #     'Constituent parsing': 'solid',
+    #     'Question Answering': 'dot',
+    #     'Paraphrasing; QQPT': 'dash',
+    #     'Paraphrasing; MRPC': 'longdash',
+    #     'Semantic Role Labeling': 'dashdot'}
+    #
+    # legend_outside_bottom = dict(
+    #     orientation='h',
+    #     y=-0.2,
+    #     x=0.05,
+    #     traceorder="normal",
+    #     font=dict(family="sans-serif", size=14, color="black"),
+    #     bgcolor="White",
+    #     bordercolor="Black",
+    #     borderwidth=1)
+    #
+    # legend_inside_bottom_right = dict(
+    #     x=0.5,
+    #     y=0.1,
+    #     traceorder="normal",
+    #     font=dict(family="sans-serif", size=14, color="black"),
+    #     bgcolor="White",
+    #     bordercolor="Black",
+    #     borderwidth=1)
+    #
+    # legend_inside_middle_right = dict(
+    #     x=0.5,
+    #     y=0.45,
+    #     traceorder="normal",
+    #     font=dict(family="sans-serif", size=14, color="black"),
+    #     bgcolor="White",
+    #     bordercolor="Black",
+    #     borderwidth=1)
+    #
+    # legend_inside_top_right = dict(
+    #     x=0.65,
+    #     y=0.90,
+    #     traceorder="normal",
+    #     font=dict(family="sans-serif", size=14, color="black"),
+    #     bgcolor="White",
+    #     bordercolor="Black",
+    #     borderwidth=1)
+    #
+    # uuas_range = [0.5, 0.92]
+    # dspr_range = [0.67, 0.91]
+    # root_range = [0.68, 0.99]
+    # nspr_range = [0.78, 0.93]
+    #
+    # create_figure_list(all_data, 'distance_uuas', 'UUAS', uuas_range)
+
 

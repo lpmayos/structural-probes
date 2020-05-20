@@ -1,0 +1,2112 @@
+{
+    "run1": {
+        "0": {
+            "label accuracy score": 0.0285032182223222,
+            "las": 0.002100920938901956,
+            "loss": 8.47292346326412,
+            "parse-depth": {
+                "dev.root_acc": 0.8411764705882353,
+                "dev.spearmanr-5_50-mean": 0.8627648152866605
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8035446230461999,
+                "dev.uuas": 0.7266223356884165
+            },
+            "uas": 0.017633100886008897
+        },
+        "250": {
+            "label accuracy score": 0.7824834341688274,
+            "las": 0.6365688905472969,
+            "loss": 1.7241843198284958,
+            "parse-depth": {
+                "dev.root_acc": 0.9447058823529412,
+                "dev.spearmanr-5_50-mean": 0.8991712215629953
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.874023508959025,
+                "dev.uuas": 0.8388944962298878
+            },
+            "uas": 0.7261042040644461
+        },
+        "500": {
+            "label accuracy score": 0.8316822906278395,
+            "las": 0.7104232104618934,
+            "loss": 1.3509778723572239,
+            "parse-depth": {
+                "dev.root_acc": 0.9464705882352941,
+                "dev.spearmanr-5_50-mean": 0.9007364480825654
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8759625462852503,
+                "dev.uuas": 0.8472659264976549
+            },
+            "uas": 0.7857633579327615
+        },
+        "750": {
+            "label accuracy score": 0.8565476586219888,
+            "las": 0.7476815668737966,
+            "loss": 1.1688995749661417,
+            "parse-depth": {
+                "dev.root_acc": 0.9505882352941176,
+                "dev.spearmanr-5_50-mean": 0.9013431874127665
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8762465082038512,
+                "dev.uuas": 0.8481861901086505
+            },
+            "uas": 0.8174766748664761
+        },
+        "1000": {
+            "label accuracy score": 0.8688252110896881,
+            "las": 0.769758934278288,
+            "loss": 1.0480853535912253,
+            "parse-depth": {
+                "dev.root_acc": 0.9523529411764706,
+                "dev.spearmanr-5_50-mean": 0.9034585959656078
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8738915878124389,
+                "dev.uuas": 0.8449801104316333
+            },
+            "uas": 0.8356049021563282
+        },
+        "1250": {
+            "label accuracy score": 0.881590319792567,
+            "las": 0.7845028994007516,
+            "loss": 0.9559790889422098,
+            "parse-depth": {
+                "dev.root_acc": 0.9541176470588235,
+                "dev.spearmanr-5_50-mean": 0.9047595483912265
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8793462330076953,
+                "dev.uuas": 0.8511844683251202
+            },
+            "uas": 0.8455776433304523
+        },
+        "1500": {
+            "label accuracy score": 0.8873745096735589,
+            "las": 0.7978868652979629,
+            "loss": 0.9190937596740145,
+            "parse-depth": {
+                "dev.root_acc": 0.9535294117647058,
+                "dev.spearmanr-5_50-mean": 0.9066548559927555
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8798975048677719,
+                "dev.uuas": 0.8527875081636288
+            },
+            "uas": 0.856880083327793
+        },
+        "1750": {
+            "label accuracy score": 0.8941559736719633,
+            "las": 0.8053124154780928,
+            "loss": 0.8574375659227371,
+            "parse-depth": {
+                "dev.root_acc": 0.9552941176470588,
+                "dev.spearmanr-5_50-mean": 0.9082887270361997
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8833250512804977,
+                "dev.uuas": 0.8559639019177107
+            },
+            "uas": 0.8619994237971766
+        },
+        "2000": {
+            "label accuracy score": 0.9006936595527779,
+            "las": 0.8170795489000636,
+            "loss": 0.8100858705513405,
+            "parse-depth": {
+                "dev.root_acc": 0.9588235294117647,
+                "dev.spearmanr-5_50-mean": 0.90753610541297
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8814127548602211,
+                "dev.uuas": 0.8529656237012408
+            },
+            "uas": 0.869911131795315
+        },
+        "2250": {
+            "label accuracy score": 0.9042838463754627,
+            "las": 0.8260632102651043,
+            "loss": 0.7715843523090536,
+            "parse-depth": {
+                "dev.root_acc": 0.9552941176470588,
+                "dev.spearmanr-5_50-mean": 0.9082326114907787
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8804484691999442,
+                "dev.uuas": 0.8511547824021849
+            },
+            "uas": 0.8746980475588946
+        },
+        "2500": {
+            "label accuracy score": 0.9066994659043061,
+            "las": 0.8292475335475258,
+            "loss": 0.7599220149444811,
+            "parse-depth": {
+                "dev.root_acc": 0.9552941176470588,
+                "dev.spearmanr-5_50-mean": 0.909466453557796
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8803264481236409,
+                "dev.uuas": 0.8526093926260168
+            },
+            "uas": 0.877845001440507
+        },
+        "2750": {
+            "label accuracy score": 0.9107550473151165,
+            "las": 0.8336403977582312,
+            "loss": 0.7440750472473375,
+            "parse-depth": {
+                "dev.root_acc": 0.9558823529411765,
+                "dev.spearmanr-5_50-mean": 0.9082310495190139
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.877675884069276,
+                "dev.uuas": 0.8523125333966634
+            },
+            "uas": 0.8810141169691732
+        },
+        "3000": {
+            "label accuracy score": 0.9127939188440485,
+            "las": 0.8411902005148083,
+            "loss": 0.7341988366661649,
+            "parse-depth": {
+                "dev.root_acc": 0.9541176470588235,
+                "dev.spearmanr-5_50-mean": 0.9082508898729451
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8772810756431078,
+                "dev.uuas": 0.8473549842664608
+            },
+            "uas": 0.8874631562617734
+        },
+        "3250": {
+            "label accuracy score": 0.9147663054318197,
+            "las": 0.8427080310974258,
+            "loss": 0.7329433596495426,
+            "parse-depth": {
+                "dev.root_acc": 0.9576470588235294,
+                "dev.spearmanr-5_50-mean": 0.908507783921387
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8777851252724875,
+                "dev.uuas": 0.8524015911654693
+            },
+            "uas": 0.8872637014382909
+        },
+        "3500": {
+            "label accuracy score": 0.9161846508432506,
+            "las": 0.8430097897554736,
+            "loss": 0.7254458661332275,
+            "parse-depth": {
+                "dev.root_acc": 0.9552941176470588,
+                "dev.spearmanr-5_50-mean": 0.9101595887181644
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8791938252578428,
+                "dev.uuas": 0.8510954105563142
+            },
+            "uas": 0.8861334574385569
+        },
+        "3750": {
+            "label accuracy score": 0.9172705715488775,
+            "las": 0.8465839002178499,
+            "loss": 0.6890041236624573,
+            "parse-depth": {
+                "dev.root_acc": 0.9547058823529412,
+                "dev.spearmanr-5_50-mean": 0.9086009033921446
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8785327550452798,
+                "dev.uuas": 0.8501157750994478
+            },
+            "uas": 0.8912749595549941
+        },
+        "4000": {
+            "label accuracy score": 0.919796999312989,
+            "las": 0.8519136670456385,
+            "loss": 0.6722282401540063,
+            "parse-depth": {
+                "dev.root_acc": 0.9570588235294117,
+                "dev.spearmanr-5_50-mean": 0.9090802452933855
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8784674353365617,
+                "dev.uuas": 0.8520156741673098
+            },
+            "uas": 0.8929814063781221
+        },
+        "4250": {
+            "label accuracy score": 0.9205061720187044,
+            "las": 0.8526043555154811,
+            "loss": 0.6769235346353415,
+            "parse-depth": {
+                "dev.root_acc": 0.9564705882352941,
+                "dev.spearmanr-5_50-mean": 0.9074290218026586
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8781075493976749,
+                "dev.uuas": 0.8508579231728315
+            },
+            "uas": 0.8928262748487468
+        },
+        "4500": {
+            "label accuracy score": 0.9230769230769231,
+            "las": 0.8552011156327268,
+            "loss": 0.662740142959537,
+            "parse-depth": {
+                "dev.root_acc": 0.9570588235294117,
+                "dev.spearmanr-5_50-mean": 0.9101960740249571
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8808737444370963,
+                "dev.uuas": 0.8550436383067149
+            },
+            "uas": 0.8948208230835716
+        },
+        "4750": {
+            "label accuracy score": 0.9225893668417436,
+            "las": 0.8558891251719892,
+            "loss": 0.6529077223756097,
+            "parse-depth": {
+                "dev.root_acc": 0.9582352941176471,
+                "dev.spearmanr-5_50-mean": 0.9108584812456165
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8791294861289577,
+                "dev.uuas": 0.8505907498664134
+            },
+            "uas": 0.896327815083217
+        },
+        "5000": {
+            "label accuracy score": 0.9231434080180839,
+            "las": 0.8569199584329011,
+            "loss": 0.6386276361617175,
+            "parse-depth": {
+                "dev.root_acc": 0.9588235294117647,
+                "dev.spearmanr-5_50-mean": 0.9115929691668079
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.881342595907736,
+                "dev.uuas": 0.8544796057709434
+            },
+            "uas": 0.8984331715533098
+        },
+        "5250": {
+            "label accuracy score": 0.925004986370587,
+            "las": 0.8599976345739963,
+            "loss": 0.6220301387436462,
+            "parse-depth": {
+                "dev.root_acc": 0.9582352941176471,
+                "dev.spearmanr-5_50-mean": 0.9108694323008908
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8802973707181269,
+                "dev.uuas": 0.8524015911654693
+            },
+            "uas": 0.8999623252000089
+        },
+        "5500": {
+            "label accuracy score": 0.9257141590763025,
+            "las": 0.8608535099077156,
+            "loss": 0.6427747842037317,
+            "parse-depth": {
+                "dev.root_acc": 0.9588235294117647,
+                "dev.spearmanr-5_50-mean": 0.9097599266610485
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8784932002543097,
+                "dev.uuas": 0.8516000712462151
+            },
+            "uas": 0.8999623252000089
+        },
+        "5750": {
+            "label accuracy score": 0.9266227866055006,
+            "las": 0.8632393669501787,
+            "loss": 0.6560403831077345,
+            "parse-depth": {
+                "dev.root_acc": 0.9576470588235294,
+                "dev.spearmanr-5_50-mean": 0.9101783008266587
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8769529112181248,
+                "dev.uuas": 0.8491361396425815
+            },
+            "uas": 0.9018239035525121
+        },
+        "6000": {
+            "label accuracy score": 0.9264676550761253,
+            "las": 0.8629942524869472,
+            "loss": 0.6379196515137499,
+            "parse-depth": {
+                "dev.root_acc": 0.9582352941176471,
+                "dev.spearmanr-5_50-mean": 0.909863477122734
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8772135519927771,
+                "dev.uuas": 0.8473846701893962
+            },
+            "uas": 0.9020898433171554
+        },
+        "6250": {
+            "label accuracy score": 0.9282184251933604,
+            "las": 0.8646548411040553,
+            "loss": 0.6377925053238869,
+            "parse-depth": {
+                "dev.root_acc": 0.9576470588235294,
+                "dev.spearmanr-5_50-mean": 0.9109760198529768
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8765911179231075,
+                "dev.uuas": 0.8434364424389954
+            },
+            "uas": 0.9024001063759058
+        },
+        "6500": {
+            "label accuracy score": 0.927730868958181,
+            "las": 0.8652723252602866,
+            "loss": 0.628556709623698,
+            "parse-depth": {
+                "dev.root_acc": 0.9588235294117647,
+                "dev.spearmanr-5_50-mean": 0.9113320551227325
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8779803985354637,
+                "dev.uuas": 0.8482455619545212
+            },
+            "uas": 0.9035525120226935
+        },
+        "6750": {
+            "label accuracy score": 0.9291935376637191,
+            "las": 0.8664682953980065,
+            "loss": 0.6206127669323575,
+            "parse-depth": {
+                "dev.root_acc": 0.96,
+                "dev.spearmanr-5_50-mean": 0.9116110209167805
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8781958694916682,
+                "dev.uuas": 0.8490767677967108
+            },
+            "uas": 0.904150876493141
+        },
+        "7000": {
+            "label accuracy score": 0.9289497595461295,
+            "las": 0.8679338750612084,
+            "loss": 0.6111491611509612,
+            "parse-depth": {
+                "dev.root_acc": 0.96,
+                "dev.spearmanr-5_50-mean": 0.9108225677774632
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8775916211956583,
+                "dev.uuas": 0.8484830493380039
+            },
+            "uas": 0.9054362520222503
+        },
+        "7250": {
+            "label accuracy score": 0.9301908117811316,
+            "las": 0.8680188539163429,
+            "loss": 0.6140189152775388,
+            "parse-depth": {
+                "dev.root_acc": 0.96,
+                "dev.spearmanr-5_50-mean": 0.9116490323749906
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8781573989523003,
+                "dev.uuas": 0.848750222644422
+            },
+            "uas": 0.9054584136693039
+        }
+    },
+    "run2": {
+        "0": {
+            "label accuracy score": 0.0285032182223222,
+            "las": 0.002100920938901956,
+            "loss": 8.47292346326412,
+            "parse-depth": {
+                "dev.root_acc": 0.8411764705882353,
+                "dev.spearmanr-5_50-mean": 0.8627648152866605
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8035446230461999,
+                "dev.uuas": 0.7266223356884165
+            },
+            "uas": 0.017633100886008897
+        },
+        "250": {
+            "label accuracy score": 0.7826607273452563,
+            "las": 0.6380926240456595,
+            "loss": 1.7371658393830964,
+            "parse-depth": {
+                "dev.root_acc": 0.9376470588235294,
+                "dev.spearmanr-5_50-mean": 0.8958705477690565
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8695058759472881,
+                "dev.uuas": 0.8327198242593362
+            },
+            "uas": 0.726281497240875
+        },
+        "500": {
+            "label accuracy score": 0.8369346009795448,
+            "las": 0.711583385055832,
+            "loss": 1.3092110816276434,
+            "parse-depth": {
+                "dev.root_acc": 0.9441176470588235,
+                "dev.spearmanr-5_50-mean": 0.8992037849828908
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8705407516640816,
+                "dev.uuas": 0.8425458647509351
+            },
+            "uas": 0.7895529995789287
+        },
+        "750": {
+            "label accuracy score": 0.8557941626221661,
+            "las": 0.7479114403823613,
+            "loss": 1.1485111605037341,
+            "parse-depth": {
+                "dev.root_acc": 0.9529411764705882,
+                "dev.spearmanr-5_50-mean": 0.9029749463915927
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8706927077412336,
+                "dev.uuas": 0.8361633913198361
+            },
+            "uas": 0.8200031026305875
+        },
+        "1000": {
+            "label accuracy score": 0.8737894200296966,
+            "las": 0.7729136775107927,
+            "loss": 1.0541836312322905,
+            "parse-depth": {
+                "dev.root_acc": 0.9547058823529412,
+                "dev.spearmanr-5_50-mean": 0.9014040957983446
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8746264826743877,
+                "dev.uuas": 0.8443270201270557
+            },
+            "uas": 0.8366243379207943
+        },
+        "1250": {
+            "label accuracy score": 0.8828978569687299,
+            "las": 0.7850988498963806,
+            "loss": 0.9539679790085013,
+            "parse-depth": {
+                "dev.root_acc": 0.96,
+                "dev.spearmanr-5_50-mean": 0.9028001536418335
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8744694159859602,
+                "dev.uuas": 0.8477112153416849
+            },
+            "uas": 0.8458214214480421
+        },
+        "1500": {
+            "label accuracy score": 0.8925381734370499,
+            "las": 0.8006239000872135,
+            "loss": 0.8823221786455675,
+            "parse-depth": {
+                "dev.root_acc": 0.9594117647058824,
+                "dev.spearmanr-5_50-mean": 0.9034759738384568
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8743758399501075,
+                "dev.uuas": 0.8480080745710384
+            },
+            "uas": 0.8572346696806507
+        },
+        "1750": {
+            "label accuracy score": 0.8962834917891098,
+            "las": 0.807326654566416,
+            "loss": 0.848202772212751,
+            "parse-depth": {
+                "dev.root_acc": 0.9623529411764706,
+                "dev.spearmanr-5_50-mean": 0.9043812670643226
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8762477151998064,
+                "dev.uuas": 0.8545983494626848
+            },
+            "uas": 0.8643485583848591
+        },
+        "2000": {
+            "label accuracy score": 0.9025330762582275,
+            "las": 0.8163852340414948,
+            "loss": 0.8174244630517382,
+            "parse-depth": {
+                "dev.root_acc": 0.9641176470588235,
+                "dev.spearmanr-5_50-mean": 0.9055997967019577
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8754529038360417,
+                "dev.uuas": 0.8551920679213917
+            },
+            "uas": 0.8670079560312922
+        },
+        "2250": {
+            "label accuracy score": 0.9048157259047492,
+            "las": 0.8228260185716452,
+            "loss": 0.7849666160164457,
+            "parse-depth": {
+                "dev.root_acc": 0.9629411764705882,
+                "dev.spearmanr-5_50-mean": 0.9057437845293407
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8758611654274153,
+                "dev.uuas": 0.8544499198480081
+            },
+            "uas": 0.8744985927354121
+        },
+        "2500": {
+            "label accuracy score": 0.9080734880216298,
+            "las": 0.8290430175964998,
+            "loss": 0.7748749883789005,
+            "parse-depth": {
+                "dev.root_acc": 0.9570588235294117,
+                "dev.spearmanr-5_50-mean": 0.9045913677058625
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8756615884206179,
+                "dev.uuas": 0.8531140533159176
+            },
+            "uas": 0.8782660727345256
+        },
+        "2750": {
+            "label accuracy score": 0.912195554373601,
+            "las": 0.8357150320630419,
+            "loss": 0.745693401856856,
+            "parse-depth": {
+                "dev.root_acc": 0.9605882352941176,
+                "dev.spearmanr-5_50-mean": 0.9051301320359112
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8747285036873306,
+                "dev.uuas": 0.8517781867838271
+            },
+            "uas": 0.8808146621456907
+        },
+        "3000": {
+            "label accuracy score": 0.9140792943731578,
+            "las": 0.8386210312074488,
+            "loss": 0.7284168230764794,
+            "parse-depth": {
+                "dev.root_acc": 0.961764705882353,
+                "dev.spearmanr-5_50-mean": 0.9062089420569026
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8747703905660865,
+                "dev.uuas": 0.850650121712284
+            },
+            "uas": 0.8837178379097135
+        },
+        "3250": {
+            "label accuracy score": 0.9146776588436053,
+            "las": 0.8400204000532836,
+            "loss": 0.7292807716311831,
+            "parse-depth": {
+                "dev.root_acc": 0.961764705882353,
+                "dev.spearmanr-5_50-mean": 0.9054468859145992
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8731306745151649,
+                "dev.uuas": 0.8519563023214392
+            },
+            "uas": 0.8844048489683753
+        },
+        "3500": {
+            "label accuracy score": 0.9172927331959311,
+            "las": 0.8451464358890948,
+            "loss": 0.6970907345865712,
+            "parse-depth": {
+                "dev.root_acc": 0.9576470588235294,
+                "dev.spearmanr-5_50-mean": 0.9076185082474545
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8747226261571498,
+                "dev.uuas": 0.8504423202517366
+            },
+            "uas": 0.8891696030849012
+        },
+        "3750": {
+            "label accuracy score": 0.9176916428428961,
+            "las": 0.8469718623571855,
+            "loss": 0.6990507976575331,
+            "parse-depth": {
+                "dev.root_acc": 0.9611764705882353,
+                "dev.spearmanr-5_50-mean": 0.9075159107553108
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8762091556085787,
+                "dev.uuas": 0.8506798076352193
+            },
+            "uas": 0.8893912195554373
+        },
+        "4000": {
+            "label accuracy score": 0.9198634842541498,
+            "las": 0.8506736671446121,
+            "loss": 0.6780055219476874,
+            "parse-depth": {
+                "dev.root_acc": 0.9588235294117647,
+                "dev.spearmanr-5_50-mean": 0.9075182705642122
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.875424346071728,
+                "dev.uuas": 0.8503532624829306
+            },
+            "uas": 0.8922722336724065
+        },
+        "4250": {
+            "label accuracy score": 0.9217915475478138,
+            "las": 0.8549586484689244,
+            "loss": 0.6568031013011932,
+            "parse-depth": {
+                "dev.root_acc": 0.96,
+                "dev.spearmanr-5_50-mean": 0.9078862293166287
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8754656373380393,
+                "dev.uuas": 0.8531734251617883
+            },
+            "uas": 0.8954413492010727
+        },
+        "4500": {
+            "label accuracy score": 0.922633690135851,
+            "las": 0.8548744023151316,
+            "loss": 0.6704214188185605,
+            "parse-depth": {
+                "dev.root_acc": 0.9576470588235294,
+                "dev.spearmanr-5_50-mean": 0.9069198330193108
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8738034905593246,
+                "dev.uuas": 0.848750222644422
+            },
+            "uas": 0.8956851273186623
+        },
+        "4750": {
+            "label accuracy score": 0.922855306606387,
+            "las": 0.8578271767913295,
+            "loss": 0.6486378045696201,
+            "parse-depth": {
+                "dev.root_acc": 0.9588235294117647,
+                "dev.spearmanr-5_50-mean": 0.9078414002076703
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8736054682517941,
+                "dev.uuas": 0.8505016920976073
+            },
+            "uas": 0.8973694124947366
+        },
+        "5000": {
+            "label accuracy score": 0.9253152494293376,
+            "las": 0.8591461215600418,
+            "loss": 0.638026185559504,
+            "parse-depth": {
+                "dev.root_acc": 0.9605882352941176,
+                "dev.spearmanr-5_50-mean": 0.9062700549071561
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8749256390520116,
+                "dev.uuas": 0.8539452591581073
+            },
+            "uas": 0.897856968729916
+        },
+        "5250": {
+            "label accuracy score": 0.9255590275469273,
+            "las": 0.8578460463912464,
+            "loss": 0.6392097342194933,
+            "parse-depth": {
+                "dev.root_acc": 0.9576470588235294,
+                "dev.spearmanr-5_50-mean": 0.9084908284472977
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.875177240589322,
+                "dev.uuas": 0.8484236774921332
+            },
+            "uas": 0.8977683221417015
+        },
+        "5500": {
+            "label accuracy score": 0.9272433127230015,
+            "las": 0.8612375007461336,
+            "loss": 0.6563321591326685,
+            "parse-depth": {
+                "dev.root_acc": 0.9588235294117647,
+                "dev.spearmanr-5_50-mean": 0.9082354638109276
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.873608772366516,
+                "dev.uuas": 0.8468800094994954
+            },
+            "uas": 0.8983223633180418
+        },
+        "5750": {
+            "label accuracy score": 0.926201715311482,
+            "las": 0.8622423682380348,
+            "loss": 0.6474931655508099,
+            "parse-depth": {
+                "dev.root_acc": 0.96,
+                "dev.spearmanr-5_50-mean": 0.9074015247580209
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8729449259829145,
+                "dev.uuas": 0.8477112153416849
+            },
+            "uas": 0.9006936595527779
+        },
+        "6000": {
+            "label accuracy score": 0.9274870908405912,
+            "las": 0.8635579140883194,
+            "loss": 0.6398001584139738,
+            "parse-depth": {
+                "dev.root_acc": 0.9576470588235294,
+                "dev.spearmanr-5_50-mean": 0.9075978740931269
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8724677068317057,
+                "dev.uuas": 0.8456628866591462
+            },
+            "uas": 0.9015358021408151
+        },
+        "6250": {
+            "label accuracy score": 0.9277530306052346,
+            "las": 0.8638040054222874,
+            "loss": 0.6385080751144525,
+            "parse-depth": {
+                "dev.root_acc": 0.96,
+                "dev.spearmanr-5_50-mean": 0.9068538929305534
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8709656821970441,
+                "dev.uuas": 0.8428724099032239
+            },
+            "uas": 0.902222813199477
+        },
+        "6500": {
+            "label accuracy score": 0.9279081621346098,
+            "las": 0.8635794182586327,
+            "loss": 0.6357590118140886,
+            "parse-depth": {
+                "dev.root_acc": 0.961764705882353,
+                "dev.spearmanr-5_50-mean": 0.9068806253793389
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8724975146892079,
+                "dev.uuas": 0.8474440420352669
+            },
+            "uas": 0.9010925691997429
+        },
+        "6750": {
+            "label accuracy score": 0.9294151541342552,
+            "las": 0.8663993260556035,
+            "loss": 0.6269918163165902,
+            "parse-depth": {
+                "dev.root_acc": 0.9611764705882353,
+                "dev.spearmanr-5_50-mean": 0.9065980180813736
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8725668520809375,
+                "dev.uuas": 0.8471174968829781
+            },
+            "uas": 0.9021341666112626
+        },
+        "7000": {
+            "label accuracy score": 0.9293486691930944,
+            "las": 0.8669212749268884,
+            "loss": 0.6279838645096981,
+            "parse-depth": {
+                "dev.root_acc": 0.961764705882353,
+                "dev.spearmanr-5_50-mean": 0.9071797543560045
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8732128877808981,
+                "dev.uuas": 0.8452769696609868
+            },
+            "uas": 0.9036633202579616
+        },
+        "7250": {
+            "label accuracy score": 0.9299691953105955,
+            "las": 0.8673144673170762,
+            "loss": 0.6305618717363386,
+            "parse-depth": {
+                "dev.root_acc": 0.9605882352941176,
+                "dev.spearmanr-5_50-mean": 0.9071763291654912
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8726484007381748,
+                "dev.uuas": 0.8478299590334264
+            },
+            "uas": 0.9043503313166235
+        }
+    },
+    "run3": {
+        "0": {
+            "label accuracy score": 0.0285032182223222,
+            "las": 0.002100920938901956,
+            "loss": 8.47292346326412,
+            "parse-depth": {
+                "dev.root_acc": 0.8411764705882353,
+                "dev.spearmanr-5_50-mean": 0.8627648152866605
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8035446230461999,
+                "dev.uuas": 0.7266223356884165
+            },
+            "uas": 0.017633100886008897
+        },
+        "250": {
+            "label accuracy score": 0.780865633933914,
+            "las": 0.6295623736232187,
+            "loss": 1.7516788298433477,
+            "parse-depth": {
+                "dev.root_acc": 0.9382352941176471,
+                "dev.spearmanr-5_50-mean": 0.8985686068831713
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8723617327413469,
+                "dev.uuas": 0.8309980407290862
+            },
+            "uas": 0.7252398998293553
+        },
+        "500": {
+            "label accuracy score": 0.8347627595682912,
+            "las": 0.7108344263195743,
+            "loss": 1.349459662581935,
+            "parse-depth": {
+                "dev.root_acc": 0.9376470588235294,
+                "dev.spearmanr-5_50-mean": 0.8999327350028709
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8743823500922742,
+                "dev.uuas": 0.8398147598408835
+            },
+            "uas": 0.7893535447554463
+        },
+        "750": {
+            "label accuracy score": 0.8558384859162733,
+            "las": 0.7450963572627554,
+            "loss": 1.1522451187625076,
+            "parse-depth": {
+                "dev.root_acc": 0.9529411764705882,
+                "dev.spearmanr-5_50-mean": 0.9035567408717837
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8780967730823303,
+                "dev.uuas": 0.8480674464169091
+            },
+            "uas": 0.8165237240431709
+        },
+        "1000": {
+            "label accuracy score": 0.8688473727367418,
+            "las": 0.7670685130133094,
+            "loss": 1.059153046571847,
+            "parse-depth": {
+                "dev.root_acc": 0.9529411764705882,
+                "dev.spearmanr-5_50-mean": 0.907146552833138
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8794284977926858,
+                "dev.uuas": 0.8483049338003918
+            },
+            "uas": 0.8329011812157879
+        },
+        "1250": {
+            "label accuracy score": 0.8823659774394433,
+            "las": 0.7858389528716738,
+            "loss": 0.9682943559054172,
+            "parse-depth": {
+                "dev.root_acc": 0.9552941176470588,
+                "dev.spearmanr-5_50-mean": 0.9067905483011429
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.879538540562957,
+                "dev.uuas": 0.84857210710681
+            },
+            "uas": 0.8457549365068812
+        },
+        "1500": {
+            "label accuracy score": 0.8902112004964209,
+            "las": 0.79938275973087,
+            "loss": 0.8943098905411634,
+            "parse-depth": {
+                "dev.root_acc": 0.9582352941176471,
+                "dev.spearmanr-5_50-mean": 0.9056973355242931
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8789507341160699,
+                "dev.uuas": 0.8495814284866117
+            },
+            "uas": 0.8583427520333311
+        },
+        "1750": {
+            "label accuracy score": 0.8959067437891984,
+            "las": 0.8071412020099198,
+            "loss": 0.8392094906532404,
+            "parse-depth": {
+                "dev.root_acc": 0.9541176470588235,
+                "dev.spearmanr-5_50-mean": 0.9095219173009556
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8806609083914697,
+                "dev.uuas": 0.8510063527875081
+            },
+            "uas": 0.862597788267624
+        },
+        "2000": {
+            "label accuracy score": 0.9001839416705449,
+            "las": 0.8164593376193603,
+            "loss": 0.8110296130180359,
+            "parse-depth": {
+                "dev.root_acc": 0.9541176470588235,
+                "dev.spearmanr-5_50-mean": 0.9086729326234433
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.880085192601304,
+                "dev.uuas": 0.8507985513269608
+            },
+            "uas": 0.8693792522660284
+        },
+        "2250": {
+            "label accuracy score": 0.9034638654344791,
+            "las": 0.8246751431942382,
+            "loss": 0.784047008915381,
+            "parse-depth": {
+                "dev.root_acc": 0.9541176470588235,
+                "dev.spearmanr-5_50-mean": 0.9085466565161715
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8813983804701779,
+                "dev.uuas": 0.8551030101525856
+            },
+            "uas": 0.8762715244997008
+        },
+        "2500": {
+            "label accuracy score": 0.90568003013984,
+            "las": 0.8279845918907677,
+            "loss": 0.7519838864153082,
+            "parse-depth": {
+                "dev.root_acc": 0.9558823529411765,
+                "dev.spearmanr-5_50-mean": 0.9089253639709306
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8809857441329084,
+                "dev.uuas": 0.8548655227691029
+            },
+            "uas": 0.8776898699111318
+        },
+        "2750": {
+            "label accuracy score": 0.9100901979035082,
+            "las": 0.8337420103526135,
+            "loss": 0.7449969301621119,
+            "parse-depth": {
+                "dev.root_acc": 0.9552941176470588,
+                "dev.spearmanr-5_50-mean": 0.9092962295845176
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8802383171721696,
+                "dev.uuas": 0.8504126343288013
+            },
+            "uas": 0.881479511557299
+        },
+        "3000": {
+            "label accuracy score": 0.9120625844912794,
+            "las": 0.8385849510179255,
+            "loss": 0.7293444569363738,
+            "parse-depth": {
+                "dev.root_acc": 0.9570588235294117,
+                "dev.spearmanr-5_50-mean": 0.9083320889908932
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8799330775249848,
+                "dev.uuas": 0.8520156741673098
+            },
+            "uas": 0.8845378188506969
+        },
+        "3250": {
+            "label accuracy score": 0.9145446889612836,
+            "las": 0.8400574938747071,
+            "loss": 0.7208859766974594,
+            "parse-depth": {
+                "dev.root_acc": 0.9564705882352941,
+                "dev.spearmanr-5_50-mean": 0.9095829623418937
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.880644346469874,
+                "dev.uuas": 0.8529953096241762
+            },
+            "uas": 0.8855129313210558
+        },
+        "3500": {
+            "label accuracy score": 0.9167830153136981,
+            "las": 0.8460926107115575,
+            "loss": 0.6920114416967739,
+            "parse-depth": {
+                "dev.root_acc": 0.9570588235294117,
+                "dev.spearmanr-5_50-mean": 0.9081448195177859
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8799047664311053,
+                "dev.uuas": 0.8513625838627323
+            },
+            "uas": 0.8894133812024909
+        },
+        "3750": {
+            "label accuracy score": 0.917979744254593,
+            "las": 0.8486540505723428,
+            "loss": 0.6795541097720464,
+            "parse-depth": {
+                "dev.root_acc": 0.9582352941176471,
+                "dev.spearmanr-5_50-mean": 0.9097815596993294
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8804937787380053,
+                "dev.uuas": 0.8539452591581073
+            },
+            "uas": 0.891563060966691
+        },
+        "4000": {
+            "label accuracy score": 0.9195753828424529,
+            "las": 0.8508470769797791,
+            "loss": 0.6834095481670264,
+            "parse-depth": {
+                "dev.root_acc": 0.9570588235294117,
+                "dev.spearmanr-5_50-mean": 0.9081525236445319
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8794881116907152,
+                "dev.uuas": 0.851421955708603
+            },
+            "uas": 0.8920506172018704
+        },
+        "4250": {
+            "label accuracy score": 0.921038051547991,
+            "las": 0.851655893491692,
+            "loss": 0.6598111960020933,
+            "parse-depth": {
+                "dev.root_acc": 0.9588235294117647,
+                "dev.spearmanr-5_50-mean": 0.9098196751642982
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8789306916415611,
+                "dev.uuas": 0.8515703853232797
+            },
+            "uas": 0.8929370830840148
+        },
+        "4500": {
+            "label accuracy score": 0.9218801941360282,
+            "las": 0.854991875588783,
+            "loss": 0.6639319283492637,
+            "parse-depth": {
+                "dev.root_acc": 0.9576470588235294,
+                "dev.spearmanr-5_50-mean": 0.9086356498349493
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8800933388518589,
+                "dev.uuas": 0.8545983494626848
+            },
+            "uas": 0.8949981162600005
+        },
+        "4750": {
+            "label accuracy score": 0.9230104381357622,
+            "las": 0.8558907358088267,
+            "loss": 0.6590724298448274,
+            "parse-depth": {
+                "dev.root_acc": 0.9594117647058824,
+                "dev.spearmanr-5_50-mean": 0.9112392803803794
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8818028948057117,
+                "dev.uuas": 0.8554889271507451
+            },
+            "uas": 0.8954635108481263
+        },
+        "5000": {
+            "label accuracy score": 0.9232763779004055,
+            "las": 0.8564486377168626,
+            "loss": 0.6597522321072492,
+            "parse-depth": {
+                "dev.root_acc": 0.9582352941176471,
+                "dev.spearmanr-5_50-mean": 0.91116065210639
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8789999201458029,
+                "dev.uuas": 0.8501751469453185
+            },
+            "uas": 0.89603971367152
+        },
+        "5250": {
+            "label accuracy score": 0.9247390466059437,
+            "las": 0.858920036560119,
+            "loss": 0.6302052347949056,
+            "parse-depth": {
+                "dev.root_acc": 0.9611764705882353,
+                "dev.spearmanr-5_50-mean": 0.9111888017936921
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8805233988927282,
+                "dev.uuas": 0.854360862079202
+            },
+            "uas": 0.8979456153181304
+        },
+        "5500": {
+            "label accuracy score": 0.9250493096646942,
+            "las": 0.8600059913871465,
+            "loss": 0.6509639753988294,
+            "parse-depth": {
+                "dev.root_acc": 0.96,
+                "dev.spearmanr-5_50-mean": 0.9094644792916371
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8780030021497933,
+                "dev.uuas": 0.851421955708603
+            },
+            "uas": 0.8978348070828625
+        },
+        "5750": {
+            "label accuracy score": 0.926711433193715,
+            "las": 0.8620694582582826,
+            "loss": 0.6488019787903988,
+            "parse-depth": {
+                "dev.root_acc": 0.9570588235294117,
+                "dev.spearmanr-5_50-mean": 0.9105174455928892
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8792127322152108,
+                "dev.uuas": 0.8502048328682539
+            },
+            "uas": 0.8986326263767923
+        },
+        "6000": {
+            "label accuracy score": 0.9277973538993418,
+            "las": 0.8636641616064842,
+            "loss": 0.6435007909030626,
+            "parse-depth": {
+                "dev.root_acc": 0.96,
+                "dev.spearmanr-5_50-mean": 0.9111274759444272
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.87881601030916,
+                "dev.uuas": 0.8475330998040729
+            },
+            "uas": 0.8991866675531326
+        },
+        "6250": {
+            "label accuracy score": 0.9272876360171088,
+            "las": 0.8640362011489476,
+            "loss": 0.6363686625704621,
+            "parse-depth": {
+                "dev.root_acc": 0.9588235294117647,
+                "dev.spearmanr-5_50-mean": 0.9112863363653346
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8794724103070481,
+                "dev.uuas": 0.8492845692572583
+            },
+            "uas": 0.9001174567293841
+        },
+        "6500": {
+            "label accuracy score": 0.9279081621346098,
+            "las": 0.8651771298323184,
+            "loss": 0.6381347985430197,
+            "parse-depth": {
+                "dev.root_acc": 0.96,
+                "dev.spearmanr-5_50-mean": 0.9109126099134698
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8790568417312415,
+                "dev.uuas": 0.8484830493380039
+            },
+            "uas": 0.902222813199477
+        },
+        "6750": {
+            "label accuracy score": 0.9288389513108615,
+            "las": 0.8649591524480903,
+            "loss": 0.6304779357530854,
+            "parse-depth": {
+                "dev.root_acc": 0.9582352941176471,
+                "dev.spearmanr-5_50-mean": 0.910555209238383
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8790353769680849,
+                "dev.uuas": 0.8496704862554176
+            },
+            "uas": 0.9018239035525121
+        },
+        "7000": {
+            "label accuracy score": 0.9301464884870243,
+            "las": 0.8677606780044811,
+            "loss": 0.6188349371606653,
+            "parse-depth": {
+                "dev.root_acc": 0.9594117647058824,
+                "dev.spearmanr-5_50-mean": 0.910825091323472
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8789904880704987,
+                "dev.uuas": 0.8504126343288013
+            },
+            "uas": 0.9033752188462647
+        },
+        "7250": {
+            "label accuracy score": 0.9299027103694346,
+            "las": 0.8676463841834613,
+            "loss": 0.6222855579672437,
+            "parse-depth": {
+                "dev.root_acc": 0.9588235294117647,
+                "dev.spearmanr-5_50-mean": 0.9105641308910757
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8786688748549654,
+                "dev.uuas": 0.849611114409547
+            },
+            "uas": 0.9032644106109966
+        }
+    },
+    "run4": {
+        "0": {
+            "label accuracy score": 0.0285032182223222,
+            "las": 0.002100920938901956,
+            "loss": 8.47292346326412,
+            "parse-depth": {
+                "dev.root_acc": 0.8411764705882353,
+                "dev.spearmanr-5_50-mean": 0.8627648152866605
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8035446230461999,
+                "dev.uuas": 0.7266223356884165
+            },
+            "uas": 0.017633100886008897
+        },
+        "250": {
+            "label accuracy score": 0.7862065908738337,
+            "las": 0.6368441540132928,
+            "loss": 1.7164826519561536,
+            "parse-depth": {
+                "dev.root_acc": 0.9335294117647058,
+                "dev.spearmanr-5_50-mean": 0.8964530191108626
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8726968101034582,
+                "dev.uuas": 0.8301371489639613
+            },
+            "uas": 0.7233339981827449
+        },
+        "500": {
+            "label accuracy score": 0.8340757485096293,
+            "las": 0.7133108125155391,
+            "loss": 1.327820388656674,
+            "parse-depth": {
+                "dev.root_acc": 0.9435294117647058,
+                "dev.spearmanr-5_50-mean": 0.9007647538103241
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8766269728958508,
+                "dev.uuas": 0.8451582259692454
+            },
+            "uas": 0.7905945969904483
+        },
+        "750": {
+            "label accuracy score": 0.8590519247390466,
+            "las": 0.7467506499944639,
+            "loss": 1.1344584542693514,
+            "parse-depth": {
+                "dev.root_acc": 0.9470588235294117,
+                "dev.spearmanr-5_50-mean": 0.9026331546035087
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8763494652642659,
+                "dev.uuas": 0.8494329988719349
+            },
+            "uas": 0.8162134609844204
+        },
+        "1000": {
+            "label accuracy score": 0.8719278416771934,
+            "las": 0.7701408473532005,
+            "loss": 1.0295501270077445,
+            "parse-depth": {
+                "dev.root_acc": 0.9523529411764706,
+                "dev.spearmanr-5_50-mean": 0.9042627000775676
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8791687527319424,
+                "dev.uuas": 0.8562013893011934
+            },
+            "uas": 0.8370010859207057
+        },
+        "1250": {
+            "label accuracy score": 0.8835405447332846,
+            "las": 0.7896228072096586,
+            "loss": 0.9448167943593228,
+            "parse-depth": {
+                "dev.root_acc": 0.951764705882353,
+                "dev.spearmanr-5_50-mean": 0.9030864402334913
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8768438591012518,
+                "dev.uuas": 0.8557561004571632
+            },
+            "uas": 0.8493008000354586
+        },
+        "1500": {
+            "label accuracy score": 0.8901668772023137,
+            "las": 0.7997560426459409,
+            "loss": 0.9088912773312945,
+            "parse-depth": {
+                "dev.root_acc": 0.9564705882352941,
+                "dev.spearmanr-5_50-mean": 0.9044477756701216
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8779548342725987,
+                "dev.uuas": 0.853410912545271
+            },
+            "uas": 0.8571238614453827
+        },
+        "1750": {
+            "label accuracy score": 0.8952197327305366,
+            "las": 0.8085483880747807,
+            "loss": 0.8486567622784412,
+            "parse-depth": {
+                "dev.root_acc": 0.9576470588235294,
+                "dev.spearmanr-5_50-mean": 0.9043995042965626
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8790202632799438,
+                "dev.uuas": 0.858843436442439
+            },
+            "uas": 0.8656782572080757
+        },
+        "2000": {
+            "label accuracy score": 0.9010039226115285,
+            "las": 0.817152870797401,
+            "loss": 0.8043369962410494,
+            "parse-depth": {
+                "dev.root_acc": 0.961764705882353,
+                "dev.spearmanr-5_50-mean": 0.9075365055792165
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8814813108100783,
+                "dev.uuas": 0.8596746422846286
+            },
+            "uas": 0.8699554550894223
+        },
+        "2250": {
+            "label accuracy score": 0.9042616847284091,
+            "las": 0.8223873009855609,
+            "loss": 0.7876301615527181,
+            "parse-depth": {
+                "dev.root_acc": 0.9605882352941176,
+                "dev.spearmanr-5_50-mean": 0.9081174968659316
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8823416118277251,
+                "dev.uuas": 0.864365018108413
+            },
+            "uas": 0.8731245706180883
+        },
+        "2500": {
+            "label accuracy score": 0.9084502360215411,
+            "las": 0.8304602480343992,
+            "loss": 0.7487056137937488,
+            "parse-depth": {
+                "dev.root_acc": 0.9629411764705882,
+                "dev.spearmanr-5_50-mean": 0.9073206853461725
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8808930251282753,
+                "dev.uuas": 0.8613667398919432
+            },
+            "uas": 0.8784433659109545
+        },
+        "2750": {
+            "label accuracy score": 0.9099350663741329,
+            "las": 0.8339201943636125,
+            "loss": 0.7407449646429582,
+            "parse-depth": {
+                "dev.root_acc": 0.9570588235294117,
+                "dev.spearmanr-5_50-mean": 0.9051948331218639
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.87656973266385,
+                "dev.uuas": 0.8532921688535297
+            },
+            "uas": 0.8816789663807815
+        },
+        "3000": {
+            "label accuracy score": 0.9123063626088691,
+            "las": 0.8371234386157023,
+            "loss": 0.7483709739013151,
+            "parse-depth": {
+                "dev.root_acc": 0.9594117647058824,
+                "dev.spearmanr-5_50-mean": 0.9047146451937212
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8785313395212043,
+                "dev.uuas": 0.8548061509232322
+            },
+            "uas": 0.8832081200274804
+        },
+        "3250": {
+            "label accuracy score": 0.9162511357844115,
+            "las": 0.8412656491748892,
+            "loss": 0.7168938025380626,
+            "parse-depth": {
+                "dev.root_acc": 0.96,
+                "dev.spearmanr-5_50-mean": 0.9050290471765627
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8758637043192002,
+                "dev.uuas": 0.856943537374577
+            },
+            "uas": 0.8854907696740022
+        },
+        "3500": {
+            "label accuracy score": 0.9181127141369146,
+            "las": 0.8451107760561953,
+            "loss": 0.7062685760584745,
+            "parse-depth": {
+                "dev.root_acc": 0.9605882352941176,
+                "dev.spearmanr-5_50-mean": 0.9068155562385097
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8772642550748584,
+                "dev.uuas": 0.854360862079202
+            },
+            "uas": 0.88799503579106
+        },
+        "3750": {
+            "label accuracy score": 0.9187997251955765,
+            "las": 0.8478791557074139,
+            "loss": 0.682869372494293,
+            "parse-depth": {
+                "dev.root_acc": 0.96,
+                "dev.spearmanr-5_50-mean": 0.9064761156734344
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8765272666299174,
+                "dev.uuas": 0.8580122306002493
+            },
+            "uas": 0.8910311814374045
+        },
+        "4000": {
+            "label accuracy score": 0.9202180706070076,
+            "las": 0.8498648936105231,
+            "loss": 0.680071467703039,
+            "parse-depth": {
+                "dev.root_acc": 0.961764705882353,
+                "dev.spearmanr-5_50-mean": 0.9070218040527649
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8779429212710008,
+                "dev.uuas": 0.8562904470699995
+            },
+            "uas": 0.8936240941426767
+        },
+        "4250": {
+            "label accuracy score": 0.9205504953128116,
+            "las": 0.8517227297330353,
+            "loss": 0.6665507374387799,
+            "parse-depth": {
+                "dev.root_acc": 0.9564705882352941,
+                "dev.spearmanr-5_50-mean": 0.9063857498239569
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8789625127160612,
+                "dev.uuas": 0.8574778839874132
+            },
+            "uas": 0.8943554284954458
+        },
+        "4500": {
+            "label accuracy score": 0.9218580324889746,
+            "las": 0.8536889351875905,
+            "loss": 0.6597121701096044,
+            "parse-depth": {
+                "dev.root_acc": 0.9564705882352941,
+                "dev.spearmanr-5_50-mean": 0.9082934629201769
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8794531499002887,
+                "dev.uuas": 0.8613073680460726
+            },
+            "uas": 0.8947764997894644
+        },
+        "4750": {
+            "label accuracy score": 0.9218580324889746,
+            "las": 0.8523346246632548,
+            "loss": 0.6822008589903513,
+            "parse-depth": {
+                "dev.root_acc": 0.9588235294117647,
+                "dev.spearmanr-5_50-mean": 0.9085677368052693
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8790400530151419,
+                "dev.uuas": 0.8582497179837321
+            },
+            "uas": 0.8945770449659819
+        },
+        "5000": {
+            "label accuracy score": 0.9230769230769231,
+            "las": 0.8551889489609363,
+            "loss": 0.6598092177600572,
+            "parse-depth": {
+                "dev.root_acc": 0.961764705882353,
+                "dev.spearmanr-5_50-mean": 0.9098568953844376
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8810487626583283,
+                "dev.uuas": 0.859971501513982
+            },
+            "uas": 0.8959953903774128
+        },
+        "5250": {
+            "label accuracy score": 0.924894178135319,
+            "las": 0.8583348986372872,
+            "loss": 0.6263350492173975,
+            "parse-depth": {
+                "dev.root_acc": 0.9611764705882353,
+                "dev.spearmanr-5_50-mean": 0.9085169567220497
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8813753625822871,
+                "dev.uuas": 0.8631182093451285
+            },
+            "uas": 0.8974580590829511
+        },
+        "5500": {
+            "label accuracy score": 0.9256919974292489,
+            "las": 0.8595324400195544,
+            "loss": 0.6621419742251887,
+            "parse-depth": {
+                "dev.root_acc": 0.9594117647058824,
+                "dev.spearmanr-5_50-mean": 0.9093332527038293
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8777038986407264,
+                "dev.uuas": 0.8508876090957668
+            },
+            "uas": 0.8983445249650954
+        },
+        "5750": {
+            "label accuracy score": 0.926201715311482,
+            "las": 0.8607613443235499,
+            "loss": 0.6460395694682093,
+            "parse-depth": {
+                "dev.root_acc": 0.9588235294117647,
+                "dev.spearmanr-5_50-mean": 0.9088374092645661
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8789076622988305,
+                "dev.uuas": 0.8564388766846761
+            },
+            "uas": 0.8995855772000975
+        },
+        "6000": {
+            "label accuracy score": 0.9279746470757707,
+            "las": 0.8620964777906213,
+            "loss": 0.6427237395987366,
+            "parse-depth": {
+                "dev.root_acc": 0.9588235294117647,
+                "dev.spearmanr-5_50-mean": 0.9081184643223996
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8781788433123708,
+                "dev.uuas": 0.8563201329929347
+            },
+            "uas": 0.9004942047292955
+        },
+        "6250": {
+            "label accuracy score": 0.9283735567227356,
+            "las": 0.8645860937128031,
+            "loss": 0.6311441131613471,
+            "parse-depth": {
+                "dev.root_acc": 0.9576470588235294,
+                "dev.spearmanr-5_50-mean": 0.9095579341889127
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8796452900578141,
+                "dev.uuas": 0.8573591402956718
+            },
+            "uas": 0.9022006515524233
+        },
+        "6500": {
+            "label accuracy score": 0.9288832746049687,
+            "las": 0.865097661274384,
+            "loss": 0.6247487420385535,
+            "parse-depth": {
+                "dev.root_acc": 0.9605882352941176,
+                "dev.spearmanr-5_50-mean": 0.9096111115067762
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8792842845669943,
+                "dev.uuas": 0.8577747432167666
+            },
+            "uas": 0.9022006515524233
+        },
+        "6750": {
+            "label accuracy score": 0.9302572967222924,
+            "las": 0.8669245677880848,
+            "loss": 0.6314425071080526,
+            "parse-depth": {
+                "dev.root_acc": 0.9576470588235294,
+                "dev.spearmanr-5_50-mean": 0.9085297339911825
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8787960624039386,
+                "dev.uuas": 0.8558154723030339
+            },
+            "uas": 0.9033087339051038
+        },
+        "7000": {
+            "label accuracy score": 0.9302129734281852,
+            "las": 0.8675959745266715,
+            "loss": 0.6190697623021675,
+            "parse-depth": {
+                "dev.root_acc": 0.9605882352941176,
+                "dev.spearmanr-5_50-mean": 0.9096585370715085
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8783335357785882,
+                "dev.uuas": 0.854360862079202
+            },
+            "uas": 0.9042173614343018
+        },
+        "7250": {
+            "label accuracy score": 0.929769740487113,
+            "las": 0.8661920938151678,
+            "loss": 0.6188842428453041,
+            "parse-depth": {
+                "dev.root_acc": 0.961764705882353,
+                "dev.spearmanr-5_50-mean": 0.9085596676309914
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8794361878083347,
+                "dev.uuas": 0.8545983494626848
+            },
+            "uas": 0.9034638654344791
+        }
+    },
+    "run5": {
+        "0": {
+            "label accuracy score": 0.0285032182223222,
+            "las": 0.002100920938901956,
+            "loss": 8.47292346326412,
+            "parse-depth": {
+                "dev.root_acc": 0.8411764705882353,
+                "dev.spearmanr-5_50-mean": 0.8627648152866605
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8035446230461999,
+                "dev.uuas": 0.7266223356884165
+            },
+            "uas": 0.017633100886008897
+        },
+        "250": {
+            "label accuracy score": 0.7819737162865944,
+            "las": 0.6334762834478881,
+            "loss": 1.72860090118466,
+            "parse-depth": {
+                "dev.root_acc": 0.9294117647058824,
+                "dev.spearmanr-5_50-mean": 0.8962407432727574
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8705677852071759,
+                "dev.uuas": 0.8255061449860476
+            },
+            "uas": 0.7235334530062274
+        },
+        "500": {
+            "label accuracy score": 0.8315714823925714,
+            "las": 0.7103665662797766,
+            "loss": 1.3398834015383865,
+            "parse-depth": {
+                "dev.root_acc": 0.9388235294117647,
+                "dev.spearmanr-5_50-mean": 0.9000373603968576
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8756597416678293,
+                "dev.uuas": 0.8377664311583447
+            },
+            "uas": 0.7887108569908916
+        },
+        "750": {
+            "label accuracy score": 0.8579660040334197,
+            "las": 0.750788670009026,
+            "loss": 1.1405404300400706,
+            "parse-depth": {
+                "dev.root_acc": 0.9529411764705882,
+                "dev.spearmanr-5_50-mean": 0.9022602022435737
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8746515433185486,
+                "dev.uuas": 0.8416256011399394
+            },
+            "uas": 0.8223522372182701
+        },
+        "1000": {
+            "label accuracy score": 0.8705981428539769,
+            "las": 0.7721017320761203,
+            "loss": 1.023845820715933,
+            "parse-depth": {
+                "dev.root_acc": 0.9570588235294117,
+                "dev.spearmanr-5_50-mean": 0.9044608026832759
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8756087720248928,
+                "dev.uuas": 0.8432880128243188
+            },
+            "uas": 0.8377324202734747
+        },
+        "1250": {
+            "label accuracy score": 0.8813022183808701,
+            "las": 0.7881615748119668,
+            "loss": 0.9576596084869269,
+            "parse-depth": {
+                "dev.root_acc": 0.9611764705882353,
+                "dev.spearmanr-5_50-mean": 0.9038014080804962
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8740634886594181,
+                "dev.uuas": 0.8436145579766074
+            },
+            "uas": 0.8491456685060834
+        },
+        "1500": {
+            "label accuracy score": 0.8922500720253529,
+            "las": 0.8010855155182149,
+            "loss": 0.8805669555158326,
+            "parse-depth": {
+                "dev.root_acc": 0.9558823529411765,
+                "dev.spearmanr-5_50-mean": 0.905405109840663
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.87515819542977,
+                "dev.uuas": 0.8482752478774566
+            },
+            "uas": 0.856990891563061
+        },
+        "1750": {
+            "label accuracy score": 0.8963056534361634,
+            "las": 0.8096769275798243,
+            "loss": 0.8533994230357084,
+            "parse-depth": {
+                "dev.root_acc": 0.9570588235294117,
+                "dev.spearmanr-5_50-mean": 0.9066464061809055
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8779638084502269,
+                "dev.uuas": 0.8485127352609393
+            },
+            "uas": 0.8645701748553952
+        },
+        "2000": {
+            "label accuracy score": 0.898477494847417,
+            "las": 0.8137663585369233,
+            "loss": 0.8095390512184664,
+            "parse-depth": {
+                "dev.root_acc": 0.9588235294117647,
+                "dev.spearmanr-5_50-mean": 0.9067348700304231
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8769521506422396,
+                "dev.uuas": 0.8520453600902452
+            },
+            "uas": 0.8677392903840614
+        },
+        "2250": {
+            "label accuracy score": 0.9034195421403719,
+            "las": 0.823423826716873,
+            "loss": 0.808530513084296,
+            "parse-depth": {
+                "dev.root_acc": 0.9611764705882353,
+                "dev.spearmanr-5_50-mean": 0.9066476824329084
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8759166271642423,
+                "dev.uuas": 0.8494329988719349
+            },
+            "uas": 0.8729029541475523
+        },
+        "2500": {
+            "label accuracy score": 0.9072978303747534,
+            "las": 0.8300776514216218,
+            "loss": 0.7468180082964174,
+            "parse-depth": {
+                "dev.root_acc": 0.9582352941176471,
+                "dev.spearmanr-5_50-mean": 0.9071356554715507
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8787201963808949,
+                "dev.uuas": 0.8492548833343229
+            },
+            "uas": 0.8780444562639895
+        },
+        "2750": {
+            "label accuracy score": 0.9103782993152051,
+            "las": 0.8327405467081793,
+            "loss": 0.7636021222129012,
+            "parse-depth": {
+                "dev.root_acc": 0.96,
+                "dev.spearmanr-5_50-mean": 0.9082517057664156
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8766276116296738,
+                "dev.uuas": 0.845039482277504
+            },
+            "uas": 0.8804600757928329
+        },
+        "3000": {
+            "label accuracy score": 0.9129490503734238,
+            "las": 0.8395175887752511,
+            "loss": 0.7388414519302773,
+            "parse-depth": {
+                "dev.root_acc": 0.9558823529411765,
+                "dev.spearmanr-5_50-mean": 0.9087913894180627
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8758761170601348,
+                "dev.uuas": 0.8483049338003918
+            },
+            "uas": 0.8843383640272146
+        },
+        "3250": {
+            "label accuracy score": 0.9146776588436053,
+            "las": 0.8409446038115349,
+            "loss": 0.7461949343031103,
+            "parse-depth": {
+                "dev.root_acc": 0.9582352941176471,
+                "dev.spearmanr-5_50-mean": 0.9083980288623515
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8748119556228333,
+                "dev.uuas": 0.847978388648103
+            },
+            "uas": 0.8863107506149857
+        },
+        "3500": {
+            "label accuracy score": 0.915431154843428,
+            "las": 0.8427562210137883,
+            "loss": 0.7234450980569377,
+            "parse-depth": {
+                "dev.root_acc": 0.96,
+                "dev.spearmanr-5_50-mean": 0.9097736016488881
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.877100101391282,
+                "dev.uuas": 0.8510063527875081
+            },
+            "uas": 0.8873080247323981
+        },
+        "3750": {
+            "label accuracy score": 0.9173813797841456,
+            "las": 0.8452431608615476,
+            "loss": 0.7050609683448618,
+            "parse-depth": {
+                "dev.root_acc": 0.96,
+                "dev.spearmanr-5_50-mean": 0.9082941921665608
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8769039658765646,
+                "dev.uuas": 0.8493736270260642
+            },
+            "uas": 0.8890587948496332
+        },
+        "4000": {
+            "label accuracy score": 0.9188218868426301,
+            "las": 0.8499391830245272,
+            "loss": 0.7071827374624483,
+            "parse-depth": {
+                "dev.root_acc": 0.9605882352941176,
+                "dev.spearmanr-5_50-mean": 0.9103780950483364
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8757224782162206,
+                "dev.uuas": 0.8490470818737754
+            },
+            "uas": 0.8924273652017818
+        },
+        "4250": {
+            "label accuracy score": 0.9191986348425415,
+            "las": 0.8513937676497634,
+            "loss": 0.6807797998189926,
+            "parse-depth": {
+                "dev.root_acc": 0.96,
+                "dev.spearmanr-5_50-mean": 0.9090963213968546
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8741728596309453,
+                "dev.uuas": 0.8483643056462625
+            },
+            "uas": 0.8923165569665138
+        },
+        "4500": {
+            "label accuracy score": 0.9208829200186158,
+            "las": 0.8531061410377758,
+            "loss": 0.6603160780487638,
+            "parse-depth": {
+                "dev.root_acc": 0.9641176470588235,
+                "dev.spearmanr-5_50-mean": 0.9085623044728292
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8741924906669559,
+                "dev.uuas": 0.8457222585050169
+            },
+            "uas": 0.8946878532012499
+        },
+        "4750": {
+            "label accuracy score": 0.921835870841921,
+            "las": 0.8536605267159529,
+            "loss": 0.6490253124273184,
+            "parse-depth": {
+                "dev.root_acc": 0.9611764705882353,
+                "dev.spearmanr-5_50-mean": 0.9093821816693076
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.875654047069287,
+                "dev.uuas": 0.8508876090957668
+            },
+            "uas": 0.8940451654366952
+        },
+        "5000": {
+            "label accuracy score": 0.9231434080180839,
+            "las": 0.8565554228945883,
+            "loss": 0.6576807661490007,
+            "parse-depth": {
+                "dev.root_acc": 0.9664705882352941,
+                "dev.spearmanr-5_50-mean": 0.9098376711031774
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8738169080652888,
+                "dev.uuas": 0.8422490055215817
+            },
+            "uas": 0.8970813110830397
+        },
+        "5250": {
+            "label accuracy score": 0.9241850054296036,
+            "las": 0.8586188450909596,
+            "loss": 0.638309946565917,
+            "parse-depth": {
+                "dev.root_acc": 0.9652941176470589,
+                "dev.spearmanr-5_50-mean": 0.9112035382188344
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8771882571775815,
+                "dev.uuas": 0.847978388648103
+            },
+            "uas": 0.8981229084945593
+        },
+        "5500": {
+            "label accuracy score": 0.9256476741351417,
+            "las": 0.8597857494477801,
+            "loss": 0.645713646755074,
+            "parse-depth": {
+                "dev.root_acc": 0.9611764705882353,
+                "dev.spearmanr-5_50-mean": 0.9102160643226702
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8739898877735617,
+                "dev.uuas": 0.8441489045894437
+            },
+            "uas": 0.8999401635529553
+        },
+        "5750": {
+            "label accuracy score": 0.9260465837821067,
+            "las": 0.8617375683616032,
+            "loss": 0.6456668602697777,
+            "parse-depth": {
+                "dev.root_acc": 0.9629411764705882,
+                "dev.spearmanr-5_50-mean": 0.909666049499125
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.874379594247618,
+                "dev.uuas": 0.8421005759069049
+            },
+            "uas": 0.900405558141081
+        },
+        "6000": {
+            "label accuracy score": 0.9270881811936263,
+            "las": 0.8633644539267774,
+            "loss": 0.6445378015438715,
+            "parse-depth": {
+                "dev.root_acc": 0.9629411764705882,
+                "dev.spearmanr-5_50-mean": 0.9097053517225538
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.874707439160559,
+                "dev.uuas": 0.8429317817490946
+            },
+            "uas": 0.901203377435011
+        },
+        "6250": {
+            "label accuracy score": 0.9273541209582696,
+            "las": 0.8625360027349102,
+            "loss": 0.6437180882150476,
+            "parse-depth": {
+                "dev.root_acc": 0.9611764705882353,
+                "dev.spearmanr-5_50-mean": 0.9092315708515478
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.874597854589358,
+                "dev.uuas": 0.8448316808169566
+            },
+            "uas": 0.9001617800234913
+        },
+        "6500": {
+            "label accuracy score": 0.9282184251933604,
+            "las": 0.8635885424648021,
+            "loss": 0.6286564008756117,
+            "parse-depth": {
+                "dev.root_acc": 0.9623529411764706,
+                "dev.spearmanr-5_50-mean": 0.9105841448244923
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8742463045636125,
+                "dev.uuas": 0.8448910526628273
+            },
+            "uas": 0.9017352569642976
+        },
+        "6750": {
+            "label accuracy score": 0.9278638388405026,
+            "las": 0.862938597961118,
+            "loss": 0.6296160690712206,
+            "parse-depth": {
+                "dev.root_acc": 0.9629411764705882,
+                "dev.spearmanr-5_50-mean": 0.910384963418246
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8747862939078805,
+                "dev.uuas": 0.8440598468206376
+            },
+            "uas": 0.902444429670013
+        },
+        "7000": {
+            "label accuracy score": 0.9287946280167542,
+            "las": 0.8642180739781233,
+            "loss": 0.6345232381965175,
+            "parse-depth": {
+                "dev.root_acc": 0.9635294117647059,
+                "dev.spearmanr-5_50-mean": 0.9090821598434963
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8735535411112135,
+                "dev.uuas": 0.8418927744463576
+            },
+            "uas": 0.9023557830817986
+        },
+        "7250": {
+            "label accuracy score": 0.9292821842519337,
+            "las": 0.8654901807727453,
+            "loss": 0.6300012934388537,
+            "parse-depth": {
+                "dev.root_acc": 0.9641176470588235,
+                "dev.spearmanr-5_50-mean": 0.9098157105811506
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": 0.8729649938054213,
+                "dev.uuas": 0.84123968414178
+            },
+            "uas": 0.902444429670013
+        }
+    }
+}
