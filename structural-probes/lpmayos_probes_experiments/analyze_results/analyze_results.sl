@@ -126,5 +126,5 @@ analyze_mlm=1
 if [ "$analyze_mlm" == 1 ]; then
     echo "Analyzing mlm results"
     python bert_base_cased_finetuned_parsing_add_mlm_perplexities.py --models_path /homedtic/lperez/transformers/lpmayos_experiments/bert_base_cased_finetuned_parsing_ptb_sd \
-                                                                     --output_file bert_base_cased_finetuned_parsing_ptb_results_fixed.json
+                                                                     --output_file bert_base_cased_finetuned_parsing_ptb_results.json
 fi
