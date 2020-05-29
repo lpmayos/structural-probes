@@ -17,7 +17,7 @@ def add_perplexities(models_path, output_file):
     for i, run in results.items():
         for j, checkpoint in run.items():
 
-            checkpoint_path = models_path + '/' + run + '/' + checkpoint
+            checkpoint_path = models_path + '/' + i + '/results_parsing/checkpoint-' + j
             mlm_results_path = checkpoint_path + '/eval_mlm_results.txt'
 
             if os.path.exists(mlm_results_path):
