@@ -448,7 +448,11 @@ def _plot_figure(figure_name, traces, x_axis_values, x_axis_label, y_axis_label,
 
     show_legend = False if not legend_dict else True
 
-    fig.layout.update(showlegend=show_legend, margin=dict(r=0, l=0, b=0, t=0))
+    fig.layout.update(showlegend=show_legend,
+                      margin=dict(r=0, l=0, b=0, t=0),
+                      paper_bgcolor='rgba(0,0,0,0)',
+                      plot_bgcolor='rgba(0,0,0,0)'
+                      )
 
     if legend_dict:
         fig.update_layout(legend=legend_dict)
@@ -456,15 +460,19 @@ def _plot_figure(figure_name, traces, x_axis_values, x_axis_label, y_axis_label,
     fig.update_xaxes(
         ticktext=x_axis_values,
         tickvals=x_axis_values,
-        title_text=x_axis_label
-    )
+        title_text=x_axis_label,
+        linecolor='LightGrey'
+    )  # add gridcolor='LightGrey' to add inner lines
 
     if y_axis_values:
         fig.update_yaxes(
             range=y_axis_values,
         )
 
-    fig.update_yaxes(title_text=y_axis_label)
+    fig.update_yaxes(
+        title_text=y_axis_label,
+        linecolor='LightGrey'
+    )  # add gridcolor='LightGrey' to add inner lines
 
     # requires: conda install -c plotly plotly-orca
     fig.write_image('/Users/lpmayos/Downloads/%s' % figure_name)
@@ -472,14 +480,13 @@ def _plot_figure(figure_name, traces, x_axis_values, x_axis_label, y_axis_label,
     fig.show()
 
 
-def create_figure(data, traces_name, image_name, legend_dict, y_axis_label, y_axis_range, colors, dash_types=None):
+def create_figure(data, traces_name, image_name, legend_dict, y_axis_label, y_axis_range, colors, markers):
     x_axis_label = 'Fine-tuning checkpoints'
 
     data_to_plot = []
     for task_name, traces, x_axis_values in data:
         traces_to_plot = [a for a in traces if traces_name in a['name']]
-        style = 'solid' if not dash_types else dash_types[task_name]
-        data_to_plot += _get_min_max_avg_traces(traces_to_plot, task_name, style, colors[task_name])
+        data_to_plot += _get_min_max_avg_traces(traces_to_plot, task_name, colors[task_name], markers[task_name])
 
     image_name = image_name
 
@@ -492,7 +499,7 @@ def create_figure_list(data, traces_name, y_axis_label, y_axis_range):
     for task_name, traces, x_axis_values in data:
         print(task_name)
         traces_to_plot = [a for a in traces if traces_name in a['name']]
-        data_to_plot = _get_min_max_avg_traces(traces_to_plot, task_name, 'solid')
+        data_to_plot = _get_min_max_avg_traces(traces_to_plot, task_name)
         image_name = task_name.replace(' ', '_') + '_' + traces_name + '.png'
         _plot_figure(image_name, data_to_plot, x_axis_values, x_axis_label, y_axis_label, y_axis_range, None)
 
@@ -505,14 +512,14 @@ def plot_tasks_performance(data, all_possible_measures):
             data = [a for a in traces if measure in a['name']]
             if data:
                 print('%s: %s' % (task_name, measure))
-                data = _get_min_max_avg_traces(data, task_name, 'solid')
+                data = _get_min_max_avg_traces(data, task_name)
                 y_axis_label = measure
                 image_name = '%s_%s.png' % (task_name.replace(' ', '_'), measure)
 
                 _plot_figure(image_name, data, x_axis_values, x_axis_label, y_axis_label, None, None)
 
 
-def _get_min_max_avg_traces(data, task_name=None, dash_type='solid', task_color=None):
+def _get_min_max_avg_traces(data, task_name=None, task_color=None, task_marker=None):
 
     y1 = data[0]['y']
     y2 = data[1]['y']
@@ -529,33 +536,35 @@ def _get_min_max_avg_traces(data, task_name=None, dash_type='solid', task_color=
     # x_data = data[0]['x']
     x_data = [a for a in range(31)]
 
-    upper_bound = go.Scatter(
-        name='Upper Bound',
-        x=x_data,
-        y=upper_bound_data,
-        mode='lines',
-        marker=dict(color="#444"),
-        line=dict(width=0),
-        fillcolor='rgba(68, 68, 68, 0.3)',
-        fill='tonexty',
-        showlegend=False)
+    task_color = task_color if task_color else 'rgba(31, 119, 180, 1.0)'
+    fill_color = task_color.replace('1.0', '0.1') if task_color else 'rgba(68, 68, 68, 0.1)'
 
     trace = go.Scatter(
         name=task_name if task_name else 'Average',
         x=x_data,
         y=avg_data,
-        mode='lines',
-        line=dict(color=task_color, dash=dash_type) if task_color else dict(color='rgb(31, 119, 180)'),
-        fillcolor='rgba(68, 68, 68, 0.3)',
+        mode='lines+markers',
+        marker_symbol=task_marker if task_marker else 'circle',
+        marker_size=10,
+        line=dict(color=task_color, width=2),
+        fillcolor=fill_color,
+        fill='tonexty')
+
+    upper_bound = go.Scatter(
+        name='Upper Bound',
+        x=x_data,
+        y=upper_bound_data,
+        line=dict(color=task_color, width=0),
+        fillcolor=fill_color,
+        showlegend=False,
         fill='tonexty')
 
     lower_bound = go.Scatter(
         name='Lower Bound',
         x=x_data,
         y=lower_bound_data,
-        marker=dict(color="#444"),
-        line=dict(width=0),
-        mode='lines',
+        line=dict(color=task_color, width=0),
+        fillcolor=fill_color,
         showlegend=False)
 
     # Trace order can be important with continuous error bars
@@ -576,102 +585,103 @@ if __name__ == '__main__':
     _fix_results('bert_base_cased_finetuned_pap_constituents_results.json')
     _fix_results('bert_base_cased_finetuned_srl_results.json')
 
-    # t_pos, x_pos = load_traces('bert_base_cased_finetuned_pos_results_fixed.json', 'pos')
-    # t_pars, x_pars = load_traces('bert_base_cased_finetuned_parsing_results_fixed.json', 'parsing')
-    # t_pars_mul, x_pars_mul = load_traces('bert_base_cased_finetuned_parsing_multilingual_results_fixed.json', 'parsing')
-    # t_pars_ptb, x_pars_ptb = load_traces('bert_base_cased_finetuned_parsing_ptb_results_fixed.json', 'parsing')
-    # t_pars_const, x_pars_const = load_traces('bert_base_cased_finetuned_pap_constituents_results_fixed.json',
-    #                                          'constituent_parsing')
-    # t_squad, x_squad = load_traces('bert_base_cased_finetuned_squad_results_fixed.json', 'squad')
-    # t_qqpt, x_qqpt = load_traces('bert_base_cased_finetuned_qqp_results_fixed.json', 'qqp')
-    # t_mrpc, x_mrpc = load_traces('bert_base_cased_finetuned_mrpc_results_fixed.json', 'mrpc')
-    # t_srl, x_srl = load_traces('bert_base_cased_finetuned_srl_results_fixed.json', 'srl')
-    #
-    # all_data = [('PoS Tagging', t_pos, x_pos),
-    #             ('Dependency parsing; EN UD EWT', t_pars, x_pars),
-    #             ('Dependency parsing; UD multilingual', t_pars_mul, x_pars_mul),
-    #             ('Dependency parsing; PTB SD', t_pars_ptb, x_pars_ptb),
-    #             ('Constituent parsing', t_pars_const, x_pars_const),
-    #             ('Question Answering', t_squad, x_squad),
-    #             ('Paraphrasing; QQPT', t_qqpt, x_qqpt),
-    #             ('Paraphrasing; MRPC', t_mrpc, x_mrpc),
-    #             ('Semantic Role Labeling', t_srl, x_srl)]
-    #
-    # syntactic_data = [('PoS Tagging', t_pos, x_pos),
-    #                   ('Dependency parsing; EN UD EWT', t_pars, x_pars),
-    #                   ('Dependency parsing; UD multilingual', t_pars_mul, x_pars_mul),
-    #                   ('Dependency parsing; PTB SD', t_pars_ptb, x_pars_ptb),
-    #                   ('Constituent parsing', t_pars_const, x_pars_const)]
-    #
-    # semantic_data = [('Question Answering', t_squad, x_squad),
-    #                  ('Paraphrasing; QQPT', t_qqpt, x_qqpt),
-    #                  ('Paraphrasing; MRPC', t_mrpc, x_mrpc),
-    #                  ('Semantic Role Labeling', t_srl, x_srl)]
-    #
-    # colors = {
-    #     'PoS Tagging': '#1f77b4',
-    #     'Dependency parsing; EN UD EWT': '#ff7f0e',
-    #     'Dependency parsing; UD multilingual': '#2ca02c',
-    #     'Dependency parsing; PTB SD': '#d62728',
-    #     'Constituent parsing': '#9467bd',
-    #     'Question Answering': '#8c564b',
-    #     'Paraphrasing; QQPT': 'rgb(180, 238, 62)',
-    #     'Paraphrasing; MRPC': 'rgb(238, 62, 180)',
-    #     'Semantic Role Labeling': 'rgb(238, 31, 90)'}
-    #
-    # dash_types = {
-    #     'PoS Tagging': 'dashdot',
-    #     'Dependency parsing; EN UD EWT': 'solid',
-    #     'Dependency parsing; UD multilingual': 'dot',
-    #     'Dependency parsing; PTB SD': 'dash',
-    #     'Constituent parsing': 'solid',
-    #     'Question Answering': 'dot',
-    #     'Paraphrasing; QQPT': 'dash',
-    #     'Paraphrasing; MRPC': 'longdash',
-    #     'Semantic Role Labeling': 'dashdot'}
-    #
-    # legend_outside_bottom = dict(
-    #     orientation='h',
-    #     y=-0.2,
-    #     x=0.05,
-    #     traceorder="normal",
-    #     font=dict(family="sans-serif", size=14, color="black"),
-    #     bgcolor="White",
-    #     bordercolor="Black",
-    #     borderwidth=1)
-    #
-    # legend_inside_bottom_right = dict(
-    #     x=0.5,
-    #     y=0.1,
-    #     traceorder="normal",
-    #     font=dict(family="sans-serif", size=14, color="black"),
-    #     bgcolor="White",
-    #     bordercolor="Black",
-    #     borderwidth=1)
-    #
-    # legend_inside_middle_right = dict(
-    #     x=0.5,
-    #     y=0.45,
-    #     traceorder="normal",
-    #     font=dict(family="sans-serif", size=14, color="black"),
-    #     bgcolor="White",
-    #     bordercolor="Black",
-    #     borderwidth=1)
-    #
-    # legend_inside_top_right = dict(
-    #     x=0.65,
-    #     y=0.90,
-    #     traceorder="normal",
-    #     font=dict(family="sans-serif", size=14, color="black"),
-    #     bgcolor="White",
-    #     bordercolor="Black",
-    #     borderwidth=1)
-    #
-    # uuas_range = [0.5, 0.92]
-    # dspr_range = [0.67, 0.91]
-    # root_range = [0.68, 0.99]
-    # nspr_range = [0.78, 0.93]
-    #
-    # create_figure_list(all_data, 'distance_uuas', 'UUAS', uuas_range)
+    t_pos, x_pos = load_traces('bert_base_cased_finetuned_pos_results_fixed.json', 'pos')
+    t_pars, x_pars = load_traces('bert_base_cased_finetuned_parsing_results_fixed.json', 'parsing')
+    t_pars_mul, x_pars_mul = load_traces('bert_base_cased_finetuned_parsing_multilingual_results_fixed.json', 'parsing')
+    t_pars_ptb, x_pars_ptb = load_traces('bert_base_cased_finetuned_parsing_ptb_results_fixed.json', 'parsing')
+    t_pars_const, x_pars_const = load_traces('bert_base_cased_finetuned_pap_constituents_results_fixed.json',
+                                             'constituent_parsing')
+    t_squad, x_squad = load_traces('bert_base_cased_finetuned_squad_results_fixed.json', 'squad')
+    t_qqpt, x_qqpt = load_traces('bert_base_cased_finetuned_qqp_results_fixed.json', 'qqp')
+    t_mrpc, x_mrpc = load_traces('bert_base_cased_finetuned_mrpc_results_fixed.json', 'mrpc')
+    t_srl, x_srl = load_traces('bert_base_cased_finetuned_srl_results_fixed.json', 'srl')
+
+    all_data = [('PoS Tagging', t_pos, x_pos),
+                ('Dependency parsing; EN UD EWT', t_pars, x_pars),
+                ('Dependency parsing; UD multilingual', t_pars_mul, x_pars_mul),
+                ('Dependency parsing; PTB SD', t_pars_ptb, x_pars_ptb),
+                ('Constituent parsing', t_pars_const, x_pars_const),
+                ('Question Answering', t_squad, x_squad),
+                ('Paraphrasing; QQPT', t_qqpt, x_qqpt),
+                ('Paraphrasing; MRPC', t_mrpc, x_mrpc),
+                ('Semantic Role Labeling', t_srl, x_srl)]
+
+    syntactic_data = [('PoS Tagging', t_pos, x_pos),
+                      ('Dependency parsing; EN UD EWT', t_pars, x_pars),
+                      ('Dependency parsing; UD multilingual', t_pars_mul, x_pars_mul),
+                      ('Dependency parsing; PTB SD', t_pars_ptb, x_pars_ptb),
+                      ('Constituent parsing', t_pars_const, x_pars_const)]
+
+    semantic_data = [('Question Answering', t_squad, x_squad),
+                     ('Paraphrasing; QQPT', t_qqpt, x_qqpt),
+                     ('Paraphrasing; MRPC', t_mrpc, x_mrpc),
+                     ('Semantic Role Labeling', t_srl, x_srl)]
+
+    colors = {
+        'PoS Tagging': 'rgba(31, 119, 180, 1.0)',
+        'Dependency parsing; EN UD EWT': 'rgba(255, 127, 14, 1.0)',
+        'Dependency parsing; UD multilingual': 'rgba(44, 160, 44, 1.0)',
+        'Dependency parsing; PTB SD': 'rgba(214, 39, 40, 1.0)',
+        'Constituent parsing': 'rgba(148, 103, 189, 1.0)',
+        'Question Answering': 'rgba(255, 127, 14, 1.0)',
+        'Paraphrasing; QQPT': 'rgba(31, 119, 180, 1.0)',
+        'Paraphrasing; MRPC': 'rgba(44, 160, 44, 1.0)',
+        'Semantic Role Labeling': 'rgba(238, 31, 90, 1.0)'}
+
+    markers = {
+        'PoS Tagging': 'circle',
+        'Dependency parsing; EN UD EWT': 'square',
+        'Dependency parsing; UD multilingual': 'diamond',
+        'Dependency parsing; PTB SD': 'x',
+        'Constituent parsing': 'triangle-up',
+        'Question Answering': 'star',
+        'Paraphrasing; QQPT': 'hexagon2',
+        'Paraphrasing; MRPC': 'star-diamond',
+        'Semantic Role Labeling': 'cross'}
 
 
+    legend_outside_bottom = dict(
+        orientation='h',
+        y=-0.2,
+        x=0.05,
+        traceorder="normal",
+        font=dict(family="sans-serif", size=14, color="black"),
+        bgcolor="White",
+        bordercolor="Black",
+        borderwidth=1)
+
+    legend_inside_bottom_right = dict(
+        x=0.5,
+        y=0.1,
+        traceorder="normal",
+        font=dict(family="sans-serif", size=14, color="black"),
+        bgcolor="White",
+        bordercolor="Black",
+        borderwidth=1)
+
+    legend_inside_middle_right = dict(
+        x=0.5,
+        y=0.45,
+        traceorder="normal",
+        font=dict(family="sans-serif", size=14, color="black"),
+        bgcolor="White",
+        bordercolor="Black",
+        borderwidth=1)
+
+    legend_inside_top_right = dict(
+        x=0.65,
+        y=0.90,
+        traceorder="normal",
+        font=dict(family="sans-serif", size=14, color="black"),
+        bgcolor="White",
+        bordercolor="Black",
+        borderwidth=1)
+
+    uuas_range = [0.5, 0.92]
+    dspr_range = [0.67, 0.91]
+    root_range = [0.68, 0.99]
+    nspr_range = [0.78, 0.93]
+
+    create_figure(all_data, 'distance_uuas', 'distance_uuas_all.png', legend_outside_bottom, 'UUAS', uuas_range, colors, markers)
+
+    create_figure_list([all_data[0]], 'distance_uuas', 'UUAS', uuas_range)
