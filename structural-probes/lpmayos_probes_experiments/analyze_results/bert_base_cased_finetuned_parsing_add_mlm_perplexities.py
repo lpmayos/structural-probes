@@ -30,7 +30,11 @@ def add_perplexities(models_path, output_file):
                 logging.info('File %s does not exists yet' % mlm_results_path)
                 checkpoint['mlm_perplexity'] = None
 
-    with open(output_file, 'w') as f:
+        # transform dictionary keys to integers for propoer sorting when writing to file
+        results[i] = {int(k): v for k, v in run.items()}
+
+    # with open(output_file, 'w') as f:
+    with open('babau.json', 'w') as f:
         json.dump(results, f, indent=4, sort_keys=True)
 
 
