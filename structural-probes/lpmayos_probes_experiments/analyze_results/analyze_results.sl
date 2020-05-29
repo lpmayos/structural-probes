@@ -23,7 +23,7 @@ fi
 
 # GLUE
 
-analyze_results=1
+analyze_results=0
 
 if [ "$analyze_results" == 1 ]; then
     echo "Analyzing GLUE results"
@@ -119,4 +119,12 @@ if [ "$analyze_results" == 1 ]; then
                                                                 --models_path /homedtic/lperez/transformers/lpmayos_experiments/bert_base_cased_finetuned_parsing_ptb_sd \
                                                                 --runs run1 run2 run3 run4 run5 \
                                                                 --output_file bert_base_cased_finetuned_parsing_ptb_results.json
+fi
+
+analyze_mlm=1
+
+if [ "$analyze_mlm" == 1 ]; then
+    echo "Analyzing mlm results"
+    python bert_base_cased_finetuned_parsing_add_mlm_perplexities.py --models_path /homedtic/lperez/transformers/lpmayos_experiments/bert_base_cased_finetuned_parsing_ptb_sd \
+                                                                     --output_file bert_base_cased_finetuned_parsing_ptb_results_fixed.json
 fi
