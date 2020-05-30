@@ -64,7 +64,7 @@
             "label accuracy score": 0.9545738643466086,
             "las": 0.9126350996226883,
             "loss": 0.43863389558262295,
-            "mlm_perplexity": null,
+            "mlm_perplexity": 77216.3047,
             "parse-depth": {
                 "dev.root_acc": 0.9741176470588235,
                 "dev.spearmanr-5_50-mean": 0.920524243728643
@@ -79,7 +79,7 @@
             "label accuracy score": 0.9573489337233431,
             "las": 0.9181883690149101,
             "loss": 0.4206275117618066,
-            "mlm_perplexity": null,
+            "mlm_perplexity": 36349.7695,
             "parse-depth": {
                 "dev.root_acc": 0.9782352941176471,
                 "dev.spearmanr-5_50-mean": 0.9223628554554205
@@ -94,7 +94,7 @@
             "label accuracy score": 0.9599239980999525,
             "las": 0.9228205952464307,
             "loss": 0.4001097499772354,
-            "mlm_perplexity": null,
+            "mlm_perplexity": 46063.0,
             "parse-depth": {
                 "dev.root_acc": 0.9782352941176471,
                 "dev.spearmanr-5_50-mean": 0.9238117130327962
@@ -109,7 +109,7 @@
             "label accuracy score": 0.9616740418510463,
             "las": 0.9239850197894951,
             "loss": 0.3843261800982334,
-            "mlm_perplexity": null,
+            "mlm_perplexity": 41089.5625,
             "parse-depth": {
                 "dev.root_acc": 0.9794117647058823,
                 "dev.spearmanr-5_50-mean": 0.9234475738247561
@@ -124,7 +124,7 @@
             "label accuracy score": 0.9623990599764994,
             "las": 0.9263086375484396,
             "loss": 0.3656951001396886,
-            "mlm_perplexity": null,
+            "mlm_perplexity": 58092.918,
             "parse-depth": {
                 "dev.root_acc": 0.9794117647058823,
                 "dev.spearmanr-5_50-mean": 0.9245595313213072
@@ -546,7 +546,7 @@
             "label accuracy score": 0.9567739193479837,
             "las": 0.9163682319375196,
             "loss": 0.4191489843306718,
-            "mlm_perplexity": null,
+            "mlm_perplexity": 42161.2031,
             "parse-depth": {
                 "dev.root_acc": 0.9735294117647059,
                 "dev.spearmanr-5_50-mean": 0.9255295405097859
@@ -561,7 +561,7 @@
             "label accuracy score": 0.9603240081002025,
             "las": 0.9220114959715375,
             "loss": 0.39126641027353426,
-            "mlm_perplexity": null,
+            "mlm_perplexity": 76072.1172,
             "parse-depth": {
                 "dev.root_acc": 0.9788235294117648,
                 "dev.spearmanr-5_50-mean": 0.9222547121494817
@@ -576,7 +576,7 @@
             "label accuracy score": 0.9596989924748118,
             "las": 0.9224688887143275,
             "loss": 0.3794124882530283,
-            "mlm_perplexity": null,
+            "mlm_perplexity": 46905.8867,
             "parse-depth": {
                 "dev.root_acc": 0.98,
                 "dev.spearmanr-5_50-mean": 0.9245103129523765
@@ -591,7 +591,7 @@
             "label accuracy score": 0.9585489637240932,
             "las": 0.9241220786786144,
             "loss": 0.3730513729431011,
-            "mlm_perplexity": null,
+            "mlm_perplexity": 53229.4531,
             "parse-depth": {
                 "dev.root_acc": 0.9788235294117648,
                 "dev.spearmanr-5_50-mean": 0.9243889199637385
@@ -606,7 +606,7 @@
             "label accuracy score": 0.9612490312257806,
             "las": 0.9266334946571853,
             "loss": 0.3678369475183664,
-            "mlm_perplexity": null,
+            "mlm_perplexity": 46633.8984,
             "parse-depth": {
                 "dev.root_acc": 0.9764705882352941,
                 "dev.spearmanr-5_50-mean": 0.924419881313072
@@ -1028,7 +1028,7 @@
             "label accuracy score": 0.9552488812220306,
             "las": 0.9155178380863014,
             "loss": 0.448556461819896,
-            "mlm_perplexity": null,
+            "mlm_perplexity": 58430.7383,
             "parse-depth": {
                 "dev.root_acc": 0.971764705882353,
                 "dev.spearmanr-5_50-mean": 0.9222396488065113
@@ -1043,7 +1043,7 @@
             "label accuracy score": 0.9571739293482338,
             "las": 0.9170258344003609,
             "loss": 0.42389695484329154,
-            "mlm_perplexity": null,
+            "mlm_perplexity": 68572.3047,
             "parse-depth": {
                 "dev.root_acc": 0.9711764705882353,
                 "dev.spearmanr-5_50-mean": 0.9228506366058697
@@ -1058,7 +1058,7 @@
             "label accuracy score": 0.9589239730993275,
             "las": 0.920320501726547,
             "loss": 0.41031981314773913,
-            "mlm_perplexity": null,
+            "mlm_perplexity": 46960.4023,
             "parse-depth": {
                 "dev.root_acc": 0.9782352941176471,
                 "dev.spearmanr-5_50-mean": 0.9245267986051479
@@ -1073,7 +1073,7 @@
             "label accuracy score": 0.9620990524763119,
             "las": 0.9252406910837417,
             "loss": 0.38162504771241434,
-            "mlm_perplexity": null,
+            "mlm_perplexity": 56134.3398,
             "parse-depth": {
                 "dev.root_acc": 0.9770588235294118,
                 "dev.spearmanr-5_50-mean": 0.9219133005469288
@@ -1088,7 +1088,7 @@
             "label accuracy score": 0.9621490537263432,
             "las": 0.9278693882464116,
             "loss": 0.3515347264431141,
-            "mlm_perplexity": null,
+            "mlm_perplexity": 89824.6641,
             "parse-depth": {
                 "dev.root_acc": 0.9758823529411764,
                 "dev.spearmanr-5_50-mean": 0.9247351710253843
@@ -1510,7 +1510,7 @@
             "label accuracy score": 0.956348908722718,
             "las": 0.9126734042919573,
             "loss": 0.43669693889441313,
-            "mlm_perplexity": null,
+            "mlm_perplexity": 89345.9688,
             "parse-depth": {
                 "dev.root_acc": 0.9729411764705882,
                 "dev.spearmanr-5_50-mean": 0.9222822730550048
@@ -1525,7 +1525,7 @@
             "label accuracy score": 0.9591239780994525,
             "las": 0.919714318494928,
             "loss": 0.39965245210462147,
-            "mlm_perplexity": null,
+            "mlm_perplexity": 56777.7812,
             "parse-depth": {
                 "dev.root_acc": 0.9752941176470589,
                 "dev.spearmanr-5_50-mean": 0.9226140475997111
@@ -1540,7 +1540,7 @@
             "label accuracy score": 0.9601240031000775,
             "las": 0.9229768121755814,
             "loss": 0.38667538789687333,
-            "mlm_perplexity": null,
+            "mlm_perplexity": 60864.7148,
             "parse-depth": {
                 "dev.root_acc": 0.9752941176470589,
                 "dev.spearmanr-5_50-mean": 0.9240256908707426
@@ -1555,7 +1555,7 @@
             "label accuracy score": 0.9612490312257806,
             "las": 0.9240829410629833,
             "loss": 0.3791271147352678,
-            "mlm_perplexity": null,
+            "mlm_perplexity": 68803.1406,
             "parse-depth": {
                 "dev.root_acc": 0.9741176470588235,
                 "dev.spearmanr-5_50-mean": 0.9254773674721953
@@ -1570,7 +1570,7 @@
             "label accuracy score": 0.959223980599515,
             "las": 0.9245020801403835,
             "loss": 0.38426334466095324,
-            "mlm_perplexity": null,
+            "mlm_perplexity": 83379.0156,
             "parse-depth": {
                 "dev.root_acc": 0.9764705882352941,
                 "dev.spearmanr-5_50-mean": 0.9236416288209719
