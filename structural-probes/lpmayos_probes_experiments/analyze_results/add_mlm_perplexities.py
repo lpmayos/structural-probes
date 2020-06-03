@@ -50,4 +50,4 @@ if __name__ == '__main__':
     parser.add_argument("--results_folder", default=None, type=str, required=True, help="reuslts_parsing")
 
     args = parser.parse_args()
-    add_perplexities(args.models_path, args.output_file)
+    add_perplexities(args.models_path, args.output_file, args.results_folder)
