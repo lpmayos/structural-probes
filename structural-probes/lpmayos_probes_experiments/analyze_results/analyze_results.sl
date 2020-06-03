@@ -121,6 +121,20 @@ if [ "$analyze_results" == 1 ]; then
                                                                 --output_file bert_base_cased_finetuned_parsing_ptb_results.json
 fi
 
+
+
+analyze_results=1
+
+if [ "$analyze_results" == 1 ]; then
+    echo "Analyzing SQuAD NEW results"
+    python bert_base_cased_finetuned_squad_analyse_results.py --probe_name naacl_19_ptb \
+                                                              --models_path /homedtic/lperez/transformers/lpmayos_experiments/bert_base_cased_finetuned_squad_new \
+                                                              --runs run1 run2 run3 run4 run5 \
+                                                              --checkpoints 555 1110 1665 2220 2775 3330 3885 4440 4995 5550 6105 6660 7215 7770 8325 8880 9435 9990 10545 11100 11655 12210 12765 13320 13875 14430 14985 15540 16095 16650 \
+                                                              --output_file bert_base_cased_finetuned_squad_results_new.json
+fi
+
+
 analyze_mlm=1
 
 if [ "$analyze_mlm" == 1 ]; then
@@ -129,8 +143,8 @@ if [ "$analyze_mlm" == 1 ]; then
                                    --output_file bert_base_cased_finetuned_parsing_ptb_results.json \
                                    --results_folder results_parsing
     echo "Analyzing mlm results for bert_base_cased_finetuned_squad"
-    python add_mlm_perplexities.py --models_path /homedtic/lperez/transformers/lpmayos_experiments/bert_base_cased_finetuned_squad \
-                                   --output_file bert_base_cased_finetuned_squad_results.json \
+    python add_mlm_perplexities.py --models_path /homedtic/lperez/transformers/lpmayos_experiments/bert_base_cased_finetuned_squad_new \
+                                   --output_file bert_base_cased_finetuned_squad_results_new.json \
                                    --results_folder results
 
 fi

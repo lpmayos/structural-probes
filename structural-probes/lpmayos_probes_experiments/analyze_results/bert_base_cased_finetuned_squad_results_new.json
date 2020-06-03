@@ -1,0 +1,1962 @@
+{
+    "run1": {
+        "555": {
+            "mlm_perplexity": 570.7972,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "1110": {
+            "mlm_perplexity": 1337.3494,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "1665": {
+            "mlm_perplexity": 991.832,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "2220": {
+            "mlm_perplexity": 1703.4056,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "2775": {
+            "mlm_perplexity": 3462.2913,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "3330": {
+            "mlm_perplexity": 1693.9871,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "3885": {
+            "mlm_perplexity": 2913.2693,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "4440": {
+            "mlm_perplexity": 1570.8073,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "4995": {
+            "mlm_perplexity": 5153.3799,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "5550": {
+            "mlm_perplexity": 2124.5068,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "6105": {
+            "mlm_perplexity": 2922.3032,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "6660": {
+            "mlm_perplexity": 6543.9912,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "7215": {
+            "mlm_perplexity": 3944.9006,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "7770": {
+            "mlm_perplexity": 2474.3018,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "8325": {
+            "mlm_perplexity": 2643.1089,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "8880": {
+            "mlm_perplexity": 2027.3519,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "9435": {
+            "mlm_perplexity": 1737.3121,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "9990": {
+            "mlm_perplexity": 1672.0295,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "10545": {
+            "mlm_perplexity": 2992.3826,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "11100": {
+            "mlm_perplexity": 949.5739,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "11655": {
+            "mlm_perplexity": 3579.2959,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "12210": {
+            "mlm_perplexity": 4443.7075,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "12765": {
+            "mlm_perplexity": 2475.417,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "13320": {
+            "mlm_perplexity": 4366.5068,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "13875": {
+            "mlm_perplexity": 2496.4194,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "14430": {
+            "mlm_perplexity": 4334.6919,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "14985": {
+            "mlm_perplexity": 2496.5789,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "15540": {
+            "mlm_perplexity": 2879.105,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "16095": {
+            "mlm_perplexity": 3175.396,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "16650": {
+            "mlm_perplexity": 2587.0278,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        }
+    },
+    "run2": {
+        "555": {
+            "mlm_perplexity": 1006.7946,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "1110": {
+            "mlm_perplexity": 2949.9006,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "1665": {
+            "mlm_perplexity": 1221.3427,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "2220": {
+            "mlm_perplexity": 2702.2839,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "2775": {
+            "mlm_perplexity": 7296.355,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "3330": {
+            "mlm_perplexity": 2664.0144,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "3885": {
+            "mlm_perplexity": 1550.5093,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "4440": {
+            "mlm_perplexity": 6583.835,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "4995": {
+            "mlm_perplexity": 4670.3394,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "5550": {
+            "mlm_perplexity": 7199.647,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "6105": {
+            "mlm_perplexity": 2873.342,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "6660": {
+            "mlm_perplexity": 3537.6094,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "7215": {
+            "mlm_perplexity": 3703.8948,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "7770": {
+            "mlm_perplexity": 2621.0774,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "8325": {
+            "mlm_perplexity": 3403.1047,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "8880": {
+            "mlm_perplexity": 3510.8865,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "9435": {
+            "mlm_perplexity": 3865.0295,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "9990": {
+            "mlm_perplexity": 8213.5244,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "10545": {
+            "mlm_perplexity": 5705.0825,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "11100": {
+            "mlm_perplexity": 4903.6167,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "11655": {
+            "mlm_perplexity": 8394.2412,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "12210": {
+            "mlm_perplexity": 3282.3955,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "12765": {
+            "mlm_perplexity": 5729.6733,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "13320": {
+            "mlm_perplexity": 5746.0728,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "13875": {
+            "mlm_perplexity": 3839.5408,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "14430": {
+            "mlm_perplexity": 5392.3481,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "14985": {
+            "mlm_perplexity": 5261.5054,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "15540": {
+            "mlm_perplexity": 5530.7314,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "16095": {
+            "mlm_perplexity": 6351.5278,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "16650": {
+            "mlm_perplexity": 6012.5596,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        }
+    },
+    "run3": {
+        "555": {
+            "mlm_perplexity": 669.8401,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "1110": {
+            "mlm_perplexity": 2929.6572,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "1665": {
+            "mlm_perplexity": 1763.4376,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "2220": {
+            "mlm_perplexity": 3053.9028,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "2775": {
+            "mlm_perplexity": 11638.4893,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "3330": {
+            "mlm_perplexity": 5844.7539,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "3885": {
+            "mlm_perplexity": 4153.3511,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "4440": {
+            "mlm_perplexity": 6654.897,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "4995": {
+            "mlm_perplexity": 2945.8242,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "5550": {
+            "mlm_perplexity": 3704.2656,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "6105": {
+            "mlm_perplexity": 4893.7222,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "6660": {
+            "mlm_perplexity": 2271.9268,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "7215": {
+            "mlm_perplexity": 2632.0928,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "7770": {
+            "mlm_perplexity": 2629.0271,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "8325": {
+            "mlm_perplexity": 3946.6692,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "8880": {
+            "mlm_perplexity": 5334.1426,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "9435": {
+            "mlm_perplexity": 3095.8416,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "9990": {
+            "mlm_perplexity": 3349.9036,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "10545": {
+            "mlm_perplexity": 4029.3606,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "11100": {
+            "mlm_perplexity": 5055.7437,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "11655": {
+            "mlm_perplexity": 6866.2637,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "12210": {
+            "mlm_perplexity": 4769.4985,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "12765": {
+            "mlm_perplexity": 3207.2212,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "13320": {
+            "mlm_perplexity": 4489.8413,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "13875": {
+            "mlm_perplexity": 4538.0376,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "14430": {
+            "mlm_perplexity": 4591.7231,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "14985": {
+            "mlm_perplexity": 4274.8574,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "15540": {
+            "mlm_perplexity": 4145.5234,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "16095": {
+            "mlm_perplexity": 4458.3096,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "16650": {
+            "mlm_perplexity": 5221.2319,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        }
+    },
+    "run4": {
+        "555": {
+            "mlm_perplexity": 826.7261,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "1110": {
+            "mlm_perplexity": 1983.0778,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "1665": {
+            "mlm_perplexity": 1837.1184,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "2220": {
+            "mlm_perplexity": 970.668,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "2775": {
+            "mlm_perplexity": 1699.0616,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "3330": {
+            "mlm_perplexity": 1345.7107,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "3885": {
+            "mlm_perplexity": 1539.8618,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "4440": {
+            "mlm_perplexity": 2539.9509,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "4995": {
+            "mlm_perplexity": 2255.9766,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "5550": {
+            "mlm_perplexity": 1680.9927,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "6105": {
+            "mlm_perplexity": 1646.4886,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "6660": {
+            "mlm_perplexity": 922.5867,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "7215": {
+            "mlm_perplexity": 1527.4976,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "7770": {
+            "mlm_perplexity": 1800.6294,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "8325": {
+            "mlm_perplexity": 1498.889,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "8880": {
+            "mlm_perplexity": 2700.9893,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "9435": {
+            "mlm_perplexity": 2274.0208,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "9990": {
+            "mlm_perplexity": 3463.2324,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "10545": {
+            "mlm_perplexity": 2865.8955,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "11100": {
+            "mlm_perplexity": 2565.5078,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "11655": {
+            "mlm_perplexity": 2774.1685,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "12210": {
+            "mlm_perplexity": 1519.342,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "12765": {
+            "mlm_perplexity": 2282.1677,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "13320": {
+            "mlm_perplexity": 1311.8873,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "13875": {
+            "mlm_perplexity": 1763.9708,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "14430": {
+            "mlm_perplexity": 1828.5431,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "14985": {
+            "mlm_perplexity": 1750.2979,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "15540": {
+            "mlm_perplexity": 1792.3595,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "16095": {
+            "mlm_perplexity": 1774.8405,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "16650": {
+            "mlm_perplexity": 1749.6812,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        }
+    },
+    "run5": {
+        "555": {
+            "mlm_perplexity": 590.3938,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "1110": {
+            "mlm_perplexity": 482.4095,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "1665": {
+            "mlm_perplexity": 583.9767,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "2220": {
+            "mlm_perplexity": 693.6168,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "2775": {
+            "mlm_perplexity": 779.2258,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "3330": {
+            "mlm_perplexity": 639.1574,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "3885": {
+            "mlm_perplexity": 682.6868,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "4440": {
+            "mlm_perplexity": 1020.9499,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "4995": {
+            "mlm_perplexity": 1072.7821,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "5550": {
+            "mlm_perplexity": 778.0277,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "6105": {
+            "mlm_perplexity": 1140.7917,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "6660": {
+            "mlm_perplexity": 988.0472,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "7215": {
+            "mlm_perplexity": 938.4009,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "7770": {
+            "mlm_perplexity": 772.2694,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "8325": {
+            "mlm_perplexity": 935.2101,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "8880": {
+            "mlm_perplexity": 1112.2133,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "9435": {
+            "mlm_perplexity": 866.3317,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "9990": {
+            "mlm_perplexity": 580.6364,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "10545": {
+            "mlm_perplexity": 776.8514,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "11100": {
+            "mlm_perplexity": 702.5792,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "11655": {
+            "mlm_perplexity": 653.277,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "12210": {
+            "mlm_perplexity": 696.6959,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "12765": {
+            "mlm_perplexity": 644.6021,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "13320": {
+            "mlm_perplexity": 746.144,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "13875": {
+            "mlm_perplexity": 617.6102,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "14430": {
+            "mlm_perplexity": 587.075,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "14985": {
+            "mlm_perplexity": 583.033,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "15540": {
+            "mlm_perplexity": 685.2137,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "16095": {
+            "mlm_perplexity": 632.4636,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
+        "16650": {
+            "mlm_perplexity": 622.7161,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        }
+    }
+}
