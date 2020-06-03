@@ -7,7 +7,7 @@ import logging
 import re
 
 
-def add_perplexities(models_path, output_file):
+def add_perplexities(models_path, output_file, results_folder):
     """
     """
 
@@ -17,7 +17,7 @@ def add_perplexities(models_path, output_file):
     for i, run in results.items():
         for j, checkpoint in run.items():
 
-            checkpoint_path = models_path + '/' + i + '/results_parsing/checkpoint-' + j
+            checkpoint_path = models_path + '/' + i + '/' + results_folder + '/checkpoint-' + j
             mlm_results_path = checkpoint_path + '/eval_mlm_results.txt'
 
             if os.path.exists(mlm_results_path):
@@ -46,7 +46,8 @@ if __name__ == '__main__':
     parser = ArgumentParser()
 
     parser.add_argument("--models_path", default=None, type=str, required=True, help="/home/lpmayos/hd/code/transformers/lpmayos_experiments/bert_base_cased_finetuned_parsing")
-    parser.add_argument("--output_file", default=None, type=str, required=True, help="bert_base_cased_finetuned_parsing_results.json")
+    parser.add_argument("--output_file", default=None, type=str, required=True, help="bert_base_cased_finetuned_parsing_ptb_results.json")
+    parser.add_argument("--results_folder", default=None, type=str, required=True, help="reuslts_parsing")
 
     args = parser.parse_args()
     add_perplexities(args.models_path, args.output_file)
