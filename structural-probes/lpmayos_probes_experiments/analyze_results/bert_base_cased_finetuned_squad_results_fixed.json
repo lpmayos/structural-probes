@@ -1,7 +1,7 @@
 {
     "run1": {
         "0": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 25.0562,
             "parse-depth": {
                 "dev.root_acc": 0.8411764705882353,
                 "dev.spearmanr-5_50-mean": 0.8627648152866605
@@ -393,7 +393,7 @@
     },
     "run2": {
         "0": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 25.0562,
             "parse-depth": {
                 "dev.root_acc": 0.8411764705882353,
                 "dev.spearmanr-5_50-mean": 0.8627648152866605
@@ -785,7 +785,7 @@
     },
     "run3": {
         "0": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 25.0562,
             "parse-depth": {
                 "dev.root_acc": 0.8411764705882353,
                 "dev.spearmanr-5_50-mean": 0.8627648152866605
@@ -1177,7 +1177,7 @@
     },
     "run4": {
         "0": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 25.0562,
             "parse-depth": {
                 "dev.root_acc": 0.8411764705882353,
                 "dev.spearmanr-5_50-mean": 0.8627648152866605
@@ -1569,7 +1569,7 @@
     },
     "run5": {
         "0": {
-            "mlm_perplexity": null,
+            "mlm_perplexity": 25.0562,
             "parse-depth": {
                 "dev.root_acc": 0.8411764705882353,
                 "dev.spearmanr-5_50-mean": 0.8627648152866605
