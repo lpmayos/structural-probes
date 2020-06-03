@@ -602,6 +602,8 @@ if __name__ == '__main__':
     # _fix_results('bert_base_cased_finetuned_pap_constituents_results.json')
     # _fix_results('bert_base_cased_finetuned_srl_results.json')
 
+    # _fix_results('bert_base_cased_finetuned_parsing_ptb_results.json')
+
     t_pos, x_pos = load_traces('bert_base_cased_finetuned_pos_results_fixed.json', 'pos')
     t_pars, x_pars = load_traces('bert_base_cased_finetuned_parsing_results_fixed.json', 'parsing')
     t_pars_mul, x_pars_mul = load_traces('bert_base_cased_finetuned_parsing_multilingual_results_fixed.json', 'parsing')
@@ -609,6 +611,7 @@ if __name__ == '__main__':
     t_pars_const, x_pars_const = load_traces('bert_base_cased_finetuned_pap_constituents_results_fixed.json',
                                              'constituent_parsing')
     t_squad, x_squad = load_traces('bert_base_cased_finetuned_squad_results_fixed.json', 'squad')
+    t_squad_new, x_squad_new = load_traces('bert_base_cased_finetuned_squad_results_new.json', 'squad')
     t_qqpt, x_qqpt = load_traces('bert_base_cased_finetuned_qqp_results_fixed.json', 'qqp')
     t_mrpc, x_mrpc = load_traces('bert_base_cased_finetuned_mrpc_results_fixed.json', 'mrpc')
     t_srl, x_srl = load_traces('bert_base_cased_finetuned_srl_results_fixed.json', 'srl')
@@ -617,7 +620,7 @@ if __name__ == '__main__':
                 ('Dependency parsing; EN UD EWT', t_pars, x_pars),
                 ('Dependency parsing; UD multilingual', t_pars_mul, x_pars_mul),
                 ('Dependency parsing; PTB SD', t_pars_ptb, x_pars_ptb),
-                ('Constituent parsing', t_pars_const, x_pars_const),
+                ('Constituency parsing', t_pars_const, x_pars_const),
                 ('Question answering', t_squad, x_squad),
                 ('Paraphrase identification; QQPT', t_qqpt, x_qqpt),
                 ('Paraphrase identification; MRPC', t_mrpc, x_mrpc),
@@ -627,7 +630,7 @@ if __name__ == '__main__':
                       ('Dependency parsing; EN UD EWT', t_pars, x_pars),
                       ('Dependency parsing; UD multilingual', t_pars_mul, x_pars_mul),
                       ('Dependency parsing; PTB SD', t_pars_ptb, x_pars_ptb),
-                      ('Constituent parsing', t_pars_const, x_pars_const)]
+                      ('Constituency parsing', t_pars_const, x_pars_const)]
 
     semantic_data = [('Question answering', t_squad, x_squad),
                      ('Paraphrase identification; QQPT', t_qqpt, x_qqpt),
@@ -635,15 +638,14 @@ if __name__ == '__main__':
                      ('Semantic role labeling', t_srl, x_srl)]
 
     mlm_data = [('Dependency parsing; PTB SD', t_pars_ptb, x_pars_ptb),
-                ('Question answering', t_squad, x_squad)]
-
+                ('Question answering', t_squad_new, x_squad_new)]
 
     colors = {
         'PoS tagging': 'rgba(31, 119, 180, 1.0)',
         'Dependency parsing; EN UD EWT': 'rgba(255, 127, 14, 1.0)',
         'Dependency parsing; UD multilingual': 'rgba(214, 39, 40, 1.0)',
         'Dependency parsing; PTB SD': 'rgba(44, 160, 44, 1.0)',
-        'Constituent parsing': 'rgba(148, 103, 189, 1.0)',
+        'Constituency parsing': 'rgba(148, 103, 189, 1.0)',
         'Question answering': 'rgba(255, 127, 14, 1.0)',
         'Paraphrase identification; QQPT': 'rgba(31, 119, 180, 1.0)',
         'Paraphrase identification; MRPC': 'rgba(44, 160, 44, 1.0)',
@@ -654,7 +656,7 @@ if __name__ == '__main__':
         'Dependency parsing; EN UD EWT': 'square',
         'Dependency parsing; UD multilingual': 'x',
         'Dependency parsing; PTB SD': 'diamond',
-        'Constituent parsing': 'triangle-up',
+        'Constituency parsing': 'triangle-up',
         'Question answering': 'star',
         'Paraphrase identification; QQPT': 'hexagon2',
         'Paraphrase identification; MRPC': 'star-diamond',
@@ -689,7 +691,7 @@ if __name__ == '__main__':
             borderwidth=1)
 
     legend_inside_top_right = dict(
-            x=0.65,
+            x=0.60,
             y=0.90,
             traceorder="normal",
             font=dict(family="sans-serif", size=14, color="black"),
@@ -698,13 +700,10 @@ if __name__ == '__main__':
             borderwidth=1)
 
     uuas_range = [0.5, 0.92]
-    # dspr_range = [0.67, 0.91]
-    # root_range = [0.68, 0.99]
-    # nspr_range = [0.78, 0.93]
+    dspr_range = [0.5, 0.99]
+    root_range = [0.5, 0.99]
+    nspr_range = [0.5, 0.99]
 
-    dspr_range = [0.67, 0.99]
-    root_range = [0.67, 0.99]
-    nspr_range = [0.67, 0.99]
+    create_figure(mlm_data, 'mlm_perplexity', 'mlm_perplexity_evolution.png', legend_inside_top_right, 'Perplexity',
+                  None, colors, markers)
 
-    all_possible_measures = ['mlm_perplexity']
-    plot_tasks_performance(all_data, all_possible_measures, log_axis=True)

@@ -1,5 +1,18 @@
 {
     "run1": {
+        "0": {
+            "mlm_perplexity": 12.8157,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "555": {
             "mlm_perplexity": 570.7972,
             "parse-depth": {
@@ -392,6 +405,19 @@
         }
     },
     "run2": {
+        "0": {
+            "mlm_perplexity": 12.8157,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "555": {
             "mlm_perplexity": 1006.7946,
             "parse-depth": {
@@ -784,6 +810,19 @@
         }
     },
     "run3": {
+        "0": {
+            "mlm_perplexity": 12.8157,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "555": {
             "mlm_perplexity": 669.8401,
             "parse-depth": {
@@ -1176,6 +1215,19 @@
         }
     },
     "run4": {
+        "0": {
+            "mlm_perplexity": 12.8157,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "555": {
             "mlm_perplexity": 826.7261,
             "parse-depth": {
@@ -1568,6 +1620,19 @@
         }
     },
     "run5": {
+        "0": {
+            "mlm_perplexity": 12.8157,
+            "parse-depth": {
+                "dev.root_acc": null,
+                "dev.spearmanr-5_50-mean": null
+            },
+            "parse-distance": {
+                "dev.spearmanr-5_50-mean": null,
+                "dev.uuas": null
+            },
+            "squad_exact_match": null,
+            "squad_f1": null
+        },
         "555": {
             "mlm_perplexity": 590.3938,
             "parse-depth": {

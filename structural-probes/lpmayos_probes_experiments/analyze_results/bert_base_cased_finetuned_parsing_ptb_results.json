@@ -4,7 +4,7 @@
             "label accuracy score": 0.008503281349234351,
             "las": 0.00017630168402937025,
             "loss": 8.90374695627313,
-            "mlm_perplexity": null,
+            "mlm_perplexity": 12.8157,
             "parse-depth": {
                 "dev.root_acc": 0.8411764705882353,
                 "dev.spearmanr-5_50-mean": 0.8627648152866605
