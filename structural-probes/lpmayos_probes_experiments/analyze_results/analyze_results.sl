@@ -124,7 +124,13 @@ fi
 analyze_mlm=1
 
 if [ "$analyze_mlm" == 1 ]; then
-    echo "Analyzing mlm results"
-    python bert_base_cased_finetuned_parsing_add_mlm_perplexities.py --models_path /homedtic/lperez/transformers/lpmayos_experiments/bert_base_cased_finetuned_parsing_ptb_sd \
-                                                                     --output_file bert_base_cased_finetuned_parsing_ptb_results.json
+    echo "Analyzing mlm results for bert_base_cased_finetuned_parsing_ptb_sd"
+    python add_mlm_perplexities.py --models_path /homedtic/lperez/transformers/lpmayos_experiments/bert_base_cased_finetuned_parsing_ptb_sd \
+                                   --output_file bert_base_cased_finetuned_parsing_ptb_results.json \
+                                   --results_folder results_parsing
+    echo "Analyzing mlm results for bert_base_cased_finetuned_squad"
+    python add_mlm_perplexities.py --models_path /homedtic/lperez/transformers/lpmayos_experiments/bert_base_cased_finetuned_squad \
+                                   --output_file bert_base_cased_finetuned_squad_results.json \
+                                   --results_folder results
+
 fi
